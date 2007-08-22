@@ -24,8 +24,7 @@ class ContributionScores extends SpecialPage
  
                 if ( $days > 0 ) {
                   $date = mktime() - (60*60*24*$days);
-                  $dateString = date("Ymd",$date)."000000";
- 
+                  $dateString = $dbr->timestamp($date);
                   $sql .= "WHERE rev_timestamp > '$dateString' ";
                 }
  

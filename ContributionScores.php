@@ -10,7 +10,7 @@ $wgExtensionCredits['specialpage'][] = array(
     'url'=>'http://www.mediawiki.org/wiki/Extension:Contribution_Scores',
     'author'=>'Tim Laqua, t.laqua at gmail dot com',
     'description'=>'Polls Wiki Database for highest user contribution volume.',
-    'version'=>'1.2'
+    'version'=>'1.3'
 );
  
 $wgAutoloadClasses['ContributionScores'] = dirname(__FILE__) . '/ContributionScores_body.php';
