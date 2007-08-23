@@ -6,7 +6,7 @@ class ContributionScores extends SpecialPage
                 self::loadMessages();
         }
  
-        function genContributionScoreTable( $sql, $dbr, $days, $limit ) {
+        function genContributionScoreTable( $days, $limit ) {
                 global $contribScoreIgnoreBots;
  
                 $dbr =& wfGetDB( DB_SLAVE );
@@ -19,7 +19,7 @@ class ContributionScores extends SpecialPage
                         "user_name, " .
                         "COUNT(DISTINCT rev_page) AS page_count, " .
                         "COUNT(rev_id) AS rev_count, " .
-                        "(COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2) AS wikiRank " .
+                        "COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wikiRank " .
                         "FROM $userTable userTable JOIN $revTable revTable ON (userTable.user_id=revTable.rev_user) ";
  
                 if ( $days > 0 ) {
@@ -94,7 +94,7 @@ class ContributionScores extends SpecialPage
                         $reportTitle = "All Revisions";
                     }
                     $reportTitle .= " (Top $scoreReport[1])";
-                    $wgOut->addWikiText ("== $reportTitle ==\n".$this->genContributionScoreTable($sql,$dbr,$scoreReport[0],$scoreReport[1]));
+                    $wgOut->addWikiText ("== $reportTitle ==\n".$this->genContributionScoreTable($scoreReport[0],$scoreReport[1]));
                 }
         }
  
