@@ -19,7 +19,7 @@ class ContributionScores extends SpecialPage
                         "user_name, " .
                         "COUNT(DISTINCT rev_page) AS page_count, " .
                         "COUNT(rev_id) AS rev_count, " .
-                        "COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wikiRank " .
+                        "COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank " .
                         "FROM $userTable userTable JOIN $revTable revTable ON (userTable.user_id=revTable.rev_user) ";
  
                 if ( $days > 0 ) {
@@ -39,7 +39,7 @@ class ContributionScores extends SpecialPage
  
  
                 $sql .= "GROUP BY user_id, user_name " .
-                        "ORDER BY wikiRank DESC " .
+                        "ORDER BY wiki_rank DESC " .
                         "LIMIT $limit";
  
                 $res = $dbr->query($sql);
@@ -54,7 +54,7 @@ class ContributionScores extends SpecialPage
                 while ( $row = $dbr->fetchObject( $res ) ) {
                   $wikiUserName = $row->user_name;
                   $output .= "|-\n|" .
-                    round($row->wikiRank,0) . "\n|" .
+                    round($row->wiki_rank,0) . "\n|" .
                     $row->page_count . "\n|" .
                     $row->rev_count . "\n|" .
                     "[[User:".$wikiUserName."|".$wikiUserName."]] ([[User_talk:".$wikiUserName."|Talk]] | [[Special:Contributions/".$wikiUserName."|contribs]])" . "\n";
