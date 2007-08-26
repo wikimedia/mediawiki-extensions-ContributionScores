@@ -1,4 +1,8 @@
 <?php
+/** \file
+* \brief Contains setup code for the Contribution Scores Extension.
+*/
+
 # Not a valid entry point, skip unless MEDIAWIKI is defined
 if (!defined('MEDIAWIKI')) {
         echo "Contribution Scores extension";

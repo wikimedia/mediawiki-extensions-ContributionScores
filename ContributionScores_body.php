@@ -1,13 +1,35 @@
 <?php
+/** \file
+* \brief Contains code for the ContributionScores Class (extends SpecialPage).
+*/
+
+///Special page class for the Contribution Scores extension
+/**
+ * Special page that generates a list of wiki contributors based
+ * on edit diversity (unique pages edited) and edit volume (total 
+ * number of edits.
+ *
+ * @addtogroup Extensions
+ * @author Tim Laqua <t.laqua@gmail.com>
+ */
 class ContributionScores extends SpecialPage
 {
         function ContributionScores() {
                 SpecialPage::SpecialPage("ContributionScores");
                 self::loadMessages();
         }
- 
+		
+		///Generates a "Contribution Scores" table for a given LIMIT and date range
+		/**
+		 * Function generates Contribution Scores tables in HTML format (not wikiText)
+		 *
+		 * @param $days int Days in the past to run report for
+		 * @param $limit int Maximum number of users to return (default 50)
+		 * 
+		 * @return HTML Table representing the requested Contribution Scores.
+		 */
         function genContributionScoreTable( $days, $limit ) {
-                global $contribScoreIgnoreBots;
+                global $contribScoreIgnoreBots, $wgUser;
  
                 $dbr =& wfGetDB( DB_SLAVE );
  
@@ -44,22 +66,23 @@ class ContributionScores extends SpecialPage
  
                 $res = $dbr->query($sql);
  
-                $output = "{|class=\"wikitable sortable\"\n".
-                          "|-\n".
-                          "|style=\"font-weight: bold;\"|Score\n".
-                          "|style=\"font-weight: bold;\"|Pages\n".
-                          "|style=\"font-weight: bold;\"|Changes\n".
-                          "|style=\"font-weight: bold;\"|Username\n";
+                $output = "<table class=\"wikitable sortable\">\n".
+                          "<tr>\n".
+                          "<td style=\"font-weight: bold;\">Score</td>\n".
+                          "<td style=\"font-weight: bold;\">Pages</td>\n".
+                          "<td style=\"font-weight: bold;\">Changes</td>\n".
+                          "<td style=\"font-weight: bold;\">Username</td>\n";
  
+				$skin =& $wgUser->getSkin();
                 while ( $row = $dbr->fetchObject( $res ) ) {
-                  $wikiUserName = $row->user_name;
-                  $output .= "|-\n|" .
-                    round($row->wiki_rank,0) . "\n|" .
-                    $row->page_count . "\n|" .
-                    $row->rev_count . "\n|" .
-                    "[[User:".$wikiUserName."|".$wikiUserName."]] ([[User_talk:".$wikiUserName."|Talk]] | [[Special:Contributions/".$wikiUserName."|contribs]])" . "\n";
+                  $output .= "</tr><tr>\n<td>" .
+                    round($row->wiki_rank,0) . "\n</td><td>" .
+                    $row->page_count . "\n</td><td>" .
+                    $row->rev_count . "\n</td><td>" .
+                    $skin->userLink( $row->user_id, $row->user_name ) . 
+					$skin->userToolLinks( $row->user_id, $row->user_name ) . "</td>\n";
                 }
-                $output .= "|}";
+                $output .= "</tr></table>";
                 $dbr->freeResult( $res );
  
                 return $output;
@@ -80,21 +103,17 @@ class ContributionScores extends SpecialPage
                         array(0,50));
                 }
  
-                $wgOut->addWikiText ("Scores are calculated as follows:\n".
-                    "*1 point for each unique page edited\n".
-                    "*Square Root of (Total Edits Made) - (Total Unique Pages) * 2\n".
-                    "Scores calculated in this manner weight edit diversity over edit volume.  Basically, this score measures".
-                    " primarily unique pages edited, with consideration for high edit volume - assumed to be a higher quality ".
-                    "article.");
+                $wgOut->addWikiText (wfMsgForContent('contributionscores-info'));
  
                 foreach ( $contribScoreReports as $scoreReport) {
                     if ( $scoreReport[0] > 0 ) {
-                        $reportTitle = "Last $scoreReport[0] Days";
+                        $reportTitle = wfMsgForContent('contributionscores-days', $scoreReport[0]);
                     } else {
-                        $reportTitle = "All Revisions";
+                        $reportTitle = wfMsgForContent('contributionscores-allrevisions');
                     }
-                    $reportTitle .= " (Top $scoreReport[1])";
-                    $wgOut->addWikiText ("== $reportTitle ==\n".$this->genContributionScoreTable($scoreReport[0],$scoreReport[1]));
+                    $reportTitle .= " " . wfMsgForContent('contributionscores-top', $scoreReport[1]);
+                    $wgOut->addWikiText ("== $reportTitle ==\n");
+					$wgOut->addHtml( $this->genContributionScoreTable($scoreReport[0],$scoreReport[1]));
                 }
         }
  
