@@ -12,9 +12,9 @@ if (!defined('MEDIAWIKI')) {
 $wgExtensionCredits['specialpage'][] = array(
     'name'=>'Contribution Scores',
     'url'=>'http://www.mediawiki.org/wiki/Extension:Contribution_Scores',
-    'author'=>'Tim Laqua, t.laqua at gmail dot com',
+    'author'=>'Tim Laqua',
     'description'=>'Polls Wiki Database for highest user contribution volume.',
-    'version'=>'1.3'
+    'version'=>'1.4'
 );
  
 $wgAutoloadClasses['ContributionScores'] = dirname(__FILE__) . '/ContributionScores_body.php';
