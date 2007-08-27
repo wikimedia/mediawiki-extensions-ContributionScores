@@ -19,4 +19,7 @@ $allMessages = array(
         'de' => array( 
                 'contributionscores' => 'Benutzerbeiträge auswerten',
         ),
+        'nl' => array( 
+                'contributionscores' => 'Bijdragenscores'
+        ),
 );
