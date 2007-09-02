@@ -66,7 +66,7 @@ class ContributionScores extends SpecialPage
  
                 $res = $dbr->query($sql);
  
-                $output = "<table class=\"wikitable sortable\">\n".
+                $output = "<table class=\"wikitable sortable plainlinks\">\n".
                           "<tr>\n".
                           "<td style=\"font-weight: bold;\">Score</td>\n".
                           "<td style=\"font-weight: bold;\">Pages</td>\n".
