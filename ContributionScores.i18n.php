@@ -16,11 +16,23 @@ $allMessages = array(
 				'contributionscores-days' => 'Last $1 Days',
 				'contributionscores-allrevisions' => 'All Revisions'
         ),
-        'de' => array( 
-                'contributionscores' => 'BenutzerbeitrÃ¤ge auswerten',
-        ),
-        'nl' => array( 
-                'contributionscores' => 'Bijdragenscores'
+	'es' => array( 
+				'contributionscores' => 'Puntuaciones por contribuir',
+				'contributionscores-info' => 	"Las puntuaciones son calculadas siguiendo:\n".
+												"*1 punto por cada p&aacute;gina &uacute;nica editada\n".
+												"*Ra&iacute;z cuadrada de (Ediciones totales efectuadas) - (P&aacute;ginas totales &uacute;nicas) x 2\n".
+												"Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edici&oacute;n.".
+												"B&aacute;sicamente, esta puntuaci&oacute;n mide fundamentalmente las p&aacute;ginas &uacute;nicas editadas, considerando que un alto ".
+												"volumen de edici&oacute;n supone que es un art&iacute;culo de mayor calidad.",
+				'contributionscores-top' => '(Top $1)',
+				'contributionscores-days' => '&Uacute;ltimos $1 d&iacute;as',
+				'contributionscores-allrevisions' => 'Estad&iacute;sticas globales'
+	),
+	'de' => array( 
+			'contributionscores' => 'BenutzerbeitrÃ¤ge auswerten',
+	),
+	'nl' => array( 
+			'contributionscores' => 'Bijdragenscores'
 	),
 	'yue' => array( 
 				'contributionscores' => 'è²¢ç»åˆ†æ•¸',
@@ -54,19 +66,7 @@ $allMessages = array(
 				'contributionscores-top' => '(æœ€é«˜$1å)',
 				'contributionscores-days' => 'æœ€è¿‘$1å¤©',
 				'contributionscores-allrevisions' => 'å…¨éƒ¨ä¿®è¨‚'
-	),
-	'es' => array( 
-							'contributionscores' => 'Puntuaciones por contribuir',
-							'contributionscores-info' =>	"Las puntuaciones son calculadas siguiendo:\n".
-															"*1 punto por cada página única editada\n".
-															"*Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2\n".
-															"Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición.".
-															"Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto ".
-															"volumen de edición supone que es un artículo de mayor calidad.",
-							'contributionscores-top' => '(Top $1)',
-							'contributionscores-days' => 'Últimos $1 días',
-							'contributionscores-allrevisions' => 'Estadísticas globales'
-	),
+	)
 );
 
 $allMessages['zh'] = $allMessages['zh-hans'];
