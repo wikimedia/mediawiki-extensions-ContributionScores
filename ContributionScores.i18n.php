@@ -55,7 +55,18 @@ $allMessages = array(
 				'contributionscores-days' => 'æœ€è¿‘$1å¤©',
 				'contributionscores-allrevisions' => 'å…¨éƒ¨ä¿®è¨‚'
 	),
-
+	'es' => array( 
+							'contributionscores' => 'Puntuaciones por contribuir',
+							'contributionscores-info' =>	"Las puntuaciones son calculadas siguiendo:\n".
+															"*1 punto por cada página única editada\n".
+															"*Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2\n".
+															"Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición.".
+															"Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto ".
+															"volumen de edición supone que es un artículo de mayor calidad.",
+							'contributionscores-top' => '(Top $1)',
+							'contributionscores-days' => 'Últimos $1 días',
+							'contributionscores-allrevisions' => 'Estadísticas globales'
+	),
 );
 
 $allMessages['zh'] = $allMessages['zh-hans'];

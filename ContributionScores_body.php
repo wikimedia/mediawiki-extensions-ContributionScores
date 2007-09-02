@@ -103,15 +103,15 @@ class ContributionScores extends SpecialPage
                         array(0,50));
                 }
  
-                $wgOut->addWikiText (wfMsgForContent('contributionscores-info'));
+                $wgOut->addWikiText (wfMsg('contributionscores-info'));
  
                 foreach ( $contribScoreReports as $scoreReport) {
                     if ( $scoreReport[0] > 0 ) {
-                        $reportTitle = wfMsgForContent('contributionscores-days', $scoreReport[0]);
+                        $reportTitle = wfMsg('contributionscores-days', $scoreReport[0]);
                     } else {
-                        $reportTitle = wfMsgForContent('contributionscores-allrevisions');
+                        $reportTitle = wfMsg('contributionscores-allrevisions');
                     }
-                    $reportTitle .= " " . wfMsgForContent('contributionscores-top', $scoreReport[1]);
+                    $reportTitle .= " " . wfMsg('contributionscores-top', $scoreReport[1]);
                     $wgOut->addWikiText ("== $reportTitle ==\n");
 					$wgOut->addHtml( $this->genContributionScoreTable($scoreReport[0],$scoreReport[1]));
                 }
