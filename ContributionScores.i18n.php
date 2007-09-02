@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /** \file
 * \brief Internationalisation file for the Contribution Scores Extension.
 */
@@ -25,7 +25,7 @@ $allMessages = array(
 												"Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto ".
 												"volumen de edición supone que es un artículo de mayor calidad.",
 				'contributionscores-top' => '(Top $1)',
-				'contributionscores-days' => '&Uacute;ltimos $1 días',
+				'contributionscores-days' => 'Últimos $1 días',
 				'contributionscores-allrevisions' => 'Estadísticas globales'
 	),
 	'de' => array( 
