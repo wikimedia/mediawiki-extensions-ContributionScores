@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /** \file
 * \brief Internationalisation file for the Contribution Scores Extension.
 */
