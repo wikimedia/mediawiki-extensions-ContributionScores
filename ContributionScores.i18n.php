@@ -31,8 +31,10 @@ $allMessages = array(
 	'de' => array( 
 			'contributionscores' => 'Benutzerbeiträge auswerten',
 	),
-	'nl' => array( 
-			'contributionscores' => 'Bijdragenscores'
+	'nl' => array(
+		'contributionscores' => 'Bijdragenscores',
+		'contributionscores-days' => 'Laatste $1 dagen',
+		'contributionscores-allrevisions' => 'Alle versies',
 	),
 	'yue' => array( 
 				'contributionscores' => '貢獻分數',
