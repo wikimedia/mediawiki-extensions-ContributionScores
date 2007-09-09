@@ -16,6 +16,12 @@ $allMessages = array(
 				'contributionscores-days' => 'Last $1 Days',
 				'contributionscores-allrevisions' => 'All Revisions'
         ),
+	'ar' => array(
+		'contributionscores-top' => '(أعلى $1)',
+		'contributionscores-days' => 'آخر $1 يوم',
+		'contributionscores-allrevisions' => 'كل النسخ',
+	),
+	
 	'es' => array( 
 				'contributionscores' => 'Puntuaciones por contribuir',
 				'contributionscores-info' => 	"Las puntuaciones son calculadas siguiendo:\n".
