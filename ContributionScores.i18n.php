@@ -49,6 +49,10 @@ $allMessages = array(
 
 	'hsb' => array(
 		'contributionscores' => 'Wuhódnoćenje přinoškow',
+		'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
+*1 dypk za kóždy wobdźěłanu jednotliwu stronu
+*Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
+Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
 		'contributionscores-top' => '(Najlěpše $1)',
 		'contributionscores-days' => 'Poslednje $1 dnjow',
 		'contributionscores-allrevisions' => 'Wšě změny',
