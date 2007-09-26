@@ -43,6 +43,10 @@ $allMessages = array(
 
 	'nl' => array(
 		'contributionscores' => 'Bijdragenscores',
+		'contributionscores-info' => 'Scores worden als volgt berekend:
+*1 punt voor iedere bewerkte pagina
+*wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina\'s) * 2
+In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaarder dan bewerkingsvolume. In feite meet deze score voornamelijk het aantal unieke pagina\'s dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen, met de aanname dat het een pagina van een hogere kwaliteit is.',
 		'contributionscores-days' => 'Laatste $1 dagen',
 		'contributionscores-allrevisions' => 'Alle versies',
 	),
