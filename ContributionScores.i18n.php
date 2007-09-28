@@ -22,7 +22,6 @@ $allMessages = array(
 		'contributionscores-days' => 'آخر $1 يوم',
 		'contributionscores-allrevisions' => 'كل النسخ',
 	),
-	
 
 	'es' => array( 
 		'contributionscores' => 'Puntuaciones por contribuir',
@@ -39,6 +38,10 @@ $allMessages = array(
 
 	'de' => array( 
 			'contributionscores' => 'Benutzerbeiträge auswerten',
+	),
+
+	'ext' => array(
+		'contributionscores-days' => 'Úrtimus $1 dias',
 	),
 
 	'nl' => array(
