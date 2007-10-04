@@ -24,6 +24,18 @@ $allMessages = array(
 		'contributionscores-allrevisions' => 'كل النسخ',
 	),
 
+	'de' => array( 
+		'contributionscores'              => 'Benutzerbeiträge bewerten',
+		'contributionscores-info'         => "Bewertungsschema:\n".
+			"*1 Punkt für jede bearbeitete Seite\n".
+			"*Quadratwurzel aller Bearbeitungen - Summe der bearbeiteten Seiten * 2\n".
+			"Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.".
+			"article.",
+		'contributionscores-top'          => '(Oberste $1)',
+		'contributionscores-days'         => 'Letzte $1 Tage',
+		'contributionscores-allrevisions' => 'Alle Versionen'
+	),
+
 	'es' => array( 
 		'contributionscores' => 'Puntuaciones por contribuir',
 		'contributionscores-info' => 	"Las puntuaciones son calculadas siguiendo:\n".
@@ -35,10 +47,6 @@ $allMessages = array(
 		'contributionscores-top' => '(Top $1)',
 		'contributionscores-days' => 'Últimos $1 días',
 		'contributionscores-allrevisions' => 'Estadísticas globales'
-	),
-
-	'de' => array( 
-			'contributionscores' => 'Benutzerbeiträge auswerten',
 	),
 
 	'ext' => array(
