@@ -79,6 +79,14 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 		'contributionscores-allrevisions' => 'Wšě změny',
 	),
 
+	'it' => array(
+		'contributionscores' => 'Punteggi contributi',
+		'contributionscores-info' => 'I punteggi sono così calcolati: *1 punto per ogni singola pagina editata *Radice quadrata di (Tutti gli Edit Effettuati) - (Totale Pagine Singole) * 2 I punteggi calcolati in questo modo tengono conto della diversità di edizione nel complesso dei contributi. Di fondo, questo punteggio misura primariamente le pagine singole editate, con debita considerazione per alti volumi di contribuzione - ciò fa presumere una più elevata qualità della voce editata.',
+		'contributionscores-top' => '(Ultimi $1)',
+		'contributionscores-days' => 'Ultimi $1 giorni',
+		'contributionscores-allrevisions' => 'Tutte le revisioni',
+	),
+
 	'yue' => array( 
 		'contributionscores' => '貢獻分數',
 		'contributionscores-info' => 	"分數會用下面嘅計法去計:\n".
