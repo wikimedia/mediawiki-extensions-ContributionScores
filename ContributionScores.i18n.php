@@ -57,17 +57,6 @@ $allMessages = array(
 		'contributionscores-days' => 'Úrtimus $1 dias',
 	),
 
-	'nl' => array(
-		'contributionscores' => 'Bijdragenscores',
-		'contributionscores-info' => 'Scores worden als volgt berekend:
-*1 punt voor iedere bewerkte pagina
-*wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina\'s) * 2
-In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaarder dan bewerkingsvolume. In feite meet deze score voornamelijk het aantal unieke pagina\'s dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen, met de aanname dat het een pagina van een hogere kwaliteit is.',
-		'contributionscores-top' => '(Top $1)',#identical but defined
-		'contributionscores-days' => 'Laatste $1 dagen',
-		'contributionscores-allrevisions' => 'Alle versies',
-	),
-
 	'hsb' => array(
 		'contributionscores' => 'Wuhódnoćenje přinoškow',
 		'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
@@ -85,6 +74,36 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 		'contributionscores-top' => '(Ultimi $1)',
 		'contributionscores-days' => 'Ultimi $1 giorni',
 		'contributionscores-allrevisions' => 'Tutte le revisioni',
+	),
+
+	'nl' => array(
+		'contributionscores' => 'Bijdragenscores',
+		'contributionscores-info' => 'Scores worden als volgt berekend:
+*1 punt voor iedere bewerkte pagina
+*wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina\'s) * 2
+In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaarder dan bewerkingsvolume. In feite meet deze score voornamelijk het aantal unieke pagina\'s dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen, met de aanname dat het een pagina van een hogere kwaliteit is.',
+		'contributionscores-top' => '(Top $1)',#identical but defined
+		'contributionscores-days' => 'Laatste $1 dagen',
+		'contributionscores-allrevisions' => 'Alle versies',
+	),
+
+	'pl' => array(
+		'contributionscores' => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
+		'contributionscores-info' => 'Punkty za edycje',
+		'contributionscores-top' => '(Czołowe $1)',
+		'contributionscores-days' => 'Ostatnie $1 dni',
+		'contributionscores-allrevisions' => 'Wszystkie edycje',
+	),
+
+	'pms' => array(
+		'contributionscores' => 'Classìfica dla contribussion',
+		'contributionscores-info' => 'La classìfica as càlcola parej: 
+*1 pont për minca pàgina modificà 
+*Rèis quadra ëd (Total dle Modìfiche Faite) - (Total dle Pàgine Ùniche) moltiplicà për 2 
+Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme. Sta classìfica a l\'amzura dzortut le pàgine ùniche ch\'a ven-o modificà, e ën vorend a-j da n\'euj ëd rësgoard a cole ch\'a l\'han n\'àot volum ëd modìfica, ch\'as pensa ch\'a peula esse na marca ëd qualità dl\'artìcol.',
+		'contributionscores-top' => '(Ij $1 mej)',
+		'contributionscores-days' => 'Ùltim $1 dì',
+		'contributionscores-allrevisions' => 'Tute le revision',
 	),
 
 	'yue' => array( 
