@@ -57,6 +57,18 @@ $allMessages = array(
 		'contributionscores-days' => 'Úrtimus $1 dias',
 	),
 
+	'fr' => array(
+		'contributionscores' => 'Pointage des contributions',
+		'contributionscores-info' => 'Le pointage se calcule comme suit :
+* 1 point pour chaque page modifiée ;
+* racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
+
+De cette façon, le pointage calculé préfère la diversité à la quantité. Écrit d\'une autre façon, ce pointage s\'intéresse principalement à montrer le nombre de modifications de pages différentes, puis la quantité totale de modifications.',
+		'contributionscores-top' => '(Meilleur $1)',
+		'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
+		'contributionscores-allrevisions' => 'Toutes les révisions',
+	),
+
 	'gl' => array(
 		'contributionscores' => 'Puntuación das Contribucións',
 		'contributionscores-info' => 'As puntuacións calcúlanse como segue:
