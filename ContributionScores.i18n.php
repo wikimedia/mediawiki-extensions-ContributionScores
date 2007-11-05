@@ -113,7 +113,7 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 	'pl' => array(
 		'contributionscores' => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
 		'contributionscores-info' => 'Punkty za edycje',
-		'contributionscores-top' => '(Czołowe $1)',
+		'contributionscores-top' => '(Czołowych $1)',
 		'contributionscores-days' => 'Ostatnie $1 dni',
 		'contributionscores-allrevisions' => 'Wszystkie edycje',
 	),
