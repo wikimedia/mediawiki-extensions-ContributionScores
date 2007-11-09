@@ -110,6 +110,14 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 		'contributionscores-allrevisions' => 'Alle versies',
 	),
 
+	'oc' => array(
+		'contributionscores' => 'Puntatge de las contribucions',
+		'contributionscores-info' => 'Lo puntatge se calcula coma seguís : * 1 punt per cada pagina modificada ; * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas) * 2. D\'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d\'un autre biais, aqueste puntatge s\'interèssa principalament a mostrar lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.',
+		'contributionscores-top' => '(Melhor $1)',
+		'contributionscores-days' => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
+		'contributionscores-allrevisions' => 'Totas las revisions',
+	),
+
 	'pl' => array(
 		'contributionscores' => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
 		'contributionscores-info' => 'Punkty za edycje',
