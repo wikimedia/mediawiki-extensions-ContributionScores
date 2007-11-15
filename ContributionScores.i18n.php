@@ -40,6 +40,10 @@ $allMessages = array(
 		'contributionscores-allrevisions' => 'Alle Versionen'
 	),
 
+	'el' => array(
+		'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
+	),
+
 	'es' => array( 
 		'contributionscores' => 'Puntuaciones por contribuir',
 		'contributionscores-info' => 	"Las puntuaciones son calculadas siguiendo:\n".
