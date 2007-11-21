@@ -1,4 +1,5 @@
 <?php
+#coding: utf-8
 /** \file
 * \brief Internationalisation file for the Contribution Scores Extension.
 */
