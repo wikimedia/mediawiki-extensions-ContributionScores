@@ -49,7 +49,7 @@ class ContributionScores extends SpecialPage
 			"FROM $userTable userTable JOIN $revTable revTable ON (userTable.user_id=revTable.rev_user) ";
 
 		if ( $days > 0 ) {
-			$date = mktime() - (60*60*24*$days);
+			$date = time() - (60*60*24*$days);
 			$dateString = $dbr->timestamp($date);
 			$sql .= "WHERE rev_timestamp > '$dateString' ";
 		}
