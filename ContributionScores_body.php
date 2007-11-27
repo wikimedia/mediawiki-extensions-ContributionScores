@@ -92,9 +92,12 @@ class ContributionScores extends SpecialPage
 	}
 
 	function execute( $par ) {
-		global $wgRequest, $wgOut, $contribScoreReports;
-		wfLoadExtensionMessages( 'ContributionScores' );
-
+		global $wgRequest, $wgOut, $contribScoreReports, $wgVersion;
+		
+		if( version_compare( $wgVersion, '1.12alpha', '>=' ) ) {    
+			wfLoadExtensionMessages( 'ContributionScores' );
+		}
+		
 		$this->setHeaders();
 
 		# Get request data from, e.g.
