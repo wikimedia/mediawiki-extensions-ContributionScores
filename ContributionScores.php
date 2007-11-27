@@ -17,12 +17,11 @@ $wgExtensionCredits['specialpage'][] = array(
 	'version'=>'1.5'
 );
 
-$wgAutoloadClasses['ContributionScores'] = $dir . 'ContributionScores_body.php';
+$wgAutoloadClasses['ContributionScores'] = dirname( __FILE__ ) . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 
 if( version_compare( $wgVersion, '1.12alpha', '>=' ) ) {    
-	$dir = dirname(__FILE__) . '/';
-	$wgExtensionMessagesFiles['ContributionScores'] = $dir . 'ContributionScores.i18n.php';
+	$wgExtensionMessagesFiles['ContributionScores'] = dirname(__FILE__) . '/ContributionScores.i18n.php';
 } else {
 	$wgExtensionFunctions[] = 'efContributionScores';
 }
