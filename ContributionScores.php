@@ -20,7 +20,7 @@ $wgExtensionCredits['specialpage'][] = array(
 $wgAutoloadClasses['ContributionScores'] = dirname( __FILE__ ) . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 
-if( version_compare( $wgVersion, '1.12alpha', '>=' ) ) {    
+if( version_compare( $wgVersion, '1.11', '>=' ) ) {    
 	$wgExtensionMessagesFiles['ContributionScores'] = dirname(__FILE__) . '/ContributionScores.i18n.php';
 } else {
 	$wgExtensionFunctions[] = 'efContributionScores';

@@ -94,9 +94,8 @@ class ContributionScores extends SpecialPage
 	function execute( $par ) {
 		global $wgRequest, $wgOut, $contribScoreReports, $wgVersion;
 		
-		if( version_compare( $wgVersion, '1.12alpha', '>=' ) ) {    
+		if( version_compare( $wgVersion, '1.11', '>=' ) )
 			wfLoadExtensionMessages( 'ContributionScores' );
-		}
 		
 		$this->setHeaders();
 
