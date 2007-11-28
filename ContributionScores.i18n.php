@@ -32,6 +32,10 @@ $messages['ar'] = array(
 	'contributionscores-top' => '(أعلى $1)',
 	'contributionscores-days' => 'آخر $1 يوم',
 	'contributionscores-allrevisions' => 'كل النسخ',
+	'contributionscores-score' => 'النتيجة',
+	'contributionscores-pages' => 'الصفحات',
+	'contributionscores-changes' => 'التغييرات',
+	'contributionscores-username' => 'اسم المستخدم',
 );
 
 $messages['de'] = array(
