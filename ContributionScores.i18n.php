@@ -64,6 +64,12 @@ $messages['ext'] = array(
 	'contributionscores-days' => 'Úrtimus $1 dias',
 );
 
+$messages['fi'] = array(
+	'contributionscores' => 'Muokkauspisteet',
+	'contributionscores-days' => '$1 päivän ajalta',
+	'contributionscores-allrevisions' => 'Kaikki muutokset',
+);
+
 $messages['fr'] = array(
 	'contributionscores' => 'Pointage des contributions',
 	'contributionscores-info' => 'Le pointage se calcule comme suit :
