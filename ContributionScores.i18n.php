@@ -157,6 +157,10 @@ Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùme
 	'contributionscores-allrevisions' => 'Tute le revision',
 );
 
+$messages['pt'] = array(
+	'contributionscores-username' => 'Nome de utilizador',
+);
+
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-info' => "分數會用下面嘅計法去計:
