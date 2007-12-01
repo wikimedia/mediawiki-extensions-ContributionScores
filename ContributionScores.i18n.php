@@ -84,6 +84,10 @@ De cette façon, le pointage calculé préfère la diversité à la quantité. �
 	'contributionscores-top' => '(Meilleur $1)',
 	'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Toutes les révisions',
+	'contributionscores-score' => 'Pointage',
+	'contributionscores-pages' => 'Pages',#identical but defined
+	'contributionscores-changes' => 'Modifications',
+	'contributionscores-username' => 'Pseudonyme',
 );
 
 $messages['gl'] = array(
