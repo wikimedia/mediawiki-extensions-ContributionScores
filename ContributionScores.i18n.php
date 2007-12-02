@@ -101,6 +101,22 @@ As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobr
 	'contributionscores-allrevisions' => 'Todas as Revisións',
 );
 
+$messages['hr'] = array(
+	'contributionscores' => 'Najbolji suradnici',
+	'contributionscores-info' => 'Rezultat se dobiva kao suma slijedećih stavki:
+*1 bod za svaku stranicu koju ste uređivali
+* (kvadratni) korijen iz (broja ukupnih uređivanja) - (broja stranica koje ste uređivali) * 2
+
+Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih stranica nego ukupnom broju uređivanja. U osnovi, ovakav rezultat mjeri prvenstveno broj različitih stranica koje ste uređivali, uzimajući u obzir broj uređivanja, jer veći broj uređivanja na nekom članku daje kvalitetniji članak.',
+	'contributionscores-top' => '(Najboljih $1)',
+	'contributionscores-days' => 'Zadnjih $1 dana',
+	'contributionscores-allrevisions' => 'Sva uređivanja',
+	'contributionscores-score' => 'Rezultat',
+	'contributionscores-pages' => 'Stranica',
+	'contributionscores-changes' => 'Uređivanja',
+	'contributionscores-username' => 'Ime suradnika',
+);
+
 $messages['hsb'] = array(
 	'contributionscores' => 'Wuhódnoćenje přinoškow',
 	'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
