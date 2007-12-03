@@ -51,6 +51,9 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
 
 $messages['el'] = array(
 	'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
+	'contributionscores-pages' => 'Σελίδες',
+	'contributionscores-changes' => 'Αλλαγές',
+	'contributionscores-username' => 'Όνομα χρήστη',
 );
 
 $messages['es'] = array(
@@ -150,6 +153,21 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 	'contributionscores-username' => 'Gebruiker',
 );
 
+$messages['no'] = array(
+	'contributionscores' => 'Bidragspoeng',
+	'contributionscores-info' => 'Bidragspoeng regnes ut på følgende måte:
+* 1 poeng for hver unike side som er redigert
+* Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
+Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redigeringsvolum. Dette betyr i bunn og grunn at dette primært måler hvor mange forskjellige sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til artikler av høyere kvalitet.',
+	'contributionscores-top' => '(Topp $1)',
+	'contributionscores-days' => 'Siste $1 dager',
+	'contributionscores-allrevisions' => 'Alle revisjoner',
+	'contributionscores-score' => 'Poeng',
+	'contributionscores-pages' => 'Sider',
+	'contributionscores-changes' => 'Endringer',
+	'contributionscores-username' => 'Brukernavn',
+);
+
 $messages['oc'] = array(
 	'contributionscores' => 'Puntatge de las contribucions',
 	'contributionscores-info' => 'Lo puntatge se calcula coma seguís : * 1 punt per cada pagina modificada ; * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas) * 2. D\'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d\'un autre biais, aqueste puntatge s\'interèssa principalament a mostrar lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.',
@@ -183,35 +201,47 @@ $messages['pt'] = array(
 
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
-	'contributionscores-info' => "分數會用下面嘅計法去計:
+	'contributionscores-info' => '分數會用下面嘅計法去計:
 *每一個唯一一版編輯過嘅有1分
 *(總編輯數)嘅平方根 - (總唯一頁數) * 2
-響呢方面計嘅分數會睇編輯多樣性同編輯量相比。 基本噉講，呢個分數係會依主要嘅唯一編輯過嘅頁，同埋考慮高編輯量 - 假設係一篇高質量嘅文章。",
+響呢方面計嘅分數會睇編輯多樣性同編輯量相比。 基本噉講，呢個分數係會依主要嘅唯一編輯過嘅頁，同埋考慮高編輯量 - 假設係一篇高質量嘅文章。',
 	'contributionscores-top' => '(最高$1名)',
 	'contributionscores-days' => '最近$1日',
-	'contributionscores-allrevisions' => '全部修訂'
+	'contributionscores-allrevisions' => '全部修訂',
+	'contributionscores-score' => '分數',
+	'contributionscores-pages' => '版',
+	'contributionscores-changes' => '更改',
+	'contributionscores-username' => '用戶名',
 );
 
 $messages['zh-hans'] = array(
 	'contributionscores' => '贡献分数',
-	'contributionscores-info' => "分数会用以下的的计分法去计算:
+	'contributionscores-info' => '分数会用以下的的计分法去计算:
 *每一个唯一页面编辑过的有1分
 *(总编辑数)的平方根 - (总唯一页面数) * 2
-在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。",
+在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。',
 	'contributionscores-top' => '(最高$1名)',
 	'contributionscores-days' => '最近$1天',
-	'contributionscores-allrevisions' => '全部修订'
+	'contributionscores-allrevisions' => '全部修订',
+	'contributionscores-score' => '分数',
+	'contributionscores-pages' => '页面',
+	'contributionscores-changes' => '更改',
+	'contributionscores-username' => '用户名',
 );
 
 $messages['zh-hant'] = array(
 	'contributionscores' => '貢獻分數',
-	'contributionscores-info' => "分數會用以下的的計分法去計算:
+	'contributionscores-info' => '分數會用以下的的計分法去計算:
 *每一個唯一頁面編輯過的有1分
 *(總編輯數)的平方根 - (總唯一頁面數) * 2
-在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。",
+在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。',
 	'contributionscores-top' => '(最高$1名)',
 	'contributionscores-days' => '最近$1天',
-	'contributionscores-allrevisions' => '全部修訂'
+	'contributionscores-allrevisions' => '全部修訂',
+	'contributionscores-score' => '分數',
+	'contributionscores-pages' => '頁面',
+	'contributionscores-changes' => '更改',
+	'contributionscores-username' => '用戶名',
 );
 
 $messages['zh'] = $messages['zh-hans'];
