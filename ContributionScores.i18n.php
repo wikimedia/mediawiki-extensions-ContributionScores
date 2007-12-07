@@ -39,14 +39,18 @@ $messages['ar'] = array(
 );
 
 $messages['de'] = array(
-	'contributionscores' => 'Benutzerbeiträge bewerten',
-	'contributionscores-info' => "Bewertungsschema:
+	'contributionscores'              => 'Benutzerbeiträge bewerten',
+	'contributionscores-info'         => "Bewertungsschema:
 *1 Punkt für jede bearbeitete Seite
-*Quadratwurzel aller Bearbeitungen - Summe der bearbeiteten Seiten * 2
+*Quadratwurzel aller (Bearbeitungen) - (Summe der bearbeiteten Seiten) * 2
 Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.",
-	'contributionscores-top' => '(Oberste $1)',
-	'contributionscores-days' => 'Letzte $1 Tage',
-	'contributionscores-allrevisions' => 'Alle Versionen'
+	'contributionscores-top'          => '(Oberste $1)',
+	'contributionscores-days'         => 'Letzte $1 Tage',
+	'contributionscores-allrevisions' => 'Alle Versionen',
+	'contributionscores-score'        => 'Bewertung',
+	'contributionscores-pages'        => 'Seiten',
+	'contributionscores-changes'      => 'Änderungen',
+	'contributionscores-username'     => 'Benutzername',
 );
 
 $messages['el'] = array(
