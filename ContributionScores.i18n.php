@@ -133,6 +133,10 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 	'contributionscores-top' => '(Najlěpše $1)',
 	'contributionscores-days' => 'Poslednje $1 dnjow',
 	'contributionscores-allrevisions' => 'Wšě změny',
+	'contributionscores-score' => 'Hódnoćenje',
+	'contributionscores-pages' => 'Strony',
+	'contributionscores-changes' => 'Změny',
+	'contributionscores-username' => 'Wužiwarske mjeno',
 );
 
 $messages['it'] = array(
