@@ -1,4 +1,4 @@
-<?php
+	<?php
 /** \file
 * \brief Contains setup code for the Contribution Scores Extension.
 */
@@ -14,13 +14,13 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url'=>'http://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
-	'version'=>'1.5'
+	'version'=>'1.5',
 );
 
 $wgAutoloadClasses['ContributionScores'] = dirname( __FILE__ ) . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 
-if( version_compare( $wgVersion, '1.11', '>=' ) ) {    
+if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 	$wgExtensionMessagesFiles['ContributionScores'] = dirname(__FILE__) . '/ContributionScores.i18n.php';
 } else {
 	$wgExtensionFunctions[] = 'efContributionScores';
@@ -28,11 +28,11 @@ if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 
 ///Message Cache population for versions that did not support $wgExtensionFunctions
 function efContributionScores() {
-	global $wgMessageCache;   
-	
-	#Add Messages   
-	require( dirname( __FILE__ ) . '/ContributionScores.i18n.php' );   
-	foreach( $messages as $key => $value ) {   
-		  $wgMessageCache->addMessages( $messages[$key], $key );   
-	}   
-} 
+	global $wgMessageCache;
+
+	#Add Messages
+	require( dirname( __FILE__ ) . '/ContributionScores.i18n.php' );
+	foreach( $messages as $key => $value ) {
+		  $wgMessageCache->addMessages( $messages[$key], $key );
+	}
+}
