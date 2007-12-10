@@ -1,4 +1,4 @@
-	<?php
+<?php
 /** \file
 * \brief Contains setup code for the Contribution Scores Extension.
 */
