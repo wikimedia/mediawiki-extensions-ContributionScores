@@ -106,6 +106,10 @@ As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobr
 	'contributionscores-top' => '(Os $1 que máis)',
 	'contributionscores-days' => 'Os Últimos $1 Días',
 	'contributionscores-allrevisions' => 'Todas as Revisións',
+	'contributionscores-score' => 'Puntuación',
+	'contributionscores-pages' => 'Páxinas',
+	'contributionscores-changes' => 'Cambios',
+	'contributionscores-username' => 'Nome de usuario',
 );
 
 $messages['hr'] = array(
