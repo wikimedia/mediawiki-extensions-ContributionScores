@@ -55,6 +55,8 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
 
 $messages['el'] = array(
 	'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
+	'contributionscores-days' => 'Τελευταίες $1 Ημέρες',
+	'contributionscores-score' => 'Βαθμολογία',
 	'contributionscores-pages' => 'Σελίδες',
 	'contributionscores-changes' => 'Αλλαγές',
 	'contributionscores-username' => 'Όνομα χρήστη',
