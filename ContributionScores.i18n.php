@@ -226,6 +226,17 @@ $messages['pt'] = array(
 	'contributionscores-username' => 'Nome de utilizador',
 );
 
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+$messages['stq'] = array(
+	'contributionscores'      => 'Benutserbiedraage ouschätsje',
+	'contributionscores-info' => 'Ouschätsschema:
+*1 Punkt foar älke beoarbaidede Siede
+*Quadroatwuttel fon aal do (Beoarbaidengen) - (Summe fon do beoarbaidede Sieden) * 2 
+Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen.',
+);
+
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-info' => '分數會用下面嘅計法去計:
