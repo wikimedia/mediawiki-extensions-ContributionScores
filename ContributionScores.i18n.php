@@ -230,11 +230,18 @@ $messages['pt'] = array(
  * @author Pyt
  */
 $messages['stq'] = array(
-	'contributionscores'      => 'Benutserbiedraage ouschätsje',
-	'contributionscores-info' => 'Ouschätsschema:
+	'contributionscores'              => 'Benutserbiedraage ouschätsje',
+	'contributionscores-info'         => 'Ouschätsschema:
 *1 Punkt foar älke beoarbaidede Siede
 *Quadroatwuttel fon aal do (Beoarbaidengen) - (Summe fon do beoarbaidede Sieden) * 2 
 Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen.',
+	'contributionscores-top'          => '(Buppeste $1)',
+	'contributionscores-days'         => 'Lääste $1 Deege',
+	'contributionscores-allrevisions' => 'Aal Versione',
+	'contributionscores-score'        => 'Schätsenge',
+	'contributionscores-pages'        => 'Sieden',
+	'contributionscores-changes'      => 'Annerengen',
+	'contributionscores-username'     => 'Benutsernoome',
 );
 
 $messages['yue'] = array(
