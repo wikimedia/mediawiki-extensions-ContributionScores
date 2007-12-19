@@ -11,12 +11,11 @@
  *
  * @addtogroup Extensions
  * @author Tim Laqua <t.laqua@gmail.com>
- * @author Siebrand Mazeland
  */
-class ContributionScores extends SpecialPage
+class ContributionScores extends IncludableSpecialPage
 {
 	public function __construct() {
-		SpecialPage::SpecialPage( 'ContributionScores' );
+		parent::__construct( 'ContributionScores' );
 	}
 
 	function getDescription() {
@@ -32,7 +31,7 @@ class ContributionScores extends SpecialPage
 	 *
 	 * @return HTML Table representing the requested Contribution Scores.
 	 */
-	function genContributionScoreTable( $days, $limit ) {
+	function genContributionScoreTable( $days, $limit, $title = null ) {
 		global $contribScoreIgnoreBots, $wgUser;
 
 		$dbr =& wfGetDB( DB_SLAVE );
@@ -69,39 +68,93 @@ class ContributionScores extends SpecialPage
 
 		$res = $dbr->query($sql);
 
-		$output = "<table class=\"wikitable sortable plainlinks\">\n".
-			"<tr>\n".
+		$output = "<table class=\"wikitable sortable plainlinks\" >\n".
+			"<tr class='contributionscores-tableheadings'>\n".
 			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-score' ) . "</td>\n" .
 			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-pages' ) . "</td>\n" .
 			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-changes' ) . "</td>\n" .
 			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-username' ) . "</td>\n";
 
 		$skin =& $wgUser->getSkin();
+		$altrow = '';
 		while ( $row = $dbr->fetchObject( $res ) ) {
-			$output .= "</tr><tr>\n<td>" .
+			$output .= "</tr><tr class='{$altrow}'>\n<td>" .
 				round($row->wiki_rank,0) . "\n</td><td>" .
 				$row->page_count . "\n</td><td>" .
 				$row->rev_count . "\n</td><td>" .
 				$skin->userLink( $row->user_id, $row->user_name ) .
 				$skin->userToolLinks( $row->user_id, $row->user_name ) . "</td>\n";
+				
+			if ($altrow == '')
+				$altrow = 'contributionscores-altrow ';
+			else
+				$altrow = '';
 		}
 		$output .= "</tr></table>";
 		$dbr->freeResult( $res );
-
+		
+		if ( !empty( $title ) )
+			$output = "<table cellspacing='0' cellpadding='0' class='contributionscores-wrapper'>\n".
+			"<tr>\n".
+			"<td style='padding: 0px;'>{$title}</td>\n".
+			"</tr>\n".
+			"<tr>\n".
+			"<td style='padding: 0px;'>{$output}</td>\n".
+			"</tr>\n".
+			"</table>";
+		
 		return $output;
 	}
 
 	function execute( $par ) {
-		global $wgRequest, $wgOut, $contribScoreReports, $wgVersion;
+		global $wgRequest, $wgVersion, $wgOut;
 		
 		if( version_compare( $wgVersion, '1.11', '>=' ) )
 			wfLoadExtensionMessages( 'ContributionScores' );
 		
 		$this->setHeaders();
 
-		# Get request data from, e.g.
-		$param = $wgRequest->getText('param');
+		if( $this->including() ) {
+			$this->showInclude( $par );
+		} else {
+			$this->showPage();
+		}
+		return true;
+	}
+	function showInclude( $par ) {
+		global $wgOut;
 
+		$days = null;
+		$limit = null;
+		
+		if ( !empty( $par ) ) {
+			$params = explode('/', $par);
+			
+			$limit = intval( $params[0] );
+			
+			if ( isset( $params[1] ) )
+				$days = intval( $params[1] );
+		}
+			
+		if ( empty( $limit ) || $limit < 1 || $limit > CONTRIBUTIONSCORES_MAXINCLUDELIMIT )
+			$limit = 10;
+		if ( is_null( $days ) || $days < 0 )
+			$days = 7;
+		
+		//$wgOut->addHtml('$par:' . $par);
+		if ( $days > 0 ) {
+			$reportTitle = wfMsg( 'contributionscores-days', $days );
+		} else {
+			$reportTitle = wfMsg( 'contributionscores-allrevisions' );
+		}
+		$reportTitle .= " " . wfMsg( 'contributionscores-top', $limit );
+		$title = "<h4 class='contributionscores-title'> $reportTitle </h4>\n";
+		$wgOut->addHtml( $this->genContributionScoreTable( $days, $limit, $title ) );
+	}
+	
+	function showPage() {
+		global $wgOut, $contribScoreReports;
+		
 		if (!is_array($contribScoreReports)) {
 			$contribScoreReports = array(
 				array(7,50),
@@ -118,7 +171,7 @@ class ContributionScores extends SpecialPage
 				$reportTitle = wfMsg('contributionscores-allrevisions');
 			}
 			$reportTitle .= " " . wfMsg('contributionscores-top', $scoreReport[1]);
-			$wgOut->addWikiText ("== $reportTitle ==\n");
+			$wgOut->addHtml ("<h2 class='contributionscores-title'>$reportTitle</h2>\n");
 			$wgOut->addHtml( $this->genContributionScoreTable($scoreReport[0],$scoreReport[1]));
 		}
 	}

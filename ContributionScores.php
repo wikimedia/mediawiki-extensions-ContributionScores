@@ -14,14 +14,20 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url'=>'http://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
-	'version'=>'1.5'
+	'version'=>'1.6'
 );
 
-$wgAutoloadClasses['ContributionScores'] = dirname( __FILE__ ) . '/ContributionScores_body.php';
+define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
+define( 'CONTRIBUTIONSCORES_EXTPATH', str_replace( $_SERVER['DOCUMENT_ROOT'], '/', CONTRIBUTIONSCORES_PATH ) );
+define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
+$contribScoreReports = null;
+
+$wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
+$wgHooks['BeforePageDisplay'][] = 'efContributionScores_addHeadScripts';
 
 if( version_compare( $wgVersion, '1.11', '>=' ) ) {    
-	$wgExtensionMessagesFiles['ContributionScores'] = dirname(__FILE__) . '/ContributionScores.i18n.php';
+	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
 } else {
 	$wgExtensionFunctions[] = 'efContributionScores';
 }
@@ -31,8 +37,13 @@ function efContributionScores() {
 	global $wgMessageCache;   
 	
 	#Add Messages   
-	require( dirname( __FILE__ ) . '/ContributionScores.i18n.php' );   
+	require( CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php' );   
 	foreach( $messages as $key => $value ) {   
 		  $wgMessageCache->addMessages( $messages[$key], $key );   
-	}   
-} 
+	}
+}
+
+function efContributionScores_addHeadScripts(&$out) {
+	$out->addScript( '<link rel="stylesheet" type="text/css" href="' . CONTRIBUTIONSCORES_EXTPATH . '/ContributionScores.css" />' . "\n" );
+	return true;
+}
