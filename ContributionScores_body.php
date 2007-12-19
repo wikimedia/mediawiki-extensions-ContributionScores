@@ -31,59 +31,86 @@ class ContributionScores extends IncludableSpecialPage
 	 *
 	 * @return HTML Table representing the requested Contribution Scores.
 	 */
-	function genContributionScoreTable( $days, $limit, $title = null ) {
+	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
 		global $contribScoreIgnoreBots, $wgUser;
 
+		$opts = explode(',', strtolower($options));
+		
 		$dbr =& wfGetDB( DB_SLAVE );
 
 		$userTable = $dbr->tableName('user');
 		$userGroupTable = $dbr->tableName('user_groups');
 		$revTable = $dbr->tableName('revision');
-
-		$sql =  "SELECT user_id, " .
-			"user_name, " .
-			"COUNT(DISTINCT rev_page) AS page_count, " .
-			"COUNT(rev_id) AS rev_count, " .
-			"COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank " .
-			"FROM $userTable userTable JOIN $revTable revTable ON (userTable.user_id=revTable.rev_user) ";
-
+		
+		$sqlWhere = "";
+		
 		if ( $days > 0 ) {
 			$date = time() - (60*60*24*$days);
 			$dateString = $dbr->timestamp($date);
-			$sql .= "WHERE rev_timestamp > '$dateString' ";
+			$sqlWhere .= " WHERE rev_timestamp > '$dateString' ";
 		}
 
 		if ( $contribScoreIgnoreBots ) {
-			if (preg_match("/where/i", $sql)) {
-				$sql .= "AND ";
+			if (preg_match("/where/i", $sqlWhere)) {
+				$sqlWhere .= "AND ";
 			} else {
-				$sql .= "WHERE ";
+				$sqlWhere .= "WHERE ";
 			}
-			$sql .= "user_id NOT IN (SELECT ug_user FROM $userGroupTable WHERE ug_group='bot') ";
+			$sqlWhere .= "rev_user NOT IN (SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot') ";
 		}
 
-		$sql .= "GROUP BY user_id, user_name " .
+		$sqlMostPages = "SELECT rev_user, 
+						 COUNT(DISTINCT rev_page) AS page_count, 
+						 COUNT(rev_id) AS rev_count 
+						 FROM {$revTable} 
+						 {$sqlWhere}
+						 GROUP BY rev_user 
+						 ORDER BY page_count 
+						 LIMIT {$limit}";
+
+		$sqlMostRevs  = "SELECT rev_user, 
+						 COUNT(DISTINCT rev_page) AS page_count, 
+						 COUNT(rev_id) AS rev_count 
+						 FROM {$revTable} 
+						 {$sqlWhere}
+						 GROUP BY rev_user
+						 ORDER BY rev_count 
+						 LIMIT {$limit}";
+		
+		$sql =  "SELECT user_id, " .
+			"user_name, " .
+			"page_count, " .
+			"rev_count, " .
+			"page_count+SQRT(rev_count-page_count)*2 AS wiki_rank " .
+			"FROM $userTable u JOIN (($sqlMostPages) UNION ($sqlMostRevs)) s ON (user_id=rev_user) " .
 			"ORDER BY wiki_rank DESC " .
 			"LIMIT $limit";
-
+			
 		$res = $dbr->query($sql);
-
-		$output = "<table class=\"wikitable sortable plainlinks\" >\n".
+		
+		$sortable = in_array('nosort', $opts) ? '' : ' sortable';
+		
+		$output = "<table class=\"wikitable plainlinks{$sortable}\" >\n".
 			"<tr class='contributionscores-tableheadings'>\n".
-			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-score' ) . "</td>\n" .
-			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-pages' ) . "</td>\n" .
-			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-changes' ) . "</td>\n" .
-			"<td style=\"font-weight: bold;\">" . wfMsg( 'contributionscores-username' ) . "</td>\n";
+			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-score' ) . "</td>\n" .
+			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-pages' ) . "</td>\n" .
+			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-changes' ) . "</td>\n" .
+			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-username' ) . "</td>\n";
 
 		$skin =& $wgUser->getSkin();
 		$altrow = '';
 		while ( $row = $dbr->fetchObject( $res ) ) {
-			$output .= "</tr><tr class='{$altrow}'>\n<td>" .
-				round($row->wiki_rank,0) . "\n</td><td>" .
-				$row->page_count . "\n</td><td>" .
-				$row->rev_count . "\n</td><td>" .
-				$skin->userLink( $row->user_id, $row->user_name ) .
-				$skin->userToolLinks( $row->user_id, $row->user_name ) . "</td>\n";
+			$output .= "</tr><tr class='{$altrow}'>\n<td class='contributionscores-contentcell'>" .
+				round($row->wiki_rank,0) . "\n</td><td class='contributionscores-contentcell'>" .
+				$row->page_count . "\n</td><td class='contributionscores-contentcell'>" .
+				$row->rev_count . "\n</td><td class='contributionscores-contentcell'>" .
+				$skin->userLink( $row->user_id, $row->user_name );
+			
+			# Option to not display user tools 
+			if ( !in_array( 'notools', $opts ) )
+				$output .= $skin->userToolLinks( $row->user_id, $row->user_name );
+			
+			$output .= "</td>\n";
 				
 			if ($altrow == '')
 				$altrow = 'contributionscores-altrow ';
@@ -128,6 +155,7 @@ class ContributionScores extends IncludableSpecialPage
 
 		$days = null;
 		$limit = null;
+		$options = 'none';
 		
 		if ( !empty( $par ) ) {
 			$params = explode('/', $par);
@@ -136,6 +164,9 @@ class ContributionScores extends IncludableSpecialPage
 			
 			if ( isset( $params[1] ) )
 				$days = intval( $params[1] );
+			
+			if ( isset( $params[2] ) )
+				$options = $params[2];
 		}
 			
 		if ( empty( $limit ) || $limit < 1 || $limit > CONTRIBUTIONSCORES_MAXINCLUDELIMIT )
@@ -143,7 +174,6 @@ class ContributionScores extends IncludableSpecialPage
 		if ( is_null( $days ) || $days < 0 )
 			$days = 7;
 		
-		//$wgOut->addHtml('$par:' . $par);
 		if ( $days > 0 ) {
 			$reportTitle = wfMsg( 'contributionscores-days', $days );
 		} else {
@@ -151,7 +181,7 @@ class ContributionScores extends IncludableSpecialPage
 		}
 		$reportTitle .= " " . wfMsg( 'contributionscores-top', $limit );
 		$title = "<h4 class='contributionscores-title'> $reportTitle </h4>\n";
-		$wgOut->addHtml( $this->genContributionScoreTable( $days, $limit, $title ) );
+		$wgOut->addHtml( $this->genContributionScoreTable( $days, $limit, $title, $options ) );
 	}
 	
 	function showPage() {
