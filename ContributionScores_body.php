@@ -65,7 +65,7 @@ class ContributionScores extends IncludableSpecialPage
 						 FROM {$revTable} 
 						 {$sqlWhere}
 						 GROUP BY rev_user 
-						 ORDER BY page_count 
+						 ORDER BY page_count DESC
 						 LIMIT {$limit}";
 
 		$sqlMostRevs  = "SELECT rev_user, 
@@ -73,8 +73,8 @@ class ContributionScores extends IncludableSpecialPage
 						 COUNT(rev_id) AS rev_count 
 						 FROM {$revTable} 
 						 {$sqlWhere}
-						 GROUP BY rev_user
-						 ORDER BY rev_count 
+						 GROUP BY rev_user 
+						 ORDER BY rev_count DESC 
 						 LIMIT {$limit}";
 		
 		$sql =  "SELECT user_id, " .
