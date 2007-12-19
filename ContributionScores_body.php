@@ -107,7 +107,9 @@ class ContributionScores extends IncludableSpecialPage
 	}
 
 	function execute( $par ) {
-		global $wgRequest, $wgVersion, $wgOut;
+		global $wgRequest, $wgVersion, $wgOut, $wgHooks;
+		
+		$wgHooks['BeforePageDisplay'][] = 'efContributionScores_addHeadScripts';
 		
 		if( version_compare( $wgVersion, '1.11', '>=' ) )
 			wfLoadExtensionMessages( 'ContributionScores' );

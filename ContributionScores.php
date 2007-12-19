@@ -24,7 +24,6 @@ $contribScoreReports = null;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
-$wgHooks['BeforePageDisplay'][] = 'efContributionScores_addHeadScripts';
 
 if( version_compare( $wgVersion, '1.11', '>=' ) ) {    
 	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
