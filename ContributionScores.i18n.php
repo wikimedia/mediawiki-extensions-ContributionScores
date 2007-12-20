@@ -153,6 +153,49 @@ $messages['it'] = array(
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
 );
 
+$messages['kk-cyrl'] = array(
+	'contributionscores' => 'Үлес беру есептері',
+	'contributionscores-info' => "Есептер келесі дей саналады:
+*1 ұпай әрбір түзетілген бірегей бет үшін
+*Мынаның шаршы түбірі (Барлық Істелінген Түзетулер) ‒ (Барлық Бірегей Беттер) * 2
+Осы тәсілмен саналған есептер түзету ауқымындағы өңдеу әркелкілігінің салмағын өлшейді. Негізінде, бұл есеп алдымен түзетілген біркелкі беттерді өлшейді, жоғарғы өңдеу ауқымымен бірге — жоғары сапалы бет жағдайымен есептеп.",
+	'contributionscores-top' => '(Жоғарғы $1)',
+	'contributionscores-days' => 'Соңғы $1 күнде',
+	'contributionscores-allrevisions' => 'Барлық нұсқалар',
+	'contributionscores-score' => 'Есеп',
+	'contributionscores-pages' => 'Беттер',
+	'contributionscores-changes' => 'Өзгерістер',
+	'contributionscores-username' => 'Қатысушы аты',
+);
+$messages['kk-latn'] = array(
+	'contributionscores' => 'Üles berw esepteri',
+	'contributionscores-info' => "Esepter kelesi deý sanaladı:
+*1 upaý ärbir tüzetilgen biregeý bet üşin
+*Mınanıñ şarşı tübiri (Barlıq İstelingen Tüzetwler) ‒ (Barlıq Biregeý Better) * 2
+Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiliginiñ salmağın ölşeýdi. Negizinde, bul esep aldımen tüzetilgen birkelki betterdi ölşeýdi, joğarğı öñdew awqımımen birge — joğarı sapalı bet jağdaýımen eseptep.",
+	'contributionscores-top' => '(Joğarğı $1)',
+	'contributionscores-days' => 'Soñğı $1 künde',
+	'contributionscores-allrevisions' => 'Barlıq nusqalar',
+	'contributionscores-score' => 'Esep',
+	'contributionscores-pages' => 'Better',
+	'contributionscores-changes' => 'Özgerister',
+	'contributionscores-username' => 'Qatıswşı atı',
+);
+$messages['kk-arab'] = array(
+	'contributionscores' => 'ٷلەس بەرۋ ەسەپتەرٸ',
+	'contributionscores-info' => "ەسەپتەر كەلەسٸ دەي سانالادى:
+*1 ۇپاي ٵربٸر تٷزەتٸلگەن بٸرەگەي بەت ٷشٸن
+*مىنانىڭ شارشى تٷبٸرٸ (بارلىق ٸستەلٸنگەن تٷزەتۋلەر) ‒ (بارلىق بٸرەگەي بەتتەر) * 2
+وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.",
+	'contributionscores-top' => '(جوعارعى $1)',
+	'contributionscores-days' => 'سوڭعى $1 كٷندە',
+	'contributionscores-allrevisions' => 'بارلىق نۇسقالار',
+	'contributionscores-score' => 'ەسەپ',
+	'contributionscores-pages' => 'بەتتەر',
+	'contributionscores-changes' => 'ٶزگەرٸستەر',
+	'contributionscores-username' => 'قاتىسۋشى اتى',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -289,6 +332,13 @@ $messages['zh-hant'] = array(
 	'contributionscores-username' => '用戶名',
 );
 
+/* Kazakh fallbacks */
+$messages['kk-kz'] = $messages['kk-cyrl'];
+$messages['kk-tr'] = $messages['kk-latn'];
+$messages['kk-cn'] = $messages['kk-arab'];
+$messages['kk'] = $messages['kk-cyrl'];
+
+/* Chinese fallbacks */
 $messages['zh'] = $messages['zh-hans'];
 $messages['zh-cn'] = $messages['zh-hans'];
 $messages['zh-hk'] = $messages['zh-hant'];
