@@ -36,7 +36,7 @@ class ContributionScores extends IncludableSpecialPage
 
 		$opts = explode(',', strtolower($options));
 		
-		$dbr =& wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_SLAVE );
 
 		$userTable = $dbr->tableName('user');
 		$userGroupTable = $dbr->tableName('user_groups');
@@ -92,10 +92,10 @@ class ContributionScores extends IncludableSpecialPage
 		
 		$output = "<table class=\"wikitable plainlinks{$sortable}\" >\n".
 			"<tr class='contributionscores-tableheadings'>\n".
-			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-score' ) . "</td>\n" .
-			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-pages' ) . "</td>\n" .
-			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-changes' ) . "</td>\n" .
-			"<td class=\"contributionscores-headercell\">" . wfMsg( 'contributionscores-username' ) . "</td>\n";
+			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-score' ) . "</td>\n" .
+			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-pages' ) . "</td>\n" .
+			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-changes' ) . "</td>\n" .
+			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-username' ) . "</td>\n";
 
 		$skin =& $wgUser->getSkin();
 		$altrow = '';
@@ -106,7 +106,7 @@ class ContributionScores extends IncludableSpecialPage
 				$row->rev_count . "\n</td><td class='contributionscores-contentcell'>" .
 				$skin->userLink( $row->user_id, $row->user_name );
 			
-			# Option to not display user tools 
+			# Option to not display user tools
 			if ( !in_array( 'notools', $opts ) )
 				$output .= $skin->userToolLinks( $row->user_id, $row->user_name );
 			
@@ -150,6 +150,7 @@ class ContributionScores extends IncludableSpecialPage
 		}
 		return true;
 	}
+
 	function showInclude( $par ) {
 		global $wgOut;
 
@@ -180,7 +181,7 @@ class ContributionScores extends IncludableSpecialPage
 			$reportTitle = wfMsg( 'contributionscores-allrevisions' );
 		}
 		$reportTitle .= " " . wfMsg( 'contributionscores-top', $limit );
-		$title = "<h4 class='contributionscores-title'> $reportTitle </h4>\n";
+		$title = Xml::element( 'h4', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
 		$wgOut->addHtml( $this->genContributionScoreTable( $days, $limit, $title, $options ) );
 	}
 	
@@ -194,17 +195,18 @@ class ContributionScores extends IncludableSpecialPage
 				array(0,50));
 		}
 
-		$wgOut->addWikiText (wfMsg('contributionscores-info'));
+		$wgOut->addWikiText( wfMsg( 'contributionscores-info' ) );
 
 		foreach ( $contribScoreReports as $scoreReport) {
 			if ( $scoreReport[0] > 0 ) {
-				$reportTitle = wfMsg('contributionscores-days', $scoreReport[0]);
+				$reportTitle = wfMsg( 'contributionscores-days', $scoreReport[0] );
 			} else {
-				$reportTitle = wfMsg('contributionscores-allrevisions');
+				$reportTitle = wfMsg( 'contributionscores-allrevisions' );
 			}
-			$reportTitle .= " " . wfMsg('contributionscores-top', $scoreReport[1]);
-			$wgOut->addHtml ("<h2 class='contributionscores-title'>$reportTitle</h2>\n");
-			$wgOut->addHtml( $this->genContributionScoreTable($scoreReport[0],$scoreReport[1]));
+			$reportTitle .= " " . wfMsg('contributionscores-top', $scoreReport[1] );
+			$title = Xml::element( 'h2', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
+			$wgOut->addHtml( $title );
+			$wgOut->addHtml( $this->genContributionScoreTable( $scoreReport[0], $scoreReport[1] ) );
 		}
 	}
 }
