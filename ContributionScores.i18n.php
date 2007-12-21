@@ -77,10 +77,23 @@ $messages['ext'] = array(
 	'contributionscores-days' => 'Úrtimus $1 dias',
 );
 
+/** Finnish (Suomi)
+ * @author Nike
+ */
 $messages['fi'] = array(
-	'contributionscores' => 'Muokkauspisteet',
-	'contributionscores-days' => '$1 päivän ajalta',
+	'contributionscores'              => 'Muokkauspisteet',
+	'contributionscores-info'         => 'Pisteet lasketaan seuraavalla kaavalla:
+* Yksi piste jokaisesta muokatusta sivusta
+* Neliöjuuri (muokkausten määrä) - (muokatut sivut) * 2
+
+Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytännössä pisteet mittaavat muokattujen sivujen määrää, ottaen huomioon muutosten suuren määrän.',
+	'contributionscores-top'          => '(top $1)',
+	'contributionscores-days'         => '$1 päivän ajalta',
 	'contributionscores-allrevisions' => 'Kaikki muutokset',
+	'contributionscores-score'        => 'Pisteet',
+	'contributionscores-pages'        => 'Sivuja',
+	'contributionscores-changes'      => 'Muutoksia',
+	'contributionscores-username'     => 'Käyttäjä',
 );
 
 $messages['fr'] = array(
