@@ -209,6 +209,14 @@ $messages['kk-arab'] = array(
 	'contributionscores-username' => 'قاتىسۋشى اتى',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'contributionscores-top'      => '(Top $1)',
+	'contributionscores-username' => 'Benotzernumm',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
