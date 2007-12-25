@@ -38,6 +38,15 @@ $messages['ar'] = array(
 	'contributionscores-username' => 'اسم المستخدم',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'contributionscores-pages'    => 'Страници',
+	'contributionscores-changes'  => 'Редакции',
+	'contributionscores-username' => 'Потребител',
+);
+
 $messages['de'] = array(
 	'contributionscores'              => 'Benutzerbeiträge bewerten',
 	'contributionscores-info'         => "Bewertungsschema:
@@ -53,12 +62,16 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
 	'contributionscores-username'     => 'Benutzername',
 );
 
+/** Greek (Ελληνικά)
+ * @author Consta
+ */
 $messages['el'] = array(
-	'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
-	'contributionscores-days' => 'Τελευταίες $1 Ημέρες',
-	'contributionscores-score' => 'Βαθμολογία',
-	'contributionscores-pages' => 'Σελίδες',
-	'contributionscores-changes' => 'Αλλαγές',
+	'contributionscores'          => 'Αποτελέσματα Συνεισφοράς',
+	'contributionscores-top'      => '(Πρώτοι $1)',
+	'contributionscores-days'     => 'Τελευταίες $1 Ημέρες',
+	'contributionscores-score'    => 'Βαθμολογία',
+	'contributionscores-pages'    => 'Σελίδες',
+	'contributionscores-changes'  => 'Αλλαγές',
 	'contributionscores-username' => 'Όνομα χρήστη',
 );
 
