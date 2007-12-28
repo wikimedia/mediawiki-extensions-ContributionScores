@@ -13,7 +13,7 @@ $messages['en'] = array(
 	'contributionscores-info' => "Scores are calculated as follows:
 *1 point for each unique page edited
 *Square Root of (Total Edits Made) - (Total Unique Pages) * 2
-Scores calculated in this manner weight edit diversity over edit volume.  Basically, this score measures primarily unique pages edited, with consideration for high edit volume - assumed to be a higher quality article.",
+Scores calculated in this manner weight edit diversity over edit volume.  Basically, this score measures primarily unique pages edited, with consideration for high edit volume - assumed to be a higher quality page.",
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Last $1 Days',
 	'contributionscores-allrevisions' => 'All Revisions',
