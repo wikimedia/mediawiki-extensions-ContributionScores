@@ -23,19 +23,22 @@ Scores calculated in this manner weight edit diversity over edit volume.  Basica
 	'contributionscores-username' => 'Username',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
 $messages['ar'] = array(
-	'contributionscores' => 'نتائج المساهمات',
-	'contributionscores-info' => 'النتائج تحسب كالتالي:
+	'contributionscores'              => 'نتائج المساهمات',
+	'contributionscores-info'         => 'النتائج تحسب كالتالي:
 *1 نقطة لكل صفحة فريدة تحرر
 *الجذر التربيعي ل(عدد التعديلات الكلية) - (عدد الصفحات الفريدة الكلية) * 2
-النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسي الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون مقالة بجودة أعلى.',
-	'contributionscores-top' => '(أعلى $1)',
-	'contributionscores-days' => 'آخر $1 يوم',
+النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسي الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.',
+	'contributionscores-top'          => '(أعلى $1)',
+	'contributionscores-days'         => 'آخر $1 يوم',
 	'contributionscores-allrevisions' => 'كل النسخ',
-	'contributionscores-score' => 'النتيجة',
-	'contributionscores-pages' => 'الصفحات',
-	'contributionscores-changes' => 'التغييرات',
-	'contributionscores-username' => 'اسم المستخدم',
+	'contributionscores-score'        => 'النتيجة',
+	'contributionscores-pages'        => 'الصفحات',
+	'contributionscores-changes'      => 'التغييرات',
+	'contributionscores-username'     => 'اسم المستخدم',
 );
 
 /** Bulgarian (Български)
@@ -109,51 +112,61 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 	'contributionscores-username'     => 'Käyttäjä',
 );
 
+/** French (Français)
+ * @author Sherbrooke
+ * @author Grondin
+ */
 $messages['fr'] = array(
-	'contributionscores' => 'Pointage des contributions',
-	'contributionscores-info' => 'Le pointage se calcule comme suit :
+	'contributionscores'              => 'Pointage des contributions',
+	'contributionscores-info'         => "Les scores sont calculés de la manière suivante :
 * 1 point pour chaque page modifiée ;
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
 
-De cette façon, le pointage calculé préfère la diversité à la quantité. Écrit d\'une autre façon, ce pointage s\'intéresse principalement à montrer le nombre de modifications de pages différentes, puis la quantité totale de modifications.',
-	'contributionscores-top' => '(Meilleur $1)',
-	'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
+De cette façon, les scores ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d'une autre façon, ils s'intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.",
+	'contributionscores-top'          => '(Meilleur $1)',
+	'contributionscores-days'         => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Toutes les révisions',
-	'contributionscores-score' => 'Pointage',
-	'contributionscores-pages' => 'Pages',#identical but defined
-	'contributionscores-changes' => 'Modifications',
-	'contributionscores-username' => 'Pseudonyme',
+	'contributionscores-score'        => 'Pointage',
+	'contributionscores-pages'        => 'Pages',
+	'contributionscores-changes'      => 'Modifications',
+	'contributionscores-username'     => 'Pseudonyme',
 );
 
+/** Galician (Galego)
+ * @author Xosé
+ */
 $messages['gl'] = array(
-	'contributionscores' => 'Puntuación das Contribucións',
-	'contributionscores-info' => 'As puntuacións calcúlanse como segue:
+	'contributionscores'              => 'Puntuación das Contribucións',
+	'contributionscores-info'         => 'As puntuacións calcúlanse como segue:
 *1 punto por cada páxina única editada
 *Raíz cadrada de (Total de Edicións Feitas) - (Total de Páxinas Únicas) * 2
 As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume. Basicamente, esta puntuación mide en principio as páxinas únicas editadas, tendo en conta un volume alto de edicións - co que se asume que é un artigo de calidade superior.',
-	'contributionscores-top' => '(Os $1 que máis)',
-	'contributionscores-days' => 'Os Últimos $1 Días',
+	'contributionscores-top'          => '(Os $1 que máis)',
+	'contributionscores-days'         => 'Os Últimos $1 Días',
 	'contributionscores-allrevisions' => 'Todas as Revisións',
-	'contributionscores-score' => 'Puntuación',
-	'contributionscores-pages' => 'Páxinas',
-	'contributionscores-changes' => 'Cambios',
-	'contributionscores-username' => 'Nome de usuario',
+	'contributionscores-score'        => 'Puntuación',
+	'contributionscores-pages'        => 'Páxinas',
+	'contributionscores-changes'      => 'Cambios',
+	'contributionscores-username'     => 'Nome de usuario',
 );
 
+/** Croatian (Hrvatski)
+ * @author SpeedyGonsales
+ */
 $messages['hr'] = array(
-	'contributionscores' => 'Najbolji suradnici',
-	'contributionscores-info' => 'Rezultat se dobiva kao suma slijedećih stavki:
+	'contributionscores'              => 'Najbolji suradnici',
+	'contributionscores-info'         => 'Rezultat se dobiva kao suma slijedećih stavki:
 *1 bod za svaku stranicu koju ste uređivali
 * (kvadratni) korijen iz (broja ukupnih uređivanja) - (broja stranica koje ste uređivali) * 2
 
 Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih stranica nego ukupnom broju uređivanja. U osnovi, ovakav rezultat mjeri prvenstveno broj različitih stranica koje ste uređivali, uzimajući u obzir broj uređivanja, jer veći broj uređivanja na nekom članku daje kvalitetniji članak.',
-	'contributionscores-top' => '(Najboljih $1)',
-	'contributionscores-days' => 'Zadnjih $1 dana',
+	'contributionscores-top'          => '(Najboljih $1)',
+	'contributionscores-days'         => 'Zadnjih $1 dana',
 	'contributionscores-allrevisions' => 'Sva uređivanja',
-	'contributionscores-score' => 'Rezultat',
-	'contributionscores-pages' => 'Stranica',
-	'contributionscores-changes' => 'Uređivanja',
-	'contributionscores-username' => 'Ime suradnika',
+	'contributionscores-score'        => 'Rezultat',
+	'contributionscores-pages'        => 'Stranica',
+	'contributionscores-changes'      => 'Uređivanja',
+	'contributionscores-username'     => 'Ime suradnika',
 );
 
 $messages['hsb'] = array(
@@ -171,11 +184,14 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 	'contributionscores-username' => 'Wužiwarske mjeno',
 );
 
+/** Italian (Italiano)
+ * @author Gianfranco
+ */
 $messages['it'] = array(
-	'contributionscores' => 'Punteggi contributi',
-	'contributionscores-info' => 'I punteggi sono così calcolati: *1 punto per ogni singola pagina editata *Radice quadrata di (Tutti gli Edit Effettuati) - (Totale Pagine Singole) * 2 I punteggi calcolati in questo modo tengono conto della diversità di edizione nel complesso dei contributi. Di fondo, questo punteggio misura primariamente le pagine singole editate, con debita considerazione per alti volumi di contribuzione - ciò fa presumere una più elevata qualità della voce editata.',
-	'contributionscores-top' => '(Ultimi $1)',
-	'contributionscores-days' => 'Ultimi $1 giorni',
+	'contributionscores'              => 'Punteggi contributi',
+	'contributionscores-info'         => 'I punteggi sono così calcolati: *1 punto per ogni singola pagina editata *Radice quadrata di (Tutti gli Edit Effettuati) - (Totale Pagine Singole) * 2 I punteggi calcolati in questo modo tengono conto della diversità di edizione nel complesso dei contributi. Di fondo, questo punteggio misura primariamente le pagine singole editate, con debita considerazione per alti volumi di contribuzione - ciò fa presumere una più elevata qualità della voce editata.',
+	'contributionscores-top'          => '(Ultimi $1)',
+	'contributionscores-days'         => 'Ultimi $1 giorni',
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
 );
 
@@ -246,22 +262,24 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 	'contributionscores-pages'        => "Pagina's",
 	'contributionscores-changes'      => 'Bewerkingen',
 	'contributionscores-username'     => 'Gebruiker',
-
 );
 
+/** Norwegian (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
 $messages['no'] = array(
-	'contributionscores' => 'Bidragspoeng',
-	'contributionscores-info' => 'Bidragspoeng regnes ut på følgende måte:
+	'contributionscores'              => 'Bidragspoeng',
+	'contributionscores-info'         => 'Bidragspoeng regnes ut på følgende måte:
 * 1 poeng for hver unike side som er redigert
 * Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
 Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redigeringsvolum. Dette betyr i bunn og grunn at dette primært måler hvor mange forskjellige sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til artikler av høyere kvalitet.',
-	'contributionscores-top' => '(Topp $1)',
-	'contributionscores-days' => 'Siste $1 dager',
+	'contributionscores-top'          => '(Topp $1)',
+	'contributionscores-days'         => 'Siste $1 dager',
 	'contributionscores-allrevisions' => 'Alle revisjoner',
-	'contributionscores-score' => 'Poeng',
-	'contributionscores-pages' => 'Sider',
-	'contributionscores-changes' => 'Endringer',
-	'contributionscores-username' => 'Brukernavn',
+	'contributionscores-score'        => 'Poeng',
+	'contributionscores-pages'        => 'Sider',
+	'contributionscores-changes'      => 'Endringer',
+	'contributionscores-username'     => 'Brukernavn',
 );
 
 /** Occitan (Occitan)
@@ -277,25 +295,30 @@ $messages['oc'] = array(
 	'contributionscores-pages'        => 'Paginas',
 	'contributionscores-changes'      => 'Modificacions',
 	'contributionscores-username'     => "Nom d'utilizaire",
-
 );
 
+/** Polish (Polski)
+ * @author Derbeth
+ */
 $messages['pl'] = array(
-	'contributionscores' => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
-	'contributionscores-info' => 'Punkty za edycje',
-	'contributionscores-top' => '(Czołowych $1)',
-	'contributionscores-days' => 'Ostatnie $1 dni',
+	'contributionscores'              => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
+	'contributionscores-info'         => 'Punkty za edycje',
+	'contributionscores-top'          => '(Czołowych $1)',
+	'contributionscores-days'         => 'Ostatnie $1 dni',
 	'contributionscores-allrevisions' => 'Wszystkie edycje',
 );
 
+/** Piemontèis (Piemontèis)
+ * @author Bèrto 'd Sèra
+ */
 $messages['pms'] = array(
-	'contributionscores' => 'Classìfica dla contribussion',
-	'contributionscores-info' => 'La classìfica as càlcola parej: 
+	'contributionscores'              => 'Classìfica dla contribussion',
+	'contributionscores-info'         => "La classìfica as càlcola parej: 
 *1 pont për minca pàgina modificà 
 *Rèis quadra ëd (Total dle Modìfiche Faite) - (Total dle Pàgine Ùniche) moltiplicà për 2 
-Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme. Sta classìfica a l\'amzura dzortut le pàgine ùniche ch\'a ven-o modificà, e ën vorend a-j da n\'euj ëd rësgoard a cole ch\'a l\'han n\'àot volum ëd modìfica, ch\'as pensa ch\'a peula esse na marca ëd qualità dl\'artìcol.',
-	'contributionscores-top' => '(Ij $1 mej)',
-	'contributionscores-days' => 'Ùltim $1 dì',
+Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme. Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ën vorend a-j da n'euj ëd rësgoard a cole ch'a l'han n'àot volum ëd modìfica, ch'as pensa ch'a peula esse na marca ëd qualità dl'artìcol.",
+	'contributionscores-top'          => '(Ij $1 mej)',
+	'contributionscores-days'         => 'Ùltim $1 dì',
 	'contributionscores-allrevisions' => 'Tute le revision',
 );
 
