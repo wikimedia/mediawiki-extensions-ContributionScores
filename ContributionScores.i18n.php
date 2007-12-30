@@ -345,6 +345,24 @@ Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer 
 	'contributionscores-username'     => 'Benutsernoome',
 );
 
+/** Swedish (Svenska)
+ * @author Lejonel
+ */
+$messages['sv'] = array(
+	'contributionscores'              => 'Bidragspoäng',
+	'contributionscores-info'         => 'Poängen beräknas på följande vis:
+* 1 poäng för varje unik sida som redigerats
+* kvadratroten av (antal gjorda redigeringar) - (antal unika sidor) * 2
+När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.',
+	'contributionscores-top'          => '(Topp $1)',
+	'contributionscores-days'         => 'Senaste $1 dagarna',
+	'contributionscores-allrevisions' => 'Alla redigeringar',
+	'contributionscores-score'        => 'Poäng',
+	'contributionscores-pages'        => 'Sidor',
+	'contributionscores-changes'      => 'Ändringar',
+	'contributionscores-username'     => 'Användarnamn',
+);
+
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-info' => '分數會用下面嘅計法去計:
