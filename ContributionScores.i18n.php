@@ -45,6 +45,7 @@ $messages['ar'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'contributionscores-days'     => 'Последните $1 дни',
 	'contributionscores-score'    => 'Точки',
 	'contributionscores-pages'    => 'Страници',
 	'contributionscores-changes'  => 'Редакции',
