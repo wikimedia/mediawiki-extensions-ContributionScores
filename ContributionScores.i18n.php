@@ -188,10 +188,14 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 
 /** Italian (Italiano)
  * @author Gianfranco
+ * @author BrokenArrow
  */
 $messages['it'] = array(
 	'contributionscores'              => 'Punteggi contributi',
-	'contributionscores-info'         => 'I punteggi sono così calcolati: *1 punto per ogni singola pagina editata *Radice quadrata di (Tutti gli Edit Effettuati) - (Totale Pagine Singole) * 2 I punteggi calcolati in questo modo tengono conto della diversità di edizione nel complesso dei contributi. Di fondo, questo punteggio misura primariamente le pagine singole editate, con debita considerazione per alti volumi di contribuzione - ciò fa presumere una più elevata qualità della voce editata.',
+	'contributionscores-info'         => 'I punteggi vengono calcolati in questo modo: 
+*1 punto per ciascuna pagina distinta modificata 
+*Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2 
+Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle modifiche rispetto al numero dei contributi. Di fondo, questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un eventuale alto volume di contributi - ciò fa presumere una più elevata qualità della pagina modificata.',
 	'contributionscores-top'          => '(Ultimi $1)',
 	'contributionscores-days'         => 'Ultimi $1 giorni',
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
@@ -301,10 +305,14 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Derbeth
+ * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'contributionscores'              => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
-	'contributionscores-info'         => 'Punkty za edycje',
+	'contributionscores-info'         => 'Punty naliczane są następującą metodą:
+*1 punkt za każdą edytowaną unikalną stronę
+*pierwiastek kwadratowy z (ogólna liczba edycji) - (wszystkich unikalnych stron) * 2
+Taki sposób naliczania pozwala wyważyć różnorodność edycji względem ilości edycji. Zasadniczo wynik uzależniony jest od ilości edytowanych unikalnych stron z uwzględnieniem dużej ilości edycji - zakładając wyższą wartość tworzenia nowych artykułów.',
 	'contributionscores-top'          => '(Czołowych $1)',
 	'contributionscores-days'         => 'Ostatnie $1 dni',
 	'contributionscores-allrevisions' => 'Wszystkie edycje',
