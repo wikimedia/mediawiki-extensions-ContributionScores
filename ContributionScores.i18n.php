@@ -308,8 +308,8 @@ $messages['oc'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'contributionscores'              => 'Test nie udał się! ([[Special:Captcha/help|objaśnienie]])',
-	'contributionscores-info'         => 'Punty naliczane są następującą metodą:
+	'contributionscores'              => 'Punktów za edycje',
+	'contributionscores-info'         => 'Punkty za edycje naliczane są następującą metodą:
 *1 punkt za każdą edytowaną unikalną stronę
 *pierwiastek kwadratowy z (ogólna liczba edycji) - (wszystkich unikalnych stron) * 2
 Taki sposób naliczania pozwala wyważyć różnorodność edycji względem ilości edycji. Zasadniczo wynik uzależniony jest od ilości edytowanych unikalnych stron z uwzględnieniem dużej ilości edycji - zakładając wyższą wartość tworzenia nowych artykułów.',
