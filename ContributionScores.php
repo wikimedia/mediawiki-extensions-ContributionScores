@@ -20,6 +20,8 @@ $wgExtensionCredits['specialpage'][] = array(
 define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
 define( 'CONTRIBUTIONSCORES_EXTPATH', str_replace( $_SERVER['DOCUMENT_ROOT'], '/', CONTRIBUTIONSCORES_PATH ) );
 define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
+$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . 'ContributionScores.i18n.php';
+
 $contribScoreReports = null;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
@@ -36,11 +38,8 @@ function efContributionScores() {
 	global $wgMessageCache;   
 	
 	#Add Messages   
-	require( CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php' );   
-	foreach( $messages as $key => $value ) {   
-		  $wgMessageCache->addMessages( $messages[$key], $key );   
+	wfLoadExtensionMessages('Contribution Scores');
 	}
-}
 
 function efContributionScores_addHeadScripts(&$out) {
 	$out->addScript( '<link rel="stylesheet" type="text/css" href="' . CONTRIBUTIONSCORES_EXTPATH . '/ContributionScores.css" />' . "\n" );

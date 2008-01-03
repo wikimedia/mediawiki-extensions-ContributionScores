@@ -125,7 +125,7 @@ $messages['fr'] = array(
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
 
 De cette façon, les scores ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d'une autre façon, ils s'intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.",
-	'contributionscores-top'          => '(Meilleur $1)',
+	'contributionscores-top'          => '(Les $1 meilleures)',
 	'contributionscores-days'         => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Toutes les révisions',
 	'contributionscores-score'        => 'Pointage',
