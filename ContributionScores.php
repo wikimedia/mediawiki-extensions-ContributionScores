@@ -20,14 +20,12 @@ $wgExtensionCredits['specialpage'][] = array(
 define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
 define( 'CONTRIBUTIONSCORES_EXTPATH', str_replace( $_SERVER['DOCUMENT_ROOT'], '/', CONTRIBUTIONSCORES_PATH ) );
 define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
-$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . 'ContributionScores.i18n.php';
-
 $contribScoreReports = null;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 
-if( version_compare( $wgVersion, '1.11', '>=' ) ) {    
+if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
 } else {
 	$wgExtensionFunctions[] = 'efContributionScores';
@@ -35,11 +33,14 @@ if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 
 ///Message Cache population for versions that did not support $wgExtensionFunctions
 function efContributionScores() {
-	global $wgMessageCache;   
+	global $wgMessageCache;
 	
-	#Add Messages   
-	wfLoadExtensionMessages('Contribution Scores');
+	#Add Messages
+	require( CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php' );
+	foreach( $messages as $key => $value ) {
+		  $wgMessageCache->addMessages( $messages[$key], $key );
 	}
+}
 
 function efContributionScores_addHeadScripts(&$out) {
 	$out->addScript( '<link rel="stylesheet" type="text/css" href="' . CONTRIBUTIONSCORES_EXTPATH . '/ContributionScores.css" />' . "\n" );
