@@ -243,6 +243,11 @@ $messages['kk-arab'] = array(
 	'contributionscores-changes' => 'ٶزگەرٸستەر',
 	'contributionscores-username' => 'قاتىسۋشى اتى',
 );
+	/* Kazakh fallbacks */
+	$messages['kk-kz'] = $messages['kk-cyrl'];
+	$messages['kk-tr'] = $messages['kk-latn'];
+	$messages['kk-cn'] = $messages['kk-arab'];
+	$messages['kk'] = $messages['kk-cyrl'];
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
@@ -432,13 +437,7 @@ $messages['zh-hant'] = array(
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用戶名',
 );
-
-/* Kazakh fallbacks */
-$messages['kk-kz'] = $messages['kk-cyrl'];
-$messages['kk-tr'] = $messages['kk-latn'];
-$messages['kk-cn'] = $messages['kk-arab'];
-$messages['kk'] = $messages['kk-cyrl'];
-
+�
 /* Chinese fallbacks */
 $messages['zh'] = $messages['zh-hans'];
 $messages['zh-cn'] = $messages['zh-hans'];
