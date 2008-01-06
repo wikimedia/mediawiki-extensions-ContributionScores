@@ -362,6 +362,14 @@ Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer 
 	'contributionscores-username'     => 'Benutsernoome',
 );
 
+/** Russian (Русский)
+ * @author Kalan
+ */
+$messages['ru'] = array(
+	'contributionscores-days'         => 'Последни{{plural:$1|й $1 день|е $1 дня|е $1 дней}}',
+	'contributionscores-allrevisions' => 'Все правки',
+);
+
 /** Swedish (Svenska)
  * @author Lejonel
  */
