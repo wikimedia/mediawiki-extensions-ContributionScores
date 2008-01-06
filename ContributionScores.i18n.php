@@ -393,6 +393,16 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
 	'contributionscores-username'     => 'Användarnamn',
 );
 
+/** Volapük (Volapük)
+ * @author Malafaya
+ */
+$messages['vo'] = array(
+	'contributionscores-days'     => 'Dels Lätik $1',
+	'contributionscores-pages'    => 'Pads',
+	'contributionscores-changes'  => 'Votükams',
+	'contributionscores-username' => 'Gebananem',
+);
+
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-info' => '分數會用下面嘅計法去計:
