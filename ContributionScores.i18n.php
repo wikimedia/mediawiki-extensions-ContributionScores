@@ -252,6 +252,14 @@ $messages['lb'] = array(
 	'contributionscores-username' => 'Benotzernumm',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Slomox
+ */
+$messages['nds'] = array(
+	'contributionscores-pages'    => 'Sieden',
+	'contributionscores-username' => 'Brukernaam',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
