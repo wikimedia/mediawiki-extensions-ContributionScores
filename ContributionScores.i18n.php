@@ -201,6 +201,20 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
 );
 
+$messages['kk-arab'] = array(
+	'contributionscores' => 'ٷلەس بەرۋ ەسەپتەرٸ',
+	'contributionscores-info' => "ەسەپتەر كەلەسٸ دەي سانالادى:
+*1 ۇپاي ٵربٸر تٷزەتٸلگەن بٸرەگەي بەت ٷشٸن
+*مىنانىڭ شارشى تٷبٸرٸ (بارلىق ٸستەلٸنگەن تٷزەتۋلەر) ‒ (بارلىق بٸرەگەي بەتتەر) * 2
+وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.",
+	'contributionscores-top' => '(جوعارعى $1)',
+	'contributionscores-days' => 'سوڭعى $1 كٷندە',
+	'contributionscores-allrevisions' => 'بارلىق نۇسقالار',
+	'contributionscores-score' => 'ەسەپ',
+	'contributionscores-pages' => 'بەتتەر',
+	'contributionscores-changes' => 'ٶزگەرٸستەر',
+	'contributionscores-username' => 'قاتىسۋشى اتى',
+);
 $messages['kk-cyrl'] = array(
 	'contributionscores' => 'Үлес беру есептері',
 	'contributionscores-info' => "Есептер келесі дей саналады:
@@ -229,32 +243,16 @@ Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiligini�
 	'contributionscores-changes' => 'Özgerister',
 	'contributionscores-username' => 'Qatıswşı atı',
 );
-$messages['kk-arab'] = array(
-	'contributionscores' => 'ٷلەس بەرۋ ەسەپتەرٸ',
-	'contributionscores-info' => "ەسەپتەر كەلەسٸ دەي سانالادى:
-*1 ۇپاي ٵربٸر تٷزەتٸلگەن بٸرەگەي بەت ٷشٸن
-*مىنانىڭ شارشى تٷبٸرٸ (بارلىق ٸستەلٸنگەن تٷزەتۋلەر) ‒ (بارلىق بٸرەگەي بەتتەر) * 2
-وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.",
-	'contributionscores-top' => '(جوعارعى $1)',
-	'contributionscores-days' => 'سوڭعى $1 كٷندە',
-	'contributionscores-allrevisions' => 'بارلىق نۇسقالار',
-	'contributionscores-score' => 'ەسەپ',
-	'contributionscores-pages' => 'بەتتەر',
-	'contributionscores-changes' => 'ٶزگەرٸستەر',
-	'contributionscores-username' => 'قاتىسۋشى اتى',
-);
-	/* Kazakh fallbacks */
-	$messages['kk-kz'] = $messages['kk-cyrl'];
-	$messages['kk-tr'] = $messages['kk-latn'];
-	$messages['kk-cn'] = $messages['kk-arab'];
-	$messages['kk'] = $messages['kk-cyrl'];
-
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
-	'contributionscores-top'      => '(Top $1)',
-	'contributionscores-username' => 'Benotzernumm',
+	'contributionscores-top'          => '(Top $1)',
+	'contributionscores-days'         => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
+	'contributionscores-allrevisions' => 'All Versiounen',
+	'contributionscores-pages'        => 'Säiten',
+	'contributionscores-changes'      => 'Ännerungen',
+	'contributionscores-username'     => 'Benotzernumm',
 );
 
 /** Low German (Plattdüütsch)
@@ -349,6 +347,14 @@ $messages['pt'] = array(
 	'contributionscores-username' => 'Nome de utilizador',
 );
 
+/** Russian (Русский)
+ * @author Kalan
+ */
+$messages['ru'] = array(
+	'contributionscores-days'         => 'Последни{{plural:$1|й $1 день|е $1 дня|е $1 дней}}',
+	'contributionscores-allrevisions' => 'Все правки',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
@@ -365,14 +371,6 @@ Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer 
 	'contributionscores-pages'        => 'Sieden',
 	'contributionscores-changes'      => 'Annerengen',
 	'contributionscores-username'     => 'Benutsernoome',
-);
-
-/** Russian (Русский)
- * @author Kalan
- */
-$messages['ru'] = array(
-	'contributionscores-days'         => 'Последни{{plural:$1|й $1 день|е $1 дня|е $1 дней}}',
-	'contributionscores-allrevisions' => 'Все правки',
 );
 
 /** Swedish (Svenska)
@@ -447,6 +445,12 @@ $messages['zh-hant'] = array(
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用戶名',
 );
+
+/* Kazakh fallbacks */
+$messages['kk'] = $messages['kk-cyrl'];
+$messages['kk-cn'] = $messages['kk-arab'];
+$messages['kk-kz'] = $messages['kk-cyrl'];
+$messages['kk-tr'] = $messages['kk-latn'];
 
 /* Chinese fallbacks */
 $messages['zh'] = $messages['zh-hans'];
