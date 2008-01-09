@@ -355,6 +355,24 @@ $messages['ru'] = array(
 	'contributionscores-allrevisions' => 'Все правки',
 );
 
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'contributionscores'              => 'Skóre príspevkov',
+	'contributionscores-info'         => 'Skóre sa počíta nasledovne:
+*1 bod za každú jedinečnú stránku, ktorú používateľ upravoval
+*Odmocnina z (celkom úprav) - (celkom jedinečných stránok) * 2
+Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.',
+	'contributionscores-top'          => '(Najlepších $1)',
+	'contributionscores-days'         => 'Posledných $1 dní',
+	'contributionscores-allrevisions' => 'Všetky revízie',
+	'contributionscores-score'        => 'Skóre',
+	'contributionscores-pages'        => 'Stránky',
+	'contributionscores-changes'      => 'Zmeny',
+	'contributionscores-username'     => 'Používateľské meno',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
@@ -446,13 +464,10 @@ $messages['zh-hant'] = array(
 	'contributionscores-username' => '用戶名',
 );
 
-/* Kazakh fallbacks */
 $messages['kk'] = $messages['kk-cyrl'];
 $messages['kk-cn'] = $messages['kk-arab'];
 $messages['kk-kz'] = $messages['kk-cyrl'];
 $messages['kk-tr'] = $messages['kk-latn'];
-
-/* Chinese fallbacks */
 $messages['zh'] = $messages['zh-hans'];
 $messages['zh-cn'] = $messages['zh-hans'];
 $messages['zh-hk'] = $messages['zh-hant'];
