@@ -348,11 +348,22 @@ $messages['pt'] = array(
 );
 
 /** Russian (Русский)
+ * @author .:Ajvol:.
  * @author Kalan
  */
 $messages['ru'] = array(
+	'contributionscores'              => 'Оценка вклада',
+	'contributionscores-info'         => 'Оценка рассчитывается сложением следующих слагаемых:
+* 1 очко за редактирование каждой уникальной страницы;
+* 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
+При подсчёте оценки, таким образом, разнообразию правок придаётся больший вес, чем общему количеству правок.',
+	'contributionscores-top'          => '(наивысшие $1)',
 	'contributionscores-days'         => 'Последни{{plural:$1|й $1 день|е $1 дня|е $1 дней}}',
 	'contributionscores-allrevisions' => 'Все правки',
+	'contributionscores-score'        => 'Оценка',
+	'contributionscores-pages'        => 'Страниц',
+	'contributionscores-changes'      => 'Правок',
+	'contributionscores-username'     => 'Имя участника',
 );
 
 /** Slovak (Slovenčina)
