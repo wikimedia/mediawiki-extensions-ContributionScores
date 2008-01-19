@@ -357,8 +357,8 @@ $messages['ru'] = array(
 * 1 очко за редактирование каждой уникальной страницы;
 * 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
 При подсчёте оценки, таким образом, разнообразию правок придаётся больший вес, чем общему количеству правок.',
-	'contributionscores-top'          => '(наивысшие $1)',
-	'contributionscores-days'         => 'Последни{{plural:$1|й $1 день|е $1 дня|е $1 дней}}',
+	'contributionscores-top'          => '(лучшие $1)',
+	'contributionscores-days'         => 'Последние $1 дней',
 	'contributionscores-allrevisions' => 'Все правки',
 	'contributionscores-score'        => 'Оценка',
 	'contributionscores-pages'        => 'Страниц',
