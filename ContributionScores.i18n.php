@@ -255,6 +255,20 @@ $messages['lb'] = array(
 	'contributionscores-username'     => 'Benotzernumm',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'contributionscores'              => 'Bewertung vun den Ännerungen',
+	'contributionscores-top'          => '(Top $1)',
+	'contributionscores-days'         => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
+	'contributionscores-allrevisions' => 'All Versiounen',
+	'contributionscores-score'        => 'Bewertung',
+	'contributionscores-pages'        => 'Säiten',
+	'contributionscores-changes'      => 'Ännerungen',
+	'contributionscores-username'     => 'Benotzernumm',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
