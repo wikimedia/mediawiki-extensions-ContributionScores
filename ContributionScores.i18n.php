@@ -318,7 +318,10 @@ Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redige
  */
 $messages['oc'] = array(
 	'contributionscores'              => 'Puntatge de las contribucions',
-	'contributionscores-info'         => "Lo puntatge se calcula coma seguís : * 1 punt per cada pagina modificada ; * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas) * 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a mostrar lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.",
+	'contributionscores-info'         => "Lo puntatge se calcula coma seguís : 
+* 1 punt per cada pagina modificada
+* raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas)
+* 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a mostrar lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.",
 	'contributionscores-top'          => '(Melhor $1)',
 	'contributionscores-days'         => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
 	'contributionscores-allrevisions' => 'Totas las revisions',
@@ -432,6 +435,15 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
 	'contributionscores-pages'        => 'Sidor',
 	'contributionscores-changes'      => 'Ändringar',
 	'contributionscores-username'     => 'Användarnamn',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'contributionscores-days'    => 'చివరి $1 రోజులు',
+	'contributionscores-pages'   => 'పేజీలు',
+	'contributionscores-changes' => 'మార్పులు',
 );
 
 /** Volapük (Volapük)
