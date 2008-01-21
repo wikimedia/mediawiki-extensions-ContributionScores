@@ -136,13 +136,14 @@ De cette façon, les scores ainsi calculés privilégient la diversité par rapp
 
 /** Galician (Galego)
  * @author Xosé
+ * @author Alma
  */
 $messages['gl'] = array(
 	'contributionscores'              => 'Puntuación das Contribucións',
 	'contributionscores-info'         => 'As puntuacións calcúlanse como segue:
 *1 punto por cada páxina única editada
 *Raíz cadrada de (Total de Edicións Feitas) - (Total de Páxinas Únicas) * 2
-As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume. Basicamente, esta puntuación mide en principio as páxinas únicas editadas, tendo en conta un volume alto de edicións - co que se asume que é un artigo de calidade superior.',
+As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume. Basicamente, esta puntuación mide en principio as páxinas únicas editadas, tendo en conta un volume alto de edicións - co que se asume que é unha páxina de calidade superior.',
 	'contributionscores-top'          => '(Os $1 que máis)',
 	'contributionscores-days'         => 'Os Últimos $1 Días',
 	'contributionscores-allrevisions' => 'Todas as Revisións',
