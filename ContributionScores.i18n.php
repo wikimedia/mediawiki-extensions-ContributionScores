@@ -447,6 +447,13 @@ $messages['te'] = array(
 	'contributionscores-changes' => 'మార్పులు',
 );
 
+/** Turkish (Türkçe)
+ * @author Karduelis
+ */
+$messages['tr'] = array(
+	'contributionscores-username' => 'Kullanıcı',
+);
+
 /** Volapük (Volapük)
  * @author Malafaya
  */
