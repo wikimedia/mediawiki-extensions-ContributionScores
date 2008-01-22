@@ -361,6 +361,13 @@ Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùme
 	'contributionscores-allrevisions' => 'Tute le revision',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'contributionscores-username' => 'کارن-نوم',
+);
+
 $messages['pt'] = array(
 	'contributionscores-username' => 'Nome de utilizador',
 );
