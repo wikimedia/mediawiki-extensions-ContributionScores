@@ -187,6 +187,24 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 	'contributionscores-username' => 'Wužiwarske mjeno',
 );
 
+/** Hungarian (Magyar)
+ * @author Bdanee
+ */
+$messages['hu'] = array(
+	'contributionscores'              => 'Szerkesztési pontszám',
+	'contributionscores-info'         => 'A pontszámok az alábbi módon vannak kiszámolva:
+*1 pont minden egyedi lap szerkesztése után
+*(Az összes szerkesztés) - (Az összes egyedi lap) * 2 négyzetgyöke
+Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.',
+	'contributionscores-top'          => '(legjobb $1)',
+	'contributionscores-days'         => 'Utolsó $1 nap',
+	'contributionscores-allrevisions' => 'Összes szerkesztés',
+	'contributionscores-score'        => 'Pontszám',
+	'contributionscores-pages'        => 'Oldalak',
+	'contributionscores-changes'      => 'Változtatások',
+	'contributionscores-username'     => 'Felhasználó',
+);
+
 /** Italian (Italiano)
  * @author Gianfranco
  * @author BrokenArrow
