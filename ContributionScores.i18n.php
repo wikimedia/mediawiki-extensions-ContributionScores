@@ -391,7 +391,15 @@ $messages['ps'] = array(
 	'contributionscores-username' => 'کارن-نوم',
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ */
 $messages['pt'] = array(
+	'contributionscores'          => 'Pontuações de Contribuições',
+	'contributionscores-days'     => 'Últimos $1 Dias',
+	'contributionscores-score'    => 'Pontuação',
+	'contributionscores-pages'    => 'Páginas',
+	'contributionscores-changes'  => 'Alterações',
 	'contributionscores-username' => 'Nome de utilizador',
 );
 
