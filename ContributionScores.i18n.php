@@ -308,6 +308,7 @@ $messages['nds'] = array(
  */
 $messages['nl'] = array(
 	'contributionscores'              => 'Bijdragenscores',
+	'contributionscores-desc'         => 'Geeft een overzicht van [[Special:ContributionScores|gebruikers met de meeste bijdragen]] in de wiki',
 	'contributionscores-info'         => "Scores worden als volgt berekend:
 *1 punt voor iedere bewerkte pagina
 *wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina's) * 2
@@ -429,6 +430,7 @@ $messages['ru'] = array(
  */
 $messages['sk'] = array(
 	'contributionscores'              => 'Skóre príspevkov',
+	'contributionscores-desc'         => 'Zisťuje naväčší [[Special:ContributionScores|objem používateľských príspevkov]] z databázy wiki',
 	'contributionscores-info'         => 'Skóre sa počíta nasledovne:
 *1 bod za každú jedinečnú stránku, ktorú používateľ upravoval
 *Odmocnina z (celkom úprav) - (celkom jedinečných stránok) * 2
