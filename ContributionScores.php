@@ -14,6 +14,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url'=>'http://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
+	'descriptionmsg' => 'contributionscores-desc',
 	'version'=>'1.7.1'
 );
 
