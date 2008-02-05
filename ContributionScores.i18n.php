@@ -10,7 +10,7 @@ $messages = array();
 
 $messages['en'] = array(
 	'contributionscores' => 'Contribution Scores',
-	'contributionscores-desc' => 'Polls wiki database for highest user contribution volume',
+	'contributionscores-desc' => 'Polls wiki database for highest [[Special:ContributionScores|user contribution volume]]',
 	'contributionscores-info' => "Scores are calculated as follows:
 *1 point for each unique page edited
 *Square Root of (Total Edits Made) - (Total Unique Pages) * 2
@@ -121,7 +121,7 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
  */
 $messages['fr'] = array(
 	'contributionscores'              => 'Pointage des contributions',
-	'contributionscores-desc'         => 'Scrute la base de donnée wiki pour les utilisateurs contribuant le plus',
+	'contributionscores-desc'         => 'Scrute la base de donnée wiki pour les [[Special:ContributionScores|utilisateurs contribuant le plus]]',
 	'contributionscores-info'         => "Les scores sont calculés de la manière suivante :
 * 1 point pour chaque page modifiée ;
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
