@@ -398,12 +398,19 @@ $messages['ps'] = array(
  * @author Malafaya
  */
 $messages['pt'] = array(
-	'contributionscores'          => 'Pontuações de Contribuições',
-	'contributionscores-days'     => 'Últimos $1 Dias',
-	'contributionscores-score'    => 'Pontuação',
-	'contributionscores-pages'    => 'Páginas',
-	'contributionscores-changes'  => 'Alterações',
-	'contributionscores-username' => 'Nome de utilizador',
+	'contributionscores'              => 'Pontuações de Contribuições',
+	'contributionscores-desc'         => 'Inquire a base de dados wiki sobre os [[{{ns:special}}:ContributionScores|volumes de contribuições de utilizadores]] mais altos',
+	'contributionscores-info'         => 'As pontuações são calculadas da seguinte forma:
+*1 ponto por cada página única editada
+*Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
+Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração por alto volume de edições - assumindo serem páginas de qualidade mais alta.',
+	'contributionscores-top'          => '(Primeiras $1)',
+	'contributionscores-days'         => 'Últimos $1 Dias',
+	'contributionscores-allrevisions' => 'Todas As Revisões',
+	'contributionscores-score'        => 'Pontuação',
+	'contributionscores-pages'        => 'Páginas',
+	'contributionscores-changes'      => 'Alterações',
+	'contributionscores-username'     => 'Nome de utilizador',
 );
 
 /** Russian (Русский)
