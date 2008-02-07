@@ -29,6 +29,7 @@ Scores calculated in this manner weight edit diversity over edit volume.  Basica
  */
 $messages['ar'] = array(
 	'contributionscores'              => 'نتائج المساهمات',
+	'contributionscores-desc'         => 'يسحب قاعدة بيانات الويكي لأعلى [[Special:ContributionScores|حجم لمساهمات المستخدم]]',
 	'contributionscores-info'         => 'النتائج تحسب كالتالي:
 *1 نقطة لكل صفحة فريدة تحرر
 *الجذر التربيعي ل(عدد التعديلات الكلية) - (عدد الصفحات الفريدة الكلية) * 2
