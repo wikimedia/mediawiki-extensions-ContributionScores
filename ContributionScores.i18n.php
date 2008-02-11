@@ -175,19 +175,23 @@ Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih
 	'contributionscores-username'     => 'Ime suradnika',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
 $messages['hsb'] = array(
-	'contributionscores' => 'Wuhódnoćenje přinoškow',
-	'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
+	'contributionscores'              => 'Wuhódnoćenje přinoškow',
+	'contributionscores-desc'         => 'Wuslědźi najwyši [[Special:ContributionScores|wobjim wužiwarskich přinoškow]] w datowej bance wikiprojekta',
+	'contributionscores-info'         => 'Ličba dypkow so takle wobličuje:
 *1 dypk za kóždy wobdźěłanu jednotliwu stronu
 *Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
 Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
-	'contributionscores-top' => '(Najlěpše $1)',
-	'contributionscores-days' => 'Poslednje $1 dnjow',
+	'contributionscores-top'          => '(Najlěpše $1)',
+	'contributionscores-days'         => 'Poslednje $1 dnjow',
 	'contributionscores-allrevisions' => 'Wšě změny',
-	'contributionscores-score' => 'Hódnoćenje',
-	'contributionscores-pages' => 'Strony',
-	'contributionscores-changes' => 'Změny',
-	'contributionscores-username' => 'Wužiwarske mjeno',
+	'contributionscores-score'        => 'Hódnoćenje',
+	'contributionscores-pages'        => 'Strony',
+	'contributionscores-changes'      => 'Změny',
+	'contributionscores-username'     => 'Wužiwarske mjeno',
 );
 
 /** Hungarian (Magyar)
@@ -221,6 +225,25 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 	'contributionscores-top'          => '(Ultimi $1)',
 	'contributionscores-days'         => 'Ultimi $1 giorni',
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
+);
+
+/** Japanese (日本語)
+ * @author JtFuruhata
+ */
+$messages['ja'] = array(
+	'contributionscores'              => '貢献スコア',
+	'contributionscores-desc'         => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
+	'contributionscores-info'         => 'スコアは以下のように計算されます:
+*編集したページ毎に、1ポイント
+*「 (全編集回数) - (編集したページ数) * 2 」の平方根
+この計算式では、編集量よりも編集の多様性が重要視されます。スコアは基本的に、高いクォリティのページを維持するため編集量が多くなることにも配慮しつつ、評価の根幹は編集したページ数にあるというものです。',
+	'contributionscores-top'          => '（上位$1名）',
+	'contributionscores-days'         => '最近の$1日間',
+	'contributionscores-allrevisions' => '全履歴',
+	'contributionscores-score'        => 'スコア',
+	'contributionscores-pages'        => 'ページ数',
+	'contributionscores-changes'      => '変更回数',
+	'contributionscores-username'     => '利用者名',
 );
 
 $messages['kk-arab'] = array(
@@ -392,6 +415,9 @@ Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùme
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'contributionscores-days'     => 'وروستۍ $1 ورځې',
+	'contributionscores-pages'    => 'مخونه',
+	'contributionscores-changes'  => 'بدلونونه',
 	'contributionscores-username' => 'کارن-نوم',
 );
 
@@ -405,7 +431,7 @@ $messages['pt'] = array(
 *1 ponto por cada página única editada
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
 Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração por alto volume de edições - assumindo serem páginas de qualidade mais alta.',
-	'contributionscores-top'          => '(Primeiras $1)',
+	'contributionscores-top'          => '(Primeiros $1)',
 	'contributionscores-days'         => 'Últimos $1 Dias',
 	'contributionscores-allrevisions' => 'Todas As Revisões',
 	'contributionscores-score'        => 'Pontuação',
@@ -558,3 +584,4 @@ $messages['zh-hant'] = array(
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用戶名',
 );
+
