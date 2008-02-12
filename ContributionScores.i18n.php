@@ -233,10 +233,13 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 $messages['ja'] = array(
 	'contributionscores'              => '貢献スコア',
 	'contributionscores-desc'         => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
-	'contributionscores-info'         => 'スコアは以下のように計算されます:
+	'contributionscores-info'         => "スコアは以下のように計算されます:
 *編集したページ毎に、1ポイント
-*「 (全編集回数) - (編集したページ数) * 2 」の平方根
-この計算式では、編集量よりも編集の多様性が重要視されます。スコアは基本的に、高いクォリティのページを維持するため編集量が多くなることにも配慮しつつ、評価の根幹は編集したページ数にあるというものです。',
+*[(変更回数) - (ページ数)]の平方根 * 2
+
+:''スコア = (ページ数) + SQRT((変更回数)-(ページ数))*2''
+
+この計算式では、編集量よりも編集の多様性が重要視されます。スコアは、編集したページ数を基礎に、高いクォリティのページを維持するため多くの編集を行うことにも配慮した評価となっています。",
 	'contributionscores-top'          => '（上位$1名）',
 	'contributionscores-days'         => '最近の$1日間',
 	'contributionscores-allrevisions' => '全履歴',
@@ -362,6 +365,15 @@ Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redige
 	'contributionscores-pages'        => 'Sider',
 	'contributionscores-changes'      => 'Endringer',
 	'contributionscores-username'     => 'Brukernavn',
+);
+
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'contributionscores-pages'    => 'Matlakala',
+	'contributionscores-changes'  => 'Diphetogo',
+	'contributionscores-username' => 'Leina la mošomši',
 );
 
 /** Occitan (Occitan)
