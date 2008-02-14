@@ -54,6 +54,13 @@ $messages['bg'] = array(
 	'contributionscores-username' => 'Потребител',
 );
 
+/** Czech (Česky)
+ * @author Matěj Grabovský
+ */
+$messages['cs'] = array(
+	'contributionscores-desc' => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
 */
@@ -385,6 +392,7 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'contributionscores'              => 'Puntatge de las contribucions',
+	'contributionscores-desc'         => 'Espia la banca de donadas wiki pels [[Special:ContributionScores|utilizaires contribuissent mai]]',
 	'contributionscores-info'         => "Lo puntatge se calcula coma seguís : 
 * 1 punt per cada pagina modificada
 * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas)
@@ -400,6 +408,7 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Derbeth
+ * @author Equadus
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -411,6 +420,8 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem ilo�
 	'contributionscores-top'          => '(Czołowych $1)',
 	'contributionscores-days'         => 'Ostatnie $1 dni',
 	'contributionscores-allrevisions' => 'Wszystkie edycje',
+	'contributionscores-pages'        => 'Strony',
+	'contributionscores-changes'      => 'Zmiany',
 );
 
 /** Piemontèis (Piemontèis)
