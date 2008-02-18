@@ -365,10 +365,11 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
  */
 $messages['no'] = array(
 	'contributionscores'              => 'Bidragspoeng',
+	'contributionscores-desc'         => 'Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]',
 	'contributionscores-info'         => 'Bidragspoeng regnes ut på følgende måte:
 * 1 poeng for hver unike side som er redigert
 * Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
-Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redigeringsvolum. Dette betyr i bunn og grunn at dette primært måler hvor mange forskjellige sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til artikler av høyere kvalitet.',
+Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redigeringsvolum. Dette betyr i bunn og grunn at dette primært måler hvor mange forskjellige sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.',
 	'contributionscores-top'          => '(Topp $1)',
 	'contributionscores-days'         => 'Siste $1 dager',
 	'contributionscores-allrevisions' => 'Alle revisjoner',
@@ -545,9 +546,11 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
  * @author Veeven
  */
 $messages['te'] = array(
-	'contributionscores-days'    => 'చివరి $1 రోజులు',
-	'contributionscores-pages'   => 'పేజీలు',
-	'contributionscores-changes' => 'మార్పులు',
+	'contributionscores-top'          => '(పై $1)',
+	'contributionscores-days'         => 'చివరి $1 రోజులు',
+	'contributionscores-allrevisions' => 'అన్ని కూర్పులు',
+	'contributionscores-pages'        => 'పేజీలు',
+	'contributionscores-changes'      => 'మార్పులు',
 );
 
 /** Turkish (Türkçe)
