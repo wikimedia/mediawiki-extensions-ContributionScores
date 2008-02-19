@@ -549,8 +549,10 @@ $messages['te'] = array(
 	'contributionscores-top'          => '(పై $1)',
 	'contributionscores-days'         => 'చివరి $1 రోజులు',
 	'contributionscores-allrevisions' => 'అన్ని కూర్పులు',
+	'contributionscores-score'        => 'స్కోరు',
 	'contributionscores-pages'        => 'పేజీలు',
 	'contributionscores-changes'      => 'మార్పులు',
+	'contributionscores-username'     => 'వాడుకరిపేరు',
 );
 
 /** Turkish (Türkçe)
