@@ -61,6 +61,14 @@ $messages['cs'] = array(
 	'contributionscores-desc' => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
 );
 
+/** Danish (Dansk)
+ * @author M.M.S.
+ */
+$messages['da'] = array(
+	'contributionscores-pages'    => 'Sider',
+	'contributionscores-username' => 'Brugernavn',
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
 */
