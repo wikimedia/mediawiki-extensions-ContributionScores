@@ -482,6 +482,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  */
 $messages['ru'] = array(
 	'contributionscores'              => 'Оценка вклада',
+	'contributionscores-desc'         => 'Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]',
 	'contributionscores-info'         => 'Оценка рассчитывается сложением следующих слагаемых:
 * 1 очко за редактирование каждой уникальной страницы;
 * 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
