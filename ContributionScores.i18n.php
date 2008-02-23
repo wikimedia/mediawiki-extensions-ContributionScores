@@ -137,16 +137,17 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 
 /** French (Français)
  * @author Sherbrooke
+ * @author Urhixidur
  * @author Grondin
  */
 $messages['fr'] = array(
 	'contributionscores'              => 'Pointage des contributions',
-	'contributionscores-desc'         => 'Scrute la base de donnée wiki pour les [[Special:ContributionScores|utilisateurs contribuant le plus]]',
-	'contributionscores-info'         => "Les scores sont calculés de la manière suivante :
+	'contributionscores-desc'         => 'Scrute la base de données wiki pour les [[Special:ContributionScores|utilisateurs contribuant le plus]]',
+	'contributionscores-info'         => 'Les pointages sont calculés de la manière suivante :
 * 1 point pour chaque page modifiée ;
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
 
-De cette façon, les scores ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d'une autre façon, ils s'intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.",
+De cette façon, les pointages ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d’une autre façon, ils s’intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.',
 	'contributionscores-top'          => '(Les $1 meilleures)',
 	'contributionscores-days'         => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Toutes les révisions',
