@@ -572,6 +572,14 @@ $messages['tr'] = array(
 	'contributionscores-username' => 'Kullanıcı',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'contributionscores-score'    => 'Điểm số',
+	'contributionscores-username' => 'Tên hiệu',
+);
+
 /** Volapük (Volapük)
  * @author Malafaya
  */
