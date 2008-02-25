@@ -232,6 +232,14 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-username'     => 'Felhasználó',
 );
 
+/** Icelandic (Íslenska)
+ * @author SPQRobin
+ */
+$messages['is'] = array(
+	'contributionscores-pages'    => 'Síður',
+	'contributionscores-username' => 'Notandanafn',
+);
+
 /** Italian (Italiano)
  * @author Gianfranco
  * @author BrokenArrow
@@ -321,6 +329,13 @@ $messages['lb'] = array(
 	'contributionscores-pages'        => 'Säiten',
 	'contributionscores-changes'      => 'Ännerungen',
 	'contributionscores-username'     => 'Benotzernumm',
+);
+
+/** Khmer (ភាសាខ្មែរ)
+ * @author Chhorran
+ */
+$messages['km'] = array(
+	'contributionscores-username' => 'ឈ្មោះអ្នកប្រើប្រាស់',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -539,6 +554,7 @@ Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer 
  */
 $messages['sv'] = array(
 	'contributionscores'              => 'Bidragspoäng',
+	'contributionscores-desc'         => 'Hämtar information från databasen om de användare som gjort [[Special:ContributionScores|flest bidrag]]',
 	'contributionscores-info'         => 'Poängen beräknas på följande vis:
 * 1 poäng för varje unik sida som redigerats
 * kvadratroten av (antal gjorda redigeringar) - (antal unika sidor) * 2
