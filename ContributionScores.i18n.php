@@ -335,6 +335,10 @@ $messages['lb'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
+	'contributionscores'          => 'តារាងពិន្ទុ នៃការរួមចំណែក',
+	'contributionscores-score'    => 'ពិន្ទុ',
+	'contributionscores-pages'    => 'ទំព័រ នានា',
+	'contributionscores-changes'  => 'បំលាស់ប្តូរ នានា',
 	'contributionscores-username' => 'ឈ្មោះអ្នកប្រើប្រាស់',
 );
 
