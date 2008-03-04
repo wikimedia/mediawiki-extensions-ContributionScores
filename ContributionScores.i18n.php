@@ -47,6 +47,7 @@ $messages['ar'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'contributionscores-top'      => '(Най-добрите $1)',
 	'contributionscores-days'     => 'Последните $1 дни',
 	'contributionscores-score'    => 'Точки',
 	'contributionscores-pages'    => 'Страници',
@@ -58,7 +59,14 @@ $messages['bg'] = array(
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
-	'contributionscores-desc' => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
+	'contributionscores-desc'         => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
+	'contributionscores-top'          => '(Nejlepších $1)',
+	'contributionscores-days'         => '{{plural:$1|Poslední den|Poslední $1 dny|Poseldních $1 dnů}}',
+	'contributionscores-allrevisions' => 'Všechny revize',
+	'contributionscores-score'        => 'Skóre',
+	'contributionscores-pages'        => 'Stránky',
+	'contributionscores-changes'      => 'Změny',
+	'contributionscores-username'     => 'Uživatelské jméno',
 );
 
 /** Danish (Dansk)
@@ -335,11 +343,14 @@ $messages['lb'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
-	'contributionscores'          => 'តារាងពិន្ទុ នៃការរួមចំណែក',
-	'contributionscores-score'    => 'ពិន្ទុ',
-	'contributionscores-pages'    => 'ទំព័រ នានា',
-	'contributionscores-changes'  => 'បំលាស់ប្តូរ នានា',
-	'contributionscores-username' => 'ឈ្មោះអ្នកប្រើប្រាស់',
+	'contributionscores'              => 'តារាងពិន្ទុ នៃការរួមចំណែក',
+	'contributionscores-top'          => '(កំពូល $1)',
+	'contributionscores-days'         => '$1 ថ្ងៃ ចុងក្រោយ',
+	'contributionscores-allrevisions' => 'គ្រប់កំណែ',
+	'contributionscores-score'        => 'ពិន្ទុ',
+	'contributionscores-pages'        => 'ទំព័រ នានា',
+	'contributionscores-changes'      => 'បំលាស់ប្តូរ នានា',
+	'contributionscores-username'     => 'ឈ្មោះអ្នកប្រើប្រាស់',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
