@@ -57,11 +57,12 @@ $messages['bg'] = array(
 
 /** Czech (Česky)
  * @author Matěj Grabovský
+ * @author Li-sung
  */
 $messages['cs'] = array(
 	'contributionscores-desc'         => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
-	'contributionscores-top'          => '(Nejlepších $1)',
-	'contributionscores-days'         => '{{plural:$1|Poslední den|Poslední $1 dny|Poseldních $1 dnů}}',
+	'contributionscores-top'          => '($1 nejvyšších)',
+	'contributionscores-days'         => '{{plural:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
 	'contributionscores-allrevisions' => 'Všechny revize',
 	'contributionscores-score'        => 'Skóre',
 	'contributionscores-pages'        => 'Stránky',
