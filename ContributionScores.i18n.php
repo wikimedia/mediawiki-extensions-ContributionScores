@@ -373,6 +373,15 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 	'contributionscores-username'     => 'Benotzernumm',
 );
 
+/** Marathi (मराठी)
+ * @author Mahitgar
+ */
+$messages['mr'] = array(
+	'contributionscores-allrevisions' => 'सर्व आवर्तने',
+	'contributionscores-pages'        => 'पाने',
+	'contributionscores-username'     => 'उपयोगकर्तानाव',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -449,8 +458,9 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Derbeth
- * @author Equadus
  * @author Sp5uhe
+ * @author Equadus
+ * @author McMonster
  */
 $messages['pl'] = array(
 	'contributionscores'              => 'Punktów za edycje',
@@ -463,6 +473,7 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem ilo�
 	'contributionscores-allrevisions' => 'Wszystkie edycje',
 	'contributionscores-pages'        => 'Strony',
 	'contributionscores-changes'      => 'Zmiany',
+	'contributionscores-username'     => 'Nazwa użytkownika',
 );
 
 /** Piemontèis (Piemontèis)
