@@ -110,6 +110,14 @@ $messages['el'] = array(
 	'contributionscores-username' => 'Όνομα χρήστη',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'contributionscores-changes'  => 'Ŝanĝoj',
+	'contributionscores-username' => 'Salutnomo',
+);
+
 $messages['es'] = array(
 	'contributionscores' => 'Puntuaciones por contribuir',
 	'contributionscores-info' => "Las puntuaciones son calculadas siguiendo:
