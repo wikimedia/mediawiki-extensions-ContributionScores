@@ -349,16 +349,17 @@ $messages['lb'] = array(
 );
 
 /** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
  * @author Chhorran
  */
 $messages['km'] = array(
-	'contributionscores'              => 'តារាងពិន្ទុ នៃការរួមចំណែក',
+	'contributionscores'              => 'តារាងពិន្ទុ​នៃការរួមចំណែក',
 	'contributionscores-top'          => '(កំពូល $1)',
-	'contributionscores-days'         => '$1 ថ្ងៃ ចុងក្រោយ',
-	'contributionscores-allrevisions' => 'គ្រប់កំណែ',
+	'contributionscores-days'         => '$1 ថ្ងៃ​ចុងក្រោយ',
+	'contributionscores-allrevisions' => 'គ្រប់កំនែ',
 	'contributionscores-score'        => 'ពិន្ទុ',
-	'contributionscores-pages'        => 'ទំព័រ នានា',
-	'contributionscores-changes'      => 'បំលាស់ប្តូរ នានា',
+	'contributionscores-pages'        => 'ទំព័រ​នានា',
+	'contributionscores-changes'      => 'បំលាស់ប្តូរ​នានា',
 	'contributionscores-username'     => 'ឈ្មោះអ្នកប្រើប្រាស់',
 );
 
@@ -584,6 +585,25 @@ Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer 
 	'contributionscores-username'     => 'Benutsernoome',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Kandar
+ */
+$messages['su'] = array(
+	'contributionscores'              => 'Peunteun Kontribusi',
+	'contributionscores-desc'         => 'Jajal pamanggih pangkalan data wiki ngeunaan [[Husus:Peunteunkontribusi|eusi kontribusi pamaké]] pangpunjulna',
+	'contributionscores-info'         => 'Peunteun diitung dumasar
+*1 peunteun pikeun unggal éditan dina kaca nu unik
+*Akar Kuadrat tina (Jumlah Éditan) - (Jumlah Kaca Unik) * 2
+Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah éditan. Ieu peunteun téh utamana ngukur éditan dina kaca nu unik, kalawan dirojong ku jumlah éditan anu loba - kalawan anggapan kacana jadi leuwih alus.',
+	'contributionscores-top'          => '(Punclut $1)',
+	'contributionscores-days'         => '$1 Poé Panungtung',
+	'contributionscores-allrevisions' => 'Sadaya Révisi',
+	'contributionscores-score'        => 'Peunteun',
+	'contributionscores-pages'        => 'Kaca',
+	'contributionscores-changes'      => 'Parobahan',
+	'contributionscores-username'     => 'Landihan',
+);
+
 /** Swedish (Svenska)
  * @author Lejonel
  */
@@ -614,6 +634,15 @@ $messages['te'] = array(
 	'contributionscores-pages'        => 'పేజీలు',
 	'contributionscores-changes'      => 'మార్పులు',
 	'contributionscores-username'     => 'వాడుకరిపేరు',
+);
+
+/** Tajik (Тоҷикӣ)
+ * @author Ibrahim
+ */
+$messages['tg'] = array(
+	'contributionscores-pages'    => 'Саҳифаҳо',
+	'contributionscores-changes'  => 'Тағйирот',
+	'contributionscores-username' => 'Номи корбарӣ',
 );
 
 /** Turkish (Türkçe)
