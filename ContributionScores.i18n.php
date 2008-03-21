@@ -234,7 +234,7 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 );
 
 /** Hungarian (Magyar)
- * @author Bdanee
+ * @author Dani
  */
 $messages['hu'] = array(
 	'contributionscores'              => 'Szerkesztési pontszám',
