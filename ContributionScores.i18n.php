@@ -115,9 +115,16 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'contributionscores-pages'    => 'Paĝoj',
-	'contributionscores-changes'  => 'Ŝanĝoj',
-	'contributionscores-username' => 'Salutnomo',
+	'contributionscores-info'         => 'Poentaroj estas donataj jene:
+*Unu (1) poento por ĉiu unika paĝo redaktata
+*Kvadrata Radiko de (Tutaj Faritaj Redaktoj) - (Tutaj Unikaj Paĝoj) * 2
+Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.
+Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.',
+	'contributionscores-days'         => 'Lastaj $1 Tagoj',
+	'contributionscores-allrevisions' => 'Ĉiuj Revizioj',
+	'contributionscores-pages'        => 'Paĝoj',
+	'contributionscores-changes'      => 'Ŝanĝoj',
+	'contributionscores-username'     => 'Salutnomo',
 );
 
 $messages['es'] = array(
@@ -370,6 +377,7 @@ $messages['km'] = array(
  */
 $messages['lb'] = array(
 	'contributionscores'              => 'Bewertung vun den Ännerungen',
+	'contributionscores-desc'         => "Ufro un d'Wiki-Datebank no den héichsten [[Special:ContributionScores|Benotzerscoren]]",
 	'contributionscores-info'         => "D'Bewertunge ginn esou gerechent:
 * 1 Punkt fir all geännert Säit;
 * D'Quadrawuerzel vun (allen Ännerungen) - (Zuel vun de geännerte Säiten) * 2.
