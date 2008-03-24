@@ -559,6 +559,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 
 /** Russian (Русский)
  * @author .:Ajvol:.
+ * @author Ahonc
  * @author Kalan
  */
 $messages['ru'] = array(
@@ -567,9 +568,9 @@ $messages['ru'] = array(
 	'contributionscores-info'         => 'Оценка рассчитывается сложением следующих слагаемых:
 * 1 очко за редактирование каждой уникальной страницы;
 * 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
-При подсчёте оценки, таким образом, разнообразию правок придаётся больший вес, чем общему количеству правок.',
+При подсчёте оценки таким образом разнообразию правок придаётся больший вес, чем общему количеству правок.',
 	'contributionscores-top'          => '(лучшие $1)',
-	'contributionscores-days'         => 'Последние $1 дней',
+	'contributionscores-days'         => '{{PLURAL:$1|Последний день|Последние $1 дня|Последние $1 дней}}',
 	'contributionscores-allrevisions' => 'Все правки',
 	'contributionscores-score'        => 'Оценка',
 	'contributionscores-pages'        => 'Страниц',
@@ -679,6 +680,25 @@ $messages['tg'] = array(
  */
 $messages['tr'] = array(
 	'contributionscores-username' => 'Kullanıcı',
+);
+
+/** Ukrainian (Українська)
+ * @author Ahonc
+ */
+$messages['uk'] = array(
+	'contributionscores'              => 'Оцінка внеску',
+	'contributionscores-desc'         => 'Визначає з бази даних [[Special:ContributionScores|користувачів з найбільшою кількістю редагувань]]',
+	'contributionscores-info'         => 'Оцінка обчислюється додаванням наступних величин:
+* 1 очко за редагування кожної унікальної сторінки;
+* 2 * квадратний корінь з різниці: (загальна кількість редагувань) − (усього унікальних сторінок).
+При підрахунку оцінки таким чином розмаїттю редагувань надається більша вага, ніж загальній кількості редагувань.',
+	'contributionscores-top'          => '(кращі $1)',
+	'contributionscores-days'         => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
+	'contributionscores-allrevisions' => 'Усі редагування',
+	'contributionscores-score'        => 'Оцінка',
+	'contributionscores-pages'        => 'Сторінок',
+	'contributionscores-changes'      => 'Редагувань',
+	'contributionscores-username'     => "Ім'я користувача",
 );
 
 /** Vietnamese (Tiếng Việt)
