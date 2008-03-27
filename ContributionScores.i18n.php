@@ -706,6 +706,7 @@ $messages['uk'] = array(
  */
 $messages['vi'] = array(
 	'contributionscores-score'    => 'Điểm số',
+	'contributionscores-changes'  => 'Các thay đổi',
 	'contributionscores-username' => 'Tên hiệu',
 );
 
