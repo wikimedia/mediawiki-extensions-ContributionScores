@@ -703,11 +703,12 @@ $messages['uk'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Vinhtantran
  */
 $messages['vi'] = array(
 	'contributionscores-score'    => 'Điểm số',
 	'contributionscores-changes'  => 'Các thay đổi',
-	'contributionscores-username' => 'Tên hiệu',
+	'contributionscores-username' => 'Tên người dùng',
 );
 
 /** Volapük (Volapük)
