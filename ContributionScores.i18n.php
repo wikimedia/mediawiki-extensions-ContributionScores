@@ -122,6 +122,7 @@ Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redakt
 Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.',
 	'contributionscores-days'         => 'Lastaj $1 Tagoj',
 	'contributionscores-allrevisions' => 'Ĉiuj Revizioj',
+	'contributionscores-score'        => 'Poentaro',
 	'contributionscores-pages'        => 'Paĝoj',
 	'contributionscores-changes'      => 'Ŝanĝoj',
 	'contributionscores-username'     => 'Salutnomo',
@@ -666,13 +667,16 @@ $messages['te'] = array(
 	'contributionscores-username'     => 'వాడుకరిపేరు',
 );
 
-/** Tajik (Тоҷикӣ)
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'contributionscores-pages'    => 'Саҳифаҳо',
-	'contributionscores-changes'  => 'Тағйирот',
-	'contributionscores-username' => 'Номи корбарӣ',
+	'contributionscores-days'         => 'Охирин $1 Рӯз',
+	'contributionscores-allrevisions' => 'Ҳамаи Нусхаҳо',
+	'contributionscores-score'        => 'Имтиёз',
+	'contributionscores-pages'        => 'Саҳифаҳо',
+	'contributionscores-changes'      => 'Тағйирот',
+	'contributionscores-username'     => 'Номи корбарӣ',
 );
 
 /** Turkish (Türkçe)
