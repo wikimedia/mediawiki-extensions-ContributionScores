@@ -48,12 +48,13 @@ $messages['ar'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'contributionscores-top'      => '(Най-добрите $1)',
-	'contributionscores-days'     => 'Последните $1 дни',
-	'contributionscores-score'    => 'Точки',
-	'contributionscores-pages'    => 'Страници',
-	'contributionscores-changes'  => 'Редакции',
-	'contributionscores-username' => 'Потребител',
+	'contributionscores-top'          => '(Най-добрите $1)',
+	'contributionscores-days'         => 'Последните $1 дни',
+	'contributionscores-allrevisions' => 'Всички редакции',
+	'contributionscores-score'        => 'Точки',
+	'contributionscores-pages'        => 'Страници',
+	'contributionscores-changes'      => 'Редакции',
+	'contributionscores-username'     => 'Потребител',
 );
 
 /** Czech (Česky)
