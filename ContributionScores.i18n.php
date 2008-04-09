@@ -204,6 +204,21 @@ As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobr
 	'contributionscores-username'     => 'Nome de usuario',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'contributionscores'              => 'योगदान संख्या',
+	'contributionscores-desc'         => '[[Special:ContributionScores|सदस्य योगदान संख्या]]के अनुसार विकि डाटाबेस दर्शाता हैं',
+	'contributionscores-top'          => '(पहले $1)',
+	'contributionscores-days'         => 'आखिरी $1 दिन',
+	'contributionscores-allrevisions' => 'सभी अवतरण',
+	'contributionscores-score'        => 'गुण',
+	'contributionscores-pages'        => 'पन्ने',
+	'contributionscores-changes'      => 'बदलाव',
+	'contributionscores-username'     => 'सदस्यनाम',
+);
+
 /** Croatian (Hrvatski)
  * @author SpeedyGonsales
  */
