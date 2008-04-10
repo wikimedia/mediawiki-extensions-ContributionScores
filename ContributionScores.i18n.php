@@ -670,6 +670,13 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
 	'contributionscores-username'     => 'Användarnamn',
 );
 
+/** Tamil (தமிழ்)
+ * @author Trengarasu
+ */
+$messages['ta'] = array(
+	'contributionscores-username' => 'பயனர் பெயர்',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
