@@ -186,18 +186,20 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 );
 
 /** Galician (Galego)
+ * @author Toliño
  * @author Xosé
  * @author Alma
  */
 $messages['gl'] = array(
-	'contributionscores'              => 'Puntuación das Contribucións',
-	'contributionscores-info'         => 'As puntuacións calcúlanse como segue:
+	'contributionscores'              => 'Puntuación das contribucións',
+	'contributionscores-info'         => 'As puntuacións calcúlanse do seguinte xeito:
 *1 punto por cada páxina única editada
-*Raíz cadrada de (Total de Edicións Feitas) - (Total de Páxinas Únicas) * 2
-As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume. Basicamente, esta puntuación mide en principio as páxinas únicas editadas, tendo en conta un volume alto de edicións - co que se asume que é unha páxina de calidade superior.',
-	'contributionscores-top'          => '(Os $1 que máis)',
-	'contributionscores-days'         => 'Os Últimos $1 Días',
-	'contributionscores-allrevisions' => 'Todas as Revisións',
+*Raíz cadrada de (total de edicións feitas) - (total de páxinas únicas) * 2
+As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume.
+Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, tendo en conta un volume alto de edicións - co que se asume que é unha páxina de calidade superior.',
+	'contributionscores-top'          => '(os $1 que máis)',
+	'contributionscores-days'         => 'Os últimos $1 días',
+	'contributionscores-allrevisions' => 'Todas as revisións',
 	'contributionscores-score'        => 'Puntuación',
 	'contributionscores-pages'        => 'Páxinas',
 	'contributionscores-changes'      => 'Cambios',
