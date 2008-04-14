@@ -112,7 +112,7 @@ class ContributionScores extends IncludableSpecialPage
 			
 			$output .= "</td>\n";
 			
-			if ( $altrow == '' && !empty($sortable) )
+			if ( $altrow == '' && empty($sortable) )
 				$altrow = 'odd ';
 			else
 				$altrow = '';
