@@ -15,7 +15,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version'=>'1.7.1'
+	'version'=>'1.8'
 );
 
 define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
@@ -43,7 +43,10 @@ function efContributionScores() {
 	}
 }
 
+# Depreciated in v1.8 - manually add CSS via MediaWiki:Common.css
+/*
 function efContributionScores_addHeadScripts(&$out) {
 	$out->addScript( '<link rel="stylesheet" type="text/css" href="' . CONTRIBUTIONSCORES_EXTPATH . '/ContributionScores.css" />' . "\n" );
 	return true;
 }
+*/

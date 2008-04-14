@@ -90,20 +90,20 @@ class ContributionScores extends IncludableSpecialPage
 		
 		$sortable = in_array('nosort', $opts) ? '' : ' sortable';
 		
-		$output = "<table class=\"wikitable plainlinks{$sortable}\" >\n".
-			"<tr class='contributionscores-tableheadings'>\n".
-			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-score' ) . "</td>\n" .
-			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-pages' ) . "</td>\n" .
-			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-changes' ) . "</td>\n" .
-			"<td class=\"contributionscores-headercell\">" . wfMsgHtml( 'contributionscores-username' ) . "</td>\n";
+		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n".
+			"<tr class='header'>\n".
+			"<td>" . wfMsgHtml( 'contributionscores-score' ) . "</td>\n" .
+			"<td>" . wfMsgHtml( 'contributionscores-pages' ) . "</td>\n" .
+			"<td>" . wfMsgHtml( 'contributionscores-changes' ) . "</td>\n" .
+			"<td>" . wfMsgHtml( 'contributionscores-username' ) . "</td>\n";
 
 		$skin =& $wgUser->getSkin();
 		$altrow = '';
 		while ( $row = $dbr->fetchObject( $res ) ) {
-			$output .= "</tr><tr class='{$altrow}'>\n<td class='contributionscores-contentcell'>" .
-				round($row->wiki_rank,0) . "\n</td><td class='contributionscores-contentcell'>" .
-				$row->page_count . "\n</td><td class='contributionscores-contentcell'>" .
-				$row->rev_count . "\n</td><td class='contributionscores-contentcell'>" .
+			$output .= "</tr><tr class='{$altrow}'>\n<td class='content'>" .
+				round($row->wiki_rank,0) . "\n</td><td class='content'>" .
+				$row->page_count . "\n</td><td class='content'>" .
+				$row->rev_count . "\n</td><td class='content'>" .
 				$skin->userLink( $row->user_id, $row->user_name );
 			
 			# Option to not display user tools
@@ -111,9 +111,9 @@ class ContributionScores extends IncludableSpecialPage
 				$output .= $skin->userToolLinks( $row->user_id, $row->user_name );
 			
 			$output .= "</td>\n";
-				
-			if ($altrow == '')
-				$altrow = 'contributionscores-altrow ';
+			
+			if ( $altrow == '' && !empty($sortable) )
+				$altrow = 'odd ';
 			else
 				$altrow = '';
 		}
@@ -136,7 +136,8 @@ class ContributionScores extends IncludableSpecialPage
 	function execute( $par ) {
 		global $wgRequest, $wgVersion, $wgOut, $wgHooks;
 		
-		$wgHooks['BeforePageDisplay'][] = 'efContributionScores_addHeadScripts';
+		# Depreciated - manually set styles in MediaWiki:Common.css
+		# $wgHooks['BeforePageDisplay'][] = 'efContributionScores_addHeadScripts';
 		
 		if( version_compare( $wgVersion, '1.11', '>=' ) )
 			wfLoadExtensionMessages( 'ContributionScores' );
