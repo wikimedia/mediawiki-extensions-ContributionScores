@@ -32,7 +32,7 @@ class ContributionScores extends IncludableSpecialPage
 	 * @return HTML Table representing the requested Contribution Scores.
 	 */
 	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
-		global $contribScoreIgnoreBots, $wgUser;
+		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgUser;
 
 		$opts = explode(',', strtolower($options));
 		
@@ -41,24 +41,28 @@ class ContributionScores extends IncludableSpecialPage
 		$userTable = $dbr->tableName('user');
 		$userGroupTable = $dbr->tableName('user_groups');
 		$revTable = $dbr->tableName('revision');
+		$ipBlocksTable = $dbr->tableName('ipblocks');
 		
 		$sqlWhere = "";
+		$nextPrefix = "WHERE";
 		
 		if ( $days > 0 ) {
 			$date = time() - (60*60*24*$days);
 			$dateString = $dbr->timestamp($date);
-			$sqlWhere .= " WHERE rev_timestamp > '$dateString' ";
+			$sqlWhere .= " {$nextPrefix} rev_timestamp > '$dateString'";
+			$nextPrefix = "AND";
 		}
 
-		if ( $contribScoreIgnoreBots ) {
-			if (preg_match("/where/i", $sqlWhere)) {
-				$sqlWhere .= "AND ";
-			} else {
-				$sqlWhere .= "WHERE ";
-			}
-			$sqlWhere .= "rev_user NOT IN (SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot') ";
+		if ( $wgContribScoreIgnoreBlockedUsers ) {
+			$sqlWhere .= " {$nextPrefix} rev_user NOT IN (SELECT ipb_user FROM {$ipBlocksTable} WHERE ipb_user <> 0)";
+			$nextPrefix = "AND";
 		}
 
+		if ( $wgContribScoreIgnoreBots ) {
+			$sqlWhere .= " {$nextPrefix} rev_user NOT IN (SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot')";
+			$nextPrefix = "AND";
+		}
+			
 		$sqlMostPages = "SELECT rev_user, 
 						 COUNT(DISTINCT rev_page) AS page_count, 
 						 COUNT(rev_id) AS rev_count 
@@ -136,9 +140,6 @@ class ContributionScores extends IncludableSpecialPage
 	function execute( $par ) {
 		global $wgRequest, $wgVersion, $wgOut, $wgHooks;
 		
-		# Depreciated - manually set styles in MediaWiki:Common.css
-		# $wgHooks['BeforePageDisplay'][] = 'efContributionScores_addHeadScripts';
-		
 		if( version_compare( $wgVersion, '1.11', '>=' ) )
 			wfLoadExtensionMessages( 'ContributionScores' );
 		
@@ -187,10 +188,10 @@ class ContributionScores extends IncludableSpecialPage
 	}
 	
 	function showPage() {
-		global $wgOut, $contribScoreReports;
+		global $wgOut, $wgContribScoreReports;
 		
-		if (!is_array($contribScoreReports)) {
-			$contribScoreReports = array(
+		if (!is_array($wgContribScoreReports)) {
+			$wgContribScoreReports = array(
 				array(7,50),
 				array(30,50),
 				array(0,50));
@@ -198,7 +199,7 @@ class ContributionScores extends IncludableSpecialPage
 
 		$wgOut->addWikiText( wfMsg( 'contributionscores-info' ) );
 
-		foreach ( $contribScoreReports as $scoreReport) {
+		foreach ( $wgContribScoreReports as $scoreReport) {
 			if ( $scoreReport[0] > 0 ) {
 				$reportTitle = wfMsg( 'contributionscores-days', $scoreReport[0] );
 			} else {

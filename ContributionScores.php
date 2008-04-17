@@ -1,6 +1,6 @@
 <?php
 /** \file
-* \brief Contains setup code for the Contribution Scores Extension.
+* \brief Contains setup code for the Contribution Scores Extension. 
 */
 
 # Not a valid entry point, skip unless MEDIAWIKI is defined
@@ -15,13 +15,15 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version'=>'1.8'
+	'version'=>'1.9'
 );
 
 define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
 define( 'CONTRIBUTIONSCORES_EXTPATH', str_replace( $_SERVER['DOCUMENT_ROOT'], '/', CONTRIBUTIONSCORES_PATH ) );
 define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
-$contribScoreReports = null;
+$wgContribScoreReports = null;
+$wgContribScoreIgnoreBlockedUsers = false;
+$wgContribScoreIgnoreBots = false;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
@@ -42,11 +44,3 @@ function efContributionScores() {
 		  $wgMessageCache->addMessages( $messages[$key], $key );
 	}
 }
-
-# Depreciated in v1.8 - manually add CSS via MediaWiki:Common.css
-/*
-function efContributionScores_addHeadScripts(&$out) {
-	$out->addScript( '<link rel="stylesheet" type="text/css" href="' . CONTRIBUTIONSCORES_EXTPATH . '/ContributionScores.css" />' . "\n" );
-	return true;
-}
-*/
