@@ -206,6 +206,15 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
 	'contributionscores-username'     => 'Nome de usuario',
 );
 
+/** Manx (Gaelg)
+ * @author MacTire02
+ */
+$messages['gv'] = array(
+	'contributionscores-score'    => 'Skensh',
+	'contributionscores-pages'    => 'Duillagyn',
+	'contributionscores-username' => 'Ennym yn ymmydeyr',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
@@ -415,6 +424,17 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 	'contributionscores-pages'        => 'Säiten',
 	'contributionscores-changes'      => 'Ännerungen',
 	'contributionscores-username'     => 'Benotzernumm',
+);
+
+/** Lithuanian (Lietuvių)
+ * @author Hugo.arg
+ */
+$messages['lt'] = array(
+	'contributionscores-allrevisions' => 'Visos revizijos',
+	'contributionscores-score'        => 'Rezultatas',
+	'contributionscores-pages'        => 'Puslapiai',
+	'contributionscores-changes'      => 'Pakeitimai',
+	'contributionscores-username'     => 'Naudotojo vardas',
 );
 
 /** Marathi (मराठी)
