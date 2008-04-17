@@ -278,11 +278,17 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 );
 
 /** Icelandic (Íslenska)
+ * @author S.Örvarr.S
  * @author SPQRobin
  */
 $messages['is'] = array(
-	'contributionscores-pages'    => 'Síður',
-	'contributionscores-username' => 'Notandanafn',
+	'contributionscores-top'          => '(Efstu $1)',
+	'contributionscores-days'         => 'Síðustu $1 dagana',
+	'contributionscores-allrevisions' => 'Allar breytingar',
+	'contributionscores-score'        => 'Stigafjöldi',
+	'contributionscores-pages'        => 'Síður',
+	'contributionscores-changes'      => 'Breytingar',
+	'contributionscores-username'     => 'Notandanafn',
 );
 
 /** Italian (Italiano)
