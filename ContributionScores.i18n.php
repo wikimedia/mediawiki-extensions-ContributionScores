@@ -48,6 +48,7 @@ $messages['ar'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'contributionscores'              => 'Потребителска класация',
 	'contributionscores-top'          => '(Най-добрите $1)',
 	'contributionscores-days'         => 'Последните $1 дни',
 	'contributionscores-allrevisions' => 'Всички редакции',
