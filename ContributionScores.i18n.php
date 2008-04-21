@@ -292,6 +292,13 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
  * @author SPQRobin
  */
 $messages['is'] = array(
+	'contributionscores'              => 'Framleggjandastig',
+	'contributionscores-desc'         => 'Kannar wiki-gagnagrunninn eftir mesta [[Special:ContributionScores|magni framlaga notenda]]',
+	'contributionscores-info'         => 'Stigin eru reiknuð á eftirfarandi hátt:
+* Eitt (1) stig fyrir hverja einkvæma síðu sem breytt er
+* Ferningsrót (allra breytinga gerðra) - (allra breytinga gerðra á einkvæmum síðum) * 2
+Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn breytinga.
+Í grundvallaratriðum mæla stigin aðallega út breytingar á einkvæmum síðum, með tilliti til hás magns breytinga - sem eru líklegri til að vera vandaðri síður.',
 	'contributionscores-top'          => '(Efstu $1)',
 	'contributionscores-days'         => 'Síðustu $1 dagana',
 	'contributionscores-allrevisions' => 'Allar breytingar',
