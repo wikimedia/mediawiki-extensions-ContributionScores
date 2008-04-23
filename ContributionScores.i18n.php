@@ -547,6 +547,13 @@ $messages['oc'] = array(
 	'contributionscores-username'     => "Nom d'utilizaire",
 );
 
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'contributionscores-username' => 'Архайæджы ном',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author Sp5uhe
@@ -742,9 +749,10 @@ $messages['tg-cyrl'] = array(
 
 /** Turkish (Türkçe)
  * @author Karduelis
+ * @author Suelnur
  */
 $messages['tr'] = array(
-	'contributionscores-username' => 'Kullanıcı',
+	'contributionscores-username' => 'Kullanıcı adı',
 );
 
 /** Ukrainian (Українська)
