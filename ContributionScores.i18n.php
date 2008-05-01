@@ -345,6 +345,13 @@ $messages['ja'] = array(
 	'contributionscores-username'     => '利用者名',
 );
 
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'contributionscores-days' => '$1 dina pungkasan',
+);
+
 $messages['kk-arab'] = array(
 	'contributionscores' => 'ٷلەس بەرۋ ەسەپتەرٸ',
 	'contributionscores-info' => "ەسەپتەر كەلەسٸ دەي سانالادى:
@@ -404,8 +411,8 @@ $messages['lb'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
-	'contributionscores'              => 'តារាងពិន្ទុ​នៃការរួមចំណែក',
-	'contributionscores-top'          => '(កំពូល $1)',
+	'contributionscores'              => 'តារាងពិន្ទុ​នៃការរួមចំនែក',
+	'contributionscores-top'          => '(លើគេទាំង $1 នាក់)',
 	'contributionscores-days'         => '$1 ថ្ងៃ​ចុងក្រោយ',
 	'contributionscores-allrevisions' => 'គ្រប់កំនែ',
 	'contributionscores-score'        => 'ពិន្ទុ',
@@ -443,6 +450,13 @@ $messages['lt'] = array(
 	'contributionscores-pages'        => 'Puslapiai',
 	'contributionscores-changes'      => 'Pakeitimai',
 	'contributionscores-username'     => 'Naudotojo vardas',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'contributionscores-username' => 'ഉപയോക്തൃനാമം',
 );
 
 /** Marathi (मराठी)
