@@ -349,7 +349,8 @@ $messages['ja'] = array(
  * @author Meursault2004
  */
 $messages['jv'] = array(
-	'contributionscores-days' => '$1 dina pungkasan',
+	'contributionscores-days'         => '$1 dina pungkasan',
+	'contributionscores-allrevisions' => 'Kabèh Révisi',
 );
 
 $messages['kk-arab'] = array(
