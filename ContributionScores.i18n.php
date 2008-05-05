@@ -789,11 +789,12 @@ $messages['uk'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
- * @author Minh Nguyen
  * @author Vinhtantran
+ * @author Minh Nguyen
  */
 $messages['vi'] = array(
 	'contributionscores-score'    => 'Điểm số',
+	'contributionscores-pages'    => 'Trang',
 	'contributionscores-changes'  => 'Các thay đổi',
 	'contributionscores-username' => 'Tên người dùng',
 );
