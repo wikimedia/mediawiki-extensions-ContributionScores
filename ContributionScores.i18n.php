@@ -25,6 +25,13 @@ Basically, this score measures primarily unique pages edited, with consideration
 	'contributionscores-username' => 'Username',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Arnobarnard
+ */
+$messages['af'] = array(
+	'contributionscores-username' => 'Gebruikersnaam',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -229,6 +236,13 @@ $messages['hi'] = array(
 	'contributionscores-pages'        => 'पन्ने',
 	'contributionscores-changes'      => 'बदलाव',
 	'contributionscores-username'     => 'सदस्यनाम',
+);
+
+/** Hiligaynon (Ilonggo)
+ * @author Jose77
+ */
+$messages['hil'] = array(
+	'contributionscores-username' => 'Ngalan sang Manog-gamit',
 );
 
 /** Croatian (Hrvatski)
