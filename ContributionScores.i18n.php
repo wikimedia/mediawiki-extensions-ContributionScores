@@ -124,11 +124,14 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'contributionscores'              => 'Poentaro de Kontribuoj',
+	'contributionscores-desc'         => 'Informmendas la vikian datumbazon por la plej [[Special:ContributionScores|oftaj kontribuantoj]]',
 	'contributionscores-info'         => 'Poentaroj estas donataj jene:
 *Unu (1) poento por ĉiu unika paĝo redaktata
 *Kvadrata Radiko de (Tutaj Faritaj Redaktoj) - (Tutaj Unikaj Paĝoj) * 2
 Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.
 Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.',
+	'contributionscores-top'          => '(Plej alta $1)',
 	'contributionscores-days'         => 'Lastaj $1 Tagoj',
 	'contributionscores-allrevisions' => 'Ĉiuj Revizioj',
 	'contributionscores-score'        => 'Poentaro',
@@ -363,8 +366,20 @@ $messages['ja'] = array(
  * @author Meursault2004
  */
 $messages['jv'] = array(
+	'contributionscores'              => 'Skor Kontribusi',
+	'contributionscores-desc'         => 'Nglakokaké polling (angkèt) ing basis data kanggo [[Special:ContributionScores|volume kontribusi panganggo]]',
+	'contributionscores-info'         => "Skoré diétung kaya mangkéné:
+* Biji siji (1) per kaca unik sing disunting
+* Oyot (bs. Indonesia ''akar'') saka (Gunggungé Suntingan) - (Gunggungé Kaca-KAca Unik) * 2
+Skor sing diétung miturut cara iki bisa nyerminaké divèrsitas suntingan sadhuwuring volume suntingan.
+Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo mélu nimbangaké volume suntingan dhuwur - diasumsèkaké kwalitas kacané luwih dhuwur.",
+	'contributionscores-top'          => '(Top $1)',
 	'contributionscores-days'         => '$1 dina pungkasan',
 	'contributionscores-allrevisions' => 'Kabèh Révisi',
+	'contributionscores-score'        => 'Skor',
+	'contributionscores-pages'        => 'Kaca-kaca',
+	'contributionscores-changes'      => 'Owah-owahan',
+	'contributionscores-username'     => 'Jeneng panganggo',
 );
 
 $messages['kk-arab'] = array(
@@ -583,6 +598,18 @@ $messages['os'] = array(
 	'contributionscores-username' => 'Архайæджы ном',
 );
 
+/** Pampanga (Kapampangan)
+ * @author Katimawan2005
+ */
+$messages['pam'] = array(
+	'contributionscores-top'          => '(Pekamatas a $1)',
+	'contributionscores-days'         => 'Tauling $1 Aldo',
+	'contributionscores-allrevisions' => 'Eganaganang mibayu',
+	'contributionscores-pages'        => 'Bulung',
+	'contributionscores-changes'      => 'Miyalilan',
+	'contributionscores-username'     => 'Lagyungtalagamit (Username)',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author Sp5uhe
@@ -646,6 +673,25 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-pages'        => 'Páginas',
 	'contributionscores-changes'      => 'Alterações',
 	'contributionscores-username'     => 'Nome de utilizador',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Brunoy Anastasiya Seryozhenko
+ */
+$messages['pt-br'] = array(
+	'contributionscores'              => 'Pontuações de Contribuições',
+	'contributionscores-desc'         => 'Inquire a base de dados wiki sobre os [[{{ns:special}}:ContributionScores|volumes de contribuições dos usuários]] mais altos',
+	'contributionscores-info'         => 'As pontuações são calculadas da seguinte forma:
+*1 ponto por cada página única editada
+*Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
+Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração pelo alto volume de edições - assumindo serem páginas de qualidade mais alta.',
+	'contributionscores-top'          => '(Iniciais $1)',
+	'contributionscores-days'         => 'Últimos $1 Dias',
+	'contributionscores-allrevisions' => 'Todas as revisões',
+	'contributionscores-score'        => 'Pontuação',
+	'contributionscores-pages'        => 'Páginas',
+	'contributionscores-changes'      => 'Mudanças',
+	'contributionscores-username'     => 'Nome de usuário',
 );
 
 /** Russian (Русский)
@@ -808,10 +854,20 @@ $messages['uk'] = array(
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'contributionscores-score'    => 'Điểm số',
-	'contributionscores-pages'    => 'Trang',
-	'contributionscores-changes'  => 'Các thay đổi',
-	'contributionscores-username' => 'Tên người dùng',
+	'contributionscores'              => 'Điểm số đóng góp',
+	'contributionscores-desc'         => 'Truy xuất cơ sở dữ liệu wiki để xem [[Special:ContributionScores|mức đóng góp]] cao nhất của thành viên',
+	'contributionscores-info'         => 'Điểm số được tính như sau:
+*Một (1) điểm cho mỗi sửa đổi tại từng trang riêng lẻ
+*Căn bậc hai của (Tổng số sửa đổi) - (Tổng số trang riêng lẻ) * 2
+Điểm số được tính theo cách này sẽ nhé nhấn mạnh vào sự đa dạng khi sửa đổi hơn là mức độ sửa đổi.
+Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.',
+	'contributionscores-top'          => '(Tốp $1)',
+	'contributionscores-days'         => '$1 ngày qua',
+	'contributionscores-allrevisions' => 'Mọi phiên bản',
+	'contributionscores-score'        => 'Điểm số',
+	'contributionscores-pages'        => 'Trang',
+	'contributionscores-changes'      => 'Các thay đổi',
+	'contributionscores-username'     => 'Tên người dùng',
 );
 
 /** Volapük (Volapük)
