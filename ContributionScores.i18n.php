@@ -305,6 +305,13 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-username'     => 'Felhasználó',
 );
 
+/** Iloko (Ilokano)
+ * @author Saluyot
+ */
+$messages['ilo'] = array(
+	'contributionscores' => 'Dagiti Bilang ti Naaramidan',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  * @author SPQRobin
@@ -472,6 +479,25 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 	'contributionscores-username'     => 'Benotzernumm',
 );
 
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$messages['li'] = array(
+	'contributionscores'              => 'Biedraaghuuegdjes',
+	'contributionscores-desc'         => "Guuef 'n euverzich van [[Special:ContributionScores|gebroekers mit de meiste biedraag]] inne wiki.",
+	'contributionscores-info'         => "Huuegdjes waere es vólg beraekendj:
+* Ein (1) pöntj veur edere apaart bewèrkdje pazjena
+* Wórtel van (totaal aantal gemaakdje bewèrkinger) - (totaal aantal apaarte pazjena's × 2
+I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag zwaorder es bewèrkingsvolume. In feite mèt dees huuegdje veurnamelik 't aantal apaarte pazjena's die zeen bewèrk, wiele 'n grót aantal bewèrkinger waal in ach wuuertj genaome, mit de aannaam det 't 'ne pazjena van 'n huuegere kwaliteit is.",
+	'contributionscores-top'          => '(Top $1)',
+	'contributionscores-days'         => 'Lètste $1 daag',
+	'contributionscores-allrevisions' => 'Alle verzies',
+	'contributionscores-score'        => 'Pöntjer',
+	'contributionscores-pages'        => "Pazjena's",
+	'contributionscores-changes'      => 'Bewèrkinger',
+	'contributionscores-username'     => 'Gebroeker',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Hugo.arg
  */
@@ -487,6 +513,7 @@ $messages['lt'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
+	'contributionscores-pages'    => 'താളുകള്‍',
 	'contributionscores-username' => 'ഉപയോക്തൃനാമം',
 );
 
@@ -618,7 +645,7 @@ $messages['pam'] = array(
  * @author McMonster
  */
 $messages['pl'] = array(
-	'contributionscores'              => 'Punktów za edycje',
+	'contributionscores'              => 'Punkty za edycje',
 	'contributionscores-desc'         => 'Wylicza [[Special:ContributionScores|punkty za edycje]] dla użytkowników',
 	'contributionscores-info'         => 'Punkty za edycje naliczane są następującą metodą:
 *1 punkt za każdą edytowaną unikalną stronę
@@ -860,6 +887,26 @@ $messages['uk'] = array(
 	'contributionscores-pages'        => 'Сторінок',
 	'contributionscores-changes'      => 'Редагувань',
 	'contributionscores-username'     => "Ім'я користувача",
+);
+
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'contributionscores'              => 'Puntegi contributi',
+	'contributionscores-desc'         => 'Intèroga el database de la wiki par el pi grando [[Special:ContributionScores|volume de contributi utente]]',
+	'contributionscores-info'         => 'I punti i vien calcolà come segue:
+*Un (1) punto par ogni diversa pagina modificà
+*Raìsa quadrata de (Tute le modifiche fate) - (Total de le pagine modificà) * 2
+Fasendo i conti in sta maniera pesa piassè la diversità de le modifiche rispeto al nùmaro dei contributi. 
+In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà, tegnendo in considerazion anca un alto volume de modifiche - che fa pensar a na pi alta qualità de la pagina modificà.',
+	'contributionscores-top'          => '(Ultimi $1)',
+	'contributionscores-days'         => 'Ultimi $1 giòrni',
+	'contributionscores-allrevisions' => 'Tute le revision',
+	'contributionscores-score'        => 'Puntegio',
+	'contributionscores-pages'        => 'Pagine',
+	'contributionscores-changes'      => 'Canbiamenti',
+	'contributionscores-username'     => 'Nome utente',
 );
 
 /** Vietnamese (Tiếng Việt)
