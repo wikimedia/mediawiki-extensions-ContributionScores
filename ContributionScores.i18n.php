@@ -51,6 +51,20 @@ $messages['ar'] = array(
 	'contributionscores-username'     => 'اسم المستخدم',
 );
 
+/** Kotava (Kotava)
+ * @author Sab
+ */
+$messages['avk'] = array(
+	'contributionscores'              => 'Weberajorist',
+	'contributionscores-top'          => '(Taneaf $1)',
+	'contributionscores-days'         => 'Ironokaf $1 viel',
+	'contributionscores-allrevisions' => 'Betakseem',
+	'contributionscores-score'        => 'Jorist',
+	'contributionscores-pages'        => 'Bu',
+	'contributionscores-changes'      => 'Betaks',
+	'contributionscores-username'     => 'Favesikyolt',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -63,6 +77,25 @@ $messages['bg'] = array(
 	'contributionscores-pages'        => 'Страници',
 	'contributionscores-changes'      => 'Редакции',
 	'contributionscores-username'     => 'Потребител',
+);
+
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'contributionscores'              => 'Punts de contribució',
+	'contributionscores-info'         => "La puntuació es calcula de la manera següent:
+* Un punt per cada pàgina diferent editada, més
+*El doble de l'arrel quadrada de: el total d'edicions fetes menys el total de pàgines diferents editades.
+Aquesta fórmula premia la diversitat d'edicions més que no el seu volum.
+Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració per els alts volums d'edició considerats de pàgines de més qualitat.",
+	'contributionscores-top'          => '($1 millors)',
+	'contributionscores-days'         => 'Últims $1 dies',
+	'contributionscores-allrevisions' => 'Totes les revisions',
+	'contributionscores-score'        => 'Puntuació',
+	'contributionscores-pages'        => 'Pàgines',
+	'contributionscores-changes'      => 'Canvis',
+	'contributionscores-username'     => "Nom d'usuari",
 );
 
 /** Czech (Česky)
@@ -513,7 +546,9 @@ $messages['lt'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
+	'contributionscores-days'     => 'അവസാനത്തെ $1 ദിവസങ്ങള്‍',
 	'contributionscores-pages'    => 'താളുകള്‍',
+	'contributionscores-changes'  => 'മാറ്റങ്ങള്‍',
 	'contributionscores-username' => 'ഉപയോക്തൃനാമം',
 );
 
