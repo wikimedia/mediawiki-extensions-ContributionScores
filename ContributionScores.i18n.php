@@ -546,10 +546,12 @@ $messages['lt'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'contributionscores-days'     => 'അവസാനത്തെ $1 ദിവസങ്ങള്‍',
-	'contributionscores-pages'    => 'താളുകള്‍',
-	'contributionscores-changes'  => 'മാറ്റങ്ങള്‍',
-	'contributionscores-username' => 'ഉപയോക്തൃനാമം',
+	'contributionscores-top'          => '(ആദ്യത്തെ $1)',
+	'contributionscores-days'         => 'അവസാനത്തെ $1 ദിവസങ്ങള്‍',
+	'contributionscores-allrevisions' => 'എല്ലാ പതിപ്പുകളും',
+	'contributionscores-pages'        => 'താളുകള്‍',
+	'contributionscores-changes'      => 'മാറ്റങ്ങള്‍',
+	'contributionscores-username'     => 'ഉപയോക്തൃനാമം',
 );
 
 /** Marathi (मराठी)
