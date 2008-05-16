@@ -15,7 +15,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version'=>'1.9'
+	'version'=>'1.10'
 );
 
 define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
@@ -24,6 +24,7 @@ define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
 $wgContribScoreReports = null;
 $wgContribScoreIgnoreBlockedUsers = false;
 $wgContribScoreIgnoreBots = false;
+$wgContributionScoresDisableCache = false;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
@@ -31,11 +32,14 @@ $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
 } else {
-	$wgExtensionFunctions[] = 'efContributionScores';
+	$wgExtensionFunctions[] = 'efContributionScores_AddMessages';
 }
 
+$wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
+$wgExtensionFunctions[] = 'efContributionScores_Setup';
+
 ///Message Cache population for versions that did not support $wgExtensionFunctions
-function efContributionScores() {
+function efContributionScores_AddMessages() {
 	global $wgMessageCache;
 	
 	#Add Messages
@@ -43,4 +47,62 @@ function efContributionScores() {
 	foreach( $messages as $key => $value ) {
 		  $wgMessageCache->addMessages( $messages[$key], $key );
 	}
+	return true;
+}
+
+function efContributionScores_Setup() {
+	global $wgParser;
+	
+	$wgParser->setFunctionHook( 'cscore', 'efContributionScores_Render' );
+	return true;
+}
+
+function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
+	$magicWords['cscore'] = array( 0, 'cscore' );
+	return true;
+}
+
+function efContributionScores_Render(&$parser, $usertext, $metric='score') {
+	global $wgContributionScoresDisableCache, $wgVersion;
+
+	if( version_compare( $wgVersion, '1.11', '>=' ) )
+		wfLoadExtensionMessages( 'ContributionScores' );
+		
+	$output = "";
+	
+	if ($wgContributionScoresDisableCache) {
+		$parser->disableCache();
+	}
+	
+	$user = User::newFromName($usertext);
+	$dbr = wfGetDB( DB_SLAVE );
+	
+	if ($user->getID() != 0) {
+		if ($metric=='score') {
+			$res = $dbr->select('revision',
+									'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
+									array('rev_user' => $user->getID()));
+			$row = $dbr->fetchObject($res);
+			$output = $row->wiki_rank;
+		} elseif ($metric=='changes') {
+			$res = $dbr->select('revision',
+									'COUNT(rev_id) AS rev_count',
+									array('rev_user' => $user->getID()));
+			$row = $dbr->fetchObject($res);
+			$output = $row->rev_count;
+			
+		} elseif ($metric=='pages') {
+			$res = $dbr->select('revision',
+									'COUNT(DISTINCT rev_page) AS page_count',
+									array('rev_user' => $user->getID()));
+			$row = $dbr->fetchObject($res);
+			$output = $row->page_count;
+		} else {
+			$output = wfMsg('contributionscores-invalidmetric');
+		}
+	} else {
+		$output = wfMsg('contributionscores-invalidusername');
+	}
+	
+	return $parser->insertStripItem($output, $parser->mStripState);
 }

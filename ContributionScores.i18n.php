@@ -5,6 +5,7 @@
  *
  * @addtogroup Extensions
 */
+	echo "ding";
 
 $messages = array();
 
@@ -23,6 +24,8 @@ Basically, this score measures primarily unique pages edited, with consideration
 	'contributionscores-pages' => 'Pages',
 	'contributionscores-changes' => 'Changes',
 	'contributionscores-username' => 'Username',
+	'contributionscores-invalidusername' => 'Invalid Username',
+	'contributionscores-invalidmetric' => 'Invalid Metric',
 );
 
 /** Afrikaans (Afrikaans)
