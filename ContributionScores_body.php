@@ -154,9 +154,9 @@ class ContributionScores extends IncludableSpecialPage
 	}
 
 	function showInclude( $par ) {
-		global $wgOut, $wgContributionScoresDisableCache;
+		global $wgOut, $wgContribScoreDisableCache;
 		
-		if($wgContributionScoresDisableCache) {
+		if($wgContribScoreDisableCache) {
 			global $wgParser;
 			$wgParser->disableCache();
 		}

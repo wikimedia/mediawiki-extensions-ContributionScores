@@ -24,7 +24,7 @@ define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
 $wgContribScoreReports = null;
 $wgContribScoreIgnoreBlockedUsers = false;
 $wgContribScoreIgnoreBots = false;
-$wgContributionScoresDisableCache = false;
+$wgContribScoreDisableCache = false;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
@@ -63,14 +63,14 @@ function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
 }
 
 function efContributionScores_Render(&$parser, $usertext, $metric='score') {
-	global $wgContributionScoresDisableCache, $wgVersion;
+	global $wgContribScoreDisableCache, $wgVersion;
 
 	if( version_compare( $wgVersion, '1.11', '>=' ) )
 		wfLoadExtensionMessages( 'ContributionScores' );
 		
 	$output = "";
 	
-	if ($wgContributionScoresDisableCache) {
+	if ($wgContribScoreDisableCache) {
 		$parser->disableCache();
 	}
 	
@@ -83,7 +83,7 @@ function efContributionScores_Render(&$parser, $usertext, $metric='score') {
 									'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
 									array('rev_user' => $user->getID()));
 			$row = $dbr->fetchObject($res);
-			$output = $row->wiki_rank;
+			$output = round($row->wiki_rank,0);
 		} elseif ($metric=='changes') {
 			$res = $dbr->select('revision',
 									'COUNT(rev_id) AS rev_count',

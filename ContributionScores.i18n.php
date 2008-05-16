@@ -5,7 +5,6 @@
  *
  * @addtogroup Extensions
 */
-	echo "ding";
 
 $messages = array();
 
