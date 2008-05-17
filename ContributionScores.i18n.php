@@ -211,24 +211,27 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 
 /** French (Français)
  * @author Sherbrooke
- * @author Urhixidur
  * @author Grondin
+ * @author Urhixidur
+ * @author IAlex
  */
 $messages['fr'] = array(
-	'contributionscores'              => 'Pointage des contributions',
-	'contributionscores-desc'         => 'Scrute la base de données wiki pour les [[Special:ContributionScores|utilisateurs contribuant le plus]]',
-	'contributionscores-info'         => 'Les pointages sont calculés de la manière suivante :
+	'contributionscores'                 => 'Pointage des contributions',
+	'contributionscores-desc'            => 'Scrute la base de données wiki pour les [[Special:ContributionScores|utilisateurs contribuant le plus]]',
+	'contributionscores-info'            => 'Les pointages sont calculés de la manière suivante :
 * 1 point pour chaque page modifiée ;
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
 
 De cette façon, les pointages ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d’une autre façon, ils s’intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.',
-	'contributionscores-top'          => '(Les $1 meilleures)',
-	'contributionscores-days'         => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
-	'contributionscores-allrevisions' => 'Toutes les révisions',
-	'contributionscores-score'        => 'Pointage',
-	'contributionscores-pages'        => 'Pages',
-	'contributionscores-changes'      => 'Modifications',
-	'contributionscores-username'     => 'Pseudonyme',
+	'contributionscores-top'             => '(Les $1 meilleures)',
+	'contributionscores-days'            => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
+	'contributionscores-allrevisions'    => 'Toutes les révisions',
+	'contributionscores-score'           => 'Pointage',
+	'contributionscores-pages'           => 'Pages',
+	'contributionscores-changes'         => 'Modifications',
+	'contributionscores-username'        => 'Pseudonyme',
+	'contributionscores-invalidusername' => "Nom d'utilisateur invalide",
+	'contributionscores-invalidmetric'   => 'Métrie incorrecte',
 );
 
 /** Galician (Galego)
@@ -588,19 +591,21 @@ $messages['nds'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'contributionscores'              => 'Bijdragenscores',
-	'contributionscores-desc'         => 'Geeft een overzicht van [[Special:ContributionScores|gebruikers met de meeste bijdragen]] in de wiki',
-	'contributionscores-info'         => "Scores worden als volgt berekend:
+	'contributionscores'                 => 'Bijdragenscores',
+	'contributionscores-desc'            => 'Geeft een overzicht van [[Special:ContributionScores|gebruikers met de meeste bijdragen]] in de wiki',
+	'contributionscores-info'            => "Scores worden als volgt berekend:
 *1 punt voor iedere bewerkte pagina
 *wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina's) * 2
 In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaarder dan bewerkingsvolume. In feite meet deze score voornamelijk het aantal unieke pagina's dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen, met de aanname dat het een pagina van een hogere kwaliteit is.",
-	'contributionscores-top'          => '(Top $1)',
-	'contributionscores-days'         => 'Laatste $1 dagen',
-	'contributionscores-allrevisions' => 'Alle versies',
-	'contributionscores-score'        => 'Punten',
-	'contributionscores-pages'        => "Pagina's",
-	'contributionscores-changes'      => 'Bewerkingen',
-	'contributionscores-username'     => 'Gebruiker',
+	'contributionscores-top'             => '(Top $1)',
+	'contributionscores-days'            => 'Laatste $1 dagen',
+	'contributionscores-allrevisions'    => 'Alle versies',
+	'contributionscores-score'           => 'Punten',
+	'contributionscores-pages'           => "Pagina's",
+	'contributionscores-changes'         => 'Bewerkingen',
+	'contributionscores-username'        => 'Gebruiker',
+	'contributionscores-invalidusername' => 'Ongeldige gebruikersnaam',
+	'contributionscores-invalidmetric'   => 'Ongeldige eenheid',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -611,23 +616,25 @@ $messages['nn'] = array(
 	'contributionscores-username' => 'Brukarnamn',
 );
 
-/** Norwegian (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
-	'contributionscores'              => 'Bidragspoeng',
-	'contributionscores-desc'         => 'Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]',
-	'contributionscores-info'         => 'Bidragspoeng regnes ut på følgende måte:
+	'contributionscores'                 => 'Bidragspoeng',
+	'contributionscores-desc'            => 'Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]',
+	'contributionscores-info'            => 'Bidragspoeng regnes ut på følgende måte:
 * 1 poeng for hver unike side som er redigert
 * Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
 Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redigeringsvolum. Dette betyr i bunn og grunn at dette primært måler hvor mange forskjellige sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.',
-	'contributionscores-top'          => '(Topp $1)',
-	'contributionscores-days'         => 'Siste $1 dager',
-	'contributionscores-allrevisions' => 'Alle revisjoner',
-	'contributionscores-score'        => 'Poeng',
-	'contributionscores-pages'        => 'Sider',
-	'contributionscores-changes'      => 'Endringer',
-	'contributionscores-username'     => 'Brukernavn',
+	'contributionscores-top'             => '(Topp $1)',
+	'contributionscores-days'            => 'Siste $1 dager',
+	'contributionscores-allrevisions'    => 'Alle revisjoner',
+	'contributionscores-score'           => 'Poeng',
+	'contributionscores-pages'           => 'Sider',
+	'contributionscores-changes'         => 'Endringer',
+	'contributionscores-username'        => 'Brukernavn',
+	'contributionscores-invalidusername' => 'Ugyldig brukernavn',
+	'contributionscores-invalidmetric'   => 'Ugyldig målemetode',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -643,19 +650,21 @@ $messages['nso'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'contributionscores'              => 'Puntatge de las contribucions',
-	'contributionscores-desc'         => 'Espia la banca de donadas wiki pels [[Special:ContributionScores|utilizaires contribuissent mai]]',
-	'contributionscores-info'         => "Lo puntatge se calcula coma seguís : 
+	'contributionscores'                 => 'Puntatge de las contribucions',
+	'contributionscores-desc'            => 'Espia la banca de donadas wiki pels [[Special:ContributionScores|utilizaires contribuissent mai]]',
+	'contributionscores-info'            => "Lo puntatge se calcula coma seguís : 
 * 1 punt per cada pagina modificada
 * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas)
 * 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a mostrar lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.",
-	'contributionscores-top'          => '(Melhor $1)',
-	'contributionscores-days'         => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
-	'contributionscores-allrevisions' => 'Totas las revisions',
-	'contributionscores-score'        => 'Puntatge',
-	'contributionscores-pages'        => 'Paginas',
-	'contributionscores-changes'      => 'Modificacions',
-	'contributionscores-username'     => "Nom d'utilizaire",
+	'contributionscores-top'             => '(Melhor $1)',
+	'contributionscores-days'            => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
+	'contributionscores-allrevisions'    => 'Totas las revisions',
+	'contributionscores-score'           => 'Puntatge',
+	'contributionscores-pages'           => 'Paginas',
+	'contributionscores-changes'         => 'Modificacions',
+	'contributionscores-username'        => "Nom d'utilizaire",
+	'contributionscores-invalidusername' => "Nom d'utilizaire invalid",
+	'contributionscores-invalidmetric'   => 'Metria incorrècta',
 );
 
 /** Ossetic (Иронау)
@@ -678,25 +687,26 @@ $messages['pam'] = array(
 );
 
 /** Polish (Polski)
- * @author Derbeth
  * @author Sp5uhe
  * @author Equadus
  * @author McMonster
+ * @author Derbeth
  */
 $messages['pl'] = array(
-	'contributionscores'              => 'Punkty za edycje',
-	'contributionscores-desc'         => 'Wylicza [[Special:ContributionScores|punkty za edycje]] dla użytkowników',
-	'contributionscores-info'         => 'Punkty za edycje naliczane są następującą metodą:
+	'contributionscores'                 => 'Punkty za edycje',
+	'contributionscores-desc'            => 'Wylicza [[Special:ContributionScores|punkty za edycje]] dla użytkowników',
+	'contributionscores-info'            => 'Punkty za edycje naliczane są następującą metodą:
 *1 punkt za każdą edytowaną unikalną stronę
 *pierwiastek kwadratowy z (ogólna liczba edycji) - (wszystkich unikalnych stron) * 2
 Taki sposób naliczania pozwala wyważyć różnorodność edycji względem liczby edycji. Zasadniczo wynik uzależniony jest od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.',
-	'contributionscores-top'          => '($1 najlepszych)',
-	'contributionscores-days'         => 'Ostatnie $1 dni',
-	'contributionscores-allrevisions' => 'Wszystkie edycje',
-	'contributionscores-score'        => 'Punktów',
-	'contributionscores-pages'        => 'Stron',
-	'contributionscores-changes'      => 'Zmian',
-	'contributionscores-username'     => 'Nazwa użytkownika',
+	'contributionscores-top'             => '($1 najlepszych)',
+	'contributionscores-days'            => 'Ostatnie $1 dni',
+	'contributionscores-allrevisions'    => 'Wszystkie edycje',
+	'contributionscores-score'           => 'Punktów',
+	'contributionscores-pages'           => 'Stron',
+	'contributionscores-changes'         => 'Zmian',
+	'contributionscores-username'        => 'Nazwa użytkownika',
+	'contributionscores-invalidusername' => 'Zła nazwa użytkownika',
 );
 
 /** Piemontèis (Piemontèis)
@@ -852,21 +862,24 @@ Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah
 
 /** Swedish (Svenska)
  * @author Lejonel
+ * @author M.M.S.
  */
 $messages['sv'] = array(
-	'contributionscores'              => 'Bidragspoäng',
-	'contributionscores-desc'         => 'Hämtar information från databasen om de användare som gjort [[Special:ContributionScores|flest bidrag]]',
-	'contributionscores-info'         => 'Poängen beräknas på följande vis:
+	'contributionscores'                 => 'Bidragspoäng',
+	'contributionscores-desc'            => 'Hämtar information från databasen om de användare som gjort [[Special:ContributionScores|flest bidrag]]',
+	'contributionscores-info'            => 'Poängen beräknas på följande vis:
 * 1 poäng för varje unik sida som redigerats
 * kvadratroten av (antal gjorda redigeringar) - (antal unika sidor) * 2
 När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.',
-	'contributionscores-top'          => '(Topp $1)',
-	'contributionscores-days'         => 'Senaste $1 dagarna',
-	'contributionscores-allrevisions' => 'Alla redigeringar',
-	'contributionscores-score'        => 'Poäng',
-	'contributionscores-pages'        => 'Sidor',
-	'contributionscores-changes'      => 'Ändringar',
-	'contributionscores-username'     => 'Användarnamn',
+	'contributionscores-top'             => '(Topp $1)',
+	'contributionscores-days'            => 'Senaste $1 dagarna',
+	'contributionscores-allrevisions'    => 'Alla redigeringar',
+	'contributionscores-score'           => 'Poäng',
+	'contributionscores-pages'           => 'Sidor',
+	'contributionscores-changes'         => 'Ändringar',
+	'contributionscores-username'        => 'Användarnamn',
+	'contributionscores-invalidusername' => 'Ogiltigt användarnamn',
+	'contributionscores-invalidmetric'   => 'Ogiltig metrisk',
 );
 
 /** Tamil (தமிழ்)
