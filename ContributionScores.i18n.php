@@ -240,20 +240,21 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
  * @author Alma
  */
 $messages['gl'] = array(
-	'contributionscores'              => 'Puntuación das contribucións',
-	'contributionscores-desc'         => 'Escruta a base de datos do wiki para ver os maiores [[Special:ContributionScores|volumes de contribucións dos usuarios]]',
-	'contributionscores-info'         => 'As puntuacións calcúlanse do seguinte xeito:
+	'contributionscores'                 => 'Puntuación das contribucións',
+	'contributionscores-desc'            => 'Escruta a base de datos do wiki para ver os maiores [[Special:ContributionScores|volumes de contribucións dos usuarios]]',
+	'contributionscores-info'            => 'As puntuacións calcúlanse do seguinte xeito:
 *Un (1) punto por cada páxina única editada
 *Raíz cadrada de (Total de edicións feitas) - (Total de páxinas únicas) * 2
 As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume.
 Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, tendo en conta un volume alto de edicións (co que se asume que é unha páxina de calidade superior).',
-	'contributionscores-top'          => '(os $1 que máis)',
-	'contributionscores-days'         => 'Os últimos $1 días',
-	'contributionscores-allrevisions' => 'Todas as revisións',
-	'contributionscores-score'        => 'Puntuación',
-	'contributionscores-pages'        => 'Páxinas',
-	'contributionscores-changes'      => 'Cambios',
-	'contributionscores-username'     => 'Nome do usuario',
+	'contributionscores-top'             => '(os $1 que máis)',
+	'contributionscores-days'            => 'Os últimos $1 días',
+	'contributionscores-allrevisions'    => 'Todas as revisións',
+	'contributionscores-score'           => 'Puntuación',
+	'contributionscores-pages'           => 'Páxinas',
+	'contributionscores-changes'         => 'Cambios',
+	'contributionscores-username'        => 'Nome do usuario',
+	'contributionscores-invalidusername' => 'Nome de usuario inválido',
 );
 
 /** Manx (Gaelg)
