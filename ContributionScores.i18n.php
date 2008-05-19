@@ -127,19 +127,21 @@ $messages['da'] = array(
  * @author Raimond Spekking
 */
 $messages['de'] = array(
-	'contributionscores'              => 'Benutzerbeiträge bewerten',
-	'contributionscores-desc'         => 'Abfrage der Wiki-Datenbank nach der Anzahl der [[Special:ContributionScores|Benutzerbeiträge]]',
-	'contributionscores-info'         => "Bewertungsschema:
+	'contributionscores'                 => 'Benutzerbeiträge bewerten',
+	'contributionscores-desc'            => 'Abfrage der Wiki-Datenbank nach der Anzahl der [[Special:ContributionScores|Benutzerbeiträge]]',
+	'contributionscores-info'            => "Bewertungsschema:
 *1 Punkt für jede bearbeitete Seite
 *Quadratwurzel aller (Bearbeitungen) - (Summe der bearbeiteten Seiten) * 2
 Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.",
-	'contributionscores-top'          => '(Top $1)',
-	'contributionscores-days'         => 'Letzte $1 Tage',
-	'contributionscores-allrevisions' => 'Alle Versionen',
-	'contributionscores-score'        => 'Bewertung',
-	'contributionscores-pages'        => 'Seiten',
-	'contributionscores-changes'      => 'Änderungen',
-	'contributionscores-username'     => 'Benutzername',
+	'contributionscores-top'             => '(Top $1)',
+	'contributionscores-days'            => 'Letzte $1 Tage',
+	'contributionscores-allrevisions'    => 'Alle Versionen',
+	'contributionscores-score'           => 'Bewertung',
+	'contributionscores-pages'           => 'Seiten',
+	'contributionscores-changes'         => 'Änderungen',
+	'contributionscores-username'        => 'Benutzername',
+	'contributionscores-invalidusername' => 'Ungültiger Benutzername',
+	'contributionscores-invalidmetric'   => 'Ungültige Metrik',
 );
 
 /** Greek (Ελληνικά)
