@@ -31,6 +31,8 @@ Basically, this score measures primarily unique pages edited, with consideration
  * @author Arnobarnard
  */
 $messages['af'] = array(
+	'contributionscores-pages'    => 'Bladsye',
+	'contributionscores-changes'  => 'Wysigings',
 	'contributionscores-username' => 'Gebruikersnaam',
 );
 
@@ -554,12 +556,14 @@ $messages['lt'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'contributionscores-top'          => '(ആദ്യത്തെ $1)',
-	'contributionscores-days'         => 'അവസാനത്തെ $1 ദിവസങ്ങള്‍',
-	'contributionscores-allrevisions' => 'എല്ലാ പതിപ്പുകളും',
-	'contributionscores-pages'        => 'താളുകള്‍',
-	'contributionscores-changes'      => 'മാറ്റങ്ങള്‍',
-	'contributionscores-username'     => 'ഉപയോക്തൃനാമം',
+	'contributionscores-top'             => '(ആദ്യത്തെ $1)',
+	'contributionscores-days'            => 'അവസാനത്തെ $1 ദിവസങ്ങള്‍',
+	'contributionscores-allrevisions'    => 'എല്ലാ പതിപ്പുകളും',
+	'contributionscores-score'           => 'സ്കോര്‍',
+	'contributionscores-pages'           => 'താളുകള്‍',
+	'contributionscores-changes'         => 'മാറ്റങ്ങള്‍',
+	'contributionscores-username'        => 'ഉപയോക്തൃനാമം',
+	'contributionscores-invalidusername' => 'അസാധുവായ ഉപയോക്തൃനാമം',
 );
 
 /** Marathi (मराठी)
@@ -799,19 +803,21 @@ $messages['ru'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
-	'contributionscores'              => 'Skóre príspevkov',
-	'contributionscores-desc'         => 'Zisťuje naväčší [[Special:ContributionScores|objem používateľských príspevkov]] z databázy wiki',
-	'contributionscores-info'         => 'Skóre sa počíta nasledovne:
+	'contributionscores'                 => 'Skóre príspevkov',
+	'contributionscores-desc'            => 'Zisťuje naväčší [[Special:ContributionScores|objem používateľských príspevkov]] z databázy wiki',
+	'contributionscores-info'            => 'Skóre sa počíta nasledovne:
 *1 bod za každú jedinečnú stránku, ktorú používateľ upravoval
 *Odmocnina z (celkom úprav) - (celkom jedinečných stránok) * 2
 Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.',
-	'contributionscores-top'          => '(Najlepších $1)',
-	'contributionscores-days'         => 'Posledných $1 dní',
-	'contributionscores-allrevisions' => 'Všetky revízie',
-	'contributionscores-score'        => 'Skóre',
-	'contributionscores-pages'        => 'Stránky',
-	'contributionscores-changes'      => 'Zmeny',
-	'contributionscores-username'     => 'Používateľské meno',
+	'contributionscores-top'             => '(Najlepších $1)',
+	'contributionscores-days'            => 'Posledných $1 dní',
+	'contributionscores-allrevisions'    => 'Všetky revízie',
+	'contributionscores-score'           => 'Skóre',
+	'contributionscores-pages'           => 'Stránky',
+	'contributionscores-changes'         => 'Zmeny',
+	'contributionscores-username'        => 'Používateľské meno',
+	'contributionscores-invalidusername' => 'Neplatné používateľské meno',
+	'contributionscores-invalidmetric'   => 'Neplatná metrika',
 );
 
 /** Serbian Cyrillic ekavian (ћирилица)
