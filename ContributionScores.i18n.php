@@ -782,7 +782,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 );
 
 /** Russian (Русский)
- * @author .:Ajvol:.
+ * @author Александр Сигачёв
  * @author Ahonc
  * @author Kalan
  */
