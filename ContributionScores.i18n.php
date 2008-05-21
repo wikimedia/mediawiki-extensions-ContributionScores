@@ -38,21 +38,24 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author ترجمان05
  */
 $messages['ar'] = array(
-	'contributionscores'              => 'نتائج المساهمات',
-	'contributionscores-desc'         => 'يسحب قاعدة بيانات الويكي لأعلى [[Special:ContributionScores|حجم لمساهمات المستخدم]]',
-	'contributionscores-info'         => 'النتائج تحسب كالتالي:
+	'contributionscores'                 => 'نتائج المساهمات',
+	'contributionscores-desc'            => 'يسحب قاعدة بيانات الويكي لأعلى [[Special:ContributionScores|حجم لمساهمات المستخدم]]',
+	'contributionscores-info'            => 'النتائج تحسب كالتالي:
 *1 نقطة لكل صفحة فريدة تحرر
 *الجذر التربيعي ل(عدد التعديلات الكلية) - (عدد الصفحات الفريدة الكلية) * 2
 النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسي الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.',
-	'contributionscores-top'          => '(أعلى $1)',
-	'contributionscores-days'         => 'آخر $1 يوم',
-	'contributionscores-allrevisions' => 'كل النسخ',
-	'contributionscores-score'        => 'النتيجة',
-	'contributionscores-pages'        => 'الصفحات',
-	'contributionscores-changes'      => 'التغييرات',
-	'contributionscores-username'     => 'اسم المستخدم',
+	'contributionscores-top'             => '(أعلى $1)',
+	'contributionscores-days'            => 'آخر $1 يوم',
+	'contributionscores-allrevisions'    => 'كل النسخ',
+	'contributionscores-score'           => 'النتيجة',
+	'contributionscores-pages'           => 'الصفحات',
+	'contributionscores-changes'         => 'التغييرات',
+	'contributionscores-username'        => 'اسم المستخدم',
+	'contributionscores-invalidusername' => 'اسم المستخدم خاطئ',
+	'contributionscores-invalidmetric'   => 'المتري خاطئ',
 );
 
 /** Kotava (Kotava)
