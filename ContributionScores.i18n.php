@@ -574,19 +574,21 @@ $messages['ml'] = array(
  * @author Mahitgar
  */
 $messages['mr'] = array(
-	'contributionscores'              => 'योगदान संख्या',
-	'contributionscores-desc'         => '[[Special:ContributionScores|सदस्य योगदान संख्येनुसार]] विकि डाटाबेस दर्शवितो',
-	'contributionscores-info'         => 'गुण खालीलप्रमाणे मोजले जातील:
+	'contributionscores'                 => 'योगदान संख्या',
+	'contributionscores-desc'            => '[[Special:ContributionScores|सदस्य योगदान संख्येनुसार]] विकि डाटाबेस दर्शवितो',
+	'contributionscores-info'            => 'गुण खालीलप्रमाणे मोजले जातील:
 *प्रत्येक स्वतंत्र पानासाठी १ गुण
 *(एकूण संपादने) - (एकूण स्वतंत्र पाने) * 2 चे वर्गमूळ
 अशा प्रकारे मोजलेले गुण हे संपादन विविधतेला संपादन संख्येपेक्षा जास्त महत्व देतात. मुख्यत्वे, हे गुण जास्त संपादन संख्या मोजून स्वतंत्र पानांची संपादने काढतात.',
-	'contributionscores-top'          => '(पहिले $1)',
-	'contributionscores-days'         => 'शेवटचे $1 दिवस',
-	'contributionscores-allrevisions' => 'सर्व आवर्तने',
-	'contributionscores-score'        => 'गुण',
-	'contributionscores-pages'        => 'पाने',
-	'contributionscores-changes'      => 'बदल',
-	'contributionscores-username'     => 'उपयोगकर्तानाव',
+	'contributionscores-top'             => '(पहिले $1)',
+	'contributionscores-days'            => 'शेवटचे $1 दिवस',
+	'contributionscores-allrevisions'    => 'सर्व आवर्तने',
+	'contributionscores-score'           => 'गुण',
+	'contributionscores-pages'           => 'पाने',
+	'contributionscores-changes'         => 'बदल',
+	'contributionscores-username'        => 'उपयोगकर्तानाव',
+	'contributionscores-invalidusername' => 'चुकीचे सदस्यनाव',
+	'contributionscores-invalidmetric'   => 'चुकीचे मेट्रिक',
 );
 
 /** Low German (Plattdüütsch)
