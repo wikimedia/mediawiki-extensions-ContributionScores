@@ -505,6 +505,13 @@ $messages['km'] = array(
 	'contributionscores-username'     => 'ឈ្មោះអ្នកប្រើប្រាស់',
 );
 
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'contributionscores-username' => 'Metmaacher Name',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
