@@ -36,7 +36,12 @@ if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 }
 
 $wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
-$wgExtensionFunctions[] = 'efContributionScores_Setup';
+
+if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
+	$wgHooks['ParserFirstCallInit'][] = 'efContributionScores_Setup';
+} else {
+	$wgExtensionFunctions[] = 'efContributionScores_Setup';
+}
 
 ///Message Cache population for versions that did not support $wgExtensionFunctions
 function efContributionScores_AddMessages() {
