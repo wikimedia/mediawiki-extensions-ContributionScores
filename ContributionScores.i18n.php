@@ -88,21 +88,23 @@ $messages['bg'] = array(
 
 /** Catalan (Català)
  * @author SMP
+ * @author Jordi Roqué
  */
 $messages['ca'] = array(
-	'contributionscores'              => 'Punts de contribució',
-	'contributionscores-info'         => "La puntuació es calcula de la manera següent:
+	'contributionscores'                 => 'Punts de contribució',
+	'contributionscores-info'            => "La puntuació es calcula de la manera següent:
 * Un punt per cada pàgina diferent editada, més
 *El doble de l'arrel quadrada de: el total d'edicions fetes menys el total de pàgines diferents editades.
 Aquesta fórmula premia la diversitat d'edicions més que no el seu volum.
 Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració per els alts volums d'edició considerats de pàgines de més qualitat.",
-	'contributionscores-top'          => '($1 millors)',
-	'contributionscores-days'         => 'Últims $1 dies',
-	'contributionscores-allrevisions' => 'Totes les revisions',
-	'contributionscores-score'        => 'Puntuació',
-	'contributionscores-pages'        => 'Pàgines',
-	'contributionscores-changes'      => 'Canvis',
-	'contributionscores-username'     => "Nom d'usuari",
+	'contributionscores-top'             => '($1 millors)',
+	'contributionscores-days'            => 'Últims $1 dies',
+	'contributionscores-allrevisions'    => 'Totes les revisions',
+	'contributionscores-score'           => 'Puntuació',
+	'contributionscores-pages'           => 'Pàgines',
+	'contributionscores-changes'         => 'Canvis',
+	'contributionscores-username'        => "Nom d'usuari",
+	'contributionscores-invalidusername' => "Nom d'usuari no vàlid",
 );
 
 /** Czech (Česky)
@@ -349,6 +351,13 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-pages'        => 'Oldalak',
 	'contributionscores-changes'      => 'Változtatások',
 	'contributionscores-username'     => 'Felhasználó',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Rex
+ */
+$messages['id'] = array(
+	'contributionscores-username' => 'Nama pengguna',
 );
 
 /** Iloko (Ilokano)
