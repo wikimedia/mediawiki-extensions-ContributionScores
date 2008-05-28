@@ -82,7 +82,7 @@ function efContributionScores_Render(&$parser, $usertext, $metric='score') {
 	$user = User::newFromName($usertext);
 	$dbr = wfGetDB( DB_SLAVE );
 	
-	if ($user->getID() != 0) {
+	if ( $user instanceof User && $user->isLoggedIn() ) {
 		if ($metric=='score') {
 			$res = $dbr->select('revision',
 									'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
