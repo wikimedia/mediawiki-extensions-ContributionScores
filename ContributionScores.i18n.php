@@ -335,6 +335,28 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
 	'contributionscores-username'     => 'Wužiwarske mjeno',
 );
 
+/** Haitian (Kreyòl ayisyen)
+ * @author Jvm
+ */
+$messages['ht'] = array(
+	'contributionscores'                 => 'Kontribisyon analiz',
+	'contributionscores-desc'            => 'Sonde baz done wiki-a pou wo[[Special:Contribution Scores| itilizatè kontribisyon volim]]',
+	'contributionscores-info'            => 'Rezilta yo kalkile konsa:
+*Yon (1) pwen pou chak paj inik edite 
+*Rasin Kare de (Total Edit Fè) - (Total Paj Inik) * 2
+Rezilta trouve nan fason sa peze edit divèsite sou edit kantite.
+Basikalman, rezilta sa mezire primèman paj inik ki te edite, avèk konsiderasyon pou wo edit volim – sa konsidere kòm yon paj de mèyè kalite.',
+	'contributionscores-top'             => '(Meyè $1 yo)',
+	'contributionscores-days'            => 'Denyè $1 jou yo',
+	'contributionscores-allrevisions'    => 'Tout revizion yo',
+	'contributionscores-score'           => 'Rezilta',
+	'contributionscores-pages'           => 'Paj',
+	'contributionscores-changes'         => 'Chanjman',
+	'contributionscores-username'        => 'Non-itilizatè',
+	'contributionscores-invalidusername' => 'Non-itilizatè envalid',
+	'contributionscores-invalidmetric'   => 'Metrik envalid',
+);
+
 /** Hungarian (Magyar)
  * @author Dani
  */
