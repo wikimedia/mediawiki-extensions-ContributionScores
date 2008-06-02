@@ -547,20 +547,21 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'contributionscores'              => 'Bewertung vun den Ännerungen',
-	'contributionscores-desc'         => "Ufro un d'Wiki-Datebank no den héichsten [[Special:ContributionScores|Benotzerscoren]]",
-	'contributionscores-info'         => "D'Bewertunge ginn esou gerechent:
+	'contributionscores'                 => 'Bewertung vun den Ännerungen',
+	'contributionscores-desc'            => "Ufro un d'Wiki-Datebank no den héichsten [[Special:ContributionScores|Benotzerscoren]]",
+	'contributionscores-info'            => "D'Bewertunge ginn esou gerechent:
 * 1 Punkt fir all geännert Säit;
 * D'Quadrawuerzel vun (allen Ännerungen) - (Zuel vun de geännerte Säiten) * 2.
 
 Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeitung zougedeelt, wéi der Zuel vun den Ännerungen.",
-	'contributionscores-top'          => '(Top $1)',
-	'contributionscores-days'         => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
-	'contributionscores-allrevisions' => 'All Versiounen',
-	'contributionscores-score'        => 'Bewertung',
-	'contributionscores-pages'        => 'Säiten',
-	'contributionscores-changes'      => 'Ännerungen',
-	'contributionscores-username'     => 'Benotzernumm',
+	'contributionscores-top'             => '(Top $1)',
+	'contributionscores-days'            => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
+	'contributionscores-allrevisions'    => 'All Versiounen',
+	'contributionscores-score'           => 'Bewertung',
+	'contributionscores-pages'           => 'Säiten',
+	'contributionscores-changes'         => 'Ännerungen',
+	'contributionscores-username'        => 'Benotzernumm',
+	'contributionscores-invalidusername' => 'Ongëltege Benotzernumm',
 );
 
 /** Limburgish (Limburgs)
@@ -633,7 +634,9 @@ $messages['mr'] = array(
  * @author Slomox
  */
 $messages['nds'] = array(
+	'contributionscores-days'     => 'Letzte $1 Daag',
 	'contributionscores-pages'    => 'Sieden',
+	'contributionscores-changes'  => 'Ännern',
 	'contributionscores-username' => 'Brukernaam',
 );
 
@@ -895,21 +898,24 @@ Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer 
 
 /** Sundanese (Basa Sunda)
  * @author Kandar
+ * @author Irwangatot
  */
 $messages['su'] = array(
-	'contributionscores'              => 'Peunteun Kontribusi',
-	'contributionscores-desc'         => 'Jajal pamanggih pangkalan data wiki ngeunaan [[Husus:Peunteunkontribusi|eusi kontribusi pamaké]] pangpunjulna',
-	'contributionscores-info'         => 'Peunteun diitung dumasar
+	'contributionscores'                 => 'Peunteun Kontribusi',
+	'contributionscores-desc'            => 'Jajal pamanggih pangkalan data wiki ngeunaan [[Special:ContributionScores|eusi kontribusi pamaké]] pangpunjulna',
+	'contributionscores-info'            => 'Peunteun diitung dumasar
 *1 peunteun pikeun unggal éditan dina kaca nu unik
 *Akar Kuadrat tina (Jumlah Éditan) - (Jumlah Kaca Unik) * 2
 Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah éditan. Ieu peunteun téh utamana ngukur éditan dina kaca nu unik, kalawan dirojong ku jumlah éditan anu loba - kalawan anggapan kacana jadi leuwih alus.',
-	'contributionscores-top'          => '(Punclut $1)',
-	'contributionscores-days'         => '$1 Poé Panungtung',
-	'contributionscores-allrevisions' => 'Sadaya Révisi',
-	'contributionscores-score'        => 'Peunteun',
-	'contributionscores-pages'        => 'Kaca',
-	'contributionscores-changes'      => 'Parobahan',
-	'contributionscores-username'     => 'Landihan',
+	'contributionscores-top'             => '(Punclut $1)',
+	'contributionscores-days'            => '$1 Poé Panungtung',
+	'contributionscores-allrevisions'    => 'Sadaya Révisi',
+	'contributionscores-score'           => 'Peunteun',
+	'contributionscores-pages'           => 'Kaca',
+	'contributionscores-changes'         => 'Parobahan',
+	'contributionscores-username'        => 'Landihan',
+	'contributionscores-invalidusername' => 'Pamaké teu cocog',
+	'contributionscores-invalidmetric'   => 'matrik teu cocog',
 );
 
 /** Swedish (Svenska)
