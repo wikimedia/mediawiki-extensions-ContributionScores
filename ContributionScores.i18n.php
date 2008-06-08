@@ -122,7 +122,9 @@ $messages['cs'] = array(
 	'contributionscores-username'     => 'Uživatelské jméno',
 );
 
-/** Church Slavic (Словѣньскъ) */
+/** Church Slavic (Словѣньскъ)
+ * @author ОйЛ
+ */
 $messages['cu'] = array(
 	'contributionscores-username' => 'по́льꙃєватєлꙗ и́мѧ',
 );
