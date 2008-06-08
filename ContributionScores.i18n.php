@@ -122,6 +122,11 @@ $messages['cs'] = array(
 	'contributionscores-username'     => 'Uživatelské jméno',
 );
 
+/** Church Slavic (Словѣньскъ) */
+$messages['cu'] = array(
+	'contributionscores-username' => 'по́льꙃєватєлꙗ и́мѧ',
+);
+
 /** Danish (Dansk)
  * @author M.M.S.
  */
@@ -830,19 +835,20 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  * @author Kalan
  */
 $messages['ru'] = array(
-	'contributionscores'              => 'Оценка вклада',
-	'contributionscores-desc'         => 'Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]',
-	'contributionscores-info'         => 'Оценка рассчитывается сложением следующих слагаемых:
+	'contributionscores'                 => 'Оценка вклада',
+	'contributionscores-desc'            => 'Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]',
+	'contributionscores-info'            => 'Оценка рассчитывается сложением следующих слагаемых:
 * 1 очко за редактирование каждой уникальной страницы;
 * 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
 При подсчёте оценки таким образом разнообразию правок придаётся больший вес, чем общему количеству правок.',
-	'contributionscores-top'          => '(лучшие $1)',
-	'contributionscores-days'         => '{{PLURAL:$1|Последний день|Последние $1 дня|Последние $1 дней}}',
-	'contributionscores-allrevisions' => 'Все правки',
-	'contributionscores-score'        => 'Оценка',
-	'contributionscores-pages'        => 'Страниц',
-	'contributionscores-changes'      => 'Правок',
-	'contributionscores-username'     => 'Имя участника',
+	'contributionscores-top'             => '(лучшие $1)',
+	'contributionscores-days'            => '{{PLURAL:$1|Последний день|Последние $1 дня|Последние $1 дней}}',
+	'contributionscores-allrevisions'    => 'Все правки',
+	'contributionscores-score'           => 'Оценка',
+	'contributionscores-pages'           => 'Страниц',
+	'contributionscores-changes'         => 'Правок',
+	'contributionscores-username'        => 'Имя участника',
+	'contributionscores-invalidusername' => 'Неправильное имя участника',
 );
 
 /** Slovak (Slovenčina)
