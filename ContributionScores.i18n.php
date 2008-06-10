@@ -246,7 +246,7 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-pages'           => 'Pages',
 	'contributionscores-changes'         => 'Modifications',
 	'contributionscores-username'        => 'Pseudonyme',
-	'contributionscores-invalidusername' => "Nom d'utilisateur invalide",
+	'contributionscores-invalidusername' => 'Nom d’utilisateur invalide',
 	'contributionscores-invalidmetric'   => 'Métrie incorrecte',
 );
 
