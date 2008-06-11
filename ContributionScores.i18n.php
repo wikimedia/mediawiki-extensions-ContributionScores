@@ -751,6 +751,7 @@ $messages['pam'] = array(
  * @author Equadus
  * @author McMonster
  * @author Derbeth
+ * @author Wpedzich
  */
 $messages['pl'] = array(
 	'contributionscores'                 => 'Punkty za edycje',
@@ -767,6 +768,7 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem licz
 	'contributionscores-changes'         => 'Zmian',
 	'contributionscores-username'        => 'Nazwa użytkownika',
 	'contributionscores-invalidusername' => 'Zła nazwa użytkownika',
+	'contributionscores-invalidmetric'   => 'Nieprawidłowa metryka',
 );
 
 /** Piemontèis (Piemontèis)
