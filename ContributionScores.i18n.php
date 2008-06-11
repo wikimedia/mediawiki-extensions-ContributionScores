@@ -114,7 +114,7 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 $messages['cs'] = array(
 	'contributionscores-desc'         => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
 	'contributionscores-top'          => '($1 nejvyšších)',
-	'contributionscores-days'         => '{{plural:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
+	'contributionscores-days'         => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
 	'contributionscores-allrevisions' => 'Všechny revize',
 	'contributionscores-score'        => 'Skóre',
 	'contributionscores-pages'        => 'Stránky',
