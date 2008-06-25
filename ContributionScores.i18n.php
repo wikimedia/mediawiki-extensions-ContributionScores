@@ -271,6 +271,7 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
 	'contributionscores-changes'         => 'Cambios',
 	'contributionscores-username'        => 'Nome do usuario',
 	'contributionscores-invalidusername' => 'Nome de usuario inválido',
+	'contributionscores-invalidmetric'   => 'Métrica inválida',
 );
 
 /** Manx (Gaelg)
