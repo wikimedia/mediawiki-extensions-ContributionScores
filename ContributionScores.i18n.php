@@ -27,6 +27,13 @@ Basically, this score measures primarily unique pages edited, with consideration
 	'contributionscores-invalidmetric'   => 'Invalid metric',
 );
 
+/** Niuean (native name missing)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'contributionscores-username' => 'Matahigoa he tagata',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  */
@@ -175,20 +182,22 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'contributionscores'              => 'Poentaro de Kontribuoj',
-	'contributionscores-desc'         => 'Informmendas la vikian datumbazon por la plej [[Special:ContributionScores|oftaj kontribuantoj]]',
-	'contributionscores-info'         => 'Poentaroj estas donataj jene:
+	'contributionscores'                 => 'Poentaro de Kontribuoj',
+	'contributionscores-desc'            => 'Informmendas la vikian datumbazon por la plej [[Special:ContributionScores|oftaj kontribuantoj]]',
+	'contributionscores-info'            => 'Poentaroj estas donataj jene:
 *Unu (1) poento por ĉiu unika paĝo redaktata
 *Kvadrata Radiko de (Tutaj Faritaj Redaktoj) - (Tutaj Unikaj Paĝoj) * 2
 Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.
 Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.',
-	'contributionscores-top'          => '(Plej alta $1)',
-	'contributionscores-days'         => 'Lastaj $1 Tagoj',
-	'contributionscores-allrevisions' => 'Ĉiuj Revizioj',
-	'contributionscores-score'        => 'Poentaro',
-	'contributionscores-pages'        => 'Paĝoj',
-	'contributionscores-changes'      => 'Ŝanĝoj',
-	'contributionscores-username'     => 'Salutnomo',
+	'contributionscores-top'             => '(Plej alta $1)',
+	'contributionscores-days'            => 'Lastaj $1 Tagoj',
+	'contributionscores-allrevisions'    => 'Ĉiuj Revizioj',
+	'contributionscores-score'           => 'Poentaro',
+	'contributionscores-pages'           => 'Paĝoj',
+	'contributionscores-changes'         => 'Ŝanĝoj',
+	'contributionscores-username'        => 'Salutnomo',
+	'contributionscores-invalidusername' => 'Nevalida salutnomo',
+	'contributionscores-invalidmetric'   => 'Nevalida parametro',
 );
 
 $messages['es'] = array(
@@ -381,6 +390,13 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-pages'        => 'Oldalak',
 	'contributionscores-changes'      => 'Változtatások',
 	'contributionscores-username'     => 'Felhasználó',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'contributionscores-username' => 'Nomine de usator',
 );
 
 /** Indonesian (Bahasa Indonesia)
