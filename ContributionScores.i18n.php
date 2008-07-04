@@ -27,6 +27,13 @@ Basically, this score measures primarily unique pages edited, with consideration
 	'contributionscores-invalidmetric'   => 'Invalid metric',
 );
 
+/** Faeag Rotuma (Faeag Rotuma)
+ * @author Jose77
+ */
+$messages['rtm'] = array(
+	'contributionscores-username' => 'Asa',
+);
+
 /** Niuean (native name missing)
  * @author Jose77
  */
@@ -978,13 +985,14 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'contributionscores-top'          => '(పై $1)',
-	'contributionscores-days'         => 'చివరి $1 రోజులు',
-	'contributionscores-allrevisions' => 'అన్ని కూర్పులు',
-	'contributionscores-score'        => 'స్కోరు',
-	'contributionscores-pages'        => 'పేజీలు',
-	'contributionscores-changes'      => 'మార్పులు',
-	'contributionscores-username'     => 'వాడుకరిపేరు',
+	'contributionscores-top'             => '(పై $1)',
+	'contributionscores-days'            => 'చివరి $1 రోజులు',
+	'contributionscores-allrevisions'    => 'అన్ని కూర్పులు',
+	'contributionscores-score'           => 'స్కోరు',
+	'contributionscores-pages'           => 'పేజీలు',
+	'contributionscores-changes'         => 'మార్పులు',
+	'contributionscores-username'        => 'వాడుకరిపేరు',
+	'contributionscores-invalidusername' => 'తప్పుడు వాడుకరిపేరు',
 );
 
 /** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
