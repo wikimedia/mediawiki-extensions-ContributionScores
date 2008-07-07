@@ -34,7 +34,14 @@ $messages['rtm'] = array(
 	'contributionscores-username' => 'Asa',
 );
 
-/** Niuean (native name missing)
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'contributionscores-username' => 'Пайдаланышын лӱмжӧ',
+);
+
+/** Niuean (ko e vagahau Niuē)
  * @author Jose77
  */
 $messages['niu'] = array(
@@ -90,14 +97,15 @@ $messages['avk'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'contributionscores'              => 'Потребителска класация',
-	'contributionscores-top'          => '(Най-добрите $1)',
-	'contributionscores-days'         => 'Последните $1 дни',
-	'contributionscores-allrevisions' => 'Всички редакции',
-	'contributionscores-score'        => 'Точки',
-	'contributionscores-pages'        => 'Страници',
-	'contributionscores-changes'      => 'Редакции',
-	'contributionscores-username'     => 'Потребител',
+	'contributionscores'                 => 'Потребителска класация',
+	'contributionscores-top'             => '(Най-добрите $1)',
+	'contributionscores-days'            => 'Последните $1 дни',
+	'contributionscores-allrevisions'    => 'Всички редакции',
+	'contributionscores-score'           => 'Точки',
+	'contributionscores-pages'           => 'Страници',
+	'contributionscores-changes'         => 'Редакции',
+	'contributionscores-username'        => 'Потребител',
+	'contributionscores-invalidusername' => 'Невалидно потребителско име',
 );
 
 /** Catalan (Català)
@@ -136,7 +144,7 @@ $messages['cs'] = array(
 	'contributionscores-username'     => 'Uživatelské jméno',
 );
 
-/** Church Slavic (Словѣньскъ)
+/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -262,6 +270,7 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
  * @author Grondin
  * @author Urhixidur
  * @author IAlex
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'contributionscores'                 => 'Pointage des contributions',
