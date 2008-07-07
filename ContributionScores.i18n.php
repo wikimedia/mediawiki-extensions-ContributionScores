@@ -172,6 +172,22 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
 	'contributionscores-invalidmetric'   => 'Ungültige Metrik',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'contributionscores'                 => 'Pśinoski pógódnośiś',
+	'contributionscores-top'             => '(Nejlěpšych $1)',
+	'contributionscores-days'            => 'Slědne $1 dny',
+	'contributionscores-allrevisions'    => 'Wše wersije',
+	'contributionscores-score'           => 'Pógódnośenje',
+	'contributionscores-pages'           => 'Boki',
+	'contributionscores-changes'         => 'Změny',
+	'contributionscores-username'        => 'Wužywarske mě',
+	'contributionscores-invalidusername' => 'Njepłaśiwe wužywarske mě',
+	'contributionscores-invalidmetric'   => 'Njepłaśiwa metrika',
+);
+
 /** Greek (Ελληνικά)
  * @author Consta
  */
@@ -299,6 +315,18 @@ $messages['gv'] = array(
 	'contributionscores-username' => 'Ennym yn ymmydeyr',
 );
 
+/** Hebrew (עברית)
+ * @author Agbad
+ * @author Rotemliss
+ */
+$messages['he'] = array(
+	'contributionscores-top'      => '($1 הגבוהים ביותר)',
+	'contributionscores-days'     => 'ב־$1 הימים האחרונים',
+	'contributionscores-pages'    => 'דפים',
+	'contributionscores-changes'  => 'שינויים',
+	'contributionscores-username' => 'שם משתמש',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
@@ -344,19 +372,21 @@ Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'contributionscores'              => 'Wuhódnoćenje přinoškow',
-	'contributionscores-desc'         => 'Wuslědźi najwyši [[Special:ContributionScores|wobjim wužiwarskich přinoškow]] w datowej bance wikiprojekta',
-	'contributionscores-info'         => 'Ličba dypkow so takle wobličuje:
+	'contributionscores'                 => 'Wuhódnoćenje přinoškow',
+	'contributionscores-desc'            => 'Wuslědźi najwyši [[Special:ContributionScores|wobjim wužiwarskich přinoškow]] w datowej bance wikiprojekta',
+	'contributionscores-info'            => 'Ličba dypkow so takle wobličuje:
 *1 dypk za kóždy wobdźěłanu jednotliwu stronu
 *Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
 Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
-	'contributionscores-top'          => '(Najlěpše $1)',
-	'contributionscores-days'         => 'Poslednje $1 dnjow',
-	'contributionscores-allrevisions' => 'Wšě změny',
-	'contributionscores-score'        => 'Hódnoćenje',
-	'contributionscores-pages'        => 'Strony',
-	'contributionscores-changes'      => 'Změny',
-	'contributionscores-username'     => 'Wužiwarske mjeno',
+	'contributionscores-top'             => '(Najlěpšich $1)',
+	'contributionscores-days'            => 'Poslednje $1 dny',
+	'contributionscores-allrevisions'    => 'Wšě změny',
+	'contributionscores-score'           => 'Hódnoćenje',
+	'contributionscores-pages'           => 'Strony',
+	'contributionscores-changes'         => 'Změny',
+	'contributionscores-username'        => 'Wužiwarske mjeno',
+	'contributionscores-invalidusername' => 'Njepłaćiwe wužiwarske mjeno',
+	'contributionscores-invalidmetric'   => 'Njepłaćiwa metrika',
 );
 
 /** Haitian (Kreyòl ayisyen)
