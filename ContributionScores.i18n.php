@@ -13,7 +13,7 @@ $messages['en'] = array(
 	'contributionscores-desc'            => 'Polls the wiki database for highest [[Special:ContributionScores|user contribution volume]]',
 	'contributionscores-info'            => "Scores are calculated as follows:
 *One (1) point for each unique page edited
-*Square Root of (Total Edits Made) - (Total Unique Pages) * 2
+*Square root of (total edits made) - (total unique pages) * 2
 Scores calculated in this manner weight edit diversity over edit volume.
 Basically, this score measures primarily unique pages edited, with consideration for high edit volume - assumed to be a higher quality page.",
 	'contributionscores-top'             => '(Top $1)',
