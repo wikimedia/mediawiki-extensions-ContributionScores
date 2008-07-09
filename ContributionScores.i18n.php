@@ -161,14 +161,14 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Raimond Spekking
-*/
+ */
 $messages['de'] = array(
 	'contributionscores'                 => 'Benutzerbeiträge bewerten',
 	'contributionscores-desc'            => 'Abfrage der Wiki-Datenbank nach der Anzahl der [[Special:ContributionScores|Benutzerbeiträge]]',
-	'contributionscores-info'            => "Bewertungsschema:
+	'contributionscores-info'            => 'Bewertungsschema:
 *1 Punkt für jede bearbeitete Seite
 *Quadratwurzel aller (Bearbeitungen) - (Summe der bearbeiteten Seiten) * 2
-Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.",
+Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.',
 	'contributionscores-top'             => '(Top $1)',
 	'contributionscores-days'            => 'Letzte $1 Tage',
 	'contributionscores-allrevisions'    => 'Alle Versionen',
@@ -231,17 +231,21 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 	'contributionscores-invalidmetric'   => 'Nevalida parametro',
 );
 
+/** Spanish (Español) */
 $messages['es'] = array(
-	'contributionscores' => 'Puntuaciones por contribuir',
-	'contributionscores-info' => "Las puntuaciones son calculadas siguiendo:
+	'contributionscores'              => 'Puntuaciones por contribuir',
+	'contributionscores-info'         => 'Las puntuaciones son calculadas siguiendo:
 *1 punto por cada página única editada
 *Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2
-Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición. Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto volumen de edición supone que es un artículo de mayor calidad.",
+Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición. Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto volumen de edición supone que es un artículo de mayor calidad.',
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Últimos $1 días',
-	'contributionscores-allrevisions' => 'Estadísticas globales'
+	'contributionscores-days'         => 'Últimos $1 días',
+	'contributionscores-allrevisions' => 'Estadísticas globales',
 );
 
+/** Extremaduran (Estremeñu)
+ * @author Better
+ */
 $messages['ext'] = array(
 	'contributionscores-days' => 'Úrtimus $1 dias',
 );
@@ -537,48 +541,56 @@ Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo m�
 	'contributionscores-username'     => 'Jeneng panganggo',
 );
 
+/** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬)
+ * @author Robby
+ */
 $messages['kk-arab'] = array(
-	'contributionscores' => 'ٷلەس بەرۋ ەسەپتەرٸ',
-	'contributionscores-info' => "ەسەپتەر كەلەسٸ دەي سانالادى:
+	'contributionscores'              => 'ٷلەس بەرۋ ەسەپتەرٸ',
+	'contributionscores-info'         => 'ەسەپتەر كەلەسٸ دەي سانالادى:
 *1 ۇپاي ٵربٸر تٷزەتٸلگەن بٸرەگەي بەت ٷشٸن
 *مىنانىڭ شارشى تٷبٸرٸ (بارلىق ٸستەلٸنگەن تٷزەتۋلەر) ‒ (بارلىق بٸرەگەي بەتتەر) * 2
-وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.",
-	'contributionscores-top' => '(جوعارعى $1)',
-	'contributionscores-days' => 'سوڭعى $1 كٷندە',
+وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.',
+	'contributionscores-top'          => '(جوعارعى $1)',
+	'contributionscores-days'         => 'سوڭعى $1 كٷندە',
 	'contributionscores-allrevisions' => 'بارلىق نۇسقالار',
-	'contributionscores-score' => 'ەسەپ',
-	'contributionscores-pages' => 'بەتتەر',
-	'contributionscores-changes' => 'ٶزگەرٸستەر',
-	'contributionscores-username' => 'قاتىسۋشى اتى',
+	'contributionscores-score'        => 'ەسەپ',
+	'contributionscores-pages'        => 'بەتتەر',
+	'contributionscores-changes'      => 'ٶزگەرٸستەر',
+	'contributionscores-username'     => 'قاتىسۋشى اتى',
 );
+
+/** Kazakh (Cyrillic) (Қазақша (Cyrillic)) */
 $messages['kk-cyrl'] = array(
-	'contributionscores' => 'Үлес беру есептері',
-	'contributionscores-info' => "Есептер келесі дей саналады:
+	'contributionscores'              => 'Үлес беру есептері',
+	'contributionscores-info'         => 'Есептер келесі дей саналады:
 *1 ұпай әрбір түзетілген бірегей бет үшін
 *Мынаның шаршы түбірі (Барлық Істелінген Түзетулер) ‒ (Барлық Бірегей Беттер) * 2
-Осы тәсілмен саналған есептер түзету ауқымындағы өңдеу әркелкілігінің салмағын өлшейді. Негізінде, бұл есеп алдымен түзетілген біркелкі беттерді өлшейді, жоғарғы өңдеу ауқымымен бірге — жоғары сапалы бет жағдайымен есептеп.",
-	'contributionscores-top' => '(Жоғарғы $1)',
-	'contributionscores-days' => 'Соңғы $1 күнде',
+Осы тәсілмен саналған есептер түзету ауқымындағы өңдеу әркелкілігінің салмағын өлшейді. Негізінде, бұл есеп алдымен түзетілген біркелкі беттерді өлшейді, жоғарғы өңдеу ауқымымен бірге — жоғары сапалы бет жағдайымен есептеп.',
+	'contributionscores-top'          => '(Жоғарғы $1)',
+	'contributionscores-days'         => 'Соңғы $1 күнде',
 	'contributionscores-allrevisions' => 'Барлық нұсқалар',
-	'contributionscores-score' => 'Есеп',
-	'contributionscores-pages' => 'Беттер',
-	'contributionscores-changes' => 'Өзгерістер',
-	'contributionscores-username' => 'Қатысушы аты',
+	'contributionscores-score'        => 'Есеп',
+	'contributionscores-pages'        => 'Беттер',
+	'contributionscores-changes'      => 'Өзгерістер',
+	'contributionscores-username'     => 'Қатысушы аты',
 );
+
+/** Kazakh (Latin) (Қазақша (Latin)) */
 $messages['kk-latn'] = array(
-	'contributionscores' => 'Üles berw esepteri',
-	'contributionscores-info' => "Esepter kelesi deý sanaladı:
+	'contributionscores'              => 'Üles berw esepteri',
+	'contributionscores-info'         => 'Esepter kelesi deý sanaladı:
 *1 upaý ärbir tüzetilgen biregeý bet üşin
 *Mınanıñ şarşı tübiri (Barlıq İstelingen Tüzetwler) ‒ (Barlıq Biregeý Better) * 2
-Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiliginiñ salmağın ölşeýdi. Negizinde, bul esep aldımen tüzetilgen birkelki betterdi ölşeýdi, joğarğı öñdew awqımımen birge — joğarı sapalı bet jağdaýımen eseptep.",
-	'contributionscores-top' => '(Joğarğı $1)',
-	'contributionscores-days' => 'Soñğı $1 künde',
+Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiliginiñ salmağın ölşeýdi. Negizinde, bul esep aldımen tüzetilgen birkelki betterdi ölşeýdi, joğarğı öñdew awqımımen birge — joğarı sapalı bet jağdaýımen eseptep.',
+	'contributionscores-top'          => '(Joğarğı $1)',
+	'contributionscores-days'         => 'Soñğı $1 künde',
 	'contributionscores-allrevisions' => 'Barlıq nusqalar',
-	'contributionscores-score' => 'Esep',
-	'contributionscores-pages' => 'Better',
-	'contributionscores-changes' => 'Özgerister',
-	'contributionscores-username' => 'Qatıswşı atı',
+	'contributionscores-score'        => 'Esep',
+	'contributionscores-pages'        => 'Better',
+	'contributionscores-changes'      => 'Özgerister',
+	'contributionscores-username'     => 'Qatıswşı atı',
 );
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -594,16 +606,18 @@ $messages['lb'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author Chhorran
+ * @author Lovekhmer
  */
 $messages['km'] = array(
-	'contributionscores'              => 'តារាងពិន្ទុ​នៃការរួមចំនែក',
-	'contributionscores-top'          => '(លើគេទាំង $1 នាក់)',
-	'contributionscores-days'         => '$1 ថ្ងៃ​ចុងក្រោយ',
-	'contributionscores-allrevisions' => 'គ្រប់កំនែ',
-	'contributionscores-score'        => 'ពិន្ទុ',
-	'contributionscores-pages'        => 'ទំព័រ​នានា',
-	'contributionscores-changes'      => 'បំលាស់ប្តូរ​នានា',
-	'contributionscores-username'     => 'ឈ្មោះអ្នកប្រើប្រាស់',
+	'contributionscores'                 => 'តារាងពិន្ទុ​នៃការរួមចំនែក',
+	'contributionscores-top'             => '(លើគេទាំង $1 នាក់)',
+	'contributionscores-days'            => '$1 ថ្ងៃ​ចុងក្រោយ',
+	'contributionscores-allrevisions'    => 'គ្រប់កំនែ',
+	'contributionscores-score'           => 'ពិន្ទុ',
+	'contributionscores-pages'           => 'ទំព័រ​នានា',
+	'contributionscores-changes'         => 'បំលាស់ប្តូរ​នានា',
+	'contributionscores-username'        => 'ឈ្មោះអ្នកប្រើប្រាស់',
+	'contributionscores-invalidusername' => 'ឈ្មោះអ្នកប្រើប្រាស់មិនត្រឹមត្រូវ',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -834,7 +848,7 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem licz
 	'contributionscores-invalidmetric'   => 'Nieprawidłowa metryka',
 );
 
-/** Piemontèis (Piemontèis)
+/** Piedmontese (Piemontèis)
  * @author Bèrto 'd Sèra
  */
 $messages['pms'] = array(
@@ -1124,48 +1138,57 @@ $messages['vo'] = array(
 	'contributionscores-username' => 'Gebananem',
 );
 
+/** Yue (粵語)
+ * @author Shinjiman
+ */
 $messages['yue'] = array(
-	'contributionscores' => '貢獻分數',
-	'contributionscores-info' => '分數會用下面嘅計法去計:
+	'contributionscores'              => '貢獻分數',
+	'contributionscores-info'         => '分數會用下面嘅計法去計:
 *每一個唯一一版編輯過嘅有1分
 *(總編輯數)嘅平方根 - (總唯一頁數) * 2
 響呢方面計嘅分數會睇編輯多樣性同編輯量相比。 基本噉講，呢個分數係會依主要嘅唯一編輯過嘅頁，同埋考慮高編輯量 - 假設係一篇高質量嘅文章。',
-	'contributionscores-top' => '(最高$1名)',
-	'contributionscores-days' => '最近$1日',
+	'contributionscores-top'          => '(最高$1名)',
+	'contributionscores-days'         => '最近$1日',
 	'contributionscores-allrevisions' => '全部修訂',
-	'contributionscores-score' => '分數',
-	'contributionscores-pages' => '版',
-	'contributionscores-changes' => '更改',
-	'contributionscores-username' => '用戶名',
+	'contributionscores-score'        => '分數',
+	'contributionscores-pages'        => '版',
+	'contributionscores-changes'      => '更改',
+	'contributionscores-username'     => '用戶名',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Shinjiman
+ */
 $messages['zh-hans'] = array(
-	'contributionscores' => '贡献分数',
-	'contributionscores-info' => '分数会用以下的的计分法去计算:
+	'contributionscores'              => '贡献分数',
+	'contributionscores-info'         => '分数会用以下的的计分法去计算:
 *每一个唯一页面编辑过的有1分
 *(总编辑数)的平方根 - (总唯一页面数) * 2
 在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。',
-	'contributionscores-top' => '(最高$1名)',
-	'contributionscores-days' => '最近$1天',
+	'contributionscores-top'          => '(最高$1名)',
+	'contributionscores-days'         => '最近$1天',
 	'contributionscores-allrevisions' => '全部修订',
-	'contributionscores-score' => '分数',
-	'contributionscores-pages' => '页面',
-	'contributionscores-changes' => '更改',
-	'contributionscores-username' => '用户名',
+	'contributionscores-score'        => '分数',
+	'contributionscores-pages'        => '页面',
+	'contributionscores-changes'      => '更改',
+	'contributionscores-username'     => '用户名',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Shinjiman
+ */
 $messages['zh-hant'] = array(
-	'contributionscores' => '貢獻分數',
-	'contributionscores-info' => '分數會用以下的的計分法去計算:
+	'contributionscores'              => '貢獻分數',
+	'contributionscores-info'         => '分數會用以下的的計分法去計算:
 *每一個唯一頁面編輯過的有1分
 *(總編輯數)的平方根 - (總唯一頁面數) * 2
 在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。',
-	'contributionscores-top' => '(最高$1名)',
-	'contributionscores-days' => '最近$1天',
+	'contributionscores-top'          => '(最高$1名)',
+	'contributionscores-days'         => '最近$1天',
 	'contributionscores-allrevisions' => '全部修訂',
-	'contributionscores-score' => '分數',
-	'contributionscores-pages' => '頁面',
-	'contributionscores-changes' => '更改',
-	'contributionscores-username' => '用戶名',
+	'contributionscores-score'        => '分數',
+	'contributionscores-pages'        => '頁面',
+	'contributionscores-changes'      => '更改',
+	'contributionscores-username'     => '用戶名',
 );
 
