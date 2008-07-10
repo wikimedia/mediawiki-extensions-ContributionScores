@@ -591,18 +591,6 @@ Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiligini�
 	'contributionscores-username'     => 'Qatıswşı atı',
 );
 
-/** Luxembourgish (Lëtzebuergesch)
- * @author Robby
- */
-$messages['lb'] = array(
-	'contributionscores-top'          => '(Top $1)',
-	'contributionscores-days'         => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
-	'contributionscores-allrevisions' => 'All Versiounen',
-	'contributionscores-pages'        => 'Säiten',
-	'contributionscores-changes'      => 'Ännerungen',
-	'contributionscores-username'     => 'Benotzernumm',
-);
-
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author Chhorran
