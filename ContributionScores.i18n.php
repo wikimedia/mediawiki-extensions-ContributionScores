@@ -634,6 +634,7 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 	'contributionscores-changes'         => 'Ännerungen',
 	'contributionscores-username'        => 'Benotzernumm',
 	'contributionscores-invalidusername' => 'Ongëltege Benotzernumm',
+	'contributionscores-invalidmetric'   => 'Ongëlteg Metrik',
 );
 
 /** Limburgish (Limburgs)
