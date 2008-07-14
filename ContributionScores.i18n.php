@@ -487,16 +487,24 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
 /** Italian (Italiano)
  * @author Gianfranco
  * @author BrokenArrow
+ * @author Pietrodn
  */
 $messages['it'] = array(
-	'contributionscores'              => 'Punteggi contributi',
-	'contributionscores-info'         => 'I punteggi vengono calcolati in questo modo: 
+	'contributionscores'                 => 'Punteggi contributi',
+	'contributionscores-desc'            => 'Interroga il database wiki per il più alto [[Special:ContributionScores|volume di contributi utente]]',
+	'contributionscores-info'            => 'I punteggi vengono calcolati in questo modo: 
 *1 punto per ciascuna pagina distinta modificata 
 *Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2 
 Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle modifiche rispetto al numero dei contributi. Di fondo, questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un eventuale alto volume di contributi - ciò fa presumere una più elevata qualità della pagina modificata.',
-	'contributionscores-top'          => '(Ultimi $1)',
-	'contributionscores-days'         => 'Ultimi $1 giorni',
-	'contributionscores-allrevisions' => 'Tutte le revisioni',
+	'contributionscores-top'             => '(Ultimi $1)',
+	'contributionscores-days'            => 'Ultimi $1 giorni',
+	'contributionscores-allrevisions'    => 'Tutte le revisioni',
+	'contributionscores-score'           => 'Punteggio',
+	'contributionscores-pages'           => 'Pagine',
+	'contributionscores-changes'         => 'Modifiche',
+	'contributionscores-username'        => 'Nome utente',
+	'contributionscores-invalidusername' => 'Nome utente non valido',
+	'contributionscores-invalidmetric'   => 'Metrica non valida',
 );
 
 /** Japanese (日本語)
