@@ -50,11 +50,24 @@ $messages['niu'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
+ * @author Naudefj
  */
 $messages['af'] = array(
-	'contributionscores-pages'    => 'Bladsye',
-	'contributionscores-changes'  => 'Wysigings',
-	'contributionscores-username' => 'Gebruikersnaam',
+	'contributionscores'                 => 'Punte bygedra',
+	'contributionscores-desc'            => "Gee 'n oorsig van [[Special:ContributionScores|gebruikers met die meeste bydraes]] in die wiki",
+	'contributionscores-info'            => 'Punte word as volg bereken:
+*Een (1) punt vir elke bladsy gewysig
+*Wortel van (totale aantal wysigings) - (totale aantal unieke bladsye) * 2
+Punte wat op die manier bereken word weeg die verskeidenheid van bladsye gewysig oor die aantal wysigings. Die punte meet hoofsaaklik unieke bladsye gewysig, met inagneming van hoë volume wysigings - wat veronderstel word om van hoër kwaliteit te wees.',
+	'contributionscores-top'             => '(Top $1)',
+	'contributionscores-days'            => 'Laaste $1 dae',
+	'contributionscores-allrevisions'    => 'Alle weergawes',
+	'contributionscores-score'           => 'Punte',
+	'contributionscores-pages'           => 'Bladsye',
+	'contributionscores-changes'         => 'Wysigings',
+	'contributionscores-username'        => 'Gebruikersnaam',
+	'contributionscores-invalidusername' => 'Ongeldige gebruikersnaam',
+	'contributionscores-invalidmetric'   => 'Ongeldige eenheid',
 );
 
 /** Arabic (العربية)
@@ -453,7 +466,22 @@ $messages['ia'] = array(
  * @author Rex
  */
 $messages['id'] = array(
-	'contributionscores-username' => 'Nama pengguna',
+	'contributionscores'                 => 'Skor kontribusi',
+	'contributionscores-desc'            => 'Menghitung [[Special:ContributionScores|jumlah kontribusi pengguna]] terbanyak di basis data wiki',
+	'contributionscores-info'            => 'Skor dihitung dengan cara berikut:
+* Satu (1) poin untuk setiap halaman tunggal yang disunting
+* Akar kuadrat dari (total suntingan) - (total halaman tunggal) * 2
+Skor dihitung dengan cara ini untuk menghasilkan jumlah tertimbang penyuntingan berbanding volume suntingan.
+Pada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.',
+	'contributionscores-top'             => '($1 tertinggi)',
+	'contributionscores-days'            => '$1 hari terakhir',
+	'contributionscores-allrevisions'    => 'Semua revisi',
+	'contributionscores-score'           => 'Skor',
+	'contributionscores-pages'           => 'Halaman',
+	'contributionscores-changes'         => 'Perubahan',
+	'contributionscores-username'        => 'Nama pengguna',
+	'contributionscores-invalidusername' => 'Nama pengguna tidak sah',
+	'contributionscores-invalidmetric'   => 'Metrik tidak sah',
 );
 
 /** Iloko (Ilokano)
