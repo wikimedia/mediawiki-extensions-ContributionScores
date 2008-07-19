@@ -15,7 +15,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'=>'Tim Laqua',
 	'description'=>'Polls wiki database for highest user contribution volume',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version'=>'1.10'
+	'version'=>'1.11'
 );
 
 define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
@@ -28,6 +28,7 @@ $wgContribScoreDisableCache = false;
 
 $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
+$wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
 if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
