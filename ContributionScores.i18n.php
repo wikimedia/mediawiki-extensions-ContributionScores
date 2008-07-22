@@ -739,6 +739,13 @@ $messages['mr'] = array(
 	'contributionscores-invalidmetric'   => 'चुकीचे मेट्रिक',
 );
 
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'contributionscores-username' => 'Tlatēquitiltilīltōcāitl',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -933,6 +940,18 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-pages'        => 'Páginas',
 	'contributionscores-changes'      => 'Mudanças',
 	'contributionscores-username'     => 'Nome de usuário',
+);
+
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'contributionscores-top'             => '(Top $1)',
+	'contributionscores-days'            => 'Ultimele $1 zile',
+	'contributionscores-allrevisions'    => 'Toate versiunile',
+	'contributionscores-pages'           => 'Pagini',
+	'contributionscores-username'        => 'Nume de utilizator',
+	'contributionscores-invalidusername' => 'Nume de utilizator incorect',
 );
 
 /** Russian (Русский)
