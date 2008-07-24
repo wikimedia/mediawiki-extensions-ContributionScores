@@ -743,7 +743,7 @@ $messages['mr'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
-	'contributionscores-username' => 'Tlatēquitiltilīltōcāitl',
+	'contributionscores-username' => 'Tlatequitiltilīltōcāitl',
 );
 
 /** Low German (Plattdüütsch)
