@@ -83,13 +83,13 @@ $messages['ar'] = array(
 النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسي الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.',
 	'contributionscores-top'             => '(أعلى $1)',
 	'contributionscores-days'            => 'آخر $1 يوم',
-	'contributionscores-allrevisions'    => 'كل النسخ',
+	'contributionscores-allrevisions'    => 'كل المراجعات',
 	'contributionscores-score'           => 'النتيجة',
 	'contributionscores-pages'           => 'الصفحات',
 	'contributionscores-changes'         => 'التغييرات',
 	'contributionscores-username'        => 'اسم المستخدم',
-	'contributionscores-invalidusername' => 'اسم المستخدم خاطئ',
-	'contributionscores-invalidmetric'   => 'المتري خاطئ',
+	'contributionscores-invalidusername' => 'اسم المستخدم غير صحيح',
+	'contributionscores-invalidmetric'   => 'المتري غير صحيح',
 );
 
 /** Kotava (Kotava)
