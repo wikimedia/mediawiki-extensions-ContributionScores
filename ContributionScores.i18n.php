@@ -308,6 +308,13 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-invalidmetric'   => 'Métrie incorrecte',
 );
 
+/** Western Frisian (Frysk)
+ * @author Snakesteuben
+ */
+$messages['fy'] = array(
+	'contributionscores-username' => 'Meidoggernamme',
+);
+
 /** Galician (Galego)
  * @author Toliño
  * @author Xosé
