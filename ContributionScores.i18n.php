@@ -746,6 +746,14 @@ $messages['mr'] = array(
 	'contributionscores-invalidmetric'   => 'चुकीचे मेट्रिक',
 );
 
+/** Maltese (Malti)
+ * @author Roderick Mallia
+ */
+$messages['mt'] = array(
+	'contributionscores-pages'    => 'Paġni',
+	'contributionscores-username' => 'Isem tal-utent',
+);
+
 /** Nahuatl (Nahuatl)
  * @author Fluence
  */
