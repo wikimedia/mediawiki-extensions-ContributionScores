@@ -748,10 +748,11 @@ $messages['mr'] = array(
 
 /** Maltese (Malti)
  * @author Roderick Mallia
+ * @author Giangian15
  */
 $messages['mt'] = array(
 	'contributionscores-pages'    => 'Paġni',
-	'contributionscores-username' => 'Isem tal-utent',
+	'contributionscores-username' => "Isem ta' l-utent",
 );
 
 /** Nahuatl (Nahuatl)
