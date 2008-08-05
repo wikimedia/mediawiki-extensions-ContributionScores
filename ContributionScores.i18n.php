@@ -752,7 +752,7 @@ $messages['mr'] = array(
  */
 $messages['mt'] = array(
 	'contributionscores-pages'    => 'Paġni',
-	'contributionscores-username' => "Isem ta' l-utent",
+	'contributionscores-username' => 'Isem l-utent',
 );
 
 /** Nahuatl (Nahuatl)
