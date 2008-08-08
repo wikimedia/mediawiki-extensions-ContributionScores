@@ -523,6 +523,7 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
  * @author Gianfranco
  * @author BrokenArrow
  * @author Pietrodn
+ * @author Darth Kule
  */
 $messages['it'] = array(
 	'contributionscores'                 => 'Punteggi contributi',
@@ -531,7 +532,7 @@ $messages['it'] = array(
 *1 punto per ciascuna pagina distinta modificata 
 *Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2 
 Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle modifiche rispetto al numero dei contributi. Di fondo, questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un eventuale alto volume di contributi - ciò fa presumere una più elevata qualità della pagina modificata.',
-	'contributionscores-top'             => '(Ultimi $1)',
+	'contributionscores-top'             => '(Migliori $1)',
 	'contributionscores-days'            => 'Ultimi $1 giorni',
 	'contributionscores-allrevisions'    => 'Tutte le revisioni',
 	'contributionscores-score'           => 'Punteggio',
