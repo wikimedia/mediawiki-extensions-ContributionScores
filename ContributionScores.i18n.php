@@ -28,6 +28,7 @@ Basically, this score measures primarily unique pages edited, with consideration
 );
 
 /** Message documentation (Message documentation)
+ * @author Jon Harald Søby
  * @author JtFuruhata
  * @author Kalan
  */
@@ -502,7 +503,22 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
  * @author McDutchie
  */
 $messages['ia'] = array(
+	'contributionscores' => 'Punctage de contributiones',
+	'contributionscores-desc' => 'Consulta le base de datos wiki pro le [[Special:ContributionScores|usatores contribuente le plus]]',
+	'contributionscores-info' => 'Le punctages se calcula del modo sequente:
+*Un (1) puncto pro cata pagina unic modificate
+*Radice quadrate de (total del modificationes facite) - (total del paginas unic) * 2
+Le punctages calculate de iste modo privilegia le diversitate super le volumine de modificationes.
+Dicite de altere modo, iste punctage mesura primarimente le paginas unic modificate, con consideration pro un alte volumine de modificationes – le qual es presumite a indicar un pagina de alte qualitate.',
+	'contributionscores-top' => '(Le prime $1)',
+	'contributionscores-days' => 'Ultime $1 dies',
+	'contributionscores-allrevisions' => 'Tote le revisiones',
+	'contributionscores-score' => 'Punctage',
+	'contributionscores-pages' => 'Paginas',
+	'contributionscores-changes' => 'Modificationes',
 	'contributionscores-username' => 'Nomine de usator',
+	'contributionscores-invalidusername' => 'Nomine de usator invalide',
+	'contributionscores-invalidmetric' => 'Metrica invalide',
 );
 
 /** Indonesian (Bahasa Indonesia)
