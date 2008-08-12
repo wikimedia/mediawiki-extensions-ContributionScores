@@ -17,12 +17,18 @@ $aliases['en'] = array(
  * @author Meno25
  */
 $aliases['ar'] = array(
-	'ContributionScores'   => array( 'نتائج_المساهمة' ),
+	'ContributionScores' => array( 'نتائج_المساهمة' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى)
  * @author Meno25
  */
- $aliases['arz'] = array(
-	'ContributionScores'   => array( 'نتايج_المساهمة' ),
+$aliases['arz'] = array(
+	'ContributionScores' => array( 'نتايج_المساهمة' ),
 );
+
+/** Dutch (Nederlands) */
+$aliases['nl'] = array(
+	'ContributionScores' => array( 'Bijdragenscores' ),
+);
+
