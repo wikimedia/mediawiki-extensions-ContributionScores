@@ -31,8 +31,10 @@ Basically, this score measures primarily unique pages edited, with consideration
  * @author Jon Harald Søby
  * @author JtFuruhata
  * @author Kalan
+ * @author Purodha
  */
 $messages['qqq'] = array(
+	'contributionscores-desc' => 'Extension description displayed on [[Special:Version]].',
 	'contributionscores-info' => 'see http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/ContributionScores/ContributionScores_body.php?view=markup
 
 :COUNT(DISTINCT rev_page) AS page_count
@@ -707,7 +709,24 @@ $messages['km'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'contributionscores' => 'Metmaacher ier Beidräsch verjlesche',
+	'contributionscores-desc' => 'Fingk de Metmaacher met de
+[[Special:ContributionScores|miihßte Beidrääsch]].',
+	'contributionscores-info' => 'Ene Metmaacher kritt:
+* eine Punk för jede Sigg, woh sei udder hä draan met jeschrevve hät, plus
+* plus et Dubbelte fun de Quadrat-Woozel us däm Ongscheed fun de Jesampzahl aan Änderunge fun däm Metmaacher, un dä Aanzahl Sigge, wo sei udder hä draat jeschrevve hät.
+De Punkte zälle esu de Fillfälteschkeit mieh wie der Ömfang vun dä Beidrääsch.
+Dat es en de Houpsaach de övverhoup aanjepackte Zahl Sigge, ävver dann noch,
+dat öff jet Schrieve am Eng besser Sigge jitt, als wie winnijer Schrieve.',
+	'contributionscores-top' => '(Top $1)',
+	'contributionscores-days' => 'Letzte $1 Dare',
+	'contributionscores-allrevisions' => 'All Versione',
+	'contributionscores-score' => 'Punkte',
+	'contributionscores-pages' => 'Sigge',
+	'contributionscores-changes' => 'Änderunge',
 	'contributionscores-username' => 'Metmaacher Name',
+	'contributionscores-invalidusername' => 'Verkeehte Metmaacher-Name',
+	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
