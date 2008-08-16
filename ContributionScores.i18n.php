@@ -422,6 +422,7 @@ $messages['hil'] = array(
 );
 
 /** Croatian (Hrvatski)
+ * @author Dalibor Bosits
  * @author SpeedyGonsales
  */
 $messages['hr'] = array(
@@ -438,6 +439,7 @@ Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih
 	'contributionscores-pages' => 'Stranica',
 	'contributionscores-changes' => 'Uređivanja',
 	'contributionscores-username' => 'Ime suradnika',
+	'contributionscores-invalidusername' => 'Nevaljano suradničko ime',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -940,6 +942,13 @@ $messages['pam'] = array(
 	'contributionscores-pages' => 'Bulung',
 	'contributionscores-changes' => 'Miyalilan',
 	'contributionscores-username' => 'Lagyungtalagamit (Username)',
+);
+
+/** Plautdietsch (Plautdietsch)
+ * @author Slomox
+ */
+$messages['pdt'] = array(
+	'contributionscores-username' => 'Bruckernome',
 );
 
 /** Polish (Polski)
