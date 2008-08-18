@@ -27,8 +27,18 @@ $aliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمة' ),
 );
 
+/** Hungarian (Magyar) */
+$aliases['hu'] = array(
+	'ContributionScores' => array( 'Szerkesztési pontok' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'ContributionScores' => array( 'Bijdragenscores' ),
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
+$aliases['no'] = array(
+	'ContributionScores' => array( 'Bidragspoeng' ),
 );
 
