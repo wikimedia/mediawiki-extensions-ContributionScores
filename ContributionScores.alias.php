@@ -32,6 +32,11 @@ $aliases['hu'] = array(
 	'ContributionScores' => array( 'Szerkesztési pontok' ),
 );
 
+/** Nedersaksisch (Nedersaksisch) */
+$aliases['nds-nl'] = array(
+	'ContributionScores' => array( 'Biedragentelling' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'ContributionScores' => array( 'Bijdragenscores' ),
