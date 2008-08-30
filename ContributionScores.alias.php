@@ -32,6 +32,16 @@ $aliases['hu'] = array(
 	'ContributionScores' => array( 'Szerkesztési pontok' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$aliases['id'] = array(
+	'ContributionScores' => array( 'Peringkat kontribusi' ),
+);
+
+/** Khmer (ភាសាខ្មែរ) */
+$aliases['km'] = array(
+	'ContributionScores' => array( 'ពិន្ទុអ្នករួមចំនែក' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'ContributionScores' => array( 'Biedragentelling' ),
@@ -45,5 +55,10 @@ $aliases['nl'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
 $aliases['no'] = array(
 	'ContributionScores' => array( 'Bidragspoeng' ),
+);
+
+/** Swedish (Svenska) */
+$aliases['sv'] = array(
+	'ContributionScores' => array( 'Bidragspoäng' ),
 );
 
