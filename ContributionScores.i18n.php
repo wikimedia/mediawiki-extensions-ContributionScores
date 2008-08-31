@@ -1278,6 +1278,13 @@ $messages['vo'] = array(
 	'contributionscores-username' => 'Gebananem',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'contributionscores-pages' => 'בלעטער',
+);
+
 /** Yue (粵語)
  * @author Shinjiman
  */
