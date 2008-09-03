@@ -165,6 +165,7 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
+	'contributionscores' => 'Skóre příspěvků',
 	'contributionscores-desc' => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
 	'contributionscores-top' => '($1 nejvyšších)',
 	'contributionscores-days' => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
@@ -173,6 +174,8 @@ $messages['cs'] = array(
 	'contributionscores-pages' => 'Stránky',
 	'contributionscores-changes' => 'Změny',
 	'contributionscores-username' => 'Uživatelské jméno',
+	'contributionscores-invalidusername' => 'Neplatné uživatelské jméno',
+	'contributionscores-invalidmetric' => 'Neplatná metrika',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
