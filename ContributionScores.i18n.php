@@ -110,6 +110,27 @@ $messages['ar'] = array(
 	'contributionscores-invalidmetric' => 'المتري غير صحيح',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'contributionscores' => 'نتائج المساهمات',
+	'contributionscores-desc' => 'يسحب قاعدة بيانات الويكى لأعلى [[Special:ContributionScores|حجم لمساهمات المستخدم]]',
+	'contributionscores-info' => 'النتائج تحسب كالتالي:
+*1 نقطة لكل صفحة فريدة تحرر
+*الجذر التربيعى ل(عدد التعديلات الكلية) - (عدد الصفحات الفريدة الكلية) * 2
+النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسى الصفحات الفريدة المحررة، مع الأخذ فى الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.',
+	'contributionscores-top' => '(أعلى $1)',
+	'contributionscores-days' => 'آخر $1 يوم',
+	'contributionscores-allrevisions' => 'كل المراجعات',
+	'contributionscores-score' => 'النتيجة',
+	'contributionscores-pages' => 'الصفحات',
+	'contributionscores-changes' => 'التغييرات',
+	'contributionscores-username' => 'اسم المستخدم',
+	'contributionscores-invalidusername' => 'اسم المستخدم غير صحيح',
+	'contributionscores-invalidmetric' => 'المترى غير صحيح',
+);
+
 /** Kotava (Kotava)
  * @author Sab
  */
