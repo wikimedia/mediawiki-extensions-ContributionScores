@@ -843,6 +843,13 @@ $messages['mr'] = array(
 	'contributionscores-invalidmetric' => 'चुकीचे मेट्रिक',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Emrrans
+ */
+$messages['ms'] = array(
+	'contributionscores' => 'Skor sumbangan',
+);
+
 /** Maltese (Malti)
  * @author Giangian15
  * @author Roderick Mallia
