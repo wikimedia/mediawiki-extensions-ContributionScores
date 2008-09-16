@@ -402,6 +402,13 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
 	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'contributionscores-pages' => 'δέλτοι',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */

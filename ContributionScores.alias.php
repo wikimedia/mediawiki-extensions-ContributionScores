@@ -42,6 +42,11 @@ $aliases['km'] = array(
 	'ContributionScores' => array( 'ពិន្ទុអ្នករួមចំនែក' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lb'] = array(
+	'ContributionScores' => array( 'Score vun de Kontributiounen' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'ContributionScores' => array( 'Biedragentelling' ),
