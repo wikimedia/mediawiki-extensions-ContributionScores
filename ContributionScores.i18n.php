@@ -406,7 +406,7 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
  * @author Crazymadlover
  */
 $messages['grc'] = array(
-	'contributionscores-pages' => 'δέλτοι',
+	'contributionscores-pages' => 'Δέλτοι',
 );
 
 /** Manx (Gaelg)
@@ -1240,9 +1240,12 @@ $messages['tg-cyrl'] = array(
 
 /** Turkish (Türkçe)
  * @author Karduelis
+ * @author Mach
  * @author Suelnur
  */
 $messages['tr'] = array(
+	'contributionscores-pages' => 'Sayfalar',
+	'contributionscores-changes' => 'Değişiklikler',
 	'contributionscores-username' => 'Kullanıcı adı',
 );
 
