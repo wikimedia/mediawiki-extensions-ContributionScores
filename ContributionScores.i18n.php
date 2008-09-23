@@ -304,6 +304,7 @@ $messages['ext'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Huji
  * @author Tofighi
  */
 $messages['fa'] = array(
@@ -311,15 +312,15 @@ $messages['fa'] = array(
 	'contributionscores-desc' => 'سرشماری پایگاه داده ویکی برای بالاترین [[Special:ContributionScores|حجم مشارکت کاربر]]',
 	'contributionscores-info' => 'امتیازات به شیوه زیر محاسبه می‌شود:
 *یک (1) امتیاز برای هر صفحه یکتای ویرایش شده
-جذر همه ویرایش‌ها (همه ویرایش‌های انجام‌شده) - (همه صفحات یکتا) * 2
+جذر همه ویرایش‌ها (همه ویرایش‌های انجام‌شده) - (همه صفحه‌ها یکتا) * 2
 
 محاسبه امتیازات در این حالت وزن گوناگونی ویرایشها بر حجم ویرایشها را می سنجد.
-براین اساس، این امتیاز میزان صفحات ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.',
+براین اساس، این امتیاز میزان صفحه‌ها ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.',
 	'contributionscores-top' => '($1 برتر)',
 	'contributionscores-days' => '$1 روز گذشته',
 	'contributionscores-allrevisions' => 'همه نسخه‌ها',
 	'contributionscores-score' => 'امتیاز',
-	'contributionscores-pages' => 'صفحات',
+	'contributionscores-pages' => 'صفحه‌ها',
 	'contributionscores-changes' => 'تغییرات',
 	'contributionscores-username' => 'نام کاربری',
 	'contributionscores-invalidusername' => 'نام کاربری نامعتبر',
