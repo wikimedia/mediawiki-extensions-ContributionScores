@@ -500,7 +500,7 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě ha
  */
 $messages['ht'] = array(
 	'contributionscores' => 'Kontribisyon analiz',
-	'contributionscores-desc' => 'Sonde baz done wiki-a pou wo[[Special:Contribution Scores| itilizatè kontribisyon volim]]',
+	'contributionscores-desc' => 'Sonde baz done wiki-a pou wo [[Special:ContributionScores|itilizatè kontribisyon volim]]',
 	'contributionscores-info' => 'Rezilta yo kalkile konsa:
 *Yon (1) pwen pou chak paj inik edite 
 *Rasin Kare de (Total Edit Fè) - (Total Paj Inik) * 2
