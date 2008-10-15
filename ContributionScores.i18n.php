@@ -459,6 +459,7 @@ $messages['hil'] = array(
  */
 $messages['hr'] = array(
 	'contributionscores' => 'Najbolji suradnici',
+	'contributionscores-desc' => 'Šalje upit bazi podataka za najveći [[Special:ContributionScores|broj suradničkih doprinosa]]',
 	'contributionscores-info' => 'Rezultat se dobiva kao suma slijedećih stavki:
 *1 bod za svaku stranicu koju ste uređivali
 * (kvadratni) korijen iz (broja ukupnih uređivanja) - (broja stranica koje ste uređivali) * 2
@@ -472,6 +473,7 @@ Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih
 	'contributionscores-changes' => 'Uređivanja',
 	'contributionscores-username' => 'Ime suradnika',
 	'contributionscores-invalidusername' => 'Nevaljano suradničko ime',
+	'contributionscores-invalidmetric' => 'Nevaljana metrika',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -865,6 +867,16 @@ $messages['ms'] = array(
 $messages['mt'] = array(
 	'contributionscores-pages' => 'Paġni',
 	'contributionscores-username' => 'Isem l-utent',
+);
+
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'contributionscores-days' => 'Меельсе $1 чить',
+	'contributionscores-pages' => 'Лопат',
+	'contributionscores-changes' => 'Полавтнемат',
+	'contributionscores-username' => 'Теицянь лем',
 );
 
 /** Nahuatl (Nāhuatl)
