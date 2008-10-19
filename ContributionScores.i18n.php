@@ -52,13 +52,6 @@ $messages['rtm'] = array(
 	'contributionscores-username' => 'Asa',
 );
 
-/** Eastern Mari (Олык Марий)
- * @author Сай
- */
-$messages['mhr'] = array(
-	'contributionscores-username' => 'Пайдаланышын лӱмжӧ',
-);
-
 /** Niuean (ko e vagahau Niuē)
  * @author Jose77
  */
@@ -405,9 +398,11 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Crazymadlover
+ * @author Omnipaedista
  */
 $messages['grc'] = array(
 	'contributionscores-pages' => 'Δέλτοι',
+	'contributionscores-username' => 'Ὄνομα χρωμένου',
 );
 
 /** Manx (Gaelg)
@@ -815,6 +810,13 @@ $messages['lt'] = array(
 	'contributionscores-pages' => 'Puslapiai',
 	'contributionscores-changes' => 'Pakeitimai',
 	'contributionscores-username' => 'Naudotojo vardas',
+);
+
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'contributionscores-username' => 'Пайдаланышын лӱмжӧ',
 );
 
 /** Malayalam (മലയാളം)
