@@ -27,6 +27,11 @@ $aliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمة' ),
 );
 
+/** Hebrew (עברית) */
+$aliases['he'] = array(
+	'ContributionScores' => array( 'ניקוד_התורמים' ),
+);
+
 /** Hungarian (Magyar) */
 $aliases['hu'] = array(
 	'ContributionScores' => array( 'Szerkesztési pontok' ),
