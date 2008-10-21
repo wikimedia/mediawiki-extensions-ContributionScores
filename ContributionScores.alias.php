@@ -10,7 +10,7 @@ $aliases = array();
 
 /** English */
 $aliases['en'] = array(
-	'ContributionScores'=> array( 'ContributionScores' ),
+	'ContributionScores' => array( 'ContributionScores' ),
 );
 
 /** Arabic (العربية)
@@ -29,7 +29,7 @@ $aliases['arz'] = array(
 
 /** Hebrew (עברית) */
 $aliases['he'] = array(
-	'ContributionScores' => array( 'ניקוד_התורמים' ),
+	'ContributionScores' => array( 'דירוג_תרומות' ),
 );
 
 /** Hungarian (Magyar) */
