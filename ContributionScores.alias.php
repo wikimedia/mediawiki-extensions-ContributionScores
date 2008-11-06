@@ -27,6 +27,11 @@ $aliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمة' ),
 );
 
+/** Bosnian (Bosanski) */
+$aliases['bs'] = array(
+	'ContributionScores' => array( 'DoprinosiBodovi' ),
+);
+
 /** Hebrew (עברית) */
 $aliases['he'] = array(
 	'ContributionScores' => array( 'דירוג_תרומות' ),
