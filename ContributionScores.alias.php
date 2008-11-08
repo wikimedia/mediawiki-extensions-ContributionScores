@@ -72,6 +72,11 @@ $aliases['no'] = array(
 	'ContributionScores' => array( 'Bidragspoeng' ),
 );
 
+/** Polish (Polski) */
+$aliases['pl'] = array(
+	'ContributionScores' => array( 'Punkty za edycje' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'ContributionScores' => array( 'Bidragspoäng' ),
