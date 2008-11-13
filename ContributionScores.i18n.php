@@ -414,6 +414,13 @@ $messages['gv'] = array(
 	'contributionscores-username' => 'Ennym yn ymmydeyr',
 );
 
+/** Hakka (Hak-kâ-fa)
+ * @author Hakka
+ */
+$messages['hak'] = array(
+	'contributionscores-username' => 'Yung-fu-miàng',
+);
+
 /** Hebrew (עברית)
  * @author Agbad
  * @author Rotemliss
