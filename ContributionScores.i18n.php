@@ -658,6 +658,7 @@ $messages['ja'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author Pras
  */
 $messages['jv'] = array(
 	'contributionscores' => 'Skor Kontribusi',
@@ -674,6 +675,8 @@ Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo m�
 	'contributionscores-pages' => 'Kaca-kaca',
 	'contributionscores-changes' => 'Owah-owahan',
 	'contributionscores-username' => 'Jeneng panganggo',
+	'contributionscores-invalidusername' => 'Jeneng panganggo ora sah',
+	'contributionscores-invalidmetric' => 'Metrik ora sah',
 );
 
 /** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬)
