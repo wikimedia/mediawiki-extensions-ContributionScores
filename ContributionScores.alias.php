@@ -49,7 +49,7 @@ $aliases['id'] = array(
 
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
-	'ContributionScores' => array( 'ពិន្ទុអ្នករួមចំនែក' ),
+	'ContributionScores' => array( 'ពិន្ទុអ្នករួមចំណែក' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
@@ -64,7 +64,7 @@ $aliases['nds-nl'] = array(
 
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
-	'ContributionScores' => array( 'Bijdragenscores' ),
+	'ContributionScores' => array( 'Gebruikersstatistieken', 'Bijdragenscores' ),
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */

@@ -912,7 +912,7 @@ $messages['nds'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'contributionscores' => 'Bijdragenscores',
+	'contributionscores' => 'Gebruikersstatistieken',
 	'contributionscores-desc' => 'Geeft een overzicht van [[Special:ContributionScores|gebruikers met de meeste bijdragen]] in de wiki',
 	'contributionscores-info' => "Scores worden als volgt berekend:
 *1 punt voor iedere bewerkte pagina
@@ -1065,6 +1065,7 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author Malafaya
+ * @author Waldir
  */
 $messages['pt'] = array(
 	'contributionscores' => 'Pontuações de Contribuições',
@@ -1080,6 +1081,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Alterações',
 	'contributionscores-username' => 'Nome de utilizador',
+	'contributionscores-invalidusername' => 'Nome de utilizador inválido',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
