@@ -732,13 +732,14 @@ Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiligini�
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
+ * @author Thearith
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'contributionscores' => 'តារាងពិន្ទុ​នៃការរួមចំនែក',
+	'contributionscores' => 'តារាងពិន្ទុ​នៃការរួមចំណែក',
 	'contributionscores-top' => '(លើគេទាំង $1 នាក់)',
 	'contributionscores-days' => '$1 ថ្ងៃ​ចុងក្រោយ',
-	'contributionscores-allrevisions' => 'គ្រប់កំនែ',
+	'contributionscores-allrevisions' => 'គ្រប់កំណែ',
 	'contributionscores-score' => 'ពិន្ទុ',
 	'contributionscores-pages' => 'ទំព័រ​នានា',
 	'contributionscores-changes' => 'បំលាស់ប្តូរ​នានា',
