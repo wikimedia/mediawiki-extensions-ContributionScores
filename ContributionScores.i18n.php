@@ -196,6 +196,7 @@ $messages['cs'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
+	'contributionscores-pages' => 'страни́цѧ',
 	'contributionscores-username' => 'по́льꙃєватєлꙗ и́мѧ',
 );
 
