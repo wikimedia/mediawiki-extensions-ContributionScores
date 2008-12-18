@@ -636,6 +636,7 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author JtFuruhata
  */
 $messages['ja'] = array(
@@ -655,6 +656,8 @@ $messages['ja'] = array(
 	'contributionscores-pages' => 'ページ数',
 	'contributionscores-changes' => '変更回数',
 	'contributionscores-username' => '利用者名',
+	'contributionscores-invalidusername' => '無効な利用者名',
+	'contributionscores-invalidmetric' => '無効な尺度',
 );
 
 /** Javanese (Basa Jawa)
