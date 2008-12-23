@@ -232,6 +232,13 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
  */
 $messages['dsb'] = array(
 	'contributionscores' => 'Pśinoski pógódnośiś',
+	'contributionscores-desc' => 'Napšašujo se wikijoweje datoweje banki za nejwušeju [[Special:ContributionScores|licbu wužywarskich pśinoskow]]',
+	'contributionscores-info' => 'Licba dypkow wulicyjo se kaž slědujo:
+*Jaden (1) dypk za kuždy wobźěłany bok
+*Kwadratny kórjeń (wšych cynjonych změnow) - (cełkowna licba bokow) * 2
+Licba dypkow, kótaraž wulicyjo se za tym nałogom, gódnośi wšakosć změnow wušej ako licbu změnow.
+Zasadnje tś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow - 
+pód wuměnjenim až to by było bok z wušeju kwalitu.',
 	'contributionscores-top' => '(Nejlěpšych $1)',
 	'contributionscores-days' => 'Slědne $1 dny',
 	'contributionscores-allrevisions' => 'Wše wersije',
