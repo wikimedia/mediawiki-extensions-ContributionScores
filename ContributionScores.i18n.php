@@ -942,11 +942,25 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
  * @author Jon Harald Søby
  */
 $messages['nn'] = array(
+	'contributionscores' => 'Bidragspoeng',
+	'contributionscores-desc' => 'Spør wikidatabasen etter det høgaste [[Special:ContributionScores|bidragsvolumet]]',
+	'contributionscores-info' => 'Bidragspoeng blir rekna ut på følgjande måte:
+* eitt poeng for kvar unik sida som har blitt endra
+* Kvadratrota av (totalt tal på endringar) &minus; (unike sider endra) × 2
+Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endringsvolum. Dette tyder til sist at dette primært måler kor mange forskjellige sider som har blitt endra, med omsyn til høgt endringsvolum &ndash; anteke å føra til sider av høgare kvalitet.',
+	'contributionscores-top' => '(topp $1)',
+	'contributionscores-days' => 'Dei $1 siste dagane',
+	'contributionscores-allrevisions' => 'Alle versjonar',
+	'contributionscores-score' => 'Poeng',
 	'contributionscores-pages' => 'Sider',
+	'contributionscores-changes' => 'Endringar',
 	'contributionscores-username' => 'Brukarnamn',
+	'contributionscores-invalidusername' => 'Ugyldig brukarnamn',
+	'contributionscores-invalidmetric' => 'Ugyldig målemetode',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
