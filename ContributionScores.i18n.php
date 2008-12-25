@@ -534,6 +534,7 @@ Basikalman, rezilta sa mezire primèman paj inik ki te edite, avèk konsiderasyo
  */
 $messages['hu'] = array(
 	'contributionscores' => 'Szerkesztési pontszám',
+	'contributionscores-desc' => 'Megjeleníti a [[Special:ContributionScores|szerkesztő közreműködéseinek súlyát]] a wiki adatbázisa alapján',
 	'contributionscores-info' => 'A pontszámok az alábbi módon vannak kiszámolva:
 *1 pont minden egyedi lap szerkesztése után
 *(Az összes szerkesztés) - (Az összes egyedi lap) * 2 négyzetgyöke
@@ -545,6 +546,8 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-pages' => 'Oldalak',
 	'contributionscores-changes' => 'Változtatások',
 	'contributionscores-username' => 'Felhasználó',
+	'contributionscores-invalidusername' => 'Érvénytelen szerkesztői név',
+	'contributionscores-invalidmetric' => 'Érvénytelen mértékrendszer',
 );
 
 /** Interlingua (Interlingua)
