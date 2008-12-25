@@ -1342,6 +1342,8 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 	'contributionscores-pages' => 'Pagine',
 	'contributionscores-changes' => 'Canbiamenti',
 	'contributionscores-username' => 'Nome utente',
+	'contributionscores-invalidusername' => 'Nome utente mia valido',
+	'contributionscores-invalidmetric' => 'Metrica mia valida',
 );
 
 /** Vietnamese (Tiếng Việt)
