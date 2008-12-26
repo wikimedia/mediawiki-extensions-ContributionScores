@@ -330,6 +330,7 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Nike
+ * @author Str4nd
  */
 $messages['fi'] = array(
 	'contributionscores' => 'Muokkauspisteet',
@@ -345,6 +346,7 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 	'contributionscores-pages' => 'Sivuja',
 	'contributionscores-changes' => 'Muutoksia',
 	'contributionscores-username' => 'Käyttäjä',
+	'contributionscores-invalidusername' => 'Virheellinen käyttäjätunnus',
 );
 
 /** French (Français)
