@@ -285,7 +285,9 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 	'contributionscores-invalidmetric' => 'Nevalida parametro',
 );
 
-/** Spanish (Español) */
+/** Spanish (Español)
+ * @author Imre
+ */
 $messages['es'] = array(
 	'contributionscores' => 'Puntuaciones por contribuir',
 	'contributionscores-info' => 'Las puntuaciones son calculadas siguiendo:
@@ -295,6 +297,8 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Últimos $1 días',
 	'contributionscores-allrevisions' => 'Estadísticas globales',
+	'contributionscores-pages' => 'Páginas',
+	'contributionscores-username' => 'Nombre de usuario',
 );
 
 /** Extremaduran (Estremeñu)
@@ -912,6 +916,7 @@ $messages['myv'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
+	'contributionscores-changes' => 'Tlapatlaliztli',
 	'contributionscores-username' => 'Tlatequitiltilīltōcāitl',
 );
 
