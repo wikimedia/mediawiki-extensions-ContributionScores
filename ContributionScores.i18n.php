@@ -181,6 +181,11 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 $messages['cs'] = array(
 	'contributionscores' => 'Skóre příspěvků',
 	'contributionscores-desc' => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
+	'contributionscores-info' => 'Skóre se počítá následovně:
+* 1 bod za každou jedinečnou stránku, kterou uživatel upravoval
+* Odmocnina z (celkem úprav) - (celkem jedinečných stránek) * 2
+Skóre vypočítané tímto způsobem upřednostňuje rozmanitost úprav více než počet úprav.
+V podstatě toto skóre měří hlavně počet upravovaných jedinečných stránek s přihlédnutím na velký počet úprav, což se pokládá za stránku vyšší kvality.',
 	'contributionscores-top' => '($1 nejvyšších)',
 	'contributionscores-days' => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
 	'contributionscores-allrevisions' => 'Všechny revize',
@@ -1149,6 +1154,7 @@ $messages['ro'] = array(
 	'contributionscores-pages' => 'Pagini',
 	'contributionscores-username' => 'Nume de utilizator',
 	'contributionscores-invalidusername' => 'Nume de utilizator incorect',
+	'contributionscores-invalidmetric' => 'Metrică incorectă',
 );
 
 /** Russian (Русский)
