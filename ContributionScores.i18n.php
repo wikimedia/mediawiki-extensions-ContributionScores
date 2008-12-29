@@ -443,13 +443,20 @@ $messages['hak'] = array(
 /** Hebrew (עברית)
  * @author Agbad
  * @author Rotemliss
+ * @author YaronSh
  */
 $messages['he'] = array(
+	'contributionscores' => 'ניקוד תורמים',
+	'contributionscores-desc' => 'בדיקת בסיס הנתונים של הוויקי למציאת [[Special:ContributionScores|נפח תרומת המשתמשים]] הגבוה ביותר',
 	'contributionscores-top' => '($1 הגבוהים ביותר)',
 	'contributionscores-days' => 'ב־$1 הימים האחרונים',
+	'contributionscores-allrevisions' => 'כל הגרסאות',
+	'contributionscores-score' => 'ניקוד',
 	'contributionscores-pages' => 'דפים',
 	'contributionscores-changes' => 'שינויים',
 	'contributionscores-username' => 'שם משתמש',
+	'contributionscores-invalidusername' => 'שם משתמש בלתי תקין',
+	'contributionscores-invalidmetric' => 'מדידה בלתי תקינה',
 );
 
 /** Hindi (हिन्दी)
