@@ -581,7 +581,7 @@ Le punctages calculate de iste modo privilegia le diversitate super le volumine 
 Dicite de altere modo, iste punctage mesura primarimente le paginas unic modificate, con consideration pro un alte volumine de modificationes – le qual es presumite a indicar un pagina de alte qualitate.',
 	'contributionscores-top' => '(Le prime $1)',
 	'contributionscores-days' => 'Ultime $1 dies',
-	'contributionscores-allrevisions' => 'Tote le revisiones',
+	'contributionscores-allrevisions' => 'Tote le versiones',
 	'contributionscores-score' => 'Punctage',
 	'contributionscores-pages' => 'Paginas',
 	'contributionscores-changes' => 'Modificationes',
