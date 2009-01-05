@@ -1283,8 +1283,10 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
 
 /** Tamil (தமிழ்)
  * @author Trengarasu
+ * @author Ulmo
  */
 $messages['ta'] = array(
+	'contributionscores-pages' => 'பக்கங்கள்',
 	'contributionscores-username' => 'பயனர் பெயர்',
 );
 
@@ -1315,11 +1317,13 @@ $messages['tg-cyrl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Karduelis
  * @author Mach
  * @author Suelnur
  */
 $messages['tr'] = array(
+	'contributionscores' => 'Katkı skorları',
 	'contributionscores-pages' => 'Sayfalar',
 	'contributionscores-changes' => 'Değişiklikler',
 	'contributionscores-username' => 'Kullanıcı adı',
