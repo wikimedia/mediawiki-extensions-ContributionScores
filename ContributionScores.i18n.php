@@ -1130,6 +1130,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-changes' => 'Alterações',
 	'contributionscores-username' => 'Nome de utilizador',
 	'contributionscores-invalidusername' => 'Nome de utilizador inválido',
+	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
