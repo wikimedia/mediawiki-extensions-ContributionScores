@@ -1394,9 +1394,11 @@ Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa 
 
 /** Volapük (Volapük)
  * @author Malafaya
+ * @author Smeira
  */
 $messages['vo'] = array(
 	'contributionscores-days' => 'Dels Lätik $1',
+	'contributionscores-allrevisions' => 'Revids valik',
 	'contributionscores-pages' => 'Pads',
 	'contributionscores-changes' => 'Votükams',
 	'contributionscores-username' => 'Gebananem',
