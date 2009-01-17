@@ -668,19 +668,19 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
  * @author JtFuruhata
  */
 $messages['ja'] = array(
-	'contributionscores' => '貢献スコア',
+	'contributionscores' => '貢献得点',
 	'contributionscores-desc' => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
-	'contributionscores-info' => "スコアは以下のように計算されます:
+	'contributionscores-info' => "得点は以下のように計算されます:
 *編集したページ毎に、1ポイント
 *[(変更回数) - (ページ数)]の平方根 * 2
 
-:''スコア = (ページ数) + SQRT((変更回数)-(ページ数))*2''
+:''得点 = (ページ数) + SQRT((変更回数)-(ページ数))*2''
 
-この計算式では、編集量よりも編集の多様性が重要視されます。スコアは、編集したページ数を基礎に、高いクォリティのページを維持するため多くの編集を行うことにも配慮した評価となっています。",
-	'contributionscores-top' => '（上位$1名）',
+この計算式では、編集量よりも編集の多様性が重要視されます。得点は、編集したページ数を基礎に、高い品質のページを維持するため多くの編集を行うことにも配慮した評価となっています。",
+	'contributionscores-top' => '(上位$1名)',
 	'contributionscores-days' => '最近の$1日間',
 	'contributionscores-allrevisions' => '全履歴',
-	'contributionscores-score' => 'スコア',
+	'contributionscores-score' => '得点',
 	'contributionscores-pages' => 'ページ数',
 	'contributionscores-changes' => '変更回数',
 	'contributionscores-username' => '利用者名',
