@@ -32,6 +32,11 @@ $aliases['bs'] = array(
 	'ContributionScores' => array( 'DoprinosiBodovi' ),
 );
 
+/** Galician (Galego) */
+$aliases['gl'] = array(
+	'ContributionScores' => array( 'Puntuación das contribucións' ),
+);
+
 /** Hebrew (עברית) */
 $aliases['he'] = array(
 	'ContributionScores' => array( 'דירוג_תרומות' ),
@@ -45,6 +50,11 @@ $aliases['hu'] = array(
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'ContributionScores' => array( 'Peringkat kontribusi' ),
+);
+
+/** Japanese (日本語) */
+$aliases['ja'] = array(
+	'ContributionScores' => array( '貢献得点', '貢献スコア' ),
 );
 
 /** Khmer (ភាសាខ្មែរ) */
@@ -75,6 +85,11 @@ $aliases['no'] = array(
 /** Polish (Polski) */
 $aliases['pl'] = array(
 	'ContributionScores' => array( 'Punkty za edycje' ),
+);
+
+/** Sanskrit (संस्कृत) */
+$aliases['sa'] = array(
+	'ContributionScores' => array( 'योगदानप्राप्ताङ्क' ),
 );
 
 /** Swedish (Svenska) */
