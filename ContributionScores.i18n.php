@@ -138,6 +138,13 @@ $messages['avk'] = array(
 	'contributionscores-username' => 'Favesikyolt',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'contributionscores-username' => 'Імя ўдзельніка',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
