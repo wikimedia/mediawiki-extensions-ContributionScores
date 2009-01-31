@@ -1329,6 +1329,28 @@ $messages['tg-cyrl'] = array(
 	'contributionscores-username' => 'Номи корбарӣ',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'contributionscores' => 'Mga puntos ng ambag',
+	'contributionscores-desc' => 'Tinatarahan ang kalipunan ng dato ng wiki para sa pinakamataas na [[Special:ContributionScores|dami ng ambag ng tagagamit]]',
+	'contributionscores-info' => 'Tinutuos ang mga puntos ayon sa sumusunod:
+*Isang (1) puntos para sa bawat bukod-tanging pahinang binago
+*Pariugat ng (kabuoang bilang ng mga pagbabagong ginawa) - (kabuoang bilang ng bukod-tanging mga pahina) * 2
+Tinutuos ang mga puntos sa ganitong paraan: timbang ng pagkakaiba-iba ng pagbabago sa ibabaw ng dami ng pagbabago.
+Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mga pahina, na may pagsasaalang-alang sa mataas na dami ng pagbago - na ipinapalagay bilang isang pahinang may mataas na uri.',
+	'contributionscores-top' => '(Pinakatampok na $1)',
+	'contributionscores-days' => 'Huling $1 mga araw',
+	'contributionscores-allrevisions' => 'Lahat ng mga pagbabago',
+	'contributionscores-score' => 'Puntos',
+	'contributionscores-pages' => 'Mga pahina',
+	'contributionscores-changes' => 'Mga pagbabago',
+	'contributionscores-username' => 'Pangalan ng tagagamit',
+	'contributionscores-invalidusername' => 'Hindi tanggap na pangalan ng tagagamit',
+	'contributionscores-invalidmetric' => 'Hindi tanggap na metriko',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
