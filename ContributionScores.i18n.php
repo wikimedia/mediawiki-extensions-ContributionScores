@@ -1147,6 +1147,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Brunoy Anastasiya Seryozhenko
+ * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'contributionscores' => 'Pontuações de Contribuições',
@@ -1162,6 +1163,8 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Mudanças',
 	'contributionscores-username' => 'Nome de usuário',
+	'contributionscores-invalidusername' => 'Nome de utilizador inválido',
+	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
 
 /** Romanian (Română)
