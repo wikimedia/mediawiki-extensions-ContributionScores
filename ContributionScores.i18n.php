@@ -431,6 +431,27 @@ $messages['grc'] = array(
 	'contributionscores-username' => 'Ὄνομα χρωμένου',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'contributionscores' => 'Aazahl vu dr Benutzerbyyträg',
+	'contributionscores-desc' => 'Abfrog vu dr Wiki-Datebank no dr Aazahl vu dr [[Special:ContributionScores|Benutzerbyyträg]]',
+	'contributionscores-info' => 'Bewärtigsschema:
+*1 Punkt fir jedi bearbeiteti Syte
+*Quadratwurzle vu allene (Bearbeitige) - (Summe vu dr bearbeitete Syte) * 2
+Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie dr Aazahl vu dr Änderige.',
+	'contributionscores-top' => '(Top $1)',
+	'contributionscores-days' => 'Letschti $1 Täg',
+	'contributionscores-allrevisions' => 'Alli Versione',
+	'contributionscores-score' => 'Wärt',
+	'contributionscores-pages' => 'Syte',
+	'contributionscores-changes' => 'Änderige',
+	'contributionscores-username' => 'Benutzername',
+	'contributionscores-invalidusername' => 'Nit giltige Benutzername',
+	'contributionscores-invalidmetric' => 'Nit giltigi Metrik',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */
