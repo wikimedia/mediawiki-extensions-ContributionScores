@@ -166,6 +166,7 @@ $messages['bg'] = array(
  */
 $messages['ca'] = array(
 	'contributionscores' => 'Punts de contribució',
+	'contributionscores-desc' => 'Valora les edicions en cerca dels [[Special:ContributionScores|usuaris amb més volum de contribucions]]',
 	'contributionscores-info' => "La puntuació es calcula de la manera següent:
 * Un punt per cada pàgina diferent editada, més
 *El doble de l'arrel quadrada de: el total d'edicions fetes menys el total de pàgines diferents editades.
@@ -179,6 +180,7 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 	'contributionscores-changes' => 'Canvis',
 	'contributionscores-username' => "Nom d'usuari",
 	'contributionscores-invalidusername' => "Nom d'usuari no vàlid",
+	'contributionscores-invalidmetric' => 'Mètrica invàlida',
 );
 
 /** Czech (Česky)
