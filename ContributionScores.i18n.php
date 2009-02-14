@@ -300,7 +300,9 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 );
 
 /** Spanish (Español)
+ * @author Crazymadlover
  * @author Imre
+ * @author Sanbec
  */
 $messages['es'] = array(
 	'contributionscores' => 'Puntuaciones por contribuir',
@@ -312,7 +314,9 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-days' => 'Últimos $1 días',
 	'contributionscores-allrevisions' => 'Estadísticas globales',
 	'contributionscores-pages' => 'Páginas',
+	'contributionscores-changes' => 'Cambios',
 	'contributionscores-username' => 'Nombre de usuario',
+	'contributionscores-invalidusername' => 'Nombre de usuario no válido',
 );
 
 /** Extremaduran (Estremeñu)
@@ -1201,6 +1205,28 @@ $messages['ro'] = array(
 	'contributionscores-username' => 'Nume de utilizator',
 	'contributionscores-invalidusername' => 'Nume de utilizator incorect',
 	'contributionscores-invalidmetric' => 'Metrică incorectă',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'contributionscores' => 'Pundegge de le condrebbute',
+	'contributionscores-desc' => "Le sondagge d'u database de Uicchi pe le cchiù ierte [[Special:ContributionScores|volume de condrebbuzione de l'utende]]",
+	'contributionscores-info' => "Le pundegge sonde calculete accussì:
+*'Nu (1) punde pe ogne pàgena uniche cangete
+*'A radice quadrete de (totele de le cangiaminde fatte) - (totele de le pàggene uniche) * 2
+Le pundegge calculete jndr'à stu mode tènene 'nu pese de cangiaminde diverse sus a 'u volume de le cangiaminde.
+De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a conziderazzione pe le volume de cangiaminde ierte - se penze ca le pàggene tènene 'na qualitate cchiù ierte.",
+	'contributionscores-top' => '(Le Prime $1)',
+	'contributionscores-days' => 'Urteme $1 sciurne',
+	'contributionscores-allrevisions' => 'Tutte le revisiune',
+	'contributionscores-score' => 'Pundegge',
+	'contributionscores-pages' => 'Pàggene',
+	'contributionscores-changes' => 'Cangiaminde',
+	'contributionscores-username' => "Nome de l'utende",
+	'contributionscores-invalidusername' => "Nome de l'utende invalide",
+	'contributionscores-invalidmetric' => 'Metriche invalide',
 );
 
 /** Russian (Русский)
