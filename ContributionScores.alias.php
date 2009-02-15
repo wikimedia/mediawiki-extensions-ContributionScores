@@ -47,6 +47,11 @@ $aliases['hu'] = array(
 	'ContributionScores' => array( 'Szerkesztési pontok' ),
 );
 
+/** Interlingua (Interlingua) */
+$aliases['ia'] = array(
+	'ContributionScores' => array( 'ScoresDeContributiones' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'ContributionScores' => array( 'Peringkat kontribusi' ),
@@ -95,5 +100,10 @@ $aliases['sa'] = array(
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'ContributionScores' => array( 'Bidragspoäng' ),
+);
+
+/** Tagalog (Tagalog) */
+$aliases['tl'] = array(
+	'ContributionScores' => array( 'Mga puntos ng ambag' ),
 );
 
