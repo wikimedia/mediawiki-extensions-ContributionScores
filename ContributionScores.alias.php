@@ -49,7 +49,7 @@ $aliases['hu'] = array(
 
 /** Interlingua (Interlingua) */
 $aliases['ia'] = array(
-	'ContributionScores' => array( 'ScoresDeContributiones' ),
+	'ContributionScores' => array( 'Scores de contributiones' ),
 );
 
 /** Indonesian (Bahasa Indonesia) */
