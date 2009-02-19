@@ -1416,6 +1416,13 @@ $messages['tr'] = array(
 	'contributionscores-username' => 'Kullanıcı adı',
 );
 
+/** ئۇيغۇرچە (ئۇيغۇرچە)
+ * @author Alfredie
+ */
+$messages['ug-arab'] = array(
+	'contributionscores-username' => 'ئىشلەتكۇچى ئىسمى',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
