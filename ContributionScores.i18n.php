@@ -1423,6 +1423,13 @@ $messages['ug-arab'] = array(
 	'contributionscores-username' => 'ئىشلەتكۇچى ئىسمى',
 );
 
+/** Uighur (Latin) (Uyghurche‎ / ئۇيغۇرچە (Latin))
+ * @author Jose77
+ */
+$messages['ug-latn'] = array(
+	'contributionscores-username' => 'Ishletkuchi ismi',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
