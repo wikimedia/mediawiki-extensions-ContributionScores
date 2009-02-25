@@ -160,6 +160,28 @@ $messages['bg'] = array(
 	'contributionscores-invalidusername' => 'Невалидно потребителско име',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'contributionscores' => 'Rezultat doprinosa',
+	'contributionscores-desc' => 'Upit u wiki bazu podataka za najveći [[Special:ContributionScores|količinski korisnički doprinos]]',
+	'contributionscores-info' => 'Rezultati se računaju na slijedeći naćin:
+*Jedan (1) bod za svaku pojedinu stranicu koja se uredi
+*Drugi korijen od (ukupno načinjenih promjena) - (ukupno pojedinih stranica) * 2
+Rezultati koji se dobiju na ovaj način naglašavaju raznolikost uređivanja više od količine uređivanja.
+U osnovi, ovaj rezultat mjeri naročito broj uređivanja pojedinačnih stranica, sa utjecajem velike količine uređivanja - smatra se da utječe na bolji kvalitet stranice.',
+	'contributionscores-top' => '(Najboljih $1)',
+	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dana|Zadnjih $1 dana}}',
+	'contributionscores-allrevisions' => 'Sve revizije',
+	'contributionscores-score' => 'Rezultat',
+	'contributionscores-pages' => 'Stranice',
+	'contributionscores-changes' => 'Izmjene',
+	'contributionscores-username' => 'Korisničko ime',
+	'contributionscores-invalidusername' => 'Nevaljano korisničko ime',
+	'contributionscores-invalidmetric' => 'Nevaljana mjera',
+);
+
 /** Catalan (Català)
  * @author Jordi Roqué
  * @author SMP
