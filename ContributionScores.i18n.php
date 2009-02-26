@@ -1436,6 +1436,7 @@ $messages['tr'] = array(
 	'contributionscores-pages' => 'Sayfalar',
 	'contributionscores-changes' => 'Değişiklikler',
 	'contributionscores-username' => 'Kullanıcı adı',
+	'contributionscores-invalidusername' => 'Geçersiz kullanıcı adı',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
