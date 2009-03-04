@@ -864,6 +864,13 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie winnijer Schrieve.',
 	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
 );
 
+/** Cornish (Kernewek)
+ * @author Kw-Moon
+ */
+$messages['kw'] = array(
+	'contributionscores-username' => 'Hanow-usyer',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -1513,6 +1520,8 @@ Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa 
 	'contributionscores-pages' => 'Trang',
 	'contributionscores-changes' => 'Các thay đổi',
 	'contributionscores-username' => 'Tên người dùng',
+	'contributionscores-invalidusername' => 'Tên người dùng không hợp lệ',
+	'contributionscores-invalidmetric' => 'Chuẩn đo không hợp lệ',
 );
 
 /** Volapük (Volapük)
