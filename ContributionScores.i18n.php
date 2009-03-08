@@ -275,8 +275,8 @@ $messages['dsb'] = array(
 Licba dypkow, kótaraž wulicyjo se za tym nałogom, gódnośi wšakosć změnow wušej ako licbu změnow.
 Zasadnje tś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow - 
 pód wuměnjenim až to by było bok z wušeju kwalitu.',
-	'contributionscores-top' => '(Nejlěpšych $1)',
-	'contributionscores-days' => 'Slědne $1 dny',
+	'contributionscores-top' => '({{PLURAL:$1|Nejlěpšy $1|Nejlěpšej $1|Nejlěpše $1|Nejlěpšych $1}})',
+	'contributionscores-days' => '{{PLURAL:$1|Slědny źeń|Slědnej $1 dnja|Slědne $1 dny|Slědnych $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Wše wersije',
 	'contributionscores-score' => 'Pógódnośenje',
 	'contributionscores-pages' => 'Boki',
@@ -576,7 +576,7 @@ $messages['hsb'] = array(
 *Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
 Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
 	'contributionscores-top' => '(Najlěpšich $1)',
-	'contributionscores-days' => 'Poslednje $1 dny',
+	'contributionscores-days' => '{{PLURAL:$1|Posledni dźeń|Poslednjej $1 dnjej|Poslednje $1 dny|Poslednich $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Wšě změny',
 	'contributionscores-score' => 'Hódnoćenje',
 	'contributionscores-pages' => 'Strony',
