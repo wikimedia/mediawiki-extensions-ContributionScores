@@ -1440,10 +1440,14 @@ Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mg
  */
 $messages['tr'] = array(
 	'contributionscores' => 'Katkı skorları',
+	'contributionscores-days' => 'Son $1 gün',
+	'contributionscores-allrevisions' => 'Tüm revizyonlar',
+	'contributionscores-score' => 'Puan',
 	'contributionscores-pages' => 'Sayfalar',
 	'contributionscores-changes' => 'Değişiklikler',
 	'contributionscores-username' => 'Kullanıcı adı',
 	'contributionscores-invalidusername' => 'Geçersiz kullanıcı adı',
+	'contributionscores-invalidmetric' => 'Geçersiz metrik',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
