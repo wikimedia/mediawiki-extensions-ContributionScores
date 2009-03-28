@@ -276,7 +276,7 @@ Licba dypkow, kótaraž wulicyjo se za tym nałogom, gódnośi wšakosć změnow
 Zasadnje tś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow - 
 pód wuměnjenim až to by było bok z wušeju kwalitu.',
 	'contributionscores-top' => '({{PLURAL:$1|Nejlěpšy $1|Nejlěpšej $1|Nejlěpše $1|Nejlěpšych $1}})',
-	'contributionscores-days' => '{{PLURAL:$1|Slědny źeń|Slědnej $1 dnja|Slědne $1 dny|Slědnych $1 dnjow}}',
+	'contributionscores-days' => '{{PLURAL:$1|Slědny $1 źeń|Slědnej $1 dnja|Slědne $1 dny|Slědnych $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Wše wersije',
 	'contributionscores-score' => 'Pógódnośenje',
 	'contributionscores-pages' => 'Boki',
