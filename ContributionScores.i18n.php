@@ -335,6 +335,7 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Últimos $1 días',
 	'contributionscores-allrevisions' => 'Estadísticas globales',
+	'contributionscores-score' => 'Valoración',
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Cambios',
 	'contributionscores-username' => 'Nombre de usuario',
