@@ -102,6 +102,11 @@ $aliases['sv'] = array(
 	'ContributionScores' => array( 'Bidragspoäng' ),
 );
 
+/** Thai (ไทย) */
+$aliases['th'] = array(
+	'ContributionScores' => array( 'คะแนนการเขียน' ),
+);
+
 /** Tagalog (Tagalog) */
 $aliases['tl'] = array(
 	'ContributionScores' => array( 'Mga puntos ng ambag' ),
