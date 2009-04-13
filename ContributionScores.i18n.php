@@ -273,7 +273,7 @@ $messages['dsb'] = array(
 *Jaden (1) dypk za kuždy wobźěłany bok
 *Kwadratny kórjeń (wšych cynjonych změnow) - (cełkowna licba bokow) * 2
 Licba dypkow, kótaraž wulicyjo se za tym nałogom, gódnośi wšakosć změnow wušej ako licbu změnow.
-Zasadnje tś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow - 
+Zasadnje toś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow - 
 pód wuměnjenim až to by było bok z wušeju kwalitu.',
 	'contributionscores-top' => '({{PLURAL:$1|Nejlěpšy $1|Nejlěpšej $1|Nejlěpše $1|Nejlěpšych $1}})',
 	'contributionscores-days' => '{{PLURAL:$1|Slědny $1 źeń|Slědnej $1 dnja|Slědne $1 dny|Slědnych $1 dnjow}}',
