@@ -31,6 +31,7 @@ Basically, this score measures primarily unique pages edited, with consideration
  * @author JtFuruhata
  * @author Kalan
  * @author Purodha
+ * @author Raymond
  */
 $messages['qqq'] = array(
 	'contributionscores-desc' => 'Extension description displayed on [[Special:Version]].',
@@ -39,6 +40,8 @@ $messages['qqq'] = array(
 :COUNT(DISTINCT rev_page) AS page_count
 :COUNT(rev_id) AS rev_count
 :page_count+SQRT(rev_count-page_count)*2 AS wiki_rank',
+	'contributionscores-top' => 'Second part of the headings of [[Special:ContributionScores]]. PLURAL is supported but not used by the English original message.',
+	'contributionscores-days' => 'Heading of [[Special:ContributionScores]].',
 	'contributionscores-allrevisions' => 'Used as a header of [[Special:ContributionScores]]',
 	'contributionscores-pages' => '{{Identical|Pages}}',
 	'contributionscores-username' => '{{Identical|Username}}',
@@ -92,7 +95,7 @@ $messages['ar'] = array(
 *الجذر التربيعي ل(عدد التعديلات الكلية) - (عدد الصفحات الفريدة الكلية) * 2
 النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسي الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.',
 	'contributionscores-top' => '(أعلى $1)',
-	'contributionscores-days' => 'آخر $1 يوم',
+	'contributionscores-days' => 'آخر {{PLURAL:$1|يوم|$1 يوم}}',
 	'contributionscores-allrevisions' => 'كل المراجعات',
 	'contributionscores-score' => 'النتيجة',
 	'contributionscores-pages' => 'الصفحات',
@@ -332,7 +335,7 @@ $messages['es'] = array(
 *Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2
 Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición. Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto volumen de edición supone que es un artículo de mayor calidad.',
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Últimos $1 días',
+	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
 	'contributionscores-allrevisions' => 'Estadísticas globales',
 	'contributionscores-score' => 'Valoración',
 	'contributionscores-pages' => 'Páginas',
@@ -440,7 +443,7 @@ $messages['gl'] = array(
 As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume.
 Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, tendo en conta un volume alto de edicións (co que se asume que é unha páxina de calidade superior).',
 	'contributionscores-top' => '(os $1 que máis)',
-	'contributionscores-days' => 'Os últimos $1 días',
+	'contributionscores-days' => '{{PLURAL:$1|O último día|Os últimos $1 días}}',
 	'contributionscores-allrevisions' => 'Todas as revisións',
 	'contributionscores-score' => 'Puntuación',
 	'contributionscores-pages' => 'Páxinas',
@@ -470,7 +473,7 @@ $messages['gsw'] = array(
 *Quadratwurzle vu allene (Bearbeitige) - (Summe vu dr bearbeitete Syte) * 2
 Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie dr Aazahl vu dr Änderige.',
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Letschti $1 Täg',
+	'contributionscores-days' => '{{PLURAL:$1|Letschte Tag|Letschti $1 Täg}}',
 	'contributionscores-allrevisions' => 'Alli Versione',
 	'contributionscores-score' => 'Wärt',
 	'contributionscores-pages' => 'Syte',
@@ -641,7 +644,7 @@ $messages['ia'] = array(
 Le punctages calculate de iste modo privilegia le diversitate super le volumine de modificationes.
 Dicite de altere modo, iste punctage mesura primarimente le paginas unic modificate, con consideration pro un alte volumine de modificationes – le qual es presumite a indicar un pagina de alte qualitate.',
 	'contributionscores-top' => '(Le prime $1)',
-	'contributionscores-days' => 'Ultime $1 dies',
+	'contributionscores-days' => 'Ultime $1 {{PLURAL:$1|die|dies}}',
 	'contributionscores-allrevisions' => 'Tote le versiones',
 	'contributionscores-score' => 'Punctage',
 	'contributionscores-pages' => 'Paginas',
@@ -714,7 +717,7 @@ $messages['it'] = array(
 *Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2 
 Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle modifiche rispetto al numero dei contributi. Di fondo, questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un eventuale alto volume di contributi - ciò fa presumere una più elevata qualità della pagina modificata.',
 	'contributionscores-top' => '(Migliori $1)',
-	'contributionscores-days' => 'Ultimi $1 giorni',
+	'contributionscores-days' => '{{PLURAL:$1|Ultimo giorno|Ultimi $1 giorni}}',
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
 	'contributionscores-score' => 'Punteggio',
 	'contributionscores-pages' => 'Pagine',
@@ -725,6 +728,7 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 );
 
 /** Japanese (日本語)
+ * @author Aotake
  * @author Fryed-peach
  * @author JtFuruhata
  */
@@ -739,7 +743,7 @@ $messages['ja'] = array(
 
 この計算式では、編集量よりも編集の多様性が重要視されます。得点は、編集したページ数を基礎に、高い品質のページを維持するため多くの編集を行うことにも配慮した評価となっています。",
 	'contributionscores-top' => '(上位$1名)',
-	'contributionscores-days' => '最近の$1日間',
+	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
 	'contributionscores-allrevisions' => '全履歴',
 	'contributionscores-score' => '得点',
 	'contributionscores-pages' => 'ページ数',
@@ -854,7 +858,7 @@ De Punkte zälle esu de Fillfälteschkeit mieh wie der Ömfang vun dä Beidrää
 Dat es en de Houpsaach de övverhoup aanjepackte Zahl Sigge, ävver dann noch,
 dat öff jet Schrieve am Eng besser Sigge jitt, als wie winnijer Schrieve.',
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Letzte $1 Dare',
+	'contributionscores-days' => '{{PLURAL:$1|Der lezte Daach|De lezte $1 Daare|Keine lezte Daach}}',
 	'contributionscores-allrevisions' => 'All Versione',
 	'contributionscores-score' => 'Punkte',
 	'contributionscores-pages' => 'Sigge',
@@ -876,7 +880,7 @@ $messages['kw'] = array(
  */
 $messages['lb'] = array(
 	'contributionscores' => 'Bewertung vun den Ännerungen',
-	'contributionscores-desc' => "Ufro un d'Wiki-Datebank no den héichsten [[Special:ContributionScores|Benotzerscoren]]",
+	'contributionscores-desc' => "Ufro un d'Wiki-Datebank no den héichste [[Special:ContributionScores|Benotzerscoren]]",
 	'contributionscores-info' => "D'Bewertunge ginn esou gerechent:
 * 1 Punkt fir all geännert Säit;
 * D'Quadrawuerzel vun (allen Ännerungen) - (Zuel vun de geännerte Säiten) * 2.
@@ -1021,7 +1025,7 @@ $messages['nl'] = array(
 *wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina's) * 2
 In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaarder dan bewerkingsvolume. In feite meet deze score voornamelijk het aantal unieke pagina's dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen, met de aanname dat het een pagina van een hogere kwaliteit is.",
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Laatste $1 dagen',
+	'contributionscores-days' => 'Laatste {{PLURAL:$1|dag|$1 dagen}}',
 	'contributionscores-allrevisions' => 'Alle versies',
 	'contributionscores-score' => 'Punten',
 	'contributionscores-pages' => "Pagina's",
@@ -1032,6 +1036,7 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
  */
@@ -1043,7 +1048,7 @@ $messages['nn'] = array(
 * Kvadratrota av (totalt tal på endringar) &minus; (unike sider endra) × 2
 Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endringsvolum. Dette tyder til sist at dette primært måler kor mange forskjellige sider som har blitt endra, med omsyn til høgt endringsvolum &ndash; anteke å føra til sider av høgare kvalitet.',
 	'contributionscores-top' => '(topp $1)',
-	'contributionscores-days' => 'Dei $1 siste dagane',
+	'contributionscores-days' => 'Siste {{PLURAL:$1|dag|$1 dagar}}',
 	'contributionscores-allrevisions' => 'Alle versjonar',
 	'contributionscores-score' => 'Poeng',
 	'contributionscores-pages' => 'Sider',
@@ -1191,7 +1196,7 @@ $messages['pt'] = array(
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
 Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração por alto volume de edições - assumindo serem páginas de qualidade mais alta.',
 	'contributionscores-top' => '(Primeiros $1)',
-	'contributionscores-days' => 'Últimos $1 Dias',
+	'contributionscores-days' => '{{PLURAL:$1|Último dia|Últimos $1 dias}}',
 	'contributionscores-allrevisions' => 'Todas As Revisões',
 	'contributionscores-score' => 'Pontuação',
 	'contributionscores-pages' => 'Páginas',
@@ -1291,7 +1296,7 @@ $messages['sk'] = array(
 *Odmocnina z (celkom úprav) - (celkom jedinečných stránok) * 2
 Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.',
 	'contributionscores-top' => '(Najlepších $1)',
-	'contributionscores-days' => 'Posledných $1 dní',
+	'contributionscores-days' => '{{PLURAL:$1|Posledný $1 deň|Posledné $1 dni|Posledných $1 dní}}',
 	'contributionscores-allrevisions' => 'Všetky revízie',
 	'contributionscores-score' => 'Skóre',
 	'contributionscores-pages' => 'Stránky',
@@ -1303,10 +1308,11 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
 
 /** Serbian Cyrillic ekavian (ћирилица)
  * @author Sasa Stefanovic
+ * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'contributionscores-top' => '(првих $1)',
-	'contributionscores-days' => 'Последњих $1 дана',
+	'contributionscores-days' => '{{PLURAL:$1|Последњег дана|Последњих $1 дана}}',
 	'contributionscores-allrevisions' => 'Све ревизије',
 	'contributionscores-pages' => 'Странице',
 	'contributionscores-changes' => 'Измене',
@@ -1518,7 +1524,7 @@ $messages['vi'] = array(
 Điểm số được tính theo cách này sẽ nhé nhấn mạnh vào sự đa dạng khi sửa đổi hơn là mức độ sửa đổi.
 Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.',
 	'contributionscores-top' => '(Tốp $1)',
-	'contributionscores-days' => '$1 ngày qua',
+	'contributionscores-days' => '{{PLURAL:$1|Một|$1}} ngày qua',
 	'contributionscores-allrevisions' => 'Mọi phiên bản',
 	'contributionscores-score' => 'Điểm số',
 	'contributionscores-pages' => 'Trang',
