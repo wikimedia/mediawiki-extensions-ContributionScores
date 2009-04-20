@@ -290,11 +290,12 @@ pód wuměnjenim až to by było bok z wušeju kwalitu.',
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Crazymadlover
  */
 $messages['el'] = array(
 	'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
 	'contributionscores-top' => '(Πρώτοι $1)',
-	'contributionscores-days' => 'Τελευταίες $1 Ημέρες',
+	'contributionscores-days' => 'Τελευταίες {{PLURAL:$1|ημέρα|$1 ημέρες}}',
 	'contributionscores-score' => 'Βαθμολογία',
 	'contributionscores-pages' => 'Σελίδες',
 	'contributionscores-changes' => 'Αλλαγές',
@@ -1208,6 +1209,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Brunoy Anastasiya Seryozhenko
+ * @author Crazymadlover
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -1218,7 +1220,7 @@ $messages['pt-br'] = array(
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
 Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração pelo alto volume de edições - assumindo serem páginas de qualidade mais alta.',
 	'contributionscores-top' => '(Iniciais $1)',
-	'contributionscores-days' => 'Últimos $1 Dias',
+	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
 	'contributionscores-allrevisions' => 'Todas as revisões',
 	'contributionscores-score' => 'Pontuação',
 	'contributionscores-pages' => 'Páginas',
@@ -1501,7 +1503,7 @@ $messages['vec'] = array(
 Fasendo i conti in sta maniera pesa piassè la diversità de le modifiche rispeto al nùmaro dei contributi. 
 In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà, tegnendo in considerazion anca un alto volume de modifiche - che fa pensar a na pi alta qualità de la pagina modificà.',
 	'contributionscores-top' => '(Ultimi $1)',
-	'contributionscores-days' => 'Ultimi $1 giòrni',
+	'contributionscores-days' => '{{PLURAL:$1|Ultimo zòrno|Ultimi $1 zòrni}}',
 	'contributionscores-allrevisions' => 'Tute le revision',
 	'contributionscores-score' => 'Puntegio',
 	'contributionscores-pages' => 'Pagine',
