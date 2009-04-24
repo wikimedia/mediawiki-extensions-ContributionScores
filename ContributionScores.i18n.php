@@ -514,7 +514,7 @@ $messages['he'] = array(
 הנקודות המחושבות באופן זה מעניקות חשיבות גבוהה יותר לדפים הייחודיים שנערכים על פני כמות העריכות.
 ברמת העיקרון, ניקוד זה מודד בעיקר את מספר הדפים הייחודיים שנערכו, עם התחשבות בכמות עריכות גדולה - מה שנחשב לדף יותר איכותי.',
 	'contributionscores-top' => '($1 הגבוהים ביותר)',
-	'contributionscores-days' => 'ב־$1 הימים האחרונים',
+	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|־$1 הימים האחרונים}}',
 	'contributionscores-allrevisions' => 'כל הגרסאות',
 	'contributionscores-score' => 'ניקוד',
 	'contributionscores-pages' => 'דפים',
