@@ -514,7 +514,7 @@ $messages['he'] = array(
 הנקודות המחושבות באופן זה מעניקות חשיבות גבוהה יותר לדפים הייחודיים שנערכים על פני כמות העריכות.
 ברמת העיקרון, ניקוד זה מודד בעיקר את מספר הדפים הייחודיים שנערכו, עם התחשבות בכמות עריכות גדולה - מה שנחשב לדף יותר איכותי.',
 	'contributionscores-top' => '($1 הגבוהים ביותר)',
-	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|־$1 הימים האחרונים}}',
+	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|־$1 הימים האחרונים|יומיים האחרונים}}',
 	'contributionscores-allrevisions' => 'כל הגרסאות',
 	'contributionscores-score' => 'ניקוד',
 	'contributionscores-pages' => 'דפים',
@@ -1151,7 +1151,7 @@ $messages['pl'] = array(
 *pierwiastek kwadratowy z (ogólna liczba edycji) - (wszystkich unikalnych stron) * 2
 Taki sposób naliczania pozwala wyważyć różnorodność edycji względem liczby edycji. Zasadniczo wynik uzależniony jest od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.',
 	'contributionscores-top' => '($1 najlepszych)',
-	'contributionscores-days' => 'Ostatnie $1 dni',
+	'contributionscores-days' => '{{PLURAL:$1|Ostatni 1 dzień|Ostatnie $1 dni|Ostatnich $1 dni}}',
 	'contributionscores-allrevisions' => 'Wszystkie edycje',
 	'contributionscores-score' => 'Punktów',
 	'contributionscores-pages' => 'Stron',
