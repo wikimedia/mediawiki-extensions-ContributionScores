@@ -10,6 +10,7 @@ if (!defined('MEDIAWIKI')) {
 }
 
 $wgExtensionCredits['specialpage'][] = array(
+	'path' => __FILE__,
 	'name'=>'Contribution Scores',
 	'url'=>'http://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author'=>'Tim Laqua',
