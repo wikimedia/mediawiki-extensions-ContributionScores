@@ -210,6 +210,7 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 /** Czech (Česky)
  * @author Li-sung
  * @author Matěj Grabovský
+ * @author Mormegil
  */
 $messages['cs'] = array(
 	'contributionscores' => 'Skóre příspěvků',
@@ -245,6 +246,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Merlissimo
  * @author Raimond Spekking
  */
 $messages['de'] = array(
@@ -255,7 +257,7 @@ $messages['de'] = array(
 *Quadratwurzel aller (Bearbeitungen) - (Summe der bearbeiteten Seiten) * 2
 Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.',
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Letzte $1 Tage',
+	'contributionscores-days' => '{{PLURAL:$1|Letzter Tag|Letzte $1 Tage}}',
 	'contributionscores-allrevisions' => 'Alle Versionen',
 	'contributionscores-score' => 'Bewertung',
 	'contributionscores-pages' => 'Seiten',
@@ -736,13 +738,13 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 $messages['ja'] = array(
 	'contributionscores' => '貢献得点',
 	'contributionscores-desc' => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
-	'contributionscores-info' => "得点は以下のように計算されます:
-*編集したページ毎に、1ポイント
-*[(変更回数) - (ページ数)]の平方根 * 2
+	'contributionscores-info' => '得点は以下のように計算されます:
+* 編集したページ毎に、1ポイント
+* (変更回数) - (ページ数) の平方根 * 2
+つまり、
+: 得点 = (ページ数) + SQRT((変更回数) - (ページ数)) * 2
 
-:''得点 = (ページ数) + SQRT((変更回数)-(ページ数))*2''
-
-この計算式では、編集量よりも編集の多様性が重要視されます。得点は、編集したページ数を基礎に、高い品質のページを維持するため多くの編集を行うことにも配慮した評価となっています。",
+この計算式では、編集量よりも編集の多様性が重要視されます。得点は、編集したページ数を基礎に、高い品質のページを維持するため多くの編集を行うことにも配慮した評価となっています。',
 	'contributionscores-top' => '(上位$1名)',
 	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
 	'contributionscores-allrevisions' => '全履歴',
@@ -1364,6 +1366,7 @@ Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah
 /** Swedish (Svenska)
  * @author Lejonel
  * @author M.M.S.
+ * @author Najami
  */
 $messages['sv'] = array(
 	'contributionscores' => 'Bidragspoäng',
@@ -1373,7 +1376,7 @@ $messages['sv'] = array(
 * kvadratroten av (antal gjorda redigeringar) - (antal unika sidor) * 2
 När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.',
 	'contributionscores-top' => '(Topp $1)',
-	'contributionscores-days' => 'Senaste $1 dagarna',
+	'contributionscores-days' => 'Senaste {{PLURAL:$1|dagen|$1 dagarna}}',
 	'contributionscores-allrevisions' => 'Alla redigeringar',
 	'contributionscores-score' => 'Poäng',
 	'contributionscores-pages' => 'Sidor',
