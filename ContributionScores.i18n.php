@@ -1257,7 +1257,7 @@ $messages['roa-tara'] = array(
 Le pundegge calculete jndr'à stu mode tènene 'nu pese de cangiaminde diverse sus a 'u volume de le cangiaminde.
 De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a conziderazzione pe le volume de cangiaminde ierte - se penze ca le pàggene tènene 'na qualitate cchiù ierte.",
 	'contributionscores-top' => '(Le Prime $1)',
-	'contributionscores-days' => 'Urteme $1 sciurne',
+	'contributionscores-days' => 'Urteme {{PLURAL:$1|sciurne|$1 sciurne}}',
 	'contributionscores-allrevisions' => 'Tutte le revisiune',
 	'contributionscores-score' => 'Pundegge',
 	'contributionscores-pages' => 'Pàggene',
