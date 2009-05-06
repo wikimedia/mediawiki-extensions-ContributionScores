@@ -332,7 +332,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
  * @author Sanbec
  */
 $messages['es'] = array(
-	'contributionscores' => 'Puntuaciones por contribuir',
+	'contributionscores' => 'Puntuaciones de contribuciones',
 	'contributionscores-info' => 'Las puntuaciones son calculadas siguiendo:
 *1 punto por cada página única editada
 *Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2
@@ -345,6 +345,7 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-changes' => 'Cambios',
 	'contributionscores-username' => 'Nombre de usuario',
 	'contributionscores-invalidusername' => 'Nombre de usuario no válido',
+	'contributionscores-invalidmetric' => 'Medida inválida',
 );
 
 /** Extremaduran (Estremeñu)
