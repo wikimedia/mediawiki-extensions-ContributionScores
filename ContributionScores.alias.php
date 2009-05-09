@@ -67,6 +67,11 @@ $aliases['km'] = array(
 	'ContributionScores' => array( 'ពិន្ទុអ្នករួមចំណែក' ),
 );
 
+/** Ripoarisch (Ripoarisch) */
+$aliases['ksh'] = array(
+	'ContributionScores' => array( 'MetmaacherZahle' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'ContributionScores' => array( 'Score vun de Kontributiounen' ),
