@@ -187,6 +187,7 @@ U osnovi, ovaj rezultat mjeri naročito broj uređivanja pojedinačnih stranica,
 /** Catalan (Català)
  * @author Jordi Roqué
  * @author SMP
+ * @author Solde
  */
 $messages['ca'] = array(
 	'contributionscores' => 'Punts de contribució',
@@ -197,7 +198,7 @@ $messages['ca'] = array(
 Aquesta fórmula premia la diversitat d'edicions més que no el seu volum.
 Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració per els alts volums d'edició considerats de pàgines de més qualitat.",
 	'contributionscores-top' => '($1 millors)',
-	'contributionscores-days' => 'Últims $1 dies',
+	'contributionscores-days' => '{{PLURAL:$1|Últim dia|Últims $1 dies}}',
 	'contributionscores-allrevisions' => 'Totes les revisions',
 	'contributionscores-score' => 'Puntuació',
 	'contributionscores-pages' => 'Pàgines',
