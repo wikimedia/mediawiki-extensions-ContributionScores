@@ -334,6 +334,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
  */
 $messages['es'] = array(
 	'contributionscores' => 'Puntuaciones de contribuciones',
+	'contributionscores-desc' => 'Encuesta la base de datos del wiki para el mas alto [[Special:ContributionScores|volumen de contribuciones del usuario]]',
 	'contributionscores-info' => 'Las puntuaciones son calculadas siguiendo:
 *1 punto por cada página única editada
 *Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2
@@ -486,6 +487,13 @@ Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie
 	'contributionscores-username' => 'Benutzername',
 	'contributionscores-invalidusername' => 'Nit giltige Benutzername',
 	'contributionscores-invalidmetric' => 'Nit giltigi Metrik',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Dineshjk
+ */
+$messages['gu'] = array(
+	'contributionscores-username' => 'સભ્ય નામ',
 );
 
 /** Manx (Gaelg)
