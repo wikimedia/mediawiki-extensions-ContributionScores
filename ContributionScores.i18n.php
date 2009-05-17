@@ -493,6 +493,7 @@ Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie
  * @author Dineshjk
  */
 $messages['gu'] = array(
+	'contributionscores-pages' => 'પાનાં',
 	'contributionscores-username' => 'સભ્ય નામ',
 );
 
