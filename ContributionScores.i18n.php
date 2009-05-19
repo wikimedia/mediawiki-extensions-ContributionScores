@@ -465,6 +465,7 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
  */
 $messages['grc'] = array(
 	'contributionscores-pages' => 'Δέλτοι',
+	'contributionscores-changes' => 'Μεταβολαί',
 	'contributionscores-username' => 'Ὄνομα χρωμένου',
 );
 
@@ -1074,6 +1075,7 @@ Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endrin
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'contributionscores' => 'Bidragspoeng',
@@ -1083,7 +1085,7 @@ $messages['no'] = array(
 * Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
 Poeng som regnes ut på denne måte veier redigeringsmangfold høyere enn redigeringsvolum. Dette betyr i bunn og grunn at dette primært måler hvor mange forskjellige sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.',
 	'contributionscores-top' => '(Topp $1)',
-	'contributionscores-days' => 'Siste $1 dager',
+	'contributionscores-days' => 'Siste {{PLURAL:$1|dag|$1 dager}}',
 	'contributionscores-allrevisions' => 'Alle revisjoner',
 	'contributionscores-score' => 'Poeng',
 	'contributionscores-pages' => 'Sider',
