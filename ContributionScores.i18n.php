@@ -464,6 +464,7 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
  * @author Omnipaedista
  */
 $messages['grc'] = array(
+	'contributionscores-days' => 'ὕστατοι {{PLURAL:$1|ἡμέρα|$1 ἡμέραι}}',
 	'contributionscores-score' => 'Στιγμή',
 	'contributionscores-pages' => 'Δέλτοι',
 	'contributionscores-changes' => 'Μεταβολαί',
