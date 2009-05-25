@@ -464,11 +464,16 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
  * @author Omnipaedista
  */
 $messages['grc'] = array(
-	'contributionscores-days' => 'ὕστατοι {{PLURAL:$1|ἡμέρα|$1 ἡμέραι}}',
-	'contributionscores-score' => 'Στιγμή',
+	'contributionscores' => 'Βαθμολογία ἐράνων',
+	'contributionscores-top' => '(Κορυφαῖοι $1)',
+	'contributionscores-days' => '{{PLURAL:$1|Ὑστάτη ἡμέρα|Ὕσταται $1 ἡμέραι}}',
+	'contributionscores-allrevisions' => 'Ἅπασαι αἱ ἀναθεωρήσεις',
+	'contributionscores-score' => 'Βαθμοί',
 	'contributionscores-pages' => 'Δέλτοι',
 	'contributionscores-changes' => 'Μεταβολαί',
 	'contributionscores-username' => 'Ὄνομα χρωμένου',
+	'contributionscores-invalidusername' => 'Ἄκυρον ὄνομα χρωμένου',
+	'contributionscores-invalidmetric' => 'Ἄκυρος μετρική',
 );
 
 /** Swiss German (Alemannisch)
