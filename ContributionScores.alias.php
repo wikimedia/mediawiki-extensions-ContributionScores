@@ -32,6 +32,11 @@ $aliases['bs'] = array(
 	'ContributionScores' => array( 'DoprinosiBodovi' ),
 );
 
+/** Finnish (Suomi) */
+$aliases['fi'] = array(
+	'ContributionScores' => array( 'Muokkauspisteet' ),
+);
+
 /** Galician (Galego) */
 $aliases['gl'] = array(
 	'ContributionScores' => array( 'Puntuación das contribucións' ),
