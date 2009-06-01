@@ -1471,7 +1471,7 @@ Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mg
  */
 $messages['tr'] = array(
 	'contributionscores' => 'Katkı skorları',
-	'contributionscores-days' => 'Son $1 gün',
+	'contributionscores-days' => 'Son $1 {{PLURAL:$1|gün|gün}}',
 	'contributionscores-allrevisions' => 'Tüm revizyonlar',
 	'contributionscores-score' => 'Puan',
 	'contributionscores-pages' => 'Sayfalar',
