@@ -144,6 +144,7 @@ $messages['avk'] = array(
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
+	'contributionscores-pages' => 'Старонак',
 	'contributionscores-username' => 'Імя ўдзельніка',
 );
 
