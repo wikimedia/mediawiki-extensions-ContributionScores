@@ -82,6 +82,11 @@ $aliases['lb'] = array(
 	'ContributionScores' => array( 'Score vun de Kontributiounen' ),
 );
 
+/** Marathi (मराठी) */
+$aliases['mr'] = array(
+	'ContributionScores' => array( 'योगदानप्राविण्य' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'ContributionScores' => array( 'Biedragentelling' ),
