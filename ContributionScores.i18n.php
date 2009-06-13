@@ -689,7 +689,7 @@ $messages['id'] = array(
 Skor dihitung dengan cara ini untuk menghasilkan jumlah tertimbang penyuntingan berbanding volume suntingan.
 Pada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.',
 	'contributionscores-top' => '($1 tertinggi)',
-	'contributionscores-days' => '$1 hari terakhir',
+	'contributionscores-days' => '{{PLURAL:$1|Hari|$1 hari}} terakhir',
 	'contributionscores-allrevisions' => 'Semua revisi',
 	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Halaman',
