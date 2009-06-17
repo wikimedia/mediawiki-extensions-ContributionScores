@@ -146,6 +146,8 @@ $messages['avk'] = array(
 $messages['be-tarask'] = array(
 	'contributionscores-pages' => 'Старонак',
 	'contributionscores-username' => 'Імя ўдзельніка',
+	'contributionscores-invalidusername' => 'Няслушнае імя ўдзельніка',
+	'contributionscores-invalidmetric' => 'Няслушная мэтрыка',
 );
 
 /** Bulgarian (Български)
