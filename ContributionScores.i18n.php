@@ -1154,6 +1154,13 @@ $messages['pam'] = array(
 	'contributionscores-username' => 'Lagyungtalagamit (Username)',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'contributionscores-username' => 'Yuuser-Naame',
+);
+
 /** Plautdietsch (Plautdietsch)
  * @author Slomox
  */
@@ -1310,6 +1317,7 @@ $messages['ru'] = array(
 	'contributionscores-changes' => 'Правок',
 	'contributionscores-username' => 'Имя участника',
 	'contributionscores-invalidusername' => 'Неправильное имя участника',
+	'contributionscores-invalidmetric' => 'Ошибочная метрика',
 );
 
 /** Slovak (Slovenčina)
