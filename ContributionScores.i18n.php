@@ -1428,7 +1428,7 @@ $messages['ta'] = array(
  */
 $messages['te'] = array(
 	'contributionscores-top' => '(పై $1)',
-	'contributionscores-days' => 'చివరి $1 రోజులు',
+	'contributionscores-days' => 'చివరి {{PLURAL:$1|రోజు|$1 రోజులు}}',
 	'contributionscores-allrevisions' => 'అన్ని కూర్పులు',
 	'contributionscores-score' => 'స్కోరు',
 	'contributionscores-pages' => 'పేజీలు',
