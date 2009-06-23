@@ -142,9 +142,21 @@ $messages['avk'] = array(
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
+ * @author Jim-by
  */
 $messages['be-tarask'] = array(
+	'contributionscores' => 'Адзнака ўнёску',
+	'contributionscores-desc' => 'Вызначае з базы зьвестак [[Special:ContributionScores|удзельнікаў з найбольшай колькасьцю рэдагаваньняў]]',
+	'contributionscores-info' => 'Адзнака вылічаецца наступным чынам:
+* 1 пункт за рэдагаваньне кожнай унікальнай старонкі;
+* квадратны корань з (агульнай колькасьці рэдагаваньняў) - (агульная колькасьць ўнікальных старонак) * 2
+Такі спосаб падліку дазваляе высьветліць разнароднасьць рэдагаваньняў адносна колькасьці рэдагаваньняў. Канчатковы вынік залежыць ад колькасьці рэдагаваньняў унікальных старонак з улікам колькасьці рэдагаваньняў улічваючы якасьць ствараемых старонак.',
+	'contributionscores-top' => '($1 {{PLURAL:$1|найлепшы|найлепшых|найлепшых}})',
+	'contributionscores-days' => '{{PLURAL:$1|Апошні $1 дзень|Апошнія $1 дні|Апошнія $1 дзён}}',
+	'contributionscores-allrevisions' => 'Усе вэрсіі',
+	'contributionscores-score' => 'Адзнака',
 	'contributionscores-pages' => 'Старонак',
+	'contributionscores-changes' => 'Зьменаў',
 	'contributionscores-username' => 'Імя ўдзельніка',
 	'contributionscores-invalidusername' => 'Няслушнае імя ўдзельніка',
 	'contributionscores-invalidmetric' => 'Няслушная мэтрыка',
