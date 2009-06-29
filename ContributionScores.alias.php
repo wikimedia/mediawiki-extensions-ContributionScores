@@ -59,7 +59,7 @@ $aliases['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
-	'ContributionScores' => array( 'Peringkat kontribusi' ),
+	'ContributionScores' => array( 'Skor kontribusi', 'SkorKontribusi' ),
 );
 
 /** Japanese (日本語) */
