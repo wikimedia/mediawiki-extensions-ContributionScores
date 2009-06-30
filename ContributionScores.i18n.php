@@ -802,7 +802,7 @@ $messages['jv'] = array(
 Skor sing diétung miturut cara iki bisa nyerminaké divèrsitas suntingan sadhuwuring volume suntingan.
 Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo mélu nimbangaké volume suntingan dhuwur - diasumsèkaké kwalitas kacané luwih dhuwur.",
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => '$1 dina pungkasan',
+	'contributionscores-days' => '{{PLURAL:$1|dina|$1 dina}} pungkasan',
 	'contributionscores-allrevisions' => 'Kabèh Révisi',
 	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Kaca-kaca',
@@ -1274,11 +1274,12 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 );
 
 /** Romanian (Română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Ultimele $1 zile',
+	'contributionscores-days' => '{{PLURAL:$1|Ultima zi|Ultimele $1 zile}}',
 	'contributionscores-allrevisions' => 'Toate versiunile',
 	'contributionscores-pages' => 'Pagini',
 	'contributionscores-username' => 'Nume de utilizator',
