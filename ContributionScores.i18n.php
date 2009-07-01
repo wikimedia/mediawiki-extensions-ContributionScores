@@ -587,6 +587,7 @@ $messages['hil'] = array(
 /** Croatian (Hrvatski)
  * @author Dalibor Bosits
  * @author SpeedyGonsales
+ * @author Suradnik13
  */
 $messages['hr'] = array(
 	'contributionscores' => 'Najbolji suradnici',
@@ -597,7 +598,7 @@ $messages['hr'] = array(
 
 Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih stranica nego ukupnom broju uređivanja. U osnovi, ovakav rezultat mjeri prvenstveno broj različitih stranica koje ste uređivali, uzimajući u obzir broj uređivanja, jer veći broj uređivanja na nekom članku daje kvalitetniji članak.',
 	'contributionscores-top' => '(Najboljih $1)',
-	'contributionscores-days' => 'Zadnjih $1 dana',
+	'contributionscores-days' => '{{PLURAL:$1|Zadnji dan|Zadnjih $1 dana}}',
 	'contributionscores-allrevisions' => 'Sva uređivanja',
 	'contributionscores-score' => 'Rezultat',
 	'contributionscores-pages' => 'Stranica',
