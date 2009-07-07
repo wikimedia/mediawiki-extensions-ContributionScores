@@ -94,7 +94,7 @@ $aliases['nds-nl'] = array(
 
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
-	'ContributionScores' => array( 'Gebruikersstatistieken', 'Bijdragenscores' ),
+	'ContributionScores' => array( 'Gebruikersscores', 'Bijdragenscores' ),
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
