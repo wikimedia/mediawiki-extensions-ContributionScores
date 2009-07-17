@@ -1588,7 +1588,7 @@ Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa 
  * @author Smeira
  */
 $messages['vo'] = array(
-	'contributionscores-days' => 'Dels Lätik $1',
+	'contributionscores-days' => '{{PLURAL:$1|Del|Dels}} lätik $1',
 	'contributionscores-allrevisions' => 'Revids valik',
 	'contributionscores-pages' => 'Pads',
 	'contributionscores-changes' => 'Votükams',
