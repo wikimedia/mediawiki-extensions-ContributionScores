@@ -112,6 +112,11 @@ $aliases['sa'] = array(
 	'ContributionScores' => array( 'योगदानप्राप्ताङ्क' ),
 );
 
+/** Slovak (Slovenčina) */
+$aliases['sk'] = array(
+	'ContributionScores' => array( 'SkórePríspevkov' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'ContributionScores' => array( 'Bidragspoäng' ),
