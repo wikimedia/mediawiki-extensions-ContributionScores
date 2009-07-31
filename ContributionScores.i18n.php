@@ -913,10 +913,11 @@ $messages['kw'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Robby
  */
 $messages['lb'] = array(
-	'contributionscores' => 'Bewertung vun den Ännerungen',
+	'contributionscores' => 'Bewäertung vun den Ännerungen',
 	'contributionscores-desc' => "Ufro un d'Wiki-Datebank no den héichste [[Special:ContributionScores|Benotzerscoren]]",
 	'contributionscores-info' => "D'Bewertunge ginn esou gerechent:
 * 1 Punkt fir all geännert Säit;
@@ -926,7 +927,7 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
 	'contributionscores-allrevisions' => 'All Versiounen',
-	'contributionscores-score' => 'Bewertung',
+	'contributionscores-score' => 'Bewäertung',
 	'contributionscores-pages' => 'Säiten',
 	'contributionscores-changes' => 'Ännerungen',
 	'contributionscores-username' => 'Benotzernumm',
