@@ -367,6 +367,16 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-invalidmetric' => 'Medida inválida',
 );
 
+/** Basque (Euskara)
+ * @author Kobazulo
+ */
+$messages['eu'] = array(
+	'contributionscores-days' => 'Azken {{PLURAL:$1|eguna|$1 egunak}}',
+	'contributionscores-pages' => 'Orrialdeak',
+	'contributionscores-changes' => 'Aldaketak',
+	'contributionscores-username' => 'Erabiltzaile izena',
+);
+
 /** Extremaduran (Estremeñu)
  * @author Better
  */
@@ -653,6 +663,7 @@ Basikalman, rezilta sa mezire primèman paj inik ki te edite, avèk konsiderasyo
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Glanthor Reviol
  */
 $messages['hu'] = array(
 	'contributionscores' => 'Szerkesztési pontszám',
@@ -662,7 +673,7 @@ $messages['hu'] = array(
 *(Az összes szerkesztés) - (Az összes egyedi lap) * 2 négyzetgyöke
 Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.',
 	'contributionscores-top' => '(legjobb $1)',
-	'contributionscores-days' => 'Utolsó $1 nap',
+	'contributionscores-days' => 'Utolsó {{PLURAL:$1|nap|$1 nap}}',
 	'contributionscores-allrevisions' => 'Összes szerkesztés',
 	'contributionscores-score' => 'Pontszám',
 	'contributionscores-pages' => 'Oldalak',
