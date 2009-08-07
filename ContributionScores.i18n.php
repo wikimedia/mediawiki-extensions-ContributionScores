@@ -1615,6 +1615,7 @@ $messages['yi'] = array(
 );
 
 /** Yue (粵語)
+ * @author PhiLiP
  * @author Shinjiman
  */
 $messages['yue'] = array(
@@ -1633,6 +1634,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author PhiLiP
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
@@ -1651,6 +1653,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author PhiLiP
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
