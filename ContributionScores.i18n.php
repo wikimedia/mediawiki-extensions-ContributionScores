@@ -883,7 +883,7 @@ Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiligini�
 $messages['km'] = array(
 	'contributionscores' => 'តារាងពិន្ទុ​នៃការរួមចំណែក',
 	'contributionscores-top' => '(លើគេទាំង $1 នាក់)',
-	'contributionscores-days' => '$1 ថ្ងៃ​ចុងក្រោយ',
+	'contributionscores-days' => '{{PLURAL:$1|ថ្ងៃ|$1 ថ្ងៃ}}​ចុងក្រោយ',
 	'contributionscores-allrevisions' => 'គ្រប់កំណែ',
 	'contributionscores-score' => 'ពិន្ទុ',
 	'contributionscores-pages' => 'ទំព័រ​នានា',
@@ -1270,7 +1270,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  */
 $messages['pt-br'] = array(
 	'contributionscores' => 'Pontuações de Contribuições',
-	'contributionscores-desc' => 'Inquire a base de dados wiki sobre os [[{{ns:special}}:ContributionScores|volumes de contribuições dos usuários]] mais altos',
+	'contributionscores-desc' => 'Inquire a base de dados wiki sobre os mais altos [[Special:ContributionScores|volumes de contribuição dos utilizadores]]',
 	'contributionscores-info' => 'As pontuações são calculadas da seguinte forma:
 *1 ponto por cada página única editada
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
