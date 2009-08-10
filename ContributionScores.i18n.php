@@ -367,6 +367,26 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-invalidmetric' => 'Medida inválida',
 );
 
+/** Estonian (Eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'contributionscores' => 'Kaastööpunktid',
+	'contributionscores-desc' => 'Teeb viki andmekogust järelepärimise [[Special:ContributionScores|kasutajate kaastööde hulga]] kohta.',
+	'contributionscores-info' => 'Punktide arvutamiseks liidetakse:
+* Muudetud lehekülgede koguarv
+* Kahekordne ruutjuur muudatuste koguarvu ja muudetud lehekülgede koguarvu vahest
+Nii arvutatud punktid väärtustavad enam muudatuste omapära kui nende hulka.
+Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võtavad arvesse ka suure muudatuste hulga – nii püütakse hinnata lehekülgede kvaliteeti.',
+	'contributionscores-top' => '($1 paremat)',
+	'contributionscores-days' => '{{PLURAL:$1|Viimane päev|Viimased $1 päeva}}',
+	'contributionscores-allrevisions' => 'Kõik muudatused',
+	'contributionscores-score' => 'Punkte',
+	'contributionscores-pages' => 'Lehekülgi',
+	'contributionscores-changes' => 'Muudatusi',
+	'contributionscores-username' => 'Kasutajanimi',
+);
+
 /** Basque (Euskara)
  * @author Kobazulo
  */
@@ -438,13 +458,13 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
  */
 $messages['fr'] = array(
 	'contributionscores' => 'Pointage des contributions',
-	'contributionscores-desc' => 'Scrute la base de données wiki pour les [[Special:ContributionScores|utilisateurs contribuant le plus]]',
+	'contributionscores-desc' => 'Scrute la base de données wiki pour les plus importants [[Special:ContributionScores|volumes de contribution des utilisateurs]]',
 	'contributionscores-info' => 'Les pointages sont calculés de la manière suivante :
 * 1 point pour chaque page modifiée ;
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
 
 De cette façon, les pointages ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d’une autre façon, ils s’intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.',
-	'contributionscores-top' => '(Les $1 meilleures)',
+	'contributionscores-top' => '(Les $1 plus élevés)',
 	'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Toutes les révisions',
 	'contributionscores-score' => 'Pointage',
@@ -452,7 +472,7 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-changes' => 'Modifications',
 	'contributionscores-username' => 'Pseudonyme',
 	'contributionscores-invalidusername' => 'Nom d’utilisateur invalide',
-	'contributionscores-invalidmetric' => 'Métrie incorrecte',
+	'contributionscores-invalidmetric' => 'Métrique incorrecte',
 );
 
 /** Western Frisian (Frysk)
@@ -1379,6 +1399,18 @@ $messages['sr-ec'] = array(
 	'contributionscores-username' => 'Корисничко име',
 );
 
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'contributionscores-top' => '(prvih $1)',
+	'contributionscores-days' => '{{PLURAL:$1|Poslednjeg dana|Poslednjih $1 dana}}',
+	'contributionscores-allrevisions' => 'Sve revizije',
+	'contributionscores-pages' => 'Stranice',
+	'contributionscores-changes' => 'Izmene',
+	'contributionscores-username' => 'Korisničko ime',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
@@ -1409,7 +1441,7 @@ $messages['su'] = array(
 *Akar Kuadrat tina (Jumlah Éditan) - (Jumlah Kaca Unik) * 2
 Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah éditan. Ieu peunteun téh utamana ngukur éditan dina kaca nu unik, kalawan dirojong ku jumlah éditan anu loba - kalawan anggapan kacana jadi leuwih alus.',
 	'contributionscores-top' => '(Punclut $1)',
-	'contributionscores-days' => '$1 Poé Panungtung',
+	'contributionscores-days' => '{{PLURAL:$1|Poé|$1 Poé}} Panungtung',
 	'contributionscores-allrevisions' => 'Sadaya Révisi',
 	'contributionscores-score' => 'Peunteun',
 	'contributionscores-pages' => 'Kaca',
