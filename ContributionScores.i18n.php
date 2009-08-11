@@ -1509,6 +1509,25 @@ $messages['tg-cyrl'] = array(
 	'contributionscores-username' => 'Номи корбарӣ',
 );
 
+/** Thai (ไทย)
+ * @author Woraponboonkerd
+ */
+$messages['th'] = array(
+	'contributionscores' => 'คะแนนการแก้ไข',
+	'contributionscores-desc' => 'จัดอันดับฐานข้อมูลของวิกิสำหรับ[[Special:ContributionScores|ผู้ใ้ช้ที่มีจำนวนการแก้ไขสูงสุด]]',
+	'contributionscores-info' => 'วิธีการคิดคะแนนเป็นดังต่อไปนี้:
+* หนึ่ง (1) คะแนนต่อจำนวนหน้าที่เข้าร่วมแก้ไข (ชื่อของหน้าไม่ซ้ำกัน)
+* รากที่สองของจำนวนการแก้ไขทั้งหมด - จำนวนหน้าทั้งหมดที่ร่วมแก้ไข * 2
+คะแนนจะถูกคิดโดยให้น้ำหนักของการแก้ไขที่หลากหลายมากกว่าจำนวนการแก้ไข
+โดยทั่วไป คะแนนนี้ชี้วัดถึงจำนวนหน้าต่างๆ ที่เข้าร่วมแก้ไข โดยคำนึงถึงจำนวนการแก้ไขทั้งหมดด้วย จึงคาดการณ์ได้ว่าจะทำให้มีหน้าที่มีคุณภาพสูงขึ้น',
+	'contributionscores-days' => '$1 {{PLURAL:$1|วัน|วัน}} ที่แล้ว',
+	'contributionscores-score' => 'คะแนน',
+	'contributionscores-pages' => 'จำนวนหน้า',
+	'contributionscores-changes' => 'จำนวนการเปลี่ยนแปลง',
+	'contributionscores-username' => 'ชื่อผู้ใช้',
+	'contributionscores-invalidusername' => 'ชื่อผู้ใช้ไม่ถูกต้อง',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
