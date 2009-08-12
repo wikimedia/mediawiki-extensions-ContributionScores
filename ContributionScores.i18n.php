@@ -968,6 +968,7 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 
 /** Limburgish (Limburgs)
  * @author Ooswesthoesbes
+ * @author Pahles
  */
 $messages['li'] = array(
 	'contributionscores' => 'Biedraaghuuegdjes',
@@ -979,7 +980,7 @@ I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag z
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Lètste $1 daag',
 	'contributionscores-allrevisions' => 'Alle verzies',
-	'contributionscores-score' => 'Pöntjer',
+	'contributionscores-score' => 'Puntje',
 	'contributionscores-pages' => "Pazjena's",
 	'contributionscores-changes' => 'Bewèrkinger',
 	'contributionscores-username' => 'Gebroeker',
