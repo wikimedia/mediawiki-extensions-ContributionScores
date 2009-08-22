@@ -1688,6 +1688,7 @@ $messages['yi'] = array(
  */
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
+	'contributionscores-desc' => '根據響wiki數據庫畀出最高嘅[[Special:ContributionScores|用戶貢獻容量]]',
 	'contributionscores-info' => '分數會用下面嘅計法去計:
 *每一個唯一一版編輯過嘅有1分
 *(總編輯數)嘅平方根 - (總唯一頁數) * 2
@@ -1699,6 +1700,8 @@ $messages['yue'] = array(
 	'contributionscores-pages' => '版',
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用戶名',
+	'contributionscores-invalidusername' => '無效嘅用戶名',
+	'contributionscores-invalidmetric' => '無效嘅公制',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
@@ -1707,6 +1710,7 @@ $messages['yue'] = array(
  */
 $messages['zh-hans'] = array(
 	'contributionscores' => '贡献分数',
+	'contributionscores-desc' => '根据在wiki数据库中给出最高的[[Special:ContributionScores|用户贡献容量]]',
 	'contributionscores-info' => '分数会用以下的的计分法去计算:
 *每一个唯一页面编辑过的有1分
 *（总编辑数）的平方根 - （总唯一页面数） * 2
@@ -1718,6 +1722,8 @@ $messages['zh-hans'] = array(
 	'contributionscores-pages' => '页面',
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用户名',
+	'contributionscores-invalidusername' => '无效的用户名',
+	'contributionscores-invalidmetric' => '无效的公制',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
@@ -1726,6 +1732,7 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'contributionscores' => '貢獻分數',
+	'contributionscores-desc' => '根據在wiki數據庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]',
 	'contributionscores-info' => '分數會用以下的的計分法去計算:
 *每一個唯一頁面編輯過的有1分
 *（總編輯數）的平方根 - （總唯一頁面數） * 2
@@ -1737,5 +1744,7 @@ $messages['zh-hant'] = array(
 	'contributionscores-pages' => '頁面',
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用戶名',
+	'contributionscores-invalidusername' => '無效的用戶名',
+	'contributionscores-invalidmetric' => '無效的公制',
 );
 
