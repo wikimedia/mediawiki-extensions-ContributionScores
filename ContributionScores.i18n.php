@@ -1403,7 +1403,7 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
 	'contributionscores-invalidmetric' => 'Neplatná metrika',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1416,7 +1416,7 @@ $messages['sr-ec'] = array(
 	'contributionscores-username' => 'Корисничко име',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  */
 $messages['sr-el'] = array(
