@@ -73,7 +73,7 @@ $messages['af'] = array(
 *Wortel van (totale aantal wysigings) - (totale aantal unieke bladsye) * 2
 Punte wat op die manier bereken word weeg die verskeidenheid van bladsye gewysig oor die aantal wysigings. Die punte meet hoofsaaklik unieke bladsye gewysig, met inagneming van hoë volume wysigings - wat veronderstel word om van hoër kwaliteit te wees.',
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Laaste $1 dae',
+	'contributionscores-days' => 'Laaste {{PLURAL:$1|dag|$1 dae}}',
 	'contributionscores-allrevisions' => 'Alle weergawes',
 	'contributionscores-score' => 'Punte',
 	'contributionscores-pages' => 'Bladsye',
@@ -663,7 +663,7 @@ $messages['hsb'] = array(
 	'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
 *1 dypk za kóždy wobdźěłanu jednotliwu stronu
 *Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
-Ličba dypkow wuličena na tute wašnje pohódnoća wělakorosć změno wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
+Ličba dypkow wuličena na tute wašnje pohódnoća wšelakorosć změnow wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
 	'contributionscores-top' => '(Najlěpšich $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Posledni dźeń|Poslednjej $1 dnjej|Poslednje $1 dny|Poslednich $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Wšě změny',
