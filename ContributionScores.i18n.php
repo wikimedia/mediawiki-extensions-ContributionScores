@@ -327,15 +327,20 @@ pód wuměnjenim až to by było bok z wušeju kwalitu.',
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author Omnipaedista
  */
 $messages['el'] = array(
 	'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
+	'contributionscores-desc' => 'Εξετάζει την βάση δεδομένων βίκι για τον σημαντικότερο [[Special:ContributionScores|όγκο συνεισφορών χρήστη]]',
 	'contributionscores-top' => '(Πρώτοι $1)',
 	'contributionscores-days' => 'Τελευταίες {{PLURAL:$1|ημέρα|$1 ημέρες}}',
+	'contributionscores-allrevisions' => 'Όλες οι αναθεωρήσεις',
 	'contributionscores-score' => 'Βαθμολογία',
 	'contributionscores-pages' => 'Σελίδες',
 	'contributionscores-changes' => 'Αλλαγές',
 	'contributionscores-username' => 'Όνομα χρήστη',
+	'contributionscores-invalidusername' => 'Μη έγκυρο όνομα χρήστη',
+	'contributionscores-invalidmetric' => 'Μη έγκυρη μετρική',
 );
 
 /** Esperanto (Esperanto)
