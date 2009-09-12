@@ -938,14 +938,13 @@ $messages['km'] = array(
  */
 $messages['ksh'] = array(
 	'contributionscores' => 'Metmaacher ier Beidräsch verjlesche',
-	'contributionscores-desc' => 'Fingk de Metmaacher met de
-[[Special:ContributionScores|miihßte Beidrääsch]].',
+	'contributionscores-desc' => 'Fingk de Metmaacher met de [[Special:ContributionScores|miihßte Beidrääsch]].',
 	'contributionscores-info' => 'Ene Metmaacher kritt:
 * eine Punk för jede Sigg, woh sei udder hä draan met jeschrevve hät, plus
-* plus et Dubbelte fun de Quadrat-Woozel us däm Ongscheed fun de Jesampzahl aan Änderunge fun däm Metmaacher, un dä Aanzahl Sigge, wo sei udder hä draat jeschrevve hät.
+* plus et Dubbelte fun de Quadrat-Woozel us däm Ongscheed fun de Jesampzahl aan Änderunge fun däm Metmaacher, un dä Aanzahl Sigge, wo sei udder hä draan jeschrevve hät.
 De Punkte zälle esu de Fillfälteschkeit mieh wie der Ömfang vun dä Beidrääsch.
-Dat es en de Houpsaach de övverhoup aanjepackte Zahl Sigge, ävver dann noch,
-dat öff jet Schrieve am Eng besser Sigge jitt, als wie winnijer Schrieve.',
+Dat es en de Houpsaach de övverhoup aanjepackte Zahl Sigge, ävver dobei och noch,
+dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Der lezte Daach|De lezte $1 Daare|Keine lezte Daach}}',
 	'contributionscores-allrevisions' => 'All Versione',
