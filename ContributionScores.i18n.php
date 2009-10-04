@@ -710,8 +710,10 @@ $messages['hu'] = array(
 	'contributionscores' => 'Szerkesztési pontszám',
 	'contributionscores-desc' => 'Megjeleníti a [[Special:ContributionScores|szerkesztő közreműködéseinek súlyát]] a wiki adatbázisa alapján',
 	'contributionscores-info' => 'A pontszámok az alábbi módon vannak kiszámolva:
-*1 pont minden egyedi lap szerkesztése után
-*(Az összes szerkesztés) - (Az összes egyedi lap) * 2 négyzetgyöke
+
+* 1 pont minden egyedi lap szerkesztése után
+* (az összes szerkesztés) – (az összes egyedi lap) × 2 négyzetgyöke
+
 Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.',
 	'contributionscores-top' => '(legjobb $1)',
 	'contributionscores-days' => 'Utolsó {{PLURAL:$1|nap|$1 nap}}',
