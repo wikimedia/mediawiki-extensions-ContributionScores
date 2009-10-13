@@ -1590,6 +1590,8 @@ Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mg
  */
 $messages['tr'] = array(
 	'contributionscores' => 'Katkı skorları',
+	'contributionscores-desc' => 'En yüksek [[Special:ContributionScores|kullanıcı katkı hacmi]] için viki veritabanını sorgular',
+	'contributionscores-top' => '(En yüksek $1)',
 	'contributionscores-days' => 'Son $1 {{PLURAL:$1|gün|gün}}',
 	'contributionscores-allrevisions' => 'Tüm revizyonlar',
 	'contributionscores-score' => 'Puan',
