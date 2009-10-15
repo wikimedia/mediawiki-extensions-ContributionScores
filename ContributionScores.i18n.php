@@ -1697,6 +1697,7 @@ $messages['vo'] = array(
  */
 $messages['yi'] = array(
 	'contributionscores-pages' => 'בלעטער',
+	'contributionscores-username' => 'באַניצער נאָמען',
 );
 
 /** Yue (粵語)
