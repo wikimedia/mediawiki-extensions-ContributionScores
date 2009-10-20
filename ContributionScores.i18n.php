@@ -450,6 +450,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Crt
  * @author Nike
  * @author Str4nd
  */
@@ -461,7 +462,7 @@ $messages['fi'] = array(
 
 Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytännössä pisteet mittaavat muokattujen sivujen määrää, ottaen huomioon muutosten suuren määrän.',
 	'contributionscores-top' => '(top $1)',
-	'contributionscores-days' => '$1 päivän ajalta',
+	'contributionscores-days' => '{{PLURAL:$1|Viime päivä|Viimeiset $1 päivää}}',
 	'contributionscores-allrevisions' => 'Kaikki muutokset',
 	'contributionscores-score' => 'Pisteet',
 	'contributionscores-pages' => 'Sivuja',
