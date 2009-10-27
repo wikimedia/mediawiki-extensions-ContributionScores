@@ -990,6 +990,7 @@ Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeit
 );
 
 /** Limburgish (Limburgs)
+ * @author Aelske
  * @author Ooswesthoesbes
  * @author Pahles
  */
@@ -1004,7 +1005,7 @@ I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag z
 	'contributionscores-days' => 'Lètste $1 daag',
 	'contributionscores-allrevisions' => 'Alle verzies',
 	'contributionscores-score' => 'Puntje',
-	'contributionscores-pages' => "Pazjena's",
+	'contributionscores-pages' => "Pagina's",
 	'contributionscores-changes' => 'Bewèrkinger',
 	'contributionscores-username' => 'Gebroeker',
 );
