@@ -1296,11 +1296,12 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
  */
 $messages['pt'] = array(
-	'contributionscores' => 'Pontuações de Contribuições',
+	'contributionscores' => 'Pontuação de contribuições',
 	'contributionscores-desc' => 'Inquire a base de dados wiki sobre os [[Special:ContributionScores|volumes de contribuições de utilizadores]] mais altos',
 	'contributionscores-info' => 'As pontuações são calculadas da seguinte forma:
 *1 ponto por cada página única editada
