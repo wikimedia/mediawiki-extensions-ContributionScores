@@ -179,6 +179,13 @@ $messages['bg'] = array(
 	'contributionscores-invalidusername' => 'Невалидно потребителско име',
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'contributionscores-pages' => 'Pajennoù',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
