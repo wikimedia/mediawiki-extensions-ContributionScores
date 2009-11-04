@@ -180,10 +180,13 @@ $messages['bg'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
 	'contributionscores-pages' => 'Pajennoù',
+	'contributionscores-changes' => 'Kemmoù',
+	'contributionscores-username' => 'Anv implijer',
 );
 
 /** Bosnian (Bosanski)
