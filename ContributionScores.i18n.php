@@ -969,7 +969,7 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
