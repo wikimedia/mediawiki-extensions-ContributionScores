@@ -354,6 +354,7 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Michawiki
  * @author Yekrats
  */
 $messages['eo'] = array(
@@ -365,7 +366,7 @@ $messages['eo'] = array(
 Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.
 Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.',
 	'contributionscores-top' => '(Plej alta $1)',
-	'contributionscores-days' => 'Lastaj $1 Tagoj',
+	'contributionscores-days' => '{{PLURAL:$1|Lasta tago|Lastaj $1 tagoj}}',
 	'contributionscores-allrevisions' => 'Ĉiuj Revizioj',
 	'contributionscores-score' => 'Poentaro',
 	'contributionscores-pages' => 'Paĝoj',
