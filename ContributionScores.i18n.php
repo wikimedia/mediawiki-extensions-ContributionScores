@@ -1632,6 +1632,7 @@ $messages['ug-latn'] = array(
 
 /** Ukrainian (Українська)
  * @author Ahonc
+ * @author Prima klasy4na
  */
 $messages['uk'] = array(
 	'contributionscores' => 'Оцінка внеску',
@@ -1647,6 +1648,8 @@ $messages['uk'] = array(
 	'contributionscores-pages' => 'Сторінок',
 	'contributionscores-changes' => 'Редагувань',
 	'contributionscores-username' => "Ім'я користувача",
+	'contributionscores-invalidusername' => "Неправильне ім'я користувача",
+	'contributionscores-invalidmetric' => 'Неправильна метрика',
 );
 
 /** Vèneto (Vèneto)
