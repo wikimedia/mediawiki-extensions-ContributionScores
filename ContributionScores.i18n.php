@@ -107,6 +107,15 @@ $messages['ar'] = array(
 	'contributionscores-invalidmetric' => 'المتري غير صحيح',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'contributionscores-days' => '{{PLURAL:$1|ܝܘܡܐ ܐܚܪܝܐ|$1 ܝܘܡܬ̈ܐ ܐܚܪ̈ܝܬܐ}}',
+	'contributionscores-pages' => 'ܦܐܬܬ̈ܐ',
+	'contributionscores-changes' => 'ܫܘܚܠܦ̈ܐ',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Meno25
  */
@@ -177,6 +186,14 @@ $messages['bg'] = array(
 	'contributionscores-changes' => 'Редакции',
 	'contributionscores-username' => 'Потребител',
 	'contributionscores-invalidusername' => 'Невалидно потребителско име',
+);
+
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'contributionscores-pages' => 'পাতা',
+	'contributionscores-changes' => 'পরিবর্তন',
 );
 
 /** Breton (Brezhoneg)
