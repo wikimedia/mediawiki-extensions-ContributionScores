@@ -1056,6 +1056,28 @@ $messages['mhr'] = array(
 	'contributionscores-username' => 'Пайдаланышын лӱмжӧ',
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'contributionscores' => 'Оцени за придонеси',
+	'contributionscores-desc' => 'Презема информации од вики-базата на податоци за најголем [[Special:ContributionScores|број на кориснички придонеси]]',
+	'contributionscores-info' => 'Оцените се пресметуваат на следниов начин:
+*Еден (1) бод за секоја засебна уредена страница
+*Квадратен корен од (вкупно направени уредувања) - (вкупно засебни страници) * 2
+Вака пресметаните оцени ѝ придават повеќе тежина на разнообразноста на уредувањата, отколку на бројот на уредувања.
+Начелно, ова оценување главно ги мери засебните уредени страници, земајќи го в превид и големиот број на уредувања - претпоставувајќи дека е страница со повисок квалитет.',
+	'contributionscores-top' => '(Најдобри $1)',
+	'contributionscores-days' => '{{PLURAL:$1|Последниот ден|Последните $1 дена}}',
+	'contributionscores-allrevisions' => 'Сите ревизии',
+	'contributionscores-score' => 'Оценка',
+	'contributionscores-pages' => 'Страници',
+	'contributionscores-changes' => 'Измени',
+	'contributionscores-username' => 'Корисничко име',
+	'contributionscores-invalidusername' => 'Неправилно корисничко име',
+	'contributionscores-invalidmetric' => 'Грешна метрика',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
