@@ -201,9 +201,12 @@ $messages['bn'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
+	'contributionscores-top' => '(An $1 uhelañ)',
+	'contributionscores-allrevisions' => 'An holl adweladennoù',
 	'contributionscores-pages' => 'Pajennoù',
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
+	'contributionscores-invalidusername' => "N'eo ket mat an anv implijer",
 );
 
 /** Bosnian (Bosanski)
