@@ -204,6 +204,7 @@ $messages['br'] = array(
 	'contributionscores-top' => '(An $1 uhelañ)',
 	'contributionscores-days' => 'E kerzh {{PLURAL:$1|an devez|an $1 devez}} ziwezhañ',
 	'contributionscores-allrevisions' => 'An holl adweladennoù',
+	'contributionscores-score' => 'Merkañ',
 	'contributionscores-pages' => 'Pajennoù',
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
