@@ -422,6 +422,7 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 );
 
 /** Estonian (Eesti)
+ * @author Avjoska
  * @author Pikne
  */
 $messages['et'] = array(
@@ -439,6 +440,7 @@ Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võt
 	'contributionscores-pages' => 'Lehekülgi',
 	'contributionscores-changes' => 'Muudatusi',
 	'contributionscores-username' => 'Kasutajanimi',
+	'contributionscores-invalidusername' => 'Vigane kasutajanimi',
 );
 
 /** Basque (Euskara)
