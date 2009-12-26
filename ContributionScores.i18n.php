@@ -201,6 +201,7 @@ $messages['bn'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
+	'contributionscores' => 'Merkadur an degasadennoù',
 	'contributionscores-top' => '(An $1 uhelañ)',
 	'contributionscores-days' => 'E kerzh {{PLURAL:$1|an devez|an $1 devez}} ziwezhañ',
 	'contributionscores-allrevisions' => 'An holl adweladennoù',
@@ -209,6 +210,7 @@ $messages['br'] = array(
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
 	'contributionscores-invalidusername' => "N'eo ket mat an anv implijer",
+	'contributionscores-invalidmetric' => 'Direizh eo ar metrek',
 );
 
 /** Bosnian (Bosanski)
