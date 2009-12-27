@@ -1603,6 +1603,17 @@ $messages['tg-cyrl'] = array(
 	'contributionscores-username' => 'Номи корбарӣ',
 );
 
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'contributionscores-allrevisions' => 'Hamai Nusxaho',
+	'contributionscores-score' => 'Imtijoz',
+	'contributionscores-pages' => 'Sahifaho',
+	'contributionscores-changes' => 'Taƣjirot',
+	'contributionscores-username' => 'Nomi korbarī',
+);
+
 /** Thai (ไทย)
  * @author Woraponboonkerd
  */
