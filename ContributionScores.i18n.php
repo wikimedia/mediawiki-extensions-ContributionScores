@@ -1633,6 +1633,13 @@ $messages['th'] = array(
 	'contributionscores-invalidusername' => 'ชื่อผู้ใช้ไม่ถูกต้อง',
 );
 
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'contributionscores-username' => 'Ulanyjy ady',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
@@ -1660,10 +1667,16 @@ Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mg
  * @author Karduelis
  * @author Mach
  * @author Suelnur
+ * @author Vito Genovese
  */
 $messages['tr'] = array(
 	'contributionscores' => 'Katkı skorları',
 	'contributionscores-desc' => 'En yüksek [[Special:ContributionScores|kullanıcı katkı hacmi]] için viki veritabanını sorgular',
+	'contributionscores-info' => 'Skorlar aşağıdaki şekilde hesaplanmaktadır:
+*Değişiklik yapılan her farklı sayfa için bir (1) puan
+*(Yapılan toplam değişiklik) - (toplam farklı sayfa) * 2 işleminin karekökü
+Bu şekilde hesaplanan skorlar, değişiklik sayısı ile değişiklik çeşitliliği arasında ağırlık kurmaktadır.
+Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir sayfa olduğu varsayımıyla değişiklik yapılan farklı sayfa sayısını ölçmektedir.',
 	'contributionscores-top' => '(En yüksek $1)',
 	'contributionscores-days' => 'Son $1 {{PLURAL:$1|gün|gün}}',
 	'contributionscores-allrevisions' => 'Tüm revizyonlar',
