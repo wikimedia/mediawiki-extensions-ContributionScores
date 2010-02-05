@@ -1703,6 +1703,7 @@ $messages['ug-latn'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author AS
  * @author Ahonc
  * @author Prima klasy4na
  */
@@ -1713,7 +1714,7 @@ $messages['uk'] = array(
 * 1 очко за редагування кожної унікальної сторінки;
 * 2 * квадратний корінь з різниці: (загальна кількість редагувань) − (усього унікальних сторінок).
 При підрахунку оцінки таким чином розмаїттю редагувань надається більша вага, ніж загальній кількості редагувань.',
-	'contributionscores-top' => '(кращі $1)',
+	'contributionscores-top' => '({{PLURAL:$1|найкращий|найкращих}})',
 	'contributionscores-days' => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
 	'contributionscores-allrevisions' => 'Усі редагування',
 	'contributionscores-score' => 'Оцінка',
