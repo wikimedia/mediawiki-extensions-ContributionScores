@@ -198,6 +198,7 @@ $messages['bn'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fohanno
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -209,7 +210,7 @@ $messages['br'] = array(
 	'contributionscores-pages' => 'Pajennoù',
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
-	'contributionscores-invalidusername' => "N'eo ket mat an anv implijer",
+	'contributionscores-invalidusername' => 'Anv implijer direizh',
 	'contributionscores-invalidmetric' => 'Direizh eo ar metrek',
 );
 
