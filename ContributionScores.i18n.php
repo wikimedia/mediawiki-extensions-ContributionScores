@@ -974,6 +974,13 @@ $messages['km'] = array(
 	'contributionscores-invalidusername' => 'ឈ្មោះអ្នកប្រើប្រាស់មិនត្រឹមត្រូវ',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'contributionscores-pages' => 'ಪುಟಗಳು',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
