@@ -1356,7 +1356,7 @@ Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ë
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'contributionscores-days' => 'وروستۍ $1 ورځې',
+	'contributionscores-days' => 'وروستۍ {{PLURAL:$1|ورځ|$1 ورځې}}',
 	'contributionscores-pages' => 'مخونه',
 	'contributionscores-changes' => 'بدلونونه',
 	'contributionscores-username' => 'کارن-نوم',
