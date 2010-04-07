@@ -1100,11 +1100,11 @@ $messages['mk'] = array(
  */
 $messages['ml'] = array(
 	'contributionscores-top' => '(ആദ്യത്തെ $1)',
-	'contributionscores-days' => 'അവസാനത്തെ $1 ദിവസങ്ങള്‍',
+	'contributionscores-days' => 'അവസാനത്തെ $1 ദിവസങ്ങൾ',
 	'contributionscores-allrevisions' => 'എല്ലാ പതിപ്പുകളും',
-	'contributionscores-score' => 'സ്കോര്‍',
-	'contributionscores-pages' => 'താളുകള്‍',
-	'contributionscores-changes' => 'മാറ്റങ്ങള്‍',
+	'contributionscores-score' => 'സ്കോർ',
+	'contributionscores-pages' => 'താളുകൾ',
+	'contributionscores-changes' => 'മാറ്റങ്ങൾ',
 	'contributionscores-username' => 'ഉപയോക്തൃനാമം',
 	'contributionscores-invalidusername' => 'അസാധുവായ ഉപയോക്തൃനാമം',
 );
