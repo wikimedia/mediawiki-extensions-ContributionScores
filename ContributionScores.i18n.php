@@ -505,7 +505,7 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 	'contributionscores-score' => 'Pisteet',
 	'contributionscores-pages' => 'Sivuja',
 	'contributionscores-changes' => 'Muutoksia',
-	'contributionscores-username' => 'Käyttäjä',
+	'contributionscores-username' => 'Käyttäjätunnus',
 	'contributionscores-invalidusername' => 'Virheellinen käyttäjätunnus',
 );
 
