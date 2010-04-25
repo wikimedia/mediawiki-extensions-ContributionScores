@@ -206,7 +206,7 @@ $messages['br'] = array(
 	'contributionscores-top' => '(An $1 uhelañ)',
 	'contributionscores-days' => 'E-kerzh an {{PLURAL:$1|devezh|$1 devezh}} diwezhañ',
 	'contributionscores-allrevisions' => 'An holl adweladennoù',
-	'contributionscores-score' => 'Merkañ',
+	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Pajennoù',
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
@@ -1139,12 +1139,13 @@ $messages['ms'] = array(
 );
 
 /** Maltese (Malti)
+ * @author Chrisportelli
  * @author Giangian15
  * @author Roderick Mallia
  */
 $messages['mt'] = array(
 	'contributionscores-pages' => 'Paġni',
-	'contributionscores-username' => 'Isem l-utent',
+	'contributionscores-username' => 'Isem tal-utent',
 );
 
 /** Erzya (Эрзянь)
