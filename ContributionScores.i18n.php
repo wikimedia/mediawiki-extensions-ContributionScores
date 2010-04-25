@@ -981,7 +981,7 @@ $messages['kn'] = array(
 	'contributionscores-pages' => 'ಪುಟಗಳು',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -1004,7 +1004,7 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (Kernewek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -1799,7 +1799,7 @@ $messages['yi'] = array(
 	'contributionscores-username' => 'באַניצער נאָמען',
 );
 
-/** Yue (粵語)
+/** Cantonese (粵語)
  * @author PhiLiP
  * @author Shinjiman
  */
