@@ -1370,7 +1370,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'contributionscores' => 'Pontuação de contribuições',
-	'contributionscores-desc' => 'Inquire a base de dados wiki sobre os [[Special:ContributionScores|volumes de contribuições de utilizadores]] mais altos',
+	'contributionscores-desc' => 'Inquire a base de dados wiki sobre os mais elevados [[Special:ContributionScores|volumes de contribuição dos utilizadores]]',
 	'contributionscores-info' => 'As pontuações são calculadas da seguinte forma:
 *1 ponto por cada página única editada
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
