@@ -203,6 +203,12 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'contributionscores' => 'Merkadur an degasadennoù',
+	'contributionscores-desc' => 'Furchal a ra er bank roadennoù evit kavout [[Special:ContributionScores|kementadoù brasañ a zegasadennoù an implijerien]]',
+	'contributionscores-info' => "Setu penaos e vez jedet ar poenterezh :
+*Ur (1) poent evit pep pajenn kemmet
+*Gwrizienn garrez (an niver hollek a gemmoù graet) - (niver a bajennoù disheñvel) * 2
+Lakaat a ra ar formulenn-se al liesseurted war wel kentoc'h eget ar c'hementad.
+E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur sellet a-dostoc'h ouzh ar c'hementadoù bras a gemmoù a seller outo evel pajennoù zo gwelloc'h an danvez anezho.",
 	'contributionscores-top' => '(An $1 uhelañ)',
 	'contributionscores-days' => 'E-kerzh an {{PLURAL:$1|devezh|$1 devezh}} diwezhañ',
 	'contributionscores-allrevisions' => 'An holl adweladennoù',
