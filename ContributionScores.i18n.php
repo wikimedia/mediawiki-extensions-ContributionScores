@@ -1150,8 +1150,16 @@ $messages['ms'] = array(
  * @author Roderick Mallia
  */
 $messages['mt'] = array(
+	'contributionscores' => 'Punteġġi tal-kontribuzzjonijiet',
+	'contributionscores-top' => '(L-Aqwa $1)',
+	'contributionscores-days' => 'L-aħħar {{PLURAL:$1|ġurnata|$1 ġranet}}',
+	'contributionscores-allrevisions' => 'Ir-reviżjonijiet kollha',
+	'contributionscores-score' => 'Punteġġ',
 	'contributionscores-pages' => 'Paġni',
+	'contributionscores-changes' => 'Tibdil',
 	'contributionscores-username' => 'Isem tal-utent',
+	'contributionscores-invalidusername' => 'Isem tal-utent invalidu',
+	'contributionscores-invalidmetric' => 'Metrika invalida',
 );
 
 /** Erzya (Эрзянь)
