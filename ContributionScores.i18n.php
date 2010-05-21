@@ -1309,6 +1309,7 @@ $messages['pam'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'contributionscores-pages' => 'Bledder',
 	'contributionscores-username' => 'Yuuser-Naame',
 );
 
