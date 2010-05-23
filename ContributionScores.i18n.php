@@ -1676,7 +1676,7 @@ $messages['tl'] = array(
 Tinutuos ang mga puntos sa ganitong paraan: timbang ng pagkakaiba-iba ng pagbabago sa ibabaw ng dami ng pagbabago.
 Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mga pahina, na may pagsasaalang-alang sa mataas na dami ng pagbago - na ipinapalagay bilang isang pahinang may mataas na uri.',
 	'contributionscores-top' => '(Pinakatampok na $1)',
-	'contributionscores-days' => 'Huling $1 mga araw',
+	'contributionscores-days' => 'Huling {{Plural: $1|araw|$1 mga araw}}',
 	'contributionscores-allrevisions' => 'Lahat ng mga pagbabago',
 	'contributionscores-score' => 'Puntos',
 	'contributionscores-pages' => 'Mga pahina',
