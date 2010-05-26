@@ -66,10 +66,7 @@ function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
 }
 
 function efContributionScores_Render(&$parser, $usertext, $metric='score') {
-	global $wgContribScoreDisableCache, $wgVersion;
-
-	if( version_compare( $wgVersion, '1.11', '>=' ) )
-		wfLoadExtensionMessages( 'ContributionScores' );
+	global $wgContribScoreDisableCache;
 
 	$output = "";
 
