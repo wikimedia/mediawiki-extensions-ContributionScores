@@ -266,6 +266,13 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 	'contributionscores-invalidmetric' => 'Mètrica invàlida',
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'contributionscores-allrevisions' => 'Массо нисдарш',
+);
+
 /** Czech (Česky)
  * @author Li-sung
  * @author Matěj Grabovský
