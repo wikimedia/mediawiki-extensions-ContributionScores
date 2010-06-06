@@ -2,8 +2,9 @@
 /**
  * Internationalisation file for extension ContributionScores.
  *
- * @addtogroup Extensions
-*/
+ * @file
+ * @ingroup Extensions
+ */
 
 $messages = array();
 

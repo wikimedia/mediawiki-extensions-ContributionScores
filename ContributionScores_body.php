@@ -9,7 +9,7 @@
  * on edit diversity (unique pages edited) and edit volume (total
  * number of edits.
  *
- * @addtogroup Extensions
+ * @ingroup Extensions
  * @author Tim Laqua <t.laqua@gmail.com>
  */
 class ContributionScores extends IncludableSpecialPage
