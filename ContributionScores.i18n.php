@@ -1491,6 +1491,16 @@ $messages['ru'] = array(
 	'contributionscores-invalidmetric' => 'Ошибочная метрика',
 );
 
+/** Rusyn (русиньскый язык)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'contributionscores-score' => 'Оцінка',
+	'contributionscores-pages' => 'Сторінкы',
+	'contributionscores-changes' => 'Зміны',
+	'contributionscores-username' => 'Мено хоснователя',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
