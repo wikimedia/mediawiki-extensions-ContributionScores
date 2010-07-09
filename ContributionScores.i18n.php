@@ -203,7 +203,7 @@ $messages['bn'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
-	'contributionscores' => 'Merkadur an degasadennoù',
+	'contributionscores' => 'Skor an degasadennoù',
 	'contributionscores-desc' => 'Furchal a ra er bank roadennoù evit kavout [[Special:ContributionScores|kementadoù brasañ a zegasadennoù an implijerien]]',
 	'contributionscores-info' => "Setu penaos e vez jedet ar poenterezh :
 *Ur (1) poent evit pep pajenn kemmet
@@ -218,7 +218,7 @@ E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur s
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
 	'contributionscores-invalidusername' => 'Anv implijer direizh',
-	'contributionscores-invalidmetric' => 'Direizh eo ar metrek',
+	'contributionscores-invalidmetric' => 'Muzul direizh',
 );
 
 /** Bosnian (Bosanski)
@@ -1499,6 +1499,15 @@ $messages['rue'] = array(
 	'contributionscores-pages' => 'Сторінкы',
 	'contributionscores-changes' => 'Зміны',
 	'contributionscores-username' => 'Мено хоснователя',
+);
+
+/** Sinhala (සිංහල)
+ * @author බිඟුවා
+ */
+$messages['si'] = array(
+	'contributionscores-score' => 'ලකුණු',
+	'contributionscores-pages' => 'පිටු',
+	'contributionscores-changes' => 'වෙනස් කිරීම්',
 );
 
 /** Slovak (Slovenčina)
