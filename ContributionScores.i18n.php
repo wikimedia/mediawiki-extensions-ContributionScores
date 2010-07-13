@@ -1061,7 +1061,7 @@ $messages['li'] = array(
 * Wórtel van (totaal aantal gemaakdje bewèrkinger) - (totaal aantal apaarte pazjena's × 2
 I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag zwaorder es bewèrkingsvolume. In feite mèt dees huuegdje veurnamelik 't aantal apaarte pazjena's die zeen bewèrk, wiele 'n grót aantal bewèrkinger waal in ach wuuertj genaome, mit de aannaam det 't 'ne pazjena van 'n huuegere kwaliteit is.",
 	'contributionscores-top' => '(Top $1)',
-	'contributionscores-days' => 'Lètste $1 daag',
+	'contributionscores-days' => '{{PLURAL:$1|Lesten daag|Leste $1 daag}}',
 	'contributionscores-allrevisions' => 'Alle verzies',
 	'contributionscores-score' => 'Puntje',
 	'contributionscores-pages' => "Pagina's",
