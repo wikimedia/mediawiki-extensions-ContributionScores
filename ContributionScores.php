@@ -33,27 +33,12 @@ $wgSpecialPageGroups['ContributionScores'] = 'wiki';
 if( version_compare( $wgVersion, '1.13', '>=' ) ) {
 	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
 	$wgExtensionAliasesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.alias.php';
-} else if( version_compare( $wgVersion, '1.11', '>=' ) ) {
 	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
-} else {
-	$wgExtensionFunctions[] = 'efContributionScores_AddMessages';
 }
 
 $wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
 
 $wgHooks['ParserFirstCallInit'][] = 'efContributionScores_Setup';
-
-///Message Cache population for versions that did not support $wgExtensionFunctions
-function efContributionScores_AddMessages() {
-	global $wgMessageCache;
-
-	#Add Messages
-	require( CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php' );
-	foreach( $messages as $key => $value ) {
-		  $wgMessageCache->addMessages( $messages[$key], $key );
-	}
-	return true;
-}
 
 function efContributionScores_Setup( &$parser ) {
 	$parser->setFunctionHook( 'cscore', 'efContributionScores_Render' );
@@ -66,10 +51,9 @@ function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
 }
 
 function efContributionScores_Render(&$parser, $usertext, $metric='score') {
-	global $wgContribScoreDisableCache, $wgVersion;
+	global $wgContribScoreDisableCache;
 
-	if( version_compare( $wgVersion, '1.11', '>=' ) )
-		wfLoadExtensionMessages( 'ContributionScores' );
+	wfLoadExtensionMessages( 'ContributionScores' );
 
 	$output = "";
 

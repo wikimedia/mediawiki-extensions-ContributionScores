@@ -138,10 +138,9 @@ class ContributionScores extends IncludableSpecialPage
 	}
 
 	function execute( $par ) {
-		global $wgRequest, $wgVersion, $wgOut, $wgHooks;
+		global $wgRequest, $wgOut, $wgHooks;
 		
-		if( version_compare( $wgVersion, '1.11', '>=' ) )
-			wfLoadExtensionMessages( 'ContributionScores' );
+		wfLoadExtensionMessages( 'ContributionScores' );
 		
 		$this->setHeaders();
 
