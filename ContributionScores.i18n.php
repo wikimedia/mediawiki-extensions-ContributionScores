@@ -329,11 +329,12 @@ Basalt set måler pointene først og fremmest hvor mange forskellige sider der e
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Merlissimo
  * @author Raimond Spekking
  */
 $messages['de'] = array(
-	'contributionscores' => 'Benutzerbeiträge bewerten',
+	'contributionscores' => 'Statistik zu Benutzern',
 	'contributionscores-desc' => 'Abfrage der Wiki-Datenbank nach der Anzahl der [[Special:ContributionScores|Benutzerbeiträge]]',
 	'contributionscores-info' => 'Bewertungsschema:
 *1 Punkt für jede bearbeitete Seite
