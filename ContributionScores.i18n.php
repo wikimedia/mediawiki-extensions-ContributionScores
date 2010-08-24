@@ -1532,6 +1532,13 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
 	'contributionscores-invalidmetric' => 'Neplatná metrika',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'contributionscores-pages' => 'Strani',
+);
+
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
