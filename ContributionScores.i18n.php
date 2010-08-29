@@ -1747,6 +1747,27 @@ Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir say
 	'contributionscores-invalidmetric' => 'Geçersiz metrik',
 );
 
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ильнар
+ */
+$messages['tt-cyrl'] = array(
+	'contributionscores' => 'Кертем билгеләү',
+	'contributionscores-desc' => 'Хәтердән [[Special:ContributionScores|иң зур тәрҗемә ясаучы кулланучыларны]] билгели.',
+	'contributionscores-info' => 'Билгеләр кую астагы критерийларга туры килү нәтиҗәсендә билгеләнә:
+* 1 Һәрбер аерым бер тәрҗемә өчен билге
+* 2 Гомуми тәрҗемәләр һәм һәрбер аерым бит аермасының тамыр асты
+Шуның нәтиҗәсендә сезнең тәрҗемәләрегезгә тагын да зуррак билге куела.',
+	'contributionscores-top' => '(Иң әйбәт $1)',
+	'contributionscores-days' => '{{PLURAL:$1|Соңгы $1 көн өчен}}',
+	'contributionscores-allrevisions' => 'Барлык үзгәртүләр',
+	'contributionscores-score' => 'Билге',
+	'contributionscores-pages' => 'Битләр саны',
+	'contributionscores-changes' => 'Үзгәртүләр',
+	'contributionscores-username' => 'Кулланучы исеме',
+	'contributionscores-invalidusername' => 'Кулланучының исеме дөрес түгел',
+	'contributionscores-invalidmetric' => 'Ялгыш билгеләү',
+);
+
 /** ئۇيغۇرچە (ئۇيغۇرچە)
  * @author Alfredie
  */
