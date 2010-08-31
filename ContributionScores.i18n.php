@@ -1068,6 +1068,8 @@ I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag z
 	'contributionscores-pages' => "Pagina's",
 	'contributionscores-changes' => 'Bewèrkinger',
 	'contributionscores-username' => 'Gebroeker',
+	'contributionscores-invalidusername' => 'Verkierde gebroeker',
+	'contributionscores-invalidmetric' => 'Ogeljige einheid',
 );
 
 /** Lithuanian (Lietuvių)
