@@ -12,8 +12,7 @@
  * @ingroup Extensions
  * @author Tim Laqua <t.laqua@gmail.com>
  */
-class ContributionScores extends IncludableSpecialPage
-{
+class ContributionScores extends IncludableSpecialPage {
 	public function __construct() {
 		parent::__construct( 'ContributionScores' );
 	}
@@ -101,7 +100,7 @@ class ContributionScores extends IncludableSpecialPage
 			"<td>" . wfMsgHtml( 'contributionscores-changes' ) . "</td>\n" .
 			"<td>" . wfMsgHtml( 'contributionscores-username' ) . "</td>\n";
 
-		$skin =& $wgUser->getSkin();
+		$skin = $wgUser->getSkin();
 		$altrow = '';
 		while ( $row = $dbr->fetchObject( $res ) ) {
 			$output .= "</tr><tr class='{$altrow}'>\n<td class='content'>" .
@@ -139,8 +138,6 @@ class ContributionScores extends IncludableSpecialPage
 
 	function execute( $par ) {
 		global $wgRequest, $wgOut, $wgHooks;
-		
-		wfLoadExtensionMessages( 'ContributionScores' );
 		
 		$this->setHeaders();
 
@@ -201,7 +198,7 @@ class ContributionScores extends IncludableSpecialPage
 				array(0,50));
 		}
 
-		$wgOut->addWikiText( wfMsg( 'contributionscores-info' ) );
+		$wgOut->addWikiMsg( 'contributionscores-info' );
 
 		foreach ( $wgContribScoreReports as $scoreReport) {
 			if ( $scoreReport[0] > 0 ) {
