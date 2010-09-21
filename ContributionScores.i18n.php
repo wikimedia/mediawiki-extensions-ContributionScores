@@ -1494,7 +1494,7 @@ $messages['ru'] = array(
 	'contributionscores-invalidmetric' => 'Ошибочная метрика',
 );
 
-/** Rusyn (русиньскый язык)
+/** Rusyn (Русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
