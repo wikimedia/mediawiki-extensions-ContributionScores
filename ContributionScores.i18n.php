@@ -1177,7 +1177,7 @@ $messages['mt'] = array(
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
-	'contributionscores-days' => 'Меельсе $1 чить',
+	'contributionscores-days' => 'Меельсе {{PLURAL:$1|чи|$1 чить}}',
 	'contributionscores-pages' => 'Лопат',
 	'contributionscores-changes' => 'Полавтнемат',
 	'contributionscores-username' => 'Теицянь лем',
