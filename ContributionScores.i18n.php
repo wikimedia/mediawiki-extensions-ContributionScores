@@ -1630,11 +1630,13 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
 );
 
 /** Tamil (தமிழ்)
+ * @author TRYPPN
  * @author Trengarasu
  * @author Ulmo
  */
 $messages['ta'] = array(
 	'contributionscores-pages' => 'பக்கங்கள்',
+	'contributionscores-changes' => 'மாற்றங்கள்',
 	'contributionscores-username' => 'பயனர் பெயர்',
 );
 
