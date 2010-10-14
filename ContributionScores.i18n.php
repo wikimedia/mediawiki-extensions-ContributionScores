@@ -1635,6 +1635,7 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
  * @author Ulmo
  */
 $messages['ta'] = array(
+	'contributionscores-allrevisions' => 'எல்லா திருத்தங்களும்',
 	'contributionscores-pages' => 'பக்கங்கள்',
 	'contributionscores-changes' => 'மாற்றங்கள்',
 	'contributionscores-username' => 'பயனர் பெயர்',
