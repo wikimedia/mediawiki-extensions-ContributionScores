@@ -1439,14 +1439,15 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  * @author AlexZaim
  * @author Firilacroco
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
-	'contributionscores' => 'Punctajul contribuțiilor',
-	'contributionscores-info' => '↓ Punctajul e calculat în felul următor:
-*Un (1) punct pentru fiecare pagină editat unic
-*Rădăcina pătrată din (totalul editărilor făcute) - (totalul paginilor unicale) * 2
-Punctajul calculat în felul dat redă diversitate asupra volumului de editare.
-Practic, acest scor măsoară primoridal paginile unic editate, cu considerație pentru volumul mare de editare - presupune a fi o pagină de calitate mai bună.',
+	'contributionscores' => 'Punctaje contribuții',
+	'contributionscores-info' => 'Punctajul este calculat în felul următor:
+*Un (1) punct pentru fiecare pagină unic modificată
+*Rădăcină pătrată din (totalul modificărilor efectuate) - (totalul paginilor unice) * 2
+Punctajul astfel calculate oferă diversitate volumului de modificări.
+Practic, acest scor măsoară în primul rând paginile unic modificate, cu considerație pentru volumul ridicat de modificări - presupunând că pagina este de o calitate superioară.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultima zi|Ultimele $1 zile}}',
 	'contributionscores-allrevisions' => 'Toate versiunile',
