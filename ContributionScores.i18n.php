@@ -1440,6 +1440,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'contributionscores' => 'Punctaje contribuții',
@@ -1451,6 +1452,7 @@ Practic, acest scor măsoară în primul rând paginile unic modificate, cu cons
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultima zi|Ultimele $1 zile}}',
 	'contributionscores-allrevisions' => 'Toate versiunile',
+	'contributionscores-score' => 'Scor',
 	'contributionscores-pages' => 'Pagini',
 	'contributionscores-username' => 'Nume de utilizator',
 	'contributionscores-invalidusername' => 'Nume de utilizator incorect',
@@ -1510,6 +1512,14 @@ $messages['rue'] = array(
 	'contributionscores-pages' => 'Сторінкы',
 	'contributionscores-changes' => 'Зміны',
 	'contributionscores-username' => 'Мено хоснователя',
+);
+
+/** Sicilian (Sicilianu)
+ * @author Aushulz
+ */
+$messages['scn'] = array(
+	'contributionscores-pages' => 'Pàggini',
+	'contributionscores-changes' => 'Canciamenti',
 );
 
 /** Sinhala (සිංහල)
