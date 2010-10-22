@@ -113,8 +113,10 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|ܝܘܡܐ ܐܚܪܝܐ|$1 ܝܘܡܬ̈ܐ ܐܚܪ̈ܝܬܐ}}',
+	'contributionscores-allrevisions' => 'ܟܠ ܬܢܝܬ̈ܐ',
 	'contributionscores-pages' => 'ܦܐܬܬ̈ܐ',
 	'contributionscores-changes' => 'ܫܘܚܠܦ̈ܐ',
+	'contributionscores-username' => 'ܫܡܐ ܕܡܬܚܫܚܢܐ',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
