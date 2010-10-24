@@ -1115,17 +1115,25 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
 	'contributionscores-top' => '(ആദ്യത്തെ $1)',
-	'contributionscores-days' => 'അവസാനത്തെ $1 ദിവസങ്ങൾ',
+	'contributionscores-days' => 'അവസാന {{PLURAL:$1|ദിവസം|$1 ദിവസങ്ങൾ}}',
 	'contributionscores-allrevisions' => 'എല്ലാ പതിപ്പുകളും',
 	'contributionscores-score' => 'സ്കോർ',
 	'contributionscores-pages' => 'താളുകൾ',
 	'contributionscores-changes' => 'മാറ്റങ്ങൾ',
 	'contributionscores-username' => 'ഉപയോക്തൃനാമം',
 	'contributionscores-invalidusername' => 'അസാധുവായ ഉപയോക്തൃനാമം',
+);
+
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'contributionscores-username' => 'Хэрэглэгчийн нэр',
 );
 
 /** Marathi (मराठी)
