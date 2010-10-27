@@ -154,6 +154,27 @@ $messages['avk'] = array(
 	'contributionscores-username' => 'Favesikyolt',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'contributionscores' => 'Индергән өлөштәрҙе баһалау',
+	'contributionscores-desc' => 'Мәғлүмәттәр базаһынан [[Special:ContributionScores|иң ҙур өлөш индергән ҡатнашыусыларҙы]] билдәләй',
+	'contributionscores-info' => 'Баһа түбәндәге өлөштәрҙе ҡушыу аша иҫәпләнә:
+* 1 мәрәй — һәр айырым битте мөхәррирләү өсөн;
+* 2 * ( (дөйөм үҙгәртеүҙәр һаны) - (барыһы төрлө биттәр) ) айырмаһының тамыры.
+Баһаны иҫәпләгән ваҡытта, шулай итеп, дөйөм үҙгәртеүҙәр һанына ҡарағында үҙгәртеүҙәрҙең төрлөлөгө ҙурыраҡ йоғонто яһай.',
+	'contributionscores-top' => '(Тәүге $1)',
+	'contributionscores-days' => 'Һуңғы {{PLURAL:$1|көн|$1 көн}}',
+	'contributionscores-allrevisions' => 'Бөтә үҙгәртеүҙәр',
+	'contributionscores-score' => 'Баһа',
+	'contributionscores-pages' => 'Биттәр',
+	'contributionscores-changes' => 'Үҙгәртеүҙәр',
+	'contributionscores-username' => 'Ҡатнашыусы исеме',
+	'contributionscores-invalidusername' => 'Ҡатнашыусы исеме дөрөҫ түгел',
+	'contributionscores-invalidmetric' => 'Метрика дөрөҫ түгел',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
