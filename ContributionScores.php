@@ -53,10 +53,6 @@ function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
 function efContributionScores_Render(&$parser, $usertext, $metric='score') {
 	global $wgContribScoreDisableCache;
 
-	wfLoadExtensionMessages( 'ContributionScores' );
-
-	$output = "";
-
 	if ($wgContribScoreDisableCache) {
 		$parser->disableCache();
 	}
