@@ -116,7 +116,7 @@ $messages['arc'] = array(
 	'contributionscores-allrevisions' => 'ܟܠ ܬܢܝܬ̈ܐ',
 	'contributionscores-pages' => 'ܦܐܬܬ̈ܐ',
 	'contributionscores-changes' => 'ܫܘܚܠܦ̈ܐ',
-	'contributionscores-username' => 'ܫܡܐ ܕܡܬܚܫܚܢܐ',
+	'contributionscores-username' => 'ܫܡܐ ܕܡܦܠܚܢܐ',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
