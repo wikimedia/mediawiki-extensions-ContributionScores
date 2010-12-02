@@ -550,6 +550,7 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 /** French (Français)
  * @author Grondin
  * @author IAlex
+ * @author Peter17
  * @author Sherbrooke
  * @author Urhixidur
  * @author Verdy p
@@ -568,7 +569,7 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-score' => 'Pointage',
 	'contributionscores-pages' => 'Pages',
 	'contributionscores-changes' => 'Modifications',
-	'contributionscores-username' => 'Pseudonyme',
+	'contributionscores-username' => 'Nom d’utilisateur',
 	'contributionscores-invalidusername' => 'Nom d’utilisateur invalide',
 	'contributionscores-invalidmetric' => 'Métrique incorrecte',
 );
