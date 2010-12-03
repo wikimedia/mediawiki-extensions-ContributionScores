@@ -503,6 +503,7 @@ $messages['ext'] = array(
 
 /** Persian (فارسی)
  * @author Huji
+ * @author Mjbmr
  * @author Tofighi
  */
 $messages['fa'] = array(
@@ -515,7 +516,7 @@ $messages['fa'] = array(
 محاسبه امتیازات در این حالت وزن گوناگونی ویرایشها بر حجم ویرایشها را می سنجد.
 براین اساس، این امتیاز میزان صفحه‌ها ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.',
 	'contributionscores-top' => '($1 برتر)',
-	'contributionscores-days' => '$1 روز گذشته',
+	'contributionscores-days' => 'آخرین {{PLURAL:$1|روز|$1 روز}}',
 	'contributionscores-allrevisions' => 'همه نسخه‌ها',
 	'contributionscores-score' => 'امتیاز',
 	'contributionscores-pages' => 'صفحه‌ها',
