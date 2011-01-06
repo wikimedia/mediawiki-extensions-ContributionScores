@@ -358,7 +358,7 @@ Basalt set måler pointene først og fremmest hvor mange forskellige sider der e
  */
 $messages['de'] = array(
 	'contributionscores' => 'Statistik zu Benutzern',
-	'contributionscores-desc' => 'Ergänzt eine [[Special:ContributionScores|Spezialseite]] zur Abfrage der Datenbank des Wikis bezüglich den Benutzern mit den meisten Beiträgen',
+	'contributionscores-desc' => 'Ergänzt eine [[Special:ContributionScores|Spezialseite]] zum Abfragen der Datenbank des Wikis bezüglich der Benutzer mit den meisten Beiträgen',
 	'contributionscores-info' => 'Bewertungsschema:
 *1 Punkt für jede bearbeitete Seite
 *Quadratwurzel aller (Bearbeitungen) - (Summe der bearbeiteten Seiten) * 2
