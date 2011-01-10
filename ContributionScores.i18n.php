@@ -760,24 +760,25 @@ Ličba dypkow wuličena na tute wašnje pohódnoća wšelakorosć změnow wysě 
 );
 
 /** Haitian (Kreyòl ayisyen)
+ * @author Boukman
  * @author Jvm
  */
 $messages['ht'] = array(
-	'contributionscores' => 'Kontribisyon analiz',
-	'contributionscores-desc' => 'Sonde baz done wiki-a pou wo [[Special:ContributionScores|itilizatè kontribisyon volim]]',
-	'contributionscores-info' => 'Rezilta yo kalkile konsa:
-*Yon (1) pwen pou chak paj inik edite 
-*Rasin Kare de (Total Edit Fè) - (Total Paj Inik) * 2
-Rezilta trouve nan fason sa peze edit divèsite sou edit kantite.
-Basikalman, rezilta sa mezire primèman paj inik ki te edite, avèk konsiderasyon pou wo edit volim – sa konsidere kòm yon paj de mèyè kalite.',
+	'contributionscores' => 'Nòt pou kontribisyon yo',
+	'contributionscores-desc' => 'Sonde bazdone wiki a pou pi gwo [[Special:ContributionScores|kantite kontribisyon pa itilizatè]]',
+	'contributionscores-info' => 'Nòt yo kalkile konsa:
+*Yon (1) pwen pou chak paj inik ki te modifye 
+*Rasin Kare de (kantite modifikasyon total ki te fè) - (Total Paj Inik) * 2
+Se konsa, nòt la bay plis pwa pou divèsite modifikasyon pase kantite modifikasyon yo.
+Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon konsiderasyon pou gwo volim modifikasyon – ki konsidere kòm ap bay yon paj ki gen pi bon kalite.',
 	'contributionscores-top' => '(Meyè $1 yo)',
-	'contributionscores-days' => 'Denyè $1 jou yo',
+	'contributionscores-days' => 'Denyè {{PLURAL:$1|jou|$1 jou yo}}',
 	'contributionscores-allrevisions' => 'Tout revizion yo',
-	'contributionscores-score' => 'Rezilta',
+	'contributionscores-score' => 'Nòt',
 	'contributionscores-pages' => 'Paj',
 	'contributionscores-changes' => 'Chanjman',
-	'contributionscores-username' => 'Non-itilizatè',
-	'contributionscores-invalidusername' => 'Non-itilizatè envalid',
+	'contributionscores-username' => 'Non itilizatè',
+	'contributionscores-invalidusername' => 'Non itilizatè a pa bon',
 	'contributionscores-invalidmetric' => 'Metrik envalid',
 );
 
