@@ -1972,12 +1972,13 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Mark85296341
  * @author PhiLiP
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
 	'contributionscores' => '貢獻分數',
-	'contributionscores-desc' => '根據在wiki數據庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]',
+	'contributionscores-desc' => '根據在wiki資料庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]',
 	'contributionscores-info' => '分數會用以下的的計分法去計算:
 *每一個唯一頁面編輯過的有1分
 *（總編輯數）的平方根 - （總唯一頁面數） * 2
@@ -1988,8 +1989,8 @@ $messages['zh-hant'] = array(
 	'contributionscores-score' => '分數',
 	'contributionscores-pages' => '頁面',
 	'contributionscores-changes' => '更改',
-	'contributionscores-username' => '用戶名',
-	'contributionscores-invalidusername' => '無效的用戶名',
+	'contributionscores-username' => '使用者名稱',
+	'contributionscores-invalidusername' => '無效的使用者名稱',
 	'contributionscores-invalidmetric' => '無效的公制',
 );
 
