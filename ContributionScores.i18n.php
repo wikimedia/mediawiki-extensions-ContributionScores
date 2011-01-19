@@ -1979,16 +1979,16 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-desc' => '根據在wiki資料庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]',
-	'contributionscores-info' => '分數會用以下的的計分法去計算:
-*每一個唯一頁面編輯過的有1分
+	'contributionscores-info' => '分數會用以下的的計分法去計算：
+*每一個唯一頁面編輯過的有 1 分
 *（總編輯數）的平方根 - （總唯一頁面數） * 2
 在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。',
-	'contributionscores-top' => '（最高$1名）',
-	'contributionscores-days' => '最近$1天',
+	'contributionscores-top' => '（最多 $1 位）',
+	'contributionscores-days' => '最近 {{PLURAL:$1|天|$1 天}}',
 	'contributionscores-allrevisions' => '全部修訂',
 	'contributionscores-score' => '分數',
-	'contributionscores-pages' => '頁面',
-	'contributionscores-changes' => '更改',
+	'contributionscores-pages' => '頁面數量',
+	'contributionscores-changes' => '更改次數',
 	'contributionscores-username' => '使用者名稱',
 	'contributionscores-invalidusername' => '無效的使用者名稱',
 	'contributionscores-invalidmetric' => '無效的公制',
