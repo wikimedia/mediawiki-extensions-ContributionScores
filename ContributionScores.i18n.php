@@ -154,7 +154,7 @@ $messages['avk'] = array(
 	'contributionscores-username' => 'Favesikyolt',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -175,7 +175,7 @@ $messages['ba'] = array(
 	'contributionscores-invalidmetric' => 'Метрика дөрөҫ түгел',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -1045,7 +1045,7 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -1593,7 +1593,7 @@ $messages['sl'] = array(
 	'contributionscores-pages' => 'Strani',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1606,7 +1606,7 @@ $messages['sr-ec'] = array(
 	'contributionscores-username' => 'Корисничко име',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
