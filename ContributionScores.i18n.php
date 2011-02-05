@@ -1011,8 +1011,8 @@ $messages['km'] = array(
 	'contributionscores-score' => 'ពិន្ទុ',
 	'contributionscores-pages' => 'ទំព័រ​នានា',
 	'contributionscores-changes' => 'បំលាស់ប្តូរ​នានា',
-	'contributionscores-username' => 'ឈ្មោះអ្នកប្រើប្រាស់',
-	'contributionscores-invalidusername' => 'ឈ្មោះអ្នកប្រើប្រាស់មិនត្រឹមត្រូវ',
+	'contributionscores-username' => 'អត្តនាម',
+	'contributionscores-invalidusername' => 'អត្តនាមមិនត្រឹមត្រូវ',
 );
 
 /** Kannada (ಕನ್ನಡ)
