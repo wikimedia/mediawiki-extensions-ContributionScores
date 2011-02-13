@@ -30,11 +30,9 @@ $wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/Contribut
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 $wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
-if( version_compare( $wgVersion, '1.13', '>=' ) ) {
-	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
-	$wgExtensionAliasesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.alias.php';
-	$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
-}
+$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
+$wgExtensionAliasesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.alias.php';
+$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
 
 $wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
 
