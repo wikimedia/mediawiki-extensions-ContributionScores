@@ -1923,6 +1923,7 @@ $messages['vo'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'contributionscores-days' => '{{PLURAL:$1|לעצטן טאָג|לעצטע $1 טעג}}',
 	'contributionscores-pages' => 'בלעטער',
 	'contributionscores-username' => 'באַניצער נאָמען',
 );
