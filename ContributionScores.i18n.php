@@ -294,7 +294,9 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
  * @author Sasan700
  */
 $messages['ce'] = array(
+	'contributionscores-top' => '(диканаш $1)',
 	'contributionscores-allrevisions' => 'Массо нисдарш',
+	'contributionscores-username' => 'Декъашхон цlе',
 );
 
 /** Czech (Česky)
