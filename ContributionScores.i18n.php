@@ -1886,6 +1886,23 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 	'contributionscores-invalidmetric' => 'Metrica mia valida',
 );
 
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'contributionscores' => 'Tondan arvoind',
+	'contributionscores-desc' => 'Märičeb [[Special:ContributionScores|kävutajid, kel om enamba redaktiruindad,]] andmuzbazan turbiš',
+	'contributionscores-top' => '($1 parembad)',
+	'contributionscores-days' => "{{PLURAL:$1|jäl'gmäine päiv|$1 jäl'gmäšt päiväd}}",
+	'contributionscores-allrevisions' => 'Kaik toižetused',
+	'contributionscores-score' => 'Punktad',
+	'contributionscores-pages' => "Lehtpol't",
+	'contributionscores-changes' => 'Toižetusid',
+	'contributionscores-username' => 'Kävutajannimi',
+	'contributionscores-invalidusername' => 'Vär kävutajannimi',
+	'contributionscores-invalidmetric' => 'Petuzline metrik',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  * @author Vinhtantran
