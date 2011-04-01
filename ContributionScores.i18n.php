@@ -1111,6 +1111,13 @@ $messages['lt'] = array(
 	'contributionscores-username' => 'Naudotojo vardas',
 );
 
+/** Latgalian (Latgaļu)
+ * @author Dark Eagle
+ */
+$messages['ltg'] = array(
+	'contributionscores-pages' => 'Puslopys',
+);
+
 /** Eastern Mari (Олык Марий)
  * @author Сай
  */
