@@ -154,6 +154,13 @@ $messages['avk'] = array(
 	'contributionscores-username' => 'Favesikyolt',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'contributionscores-username' => 'İstifadəçi adı',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
