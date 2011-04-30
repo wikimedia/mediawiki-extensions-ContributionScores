@@ -158,6 +158,7 @@ $messages['avk'] = array(
  * @author Cekli829
  */
 $messages['az'] = array(
+	'contributionscores-pages' => 'Səhifələr',
 	'contributionscores-username' => 'İstifadəçi adı',
 );
 
@@ -221,10 +222,18 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Wikitanvir
  */
 $messages['bn'] = array(
+	'contributionscores' => 'অনুদানের স্কোর',
+	'contributionscores-top' => '(সর্বোচ্চ $1)',
+	'contributionscores-days' => 'গত {{PLURAL:$1|দিন|$1 দিন}}',
+	'contributionscores-allrevisions' => 'সকল সংস্করণ',
+	'contributionscores-score' => 'স্কোর',
 	'contributionscores-pages' => 'পাতা',
 	'contributionscores-changes' => 'পরিবর্তন',
+	'contributionscores-username' => 'ব্যবহারকারী নাম',
+	'contributionscores-invalidusername' => 'অগ্রহণযোগ্য ব্যবহারকারী নাম',
 );
 
 /** Breton (Brezhoneg)
@@ -582,6 +591,22 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-username' => 'Nom d’utilisateur',
 	'contributionscores-invalidusername' => 'Nom d’utilisateur invalide',
 	'contributionscores-invalidmetric' => 'Métrique incorrecte',
+);
+
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'contributionscores' => 'Mârques de les contribucions',
+	'contributionscores-top' => '(Les $1 ples hôtes)',
+	'contributionscores-days' => 'Dens {{PLURAL:$1|lo jorn passâ|los $1 jorns passâs}}',
+	'contributionscores-allrevisions' => 'Totes les vèrsions',
+	'contributionscores-score' => 'Mârca',
+	'contributionscores-pages' => 'Pâges',
+	'contributionscores-changes' => 'Changements',
+	'contributionscores-username' => 'Nom d’utilisator',
+	'contributionscores-invalidusername' => 'Nom d’utilisator envalido',
+	'contributionscores-invalidmetric' => 'Mètrica fôssa',
 );
 
 /** Western Frisian (Frysk)
@@ -1721,6 +1746,14 @@ $messages['te'] = array(
 	'contributionscores-changes' => 'మార్పులు',
 	'contributionscores-username' => 'వాడుకరిపేరు',
 	'contributionscores-invalidusername' => 'తప్పుడు వాడుకరిపేరు',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'contributionscores-pages' => 'Pájina sira',
+	'contributionscores-username' => "Naran uza-na'in",
 );
 
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
