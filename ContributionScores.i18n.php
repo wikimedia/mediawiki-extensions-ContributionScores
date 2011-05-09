@@ -1202,6 +1202,7 @@ $messages['mn'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Htt
  * @author Kaustubh
  * @author Mahitgar
  */
@@ -1213,7 +1214,7 @@ $messages['mr'] = array(
 *(एकूण संपादने) - (एकूण स्वतंत्र पाने) * 2 चे वर्गमूळ
 अशा प्रकारे मोजलेले गुण हे संपादन विविधतेला संपादन संख्येपेक्षा जास्त महत्व देतात. मुख्यत्वे, हे गुण जास्त संपादन संख्या मोजून स्वतंत्र पानांची संपादने काढतात.',
 	'contributionscores-top' => '(पहिले $1)',
-	'contributionscores-days' => 'शेवटचे $1 दिवस',
+	'contributionscores-days' => '{{PLURAL:$1|शेवटचा दिवस|शेवटचे $1 दिवस}}',
 	'contributionscores-allrevisions' => 'सर्व आवर्तने',
 	'contributionscores-score' => 'गुण',
 	'contributionscores-pages' => 'पाने',
