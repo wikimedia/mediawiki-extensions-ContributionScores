@@ -33,6 +33,11 @@ $specialPageAliases['bs'] = array(
 	'ContributionScores' => array( 'DoprinosiBodovi' ),
 );
 
+/** Esperanto (Esperanto) */
+$specialPageAliases['eo'] = array(
+	'ContributionScores' => array( 'Kontribuatingoj' ),
+);
+
 /** Estonian (Eesti) */
 $specialPageAliases['et'] = array(
 	'ContributionScores' => array( 'Kaastööpunktid' ),
@@ -50,12 +55,17 @@ $specialPageAliases['fi'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'ContributionScores' => array( 'Puntuación das contribucións' ),
+	'ContributionScores' => array( 'Puntuación_das_contribucións' ),
 );
 
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'ContributionScores' => array( 'דירוג_תרומות' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'ContributionScores' => array( 'PwentajKontribisyon' ),
 );
 
 /** Hungarian (Magyar) */
@@ -75,7 +85,7 @@ $specialPageAliases['id'] = array(
 
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
-	'ContributionScores' => array( '貢献得点', '貢献スコア' ),
+	'ContributionScores' => array( '貢献スコア', '貢献得点' ),
 );
 
 /** Khmer (ភាសាខ្មែរ) */
@@ -161,6 +171,11 @@ $specialPageAliases['tl'] = array(
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'ContributionScores' => array( 'KatkıSkorları', 'KatkıPuanları' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'ContributionScores' => array( '贡献得分' ),
 );
 
 /**
