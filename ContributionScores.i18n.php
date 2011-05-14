@@ -18,7 +18,7 @@ Scores calculated in this manner weight edit diversity over edit volume.
 Basically, this score measures primarily unique pages edited, with consideration for high edit volume - assumed to be a higher quality page.",
 	'contributionscores-top'             => '(Top $1)',
 	'contributionscores-days'            => 'Last {{PLURAL:$1|day|$1 days}}',
-	'contributionscores-allrevisions'    => 'All revisions',
+	'contributionscores-allrevisions'    => 'All time',
 	'contributionscores-score'           => 'Score',
 	'contributionscores-pages'           => 'Pages',
 	'contributionscores-changes'         => 'Changes',
