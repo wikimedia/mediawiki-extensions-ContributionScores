@@ -584,7 +584,7 @@ $messages['fr'] = array(
 De cette façon, les pointages ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d’une autre façon, ils s’intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.',
 	'contributionscores-top' => '(Les $1 plus élevés)',
 	'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
-	'contributionscores-allrevisions' => 'Toutes les révisions',
+	'contributionscores-allrevisions' => 'Tout le temps',
 	'contributionscores-score' => 'Pointage',
 	'contributionscores-pages' => 'Pages',
 	'contributionscores-changes' => 'Modifications',
@@ -916,6 +916,7 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
  * @author Darth Kule
  * @author Gianfranco
  * @author Pietrodn
+ * @author Rippitippi
  */
 $messages['it'] = array(
 	'contributionscores' => 'Punteggi contributi',
