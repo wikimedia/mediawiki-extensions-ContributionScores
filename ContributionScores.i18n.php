@@ -109,10 +109,11 @@ $messages['ar'] = array(
 );
 
 /** Aramaic (ܐܪܡܝܐ)
+ * @author 334a
  * @author Basharh
  */
 $messages['arc'] = array(
-	'contributionscores-days' => '{{PLURAL:$1|ܝܘܡܐ ܐܚܪܝܐ|$1 ܝܘܡܬ̈ܐ ܐܚܪ̈ܝܬܐ}}',
+	'contributionscores-days' => '{{PLURAL:$1|ܝܘܡܐ ܐܚܪܝܐ|$1 ܝܘܡܬ̈ܐ ܐܚܪ̈ܝܐ}}',
 	'contributionscores-allrevisions' => 'ܟܠ ܬܢܝܬ̈ܐ',
 	'contributionscores-pages' => 'ܦܐܬܬ̈ܐ',
 	'contributionscores-changes' => 'ܫܘܚܠܦ̈ܐ',
@@ -1574,7 +1575,7 @@ $messages['ru'] = array(
 При подсчёте оценки таким образом разнообразию правок придаётся больший вес, чем общему количеству правок.',
 	'contributionscores-top' => '(лучшие $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дня|Последние $1 дней}}',
-	'contributionscores-allrevisions' => 'Все правки',
+	'contributionscores-allrevisions' => 'За всё время',
 	'contributionscores-score' => 'Оценка',
 	'contributionscores-pages' => 'Страниц',
 	'contributionscores-changes' => 'Правок',
