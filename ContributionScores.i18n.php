@@ -187,6 +187,7 @@ $messages['ba'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'contributionscores' => 'Адзнака ўнёску',
@@ -197,7 +198,7 @@ $messages['be-tarask'] = array(
 Такі спосаб падліку дазваляе высьветліць разнароднасьць рэдагаваньняў адносна колькасьці рэдагаваньняў. Канчатковы вынік залежыць ад колькасьці рэдагаваньняў унікальных старонак з улікам колькасьці рэдагаваньняў улічваючы якасьць ствараемых старонак.',
 	'contributionscores-top' => '($1 {{PLURAL:$1|найлепшы|найлепшых|найлепшых}})',
 	'contributionscores-days' => '{{PLURAL:$1|Апошні $1 дзень|Апошнія $1 дні|Апошнія $1 дзён}}',
-	'contributionscores-allrevisions' => 'Усе вэрсіі',
+	'contributionscores-allrevisions' => 'За ўвесь час',
 	'contributionscores-score' => 'Адзнака',
 	'contributionscores-pages' => 'Старонак',
 	'contributionscores-changes' => 'Зьменаў',
@@ -705,6 +706,7 @@ $messages['hak'] = array(
 
 /** Hebrew (עברית)
  * @author Agbad
+ * @author Amire80
  * @author Rotemliss
  * @author YaronSh
  */
@@ -718,7 +720,7 @@ $messages['he'] = array(
 ברמת העיקרון, ניקוד זה מודד בעיקר את מספר הדפים הייחודיים שנערכו, עם התחשבות בכמות עריכות גדולה - מה שנחשב לדף יותר איכותי.',
 	'contributionscores-top' => '($1 הגבוהים ביותר)',
 	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|־$1 הימים האחרונים|יומיים האחרונים}}',
-	'contributionscores-allrevisions' => 'כל הגרסאות',
+	'contributionscores-allrevisions' => 'מאז ומתמיד',
 	'contributionscores-score' => 'ניקוד',
 	'contributionscores-pages' => 'דפים',
 	'contributionscores-changes' => 'שינויים',
@@ -864,6 +866,7 @@ Dicite de altere modo, iste punctage mesura primarimente le paginas unic modific
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
  * @author Rex
  */
 $messages['id'] = array(
@@ -876,7 +879,7 @@ Skor dihitung dengan cara ini untuk menghasilkan jumlah tertimbang penyuntingan 
 Pada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.',
 	'contributionscores-top' => '($1 tertinggi)',
 	'contributionscores-days' => '{{PLURAL:$1|Hari|$1 hari}} terakhir',
-	'contributionscores-allrevisions' => 'Semua revisi',
+	'contributionscores-allrevisions' => 'Sepanjang masa',
 	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Halaman',
 	'contributionscores-changes' => 'Perubahan',
