@@ -275,7 +275,7 @@ Rezultati koji se dobiju na ovaj način naglašavaju raznolikost uređivanja vi�
 U osnovi, ovaj rezultat mjeri naročito broj uređivanja pojedinačnih stranica, sa utjecajem velike količine uređivanja - smatra se da utječe na bolji kvalitet stranice.',
 	'contributionscores-top' => '(Najboljih $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dana|Zadnjih $1 dana}}',
-	'contributionscores-allrevisions' => 'Sve revizije',
+	'contributionscores-allrevisions' => 'Svo vrijeme',
 	'contributionscores-score' => 'Rezultat',
 	'contributionscores-pages' => 'Stranice',
 	'contributionscores-changes' => 'Izmjene',
