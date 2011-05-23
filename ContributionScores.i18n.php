@@ -114,7 +114,7 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|ܝܘܡܐ ܐܚܪܝܐ|$1 ܝܘܡܬ̈ܐ ܐܚܪ̈ܝܐ}}',
-	'contributionscores-allrevisions' => 'ܟܠ ܬܢܝܬ̈ܐ',
+	'contributionscores-allrevisions' => 'ܟܠ ܙܒܢ̈ܐ',
 	'contributionscores-pages' => 'ܦܐܬܬ̈ܐ',
 	'contributionscores-changes' => 'ܫܘܚܠܦ̈ܐ',
 	'contributionscores-username' => 'ܫܡܐ ܕܡܦܠܚܢܐ',
@@ -602,7 +602,7 @@ $messages['frp'] = array(
 	'contributionscores' => 'Mârques de les contribucions',
 	'contributionscores-top' => '(Les $1 ples hôtes)',
 	'contributionscores-days' => 'Dens {{PLURAL:$1|lo jorn passâ|los $1 jorns passâs}}',
-	'contributionscores-allrevisions' => 'Totes les vèrsions',
+	'contributionscores-allrevisions' => 'Tot lo temps',
 	'contributionscores-score' => 'Mârca',
 	'contributionscores-pages' => 'Pâges',
 	'contributionscores-changes' => 'Changements',
@@ -1711,6 +1711,7 @@ Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'contributionscores' => 'Bidragspoäng',
@@ -1721,7 +1722,7 @@ $messages['sv'] = array(
 När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.',
 	'contributionscores-top' => '(Topp $1)',
 	'contributionscores-days' => 'Senaste {{PLURAL:$1|dagen|$1 dagarna}}',
-	'contributionscores-allrevisions' => 'Alla redigeringar',
+	'contributionscores-allrevisions' => 'Hela tiden',
 	'contributionscores-score' => 'Poäng',
 	'contributionscores-pages' => 'Sidor',
 	'contributionscores-changes' => 'Ändringar',
