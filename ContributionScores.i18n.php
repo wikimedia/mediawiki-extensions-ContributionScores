@@ -589,7 +589,7 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-allrevisions' => 'Tout le temps',
 	'contributionscores-score' => 'Pointage',
 	'contributionscores-pages' => 'Pages',
-	'contributionscores-changes' => 'Modifications',
+	'contributionscores-changes' => 'Changements',
 	'contributionscores-username' => 'Nom d’utilisateur',
 	'contributionscores-invalidusername' => 'Nom d’utilisateur invalide',
 	'contributionscores-invalidmetric' => 'Métrique incorrecte',
