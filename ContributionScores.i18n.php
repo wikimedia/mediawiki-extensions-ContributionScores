@@ -1429,7 +1429,7 @@ $messages['pl'] = array(
 Taki sposób naliczania pozwala wyważyć różnorodność edycji względem liczby edycji. Zasadniczo wynik uzależniony jest od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.',
 	'contributionscores-top' => '($1 najlepszych)',
 	'contributionscores-days' => '{{PLURAL:$1|Ostatni 1 dzień|Ostatnie $1 dni|Ostatnich $1 dni}}',
-	'contributionscores-allrevisions' => 'Wszystkie edycje',
+	'contributionscores-allrevisions' => 'Cała aktywność',
 	'contributionscores-score' => 'Punktów',
 	'contributionscores-pages' => 'Stron',
 	'contributionscores-changes' => 'Zmian',
