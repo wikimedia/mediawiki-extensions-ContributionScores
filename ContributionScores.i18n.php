@@ -1498,6 +1498,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  * @author Brunoy Anastasiya Seryozhenko
  * @author Crazymadlover
  * @author Eduardo.mps
+ * @author Giro720
  */
 $messages['pt-br'] = array(
 	'contributionscores' => 'Pontuações de Contribuições',
@@ -1508,7 +1509,7 @@ $messages['pt-br'] = array(
 Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração pelo alto volume de edições - assumindo serem páginas de qualidade mais alta.',
 	'contributionscores-top' => '(Iniciais $1)',
 	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
-	'contributionscores-allrevisions' => 'Todas as revisões',
+	'contributionscores-allrevisions' => 'Desde sempre',
 	'contributionscores-score' => 'Pontuação',
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Mudanças',
