@@ -473,7 +473,7 @@ $messages['es'] = array(
 Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición. Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto volumen de edición supone que es un artículo de mayor calidad.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
-	'contributionscores-allrevisions' => 'Estadísticas globales',
+	'contributionscores-allrevisions' => 'Todo el tiempo',
 	'contributionscores-score' => 'Valoración',
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Cambios',
@@ -1750,7 +1750,7 @@ $messages['ta'] = array(
 $messages['te'] = array(
 	'contributionscores-top' => '(పై $1)',
 	'contributionscores-days' => 'చివరి {{PLURAL:$1|రోజు|$1 రోజులు}}',
-	'contributionscores-allrevisions' => 'అన్ని కూర్పులు',
+	'contributionscores-allrevisions' => 'ఇప్పటివరకూ',
 	'contributionscores-score' => 'స్కోరు',
 	'contributionscores-pages' => 'పేజీలు',
 	'contributionscores-changes' => 'మార్పులు',
