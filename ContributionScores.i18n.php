@@ -1974,7 +1974,7 @@ $messages['vi'] = array(
 Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.',
 	'contributionscores-top' => '(Tốp $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Một|$1}} ngày qua',
-	'contributionscores-allrevisions' => 'Mọi phiên bản',
+	'contributionscores-allrevisions' => 'Từ trước đến nay',
 	'contributionscores-score' => 'Điểm số',
 	'contributionscores-pages' => 'Trang',
 	'contributionscores-changes' => 'Các thay đổi',
