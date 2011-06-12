@@ -332,7 +332,7 @@ Skóre vypočítané tímto způsobem upřednostňuje rozmanitost úprav více n
 V podstatě toto skóre měří hlavně počet upravovaných jedinečných stránek s přihlédnutím na velký počet úprav, což se pokládá za stránku vyšší kvality.',
 	'contributionscores-top' => '($1 nejvyšších)',
 	'contributionscores-days' => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
-	'contributionscores-allrevisions' => 'Všechny revize',
+	'contributionscores-allrevisions' => 'Celá historie',
 	'contributionscores-score' => 'Skóre',
 	'contributionscores-pages' => 'Stránky',
 	'contributionscores-changes' => 'Změny',
@@ -2027,6 +2027,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
  * @author PhiLiP
  * @author Shinjiman
  */
@@ -2039,7 +2040,7 @@ $messages['zh-hans'] = array(
 在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。',
 	'contributionscores-top' => '（最高$1名）',
 	'contributionscores-days' => '最近$1天',
-	'contributionscores-allrevisions' => '全部修订',
+	'contributionscores-allrevisions' => '所有的时间',
 	'contributionscores-score' => '分数',
 	'contributionscores-pages' => '页面',
 	'contributionscores-changes' => '更改',
