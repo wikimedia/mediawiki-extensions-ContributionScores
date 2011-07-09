@@ -496,7 +496,7 @@ Nii arvutatud punktid väärtustavad enam muudatuste omapära kui nende hulka.
 Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võtavad arvesse ka suure muudatuste hulga – nii püütakse hinnata lehekülgede kvaliteeti.',
 	'contributionscores-top' => '($1 paremat)',
 	'contributionscores-days' => '{{PLURAL:$1|Viimane päev|Viimased $1 päeva}}',
-	'contributionscores-allrevisions' => 'Kõik muudatused',
+	'contributionscores-allrevisions' => 'Kõik aeg',
 	'contributionscores-score' => 'Punkte',
 	'contributionscores-pages' => 'Lehekülgi',
 	'contributionscores-changes' => 'Muudatusi',
