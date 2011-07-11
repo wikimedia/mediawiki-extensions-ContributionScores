@@ -1527,6 +1527,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  */
 $messages['ro'] = array(
 	'contributionscores' => 'Punctaje contribuții',
+	'contributionscores-desc' => 'Interoghează baza de date a wikiului pentru a găsi cel mai mare [[Special:ContributionScores|volum de contribuții ale unui utilizator]]',
 	'contributionscores-info' => 'Punctajul este calculat în felul următor:
 *Un (1) punct pentru fiecare pagină unic modificată
 *Rădăcină pătrată din (totalul modificărilor efectuate) - (totalul paginilor unice) * 2
