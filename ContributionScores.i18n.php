@@ -888,6 +888,28 @@ Pada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan
 	'contributionscores-invalidmetric' => 'Metrik tidak sah',
 );
 
+/** Interlingue (Interlingue)
+ * @author Renan
+ */
+$messages['ie'] = array(
+	'contributionscores' => 'Contes de contribution',
+	'contributionscores-desc' => 'Calcula li funde de data del wiki por max alt [[Special:ContributionScores|volúmine de contribution de usator]]',
+	'contributionscores-info' => 'Contes es calculat quam seque:
+*Un (1) punctu por chascun págine unic redactet
+*Fonte de quadrat de (total de redactiones fat) - (total unique pages) * 2
+Contes calculat in ti diversitá de redaction in pesa maniere súper de volúmine de redaction.
+Basicmen, ti conte mesura primarimen págines unic redactet, che consideration por alt volúmine de redaction - suposit esser un págine de alt qualitá.',
+	'contributionscores-top' => '(Prim $1)',
+	'contributionscores-days' => 'Ultim {{PLURAL:$1|die|$1 dies}}',
+	'contributionscores-allrevisions' => 'Omni témpor',
+	'contributionscores-score' => 'Conte',
+	'contributionscores-pages' => 'Págines',
+	'contributionscores-changes' => 'Changes',
+	'contributionscores-username' => 'Nómine de usator',
+	'contributionscores-invalidusername' => 'Nómine de usator ínvalid',
+	'contributionscores-invalidmetric' => 'Metric ínvalid',
+);
+
 /** Iloko (Ilokano)
  * @author Saluyot
  */
