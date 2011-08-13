@@ -1401,6 +1401,14 @@ $messages['oc'] = array(
 	'contributionscores-invalidmetric' => 'Metria incorrècta',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'contributionscores-pages' => 'ପୃଷ୍ଠା',
+	'contributionscores-username' => 'ବ୍ୟବାହରକାରୀଙ୍କର ନାଆଁ',
+);
+
 /** Ossetic (Иронау)
  * @author Amikeco
  */
