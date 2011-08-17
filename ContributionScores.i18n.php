@@ -1409,7 +1409,7 @@ $messages['or'] = array(
 	'contributionscores-username' => 'ବ୍ୟବାହରକାରୀଙ୍କର ନାଆଁ',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
