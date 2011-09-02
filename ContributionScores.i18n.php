@@ -99,7 +99,7 @@ $messages['ar'] = array(
 تقيس هذه النتيجة أساسًا الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديلات الكبيرة - لأن الصفحة تكون عادة ذات جودة أعلى.',
 	'contributionscores-top' => '(أعلى $1)',
 	'contributionscores-days' => '{{PLURAL:$1||اليوم الماضي|اليومان الماضيان|ال$1 أيام الماضية|ال$1 يومًا الماضية|ال$1 يوم الماضية}}',
-	'contributionscores-allrevisions' => 'كل المراجعات',
+	'contributionscores-allrevisions' => 'كل الوقت',
 	'contributionscores-score' => 'النتيجة',
 	'contributionscores-pages' => 'الصفحات',
 	'contributionscores-changes' => 'التغييرات',
