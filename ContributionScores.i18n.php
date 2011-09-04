@@ -421,13 +421,14 @@ pód wuměnjenim až to by było bok z wušeju kwalitu.',
  * @author Consta
  * @author Crazymadlover
  * @author Omnipaedista
+ * @author ZaDiak
  */
 $messages['el'] = array(
 	'contributionscores' => 'Αποτελέσματα Συνεισφοράς',
 	'contributionscores-desc' => 'Εξετάζει την βάση δεδομένων βίκι για τον σημαντικότερο [[Special:ContributionScores|όγκο συνεισφορών χρήστη]]',
 	'contributionscores-top' => '(Πρώτοι $1)',
 	'contributionscores-days' => 'Τελευταίες {{PLURAL:$1|ημέρα|$1 ημέρες}}',
-	'contributionscores-allrevisions' => 'Όλες οι αναθεωρήσεις',
+	'contributionscores-allrevisions' => 'Όλων των εποχών',
 	'contributionscores-score' => 'Βαθμολογία',
 	'contributionscores-pages' => 'Σελίδες',
 	'contributionscores-changes' => 'Αλλαγές',
@@ -966,6 +967,7 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
  * @author Aotake
  * @author Fryed-peach
  * @author JtFuruhata
+ * @author Schu
  */
 $messages['ja'] = array(
 	'contributionscores' => '貢献得点',
@@ -976,7 +978,7 @@ $messages['ja'] = array(
 この計算式では、編集量よりも編集の多様性が重要視されます。得点は、編集したページ数を基礎に、高い品質のページを維持するため多くの編集を行うことにも配慮した評価となっています。',
 	'contributionscores-top' => '(上位$1名)',
 	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
-	'contributionscores-allrevisions' => '全履歴',
+	'contributionscores-allrevisions' => 'すべての時間',
 	'contributionscores-score' => '得点',
 	'contributionscores-pages' => 'ページ数',
 	'contributionscores-changes' => '変更回数',
@@ -1267,7 +1269,7 @@ $messages['mt'] = array(
 	'contributionscores' => 'Punteġġi tal-kontribuzzjonijiet',
 	'contributionscores-top' => '(L-Aqwa $1)',
 	'contributionscores-days' => 'L-aħħar {{PLURAL:$1|ġurnata|$1 ġranet}}',
-	'contributionscores-allrevisions' => 'Ir-reviżjonijiet kollha',
+	'contributionscores-allrevisions' => "Ta' kull żmien",
 	'contributionscores-score' => 'Punteġġ',
 	'contributionscores-pages' => 'Paġni',
 	'contributionscores-changes' => 'Tibdil',
