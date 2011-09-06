@@ -1484,7 +1484,7 @@ Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùme
 Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ën vorend a-j da n'euj ëd rësgoard a cole ch'a l'han n'àot volum ëd modìfica - ch'as pensa ch'a peula esse na marca ëd qualità dl'artìcol.",
 	'contributionscores-top' => '(Ij $1 mej)',
 	'contributionscores-days' => 'Ùltim Last {{PLURAL:$1|di|$1 di}}',
-	'contributionscores-allrevisions' => 'Tute le revision',
+	'contributionscores-allrevisions' => 'Tute le vire',
 	'contributionscores-score' => 'Puntegi',
 	'contributionscores-pages' => 'Pàgine',
 	'contributionscores-changes' => 'Cambi',
