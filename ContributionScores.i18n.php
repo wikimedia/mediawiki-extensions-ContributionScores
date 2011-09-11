@@ -1673,7 +1673,16 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'contributionscores' => 'Rezultati prispevkov',
+	'contributionscores-desc' => 'V zbirki podatkov wiki poišče največjo [[Special:ContributionScores|količino prispevkov uporabnikov]]',
+	'contributionscores-top' => '({{PLURAL:$1|Najvišji $1|Najvišja $1|Najvišji $1|Najvišjih $1}})',
+	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dneva|Zadnji $1 dnevi|Zadnjih $1 dni}}',
+	'contributionscores-allrevisions' => 'Vseh časov',
+	'contributionscores-score' => 'Rezultat',
 	'contributionscores-pages' => 'Strani',
+	'contributionscores-changes' => 'Spremembe',
+	'contributionscores-username' => 'Uporabniško ime',
+	'contributionscores-invalidusername' => 'Neveljavno uporabniško ime',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
