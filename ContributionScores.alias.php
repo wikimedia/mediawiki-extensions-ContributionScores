@@ -178,6 +178,11 @@ $specialPageAliases['zh-hans'] = array(
 	'ContributionScores' => array( '贡献得分' ),
 );
 
+/** Traditional Chinese (‪中文(繁體)‬) */
+$specialPageAliases['zh-hant'] = array(
+	'ContributionScores' => array( '貢獻得分' ),
+);
+
 /**
  * For backwards compatibility with MediaWiki 1.15 and earlier.
  */
