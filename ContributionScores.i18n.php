@@ -638,7 +638,7 @@ Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, 
 	'contributionscores-score' => 'Puntuación',
 	'contributionscores-pages' => 'Páxinas',
 	'contributionscores-changes' => 'Cambios',
-	'contributionscores-username' => 'Nome do usuario',
+	'contributionscores-username' => 'Nome de usuario',
 	'contributionscores-invalidusername' => 'Nome de usuario inválido',
 	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
