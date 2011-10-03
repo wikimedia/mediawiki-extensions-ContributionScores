@@ -1099,7 +1099,7 @@ Dat es en de Houpsaach de övverhoup aanjepackte Zahl Sigge, ävver dobei och no
 dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Der lezte Daach|De lezte $1 Daare|Keine lezte Daach}}',
-	'contributionscores-allrevisions' => 'All Versione',
+	'contributionscores-allrevisions' => 'De janze Zigg',
 	'contributionscores-score' => 'Punkte',
 	'contributionscores-pages' => 'Sigge',
 	'contributionscores-changes' => 'Änderunge',
@@ -1691,14 +1691,15 @@ V bistvu ta rezultat meri predvsem urejene edinstvene strani ob upoštevanju vel
 	'contributionscores-invalidmetric' => 'Neveljavna metrika',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'contributionscores-top' => '(првих $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последњег дана|Последњих $1 дана}}',
-	'contributionscores-allrevisions' => 'Све ревизије',
+	'contributionscores-allrevisions' => 'Свих времена',
 	'contributionscores-pages' => 'Странице',
 	'contributionscores-changes' => 'Измене',
 	'contributionscores-username' => 'Корисничко име',
