@@ -299,7 +299,7 @@ Aquesta fórmula premia la diversitat d'edicions més que no el seu volum.
 Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració per els alts volums d'edició considerats de pàgines de més qualitat.",
 	'contributionscores-top' => '($1 millors)',
 	'contributionscores-days' => '{{PLURAL:$1|Últim dia|Últims $1 dies}}',
-	'contributionscores-allrevisions' => 'Totes les revisions',
+	'contributionscores-allrevisions' => 'Des de sempre',
 	'contributionscores-score' => 'Puntuació',
 	'contributionscores-pages' => 'Pàgines',
 	'contributionscores-changes' => 'Canvis',
