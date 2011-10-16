@@ -661,6 +661,7 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -672,7 +673,7 @@ $messages['gsw'] = array(
 Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie dr Aazahl vu dr Änderige.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Letschte Tag|Letschti $1 Täg}}',
-	'contributionscores-allrevisions' => 'Alli Versione',
+	'contributionscores-allrevisions' => 'Ganzer Zitruum',
 	'contributionscores-score' => 'Wärt',
 	'contributionscores-pages' => 'Syte',
 	'contributionscores-changes' => 'Änderige',
