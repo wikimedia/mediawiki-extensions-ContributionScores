@@ -789,7 +789,7 @@ $messages['hsb'] = array(
 Ličba dypkow wuličena na tute wašnje pohódnoća wšelakorosć změnow wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
 	'contributionscores-top' => '(Najlěpšich $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Posledni dźeń|Poslednjej $1 dnjej|Poslednje $1 dny|Poslednich $1 dnjow}}',
-	'contributionscores-allrevisions' => 'Wšě změny',
+	'contributionscores-allrevisions' => 'Cyły čas',
 	'contributionscores-score' => 'Hódnoćenje',
 	'contributionscores-pages' => 'Strony',
 	'contributionscores-changes' => 'Změny',
