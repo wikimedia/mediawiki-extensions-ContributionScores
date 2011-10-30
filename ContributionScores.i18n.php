@@ -351,6 +351,7 @@ $messages['cu'] = array(
 
 /** Danish (Dansk)
  * @author Byrial
+ * @author Peter Alberti
  */
 $messages['da'] = array(
 	'contributionscores' => 'Bidragspoint',
@@ -362,7 +363,7 @@ Point beregnet på denne måde vægter redigeringsmangfoldighed højere end redi
 Basalt set måler pointene først og fremmest hvor mange forskellige sider der er redigeret, med et hensyn til højt redigeringsvolume - som antages at føre til højere sidekvalitet.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Sidste {{PLURAL:$1|dag|$1 dage}}',
-	'contributionscores-allrevisions' => 'Alle versioner',
+	'contributionscores-allrevisions' => 'Gennem tiden',
 	'contributionscores-score' => 'Point',
 	'contributionscores-pages' => 'Sider',
 	'contributionscores-changes' => 'Ændringer',
