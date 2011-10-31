@@ -1805,7 +1805,7 @@ $messages['te'] = array(
 	'contributionscores-score' => 'స్కోరు',
 	'contributionscores-pages' => 'పేజీలు',
 	'contributionscores-changes' => 'మార్పులు',
-	'contributionscores-username' => 'వాడుకరిపేరు',
+	'contributionscores-username' => 'వాడుకరి పేరు',
 	'contributionscores-invalidusername' => 'తప్పుడు వాడుకరిపేరు',
 );
 
