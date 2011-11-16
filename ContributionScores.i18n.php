@@ -1723,15 +1723,15 @@ $messages['sr-el'] = array(
  * @author Pyt
  */
 $messages['stq'] = array(
-	'contributionscores' => 'Benutserbiedraage ouschätsje',
-	'contributionscores-info' => 'Ouschätsschema:
+	'contributionscores' => 'Benutserbiedraage ouskätsje',
+	'contributionscores-info' => 'Ouskätsskema:
 *1 Punkt foar älke beoarbaidede Siede
 *Quadroatwuttel fon aal do (Beoarbaidengen) - (Summe fon do beoarbaidede Sieden) * 2 
-Ouschätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen. Disse Ouschätsenge mät do apaate Sieden, man lukt uk wäls ganse Oarbaid in Reekenge.',
+Ouskätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen. Disse Ouschätsenge mät do apaate Sieden, man lukt uk wäls ganse Oarbaid in Reekenge.',
 	'contributionscores-top' => '(Buppeste $1)',
 	'contributionscores-days' => 'Lääste $1 Deege',
 	'contributionscores-allrevisions' => 'Aal Versione',
-	'contributionscores-score' => 'Schätsenge',
+	'contributionscores-score' => 'Skätsenge',
 	'contributionscores-pages' => 'Sieden',
 	'contributionscores-changes' => 'Annerengen',
 	'contributionscores-username' => 'Benutsernoome',
