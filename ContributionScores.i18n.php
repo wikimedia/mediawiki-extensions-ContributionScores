@@ -1030,7 +1030,7 @@ $messages['kk-arab'] = array(
 	'contributionscores-username' => 'قاتىسۋشى اتى',
 );
 
-/** Kazakh (Cyrillic) (Қазақша (Cyrillic)) */
+/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'contributionscores' => 'Үлес беру есептері',
 	'contributionscores-info' => 'Есептер келесі дей саналады:
@@ -1046,7 +1046,7 @@ $messages['kk-cyrl'] = array(
 	'contributionscores-username' => 'Қатысушы аты',
 );
 
-/** Kazakh (Latin) (Қазақша (Latin)) */
+/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'contributionscores' => 'Üles berw esepteri',
 	'contributionscores-info' => 'Esepter kelesi deý sanaladı:
@@ -1707,7 +1707,7 @@ $messages['sr-ec'] = array(
 	'contributionscores-username' => 'Корисничко име',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1817,7 +1817,7 @@ $messages['tet'] = array(
 	'contributionscores-username' => "Naran uza-na'in",
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1829,7 +1829,7 @@ $messages['tg-cyrl'] = array(
 	'contributionscores-username' => 'Номи корбарӣ',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1914,7 +1914,7 @@ Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir say
 	'contributionscores-invalidmetric' => 'Geçersiz metrik',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -1935,14 +1935,14 @@ $messages['tt-cyrl'] = array(
 	'contributionscores-invalidmetric' => 'Ялгыш билгеләү',
 );
 
-/** ئۇيغۇرچە (ئۇيغۇرچە)
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Alfredie
  */
 $messages['ug-arab'] = array(
 	'contributionscores-username' => 'ئىشلەتكۇچى ئىسمى',
 );
 
-/** Uighur (Latin) (ئۇيغۇرچە / Uyghurche‎ (Latin))
+/** Uyghur (Latin script) (Uyghurche‎)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
