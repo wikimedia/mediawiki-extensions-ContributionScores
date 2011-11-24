@@ -980,7 +980,7 @@ $messages['ja'] = array(
 この計算式では、編集量よりも編集の多様性が重要視されます。得点は、編集したページ数を基礎に、高い品質のページを維持するため多くの編集を行うことにも配慮した評価となっています。',
 	'contributionscores-top' => '(上位$1名)',
 	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
-	'contributionscores-allrevisions' => 'すべての時間',
+	'contributionscores-allrevisions' => '全時間',
 	'contributionscores-score' => '得点',
 	'contributionscores-pages' => 'ページ数',
 	'contributionscores-changes' => '変更回数',
