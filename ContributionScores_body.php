@@ -182,7 +182,7 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 
 		if ( $days > 0 ) {
-			$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $days, $wgLang->formatNum( $days ) );
+			$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $wgLang->formatNum( $days ) );
 		} else {
 			$reportTitle = wfMsg( 'contributionscores-allrevisions' );
 		}
@@ -211,7 +211,7 @@ class ContributionScores extends IncludableSpecialPage {
 			$days = $scoreReport[0];
 			$revs = $scoreReport[1];
 			if ( $days > 0 ) {
-				$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $days, $wgLang->formatNum( $days ) );
+				$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $wgLang->formatNum( $days ) );
 			} else {
 				$reportTitle = wfMsg( 'contributionscores-allrevisions' );
 			}
