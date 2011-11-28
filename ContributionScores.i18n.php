@@ -17,7 +17,7 @@ $messages['en'] = array(
 Scores calculated in this manner weight edit diversity over edit volume.
 Basically, this score measures primarily unique pages edited, with consideration for high edit volume - assumed to be a higher quality page.",
 	'contributionscores-top'             => '(Top $1)',
-	'contributionscores-days'            => 'Last {{PLURAL:$1|day|$1 days}}',
+	'contributionscores-days'            => 'Last {{PLURAL:$1|day|$2 days}}',
 	'contributionscores-allrevisions'    => 'All time',
 	'contributionscores-score'           => 'Score',
 	'contributionscores-pages'           => 'Pages',
@@ -42,7 +42,7 @@ $messages['qqq'] = array(
 :COUNT(rev_id) AS rev_count
 :page_count+SQRT(rev_count-page_count)*2 AS wiki_rank',
 	'contributionscores-top' => 'Second part of the headings of [[Special:ContributionScores]]. PLURAL is supported but not used by the English original message.',
-	'contributionscores-days' => 'Heading of [[Special:ContributionScores]].',
+	'contributionscores-days' => 'Heading of [[Special:ContributionScores]]. Parameter $1 is the number of days for PLURAL use; $2 is a localized number.',
 	'contributionscores-allrevisions' => 'Used as a header of [[Special:ContributionScores]]',
 	'contributionscores-pages' => '{{Identical|Pages}}',
 	'contributionscores-username' => '{{Identical|Username}}',
