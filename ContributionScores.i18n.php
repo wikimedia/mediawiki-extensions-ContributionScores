@@ -608,7 +608,7 @@ $messages['frp'] = array(
 	'contributionscores-score' => 'Mârca',
 	'contributionscores-pages' => 'Pâges',
 	'contributionscores-changes' => 'Changements',
-	'contributionscores-username' => 'Nom d’utilisator',
+	'contributionscores-username' => 'Nom d’usanciér',
 	'contributionscores-invalidusername' => 'Nom d’utilisator envalido',
 	'contributionscores-invalidmetric' => 'Mètrica fôssa',
 );
