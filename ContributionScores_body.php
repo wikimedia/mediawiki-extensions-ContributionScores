@@ -208,8 +208,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$wgOut->addWikiMsg( 'contributionscores-info' );
 
 		foreach ( $wgContribScoreReports as $scoreReport ) {
-			$days = $scoreReport[0];
-			$revs = $scoreReport[1];
+			list( $days, $revs ) = $scoreReport;
 			if ( $days > 0 ) {
 				$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $wgLang->formatNum( $days ) );
 			} else {
