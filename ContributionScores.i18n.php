@@ -1994,7 +1994,7 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 	'contributionscores-invalidmetric' => 'Metrica mia valida',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel')
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
@@ -2002,7 +2002,7 @@ $messages['vep'] = array(
 	'contributionscores-desc' => 'Märičeb [[Special:ContributionScores|kävutajid, kel om enamba redaktiruindad,]] andmuzbazan turbiš',
 	'contributionscores-top' => '($1 parembad)',
 	'contributionscores-days' => "{{PLURAL:$1|jäl'gmäine päiv|$1 jäl'gmäšt päiväd}}",
-	'contributionscores-allrevisions' => 'Kaik toižetused',
+	'contributionscores-allrevisions' => 'Kaikes aigas',
 	'contributionscores-score' => 'Punktad',
 	'contributionscores-pages' => "Lehtpol't",
 	'contributionscores-changes' => 'Toižetusid',
