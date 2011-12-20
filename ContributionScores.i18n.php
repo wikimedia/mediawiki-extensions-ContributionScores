@@ -2000,6 +2000,10 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 $messages['vep'] = array(
 	'contributionscores' => 'Tondan arvoind',
 	'contributionscores-desc' => 'Märičeb [[Special:ContributionScores|kävutajid, kel om enamba redaktiruindad,]] andmuzbazan turbiš',
+	'contributionscores-info' => "Arvsanad lugedas nenid luguid ližaten:
+*Üks' (1) punkt kaikuččen unikaližen lehtpolen redaktiruindas
+*Nellikjur' (Redaktiruindoiden ühthine lugu) - (Unikaližiden lehtpoliden ühthine lugu) * 2
+Muga lugeden anttas enamba vedadust redakcijoiden erazvuičendale, mi niiden ühthižele lugule.",
 	'contributionscores-top' => '($1 parembad)',
 	'contributionscores-days' => "{{PLURAL:$1|jäl'gmäine päiv|$1 jäl'gmäšt päiväd}}",
 	'contributionscores-allrevisions' => 'Kaikes aigas',
