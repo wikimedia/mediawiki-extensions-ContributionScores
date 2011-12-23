@@ -1713,7 +1713,7 @@ $messages['sr-ec'] = array(
 $messages['sr-el'] = array(
 	'contributionscores-top' => '(prvih $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Poslednjeg dana|Poslednjih $1 dana}}',
-	'contributionscores-allrevisions' => 'Sve revizije',
+	'contributionscores-allrevisions' => 'Svih vremena',
 	'contributionscores-pages' => 'Stranice',
 	'contributionscores-changes' => 'Izmene',
 	'contributionscores-username' => 'Korisničko ime',
@@ -1953,6 +1953,7 @@ $messages['ug-latn'] = array(
  * @author AS
  * @author Ahonc
  * @author Prima klasy4na
+ * @author Тест
  */
 $messages['uk'] = array(
 	'contributionscores' => 'Оцінка внеску',
@@ -1963,7 +1964,7 @@ $messages['uk'] = array(
 При підрахунку оцінки таким чином розмаїттю редагувань надається більша вага, ніж загальній кількості редагувань.',
 	'contributionscores-top' => '({{PLURAL:$1|найкращий|найкращих}})',
 	'contributionscores-days' => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
-	'contributionscores-allrevisions' => 'Усі редагування',
+	'contributionscores-allrevisions' => 'Весь час',
 	'contributionscores-score' => 'Оцінка',
 	'contributionscores-pages' => 'Сторінок',
 	'contributionscores-changes' => 'Редагувань',
@@ -2118,7 +2119,7 @@ $messages['zh-hant'] = array(
 在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。',
 	'contributionscores-top' => '（最多 $1 位）',
 	'contributionscores-days' => '最近 {{PLURAL:$1|天|$1 天}}',
-	'contributionscores-allrevisions' => '全部修訂',
+	'contributionscores-allrevisions' => '所有的時間',
 	'contributionscores-score' => '分數',
 	'contributionscores-pages' => '頁面數量',
 	'contributionscores-changes' => '更改次數',
