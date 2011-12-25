@@ -1356,7 +1356,7 @@ Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endrin
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'contributionscores' => 'Bidragspoeng',
 	'contributionscores-desc' => 'Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]',
 	'contributionscores-info' => 'Bidragspoeng regnes ut på følgende måte:
