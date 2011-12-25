@@ -1298,6 +1298,29 @@ $messages['nah'] = array(
 	'contributionscores-username' => 'Tlatequitiltilīltōcāitl',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'contributionscores' => 'Bidragspoeng',
+	'contributionscores-desc' => 'Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]',
+	'contributionscores-info' => 'Bidragspoeng regnes ut på følgende måte:
+* 1 poeng for hver unike side som er redigert
+* Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
+Poeng som regnes ut på denne måte vekter redigeringsmangfold høyere enn redigeringsvolum.
+Dette betyr i bunn og grunn at dette primært måler hvor mange unike sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.',
+	'contributionscores-top' => '(Topp $1)',
+	'contributionscores-days' => 'Siste {{PLURAL:$1|dagen|$1 dager}}',
+	'contributionscores-allrevisions' => 'Gjennom tidene',
+	'contributionscores-score' => 'Poeng',
+	'contributionscores-pages' => 'Sider',
+	'contributionscores-changes' => 'Endringer',
+	'contributionscores-username' => 'Brukernavn',
+	'contributionscores-invalidusername' => 'Ugyldig brukernavn',
+	'contributionscores-invalidmetric' => 'Ugyldig målemetode',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1349,29 +1372,6 @@ Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endrin
 	'contributionscores-changes' => 'Endringar',
 	'contributionscores-username' => 'Brukarnamn',
 	'contributionscores-invalidusername' => 'Ugyldig brukarnamn',
-	'contributionscores-invalidmetric' => 'Ugyldig målemetode',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'contributionscores' => 'Bidragspoeng',
-	'contributionscores-desc' => 'Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]',
-	'contributionscores-info' => 'Bidragspoeng regnes ut på følgende måte:
-* 1 poeng for hver unike side som er redigert
-* Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
-Poeng som regnes ut på denne måte vekter redigeringsmangfold høyere enn redigeringsvolum.
-Dette betyr i bunn og grunn at dette primært måler hvor mange unike sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.',
-	'contributionscores-top' => '(Topp $1)',
-	'contributionscores-days' => 'Siste {{PLURAL:$1|dagen|$1 dager}}',
-	'contributionscores-allrevisions' => 'Gjennom tidene',
-	'contributionscores-score' => 'Poeng',
-	'contributionscores-pages' => 'Sider',
-	'contributionscores-changes' => 'Endringer',
-	'contributionscores-username' => 'Brukernavn',
-	'contributionscores-invalidusername' => 'Ugyldig brukernavn',
 	'contributionscores-invalidmetric' => 'Ugyldig målemetode',
 );
 
