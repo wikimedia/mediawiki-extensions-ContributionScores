@@ -33,6 +33,11 @@ $specialPageAliases['bs'] = array(
 	'ContributionScores' => array( 'DoprinosiBodovi' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'ContributionScores' => array( 'Beitragspunkte' ),
+);
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
 	'ContributionScores' => array( 'Kontribuatingoj' ),
@@ -123,6 +128,11 @@ $specialPageAliases['mr'] = array(
 	'ContributionScores' => array( 'योगदानप्राविण्य' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'ContributionScores' => array( 'Bidragspoeng' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'ContributionScores' => array( 'Biedragentelling' ),
@@ -133,17 +143,12 @@ $specialPageAliases['nl'] = array(
 	'ContributionScores' => array( 'Gebruikersscores', 'Bijdragenscores' ),
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'ContributionScores' => array( 'Bidragspoeng' ),
-);
-
 /** Polish (Polski) */
 $specialPageAliases['pl'] = array(
 	'ContributionScores' => array( 'Punkty_za_edycje' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'ContributionScores' => array( 'योगदानप्राप्ताङ्क' ),
 );
@@ -182,8 +187,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'ContributionScores' => array( '貢獻得分' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
