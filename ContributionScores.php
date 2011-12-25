@@ -31,8 +31,7 @@ $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 $wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
 $wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
-$wgExtensionAliasesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.alias.php';
-$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
+$wgExtensionMessagesFiles['ContributionScoresAlias'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.alias.php';
 
 $wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
 
