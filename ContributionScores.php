@@ -4,9 +4,9 @@
 */
 
 # Not a valid entry point, skip unless MEDIAWIKI is defined
-if (!defined('MEDIAWIKI')) {
+if ( !defined( 'MEDIAWIKI' ) ) {
 	echo "Contribution Scores extension";
-	exit(1);
+	exit( 1 );
 }
 
 $wgExtensionCredits['specialpage'][] = array(
@@ -48,44 +48,44 @@ function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
 	return true;
 }
 
-function efContributionScores_Render(&$parser, $usertext, $metric='score') {
+function efContributionScores_Render( &$parser, $usertext, $metric = 'score' ) {
 	global $wgContribScoreDisableCache;
 
-	if ($wgContribScoreDisableCache) {
+	if ( $wgContribScoreDisableCache ) {
 		$parser->disableCache();
 	}
 
-	$user = User::newFromName($usertext);
+	$user = User::newFromName( $usertext );
 	$dbr = wfGetDB( DB_SLAVE );
 
 	if ( $user instanceof User && $user->isLoggedIn() ) {
 		global $wgLang;
 
-		if ($metric=='score') {
-			$res = $dbr->select('revision',
+		if ( $metric == 'score' ) {
+			$res = $dbr->select( 'revision',
 									'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
-									array('rev_user' => $user->getID()));
-			$row = $dbr->fetchObject($res);
-			$output = $wgLang->formatNum( round($row->wiki_rank,0) );
-		} elseif ($metric=='changes') {
-			$res = $dbr->select('revision',
+									array( 'rev_user' => $user->getID() ) );
+			$row = $dbr->fetchObject( $res );
+			$output = $wgLang->formatNum( round( $row->wiki_rank, 0 ) );
+		} elseif ( $metric == 'changes' ) {
+			$res = $dbr->select( 'revision',
 									'COUNT(rev_id) AS rev_count',
-									array('rev_user' => $user->getID()));
-			$row = $dbr->fetchObject($res);
+									array( 'rev_user' => $user->getID() ) );
+			$row = $dbr->fetchObject( $res );
 			$output = $wgLang->formatNum( $row->rev_count );
 
-		} elseif ($metric=='pages') {
-			$res = $dbr->select('revision',
+		} elseif ( $metric == 'pages' ) {
+			$res = $dbr->select( 'revision',
 									'COUNT(DISTINCT rev_page) AS page_count',
-									array('rev_user' => $user->getID()));
-			$row = $dbr->fetchObject($res);
+									array( 'rev_user' => $user->getID() ) );
+			$row = $dbr->fetchObject( $res );
 			$output = $wgLang->formatNum( $row->page_count );
 		} else {
-			$output = wfMsg('contributionscores-invalidmetric');
+			$output = wfMsg( 'contributionscores-invalidmetric' );
 		}
 	} else {
-		$output = wfMsg('contributionscores-invalidusername');
+		$output = wfMsg( 'contributionscores-invalidusername' );
 	}
 
-	return $parser->insertStripItem($output, $parser->mStripState);
+	return $parser->insertStripItem( $output, $parser->mStripState );
 }

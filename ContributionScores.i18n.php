@@ -405,7 +405,7 @@ $messages['dsb'] = array(
 *Jaden (1) dypk za kuždy wobźěłany bok
 *Kwadratny kórjeń (wšych cynjonych změnow) - (cełkowna licba bokow) * 2
 Licba dypkow, kótaraž wulicyjo se za tym nałogom, gódnośi wšakosć změnow wušej ako licbu změnow.
-Zasadnje toś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow - 
+Zasadnje toś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow -
 pód wuměnjenim až to by było bok z wušeju kwalitu.',
 	'contributionscores-top' => '({{PLURAL:$1|Nejlěpšy $1|Nejlěpšej $1|Nejlěpše $1|Nejlěpšych $1}})',
 	'contributionscores-days' => '{{PLURAL:$1|Slědny $1 źeń|Slědnej $1 dnja|Slědne $1 dny|Slědnych $1 dnjow}}',
@@ -807,7 +807,7 @@ $messages['ht'] = array(
 	'contributionscores' => 'Nòt pou kontribisyon yo',
 	'contributionscores-desc' => 'Sonde bazdone wiki a pou pi gwo [[Special:ContributionScores|kantite kontribisyon pa itilizatè]]',
 	'contributionscores-info' => 'Nòt yo kalkile konsa:
-*Yon (1) pwen pou chak paj inik ki te modifye 
+*Yon (1) pwen pou chak paj inik ki te modifye
 *Rasin Kare de (kantite modifikasyon total ki te fè) - (Total Paj Inik) * 2
 Se konsa, nòt la bay plis pwa pou divèsite modifikasyon pase kantite modifikasyon yo.
 Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon konsiderasyon pou gwo volim modifikasyon – ki konsidere kòm ap bay yon paj ki gen pi bon kalite.',
@@ -950,9 +950,9 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
 $messages['it'] = array(
 	'contributionscores' => 'Punteggi contributi',
 	'contributionscores-desc' => 'Interroga il database wiki per il più alto [[Special:ContributionScores|volume di contributi utente]]',
-	'contributionscores-info' => 'I punteggi vengono calcolati in questo modo: 
-*1 punto per ciascuna pagina distinta modificata 
-*Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2 
+	'contributionscores-info' => 'I punteggi vengono calcolati in questo modo:
+*1 punto per ciascuna pagina distinta modificata
+*Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2
 Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle modifiche rispetto al numero dei contributi. Di fondo, questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un eventuale alto volume di contributi - ciò fa presumere una più elevata qualità della pagina modificata.',
 	'contributionscores-top' => '(Migliori $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultimo giorno|Ultimi $1 giorni}}',
@@ -1390,7 +1390,7 @@ $messages['nso'] = array(
 $messages['oc'] = array(
 	'contributionscores' => 'Puntatge de las contribucions',
 	'contributionscores-desc' => 'Espia la banca de donadas wiki pels [[Special:ContributionScores|utilizaires contribuissent mai]]',
-	'contributionscores-info' => "Lo puntatge se calcula coma seguís : 
+	'contributionscores-info' => "Lo puntatge se calcula coma seguís :
 * 1 punt per cada pagina modificada
 * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas)
 * 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a far veire lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.",
@@ -1479,10 +1479,10 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem licz
 $messages['pms'] = array(
 	'contributionscores' => 'Classìfica dla contribussion',
 	'contributionscores-desc' => 'Antéroga ël database wiki an sël pì àut [[Special:ContributionScores|volum dij contribù utent]]',
-	'contributionscores-info' => "La classìfica as càlcola parej: 
-*1 pont për minca pàgina modificà 
-*Rèis quadra ëd (Total dle Modìfiche Fàite) - (Total dle Pàgine Ùniche) moltiplicà për 2 
-Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme. 
+	'contributionscores-info' => "La classìfica as càlcola parej:
+*1 pont për minca pàgina modificà
+*Rèis quadra ëd (Total dle Modìfiche Fàite) - (Total dle Pàgine Ùniche) moltiplicà për 2
+Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme.
 Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ën vorend a-j da n'euj ëd rësgoard a cole ch'a l'han n'àot volum ëd modìfica - ch'as pensa ch'a peula esse na marca ëd qualità dl'artìcol.",
 	'contributionscores-top' => '(Ij $1 mej)',
 	'contributionscores-days' => 'Ùltim Last {{PLURAL:$1|di|$1 di}}',
@@ -1726,7 +1726,7 @@ $messages['stq'] = array(
 	'contributionscores' => 'Benutserbiedraage ouskätsje',
 	'contributionscores-info' => 'Ouskätsskema:
 *1 Punkt foar älke beoarbaidede Siede
-*Quadroatwuttel fon aal do (Beoarbaidengen) - (Summe fon do beoarbaidede Sieden) * 2 
+*Quadroatwuttel fon aal do (Beoarbaidengen) - (Summe fon do beoarbaidede Sieden) * 2
 Ouskätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen. Disse Ouschätsenge mät do apaate Sieden, man lukt uk wäls ganse Oarbaid in Reekenge.',
 	'contributionscores-top' => '(Buppeste $1)',
 	'contributionscores-days' => 'Lääste $1 Deege',
@@ -1982,7 +1982,7 @@ $messages['vec'] = array(
 	'contributionscores-info' => 'I punti i vien calcolà come segue:
 *Un (1) punto par ogni diversa pagina modificà
 *Raìsa quadrata de (Tute le modifiche fate) - (Total de le pagine modificà) * 2
-Fasendo i conti in sta maniera pesa piassè la diversità de le modifiche rispeto al nùmaro dei contributi. 
+Fasendo i conti in sta maniera pesa piassè la diversità de le modifiche rispeto al nùmaro dei contributi.
 In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà, tegnendo in considerazion anca un alto volume de modifiche - che fa pensar a na pi alta qualità de la pagina modificà.',
 	'contributionscores-top' => '(Ultimi $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultimo zòrno|Ultimi $1 zòrni}}',

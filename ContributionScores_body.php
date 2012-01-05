@@ -3,7 +3,7 @@
 * \brief Contains code for the ContributionScores Class (extends SpecialPage).
 */
 
-///Special page class for the Contribution Scores extension
+/// Special page class for the Contribution Scores extension
 /**
  * Special page that generates a list of wiki contributors based
  * on edit diversity (unique pages edited) and edit volume (total
@@ -17,7 +17,7 @@ class ContributionScores extends IncludableSpecialPage {
 		parent::__construct( 'ContributionScores' );
 	}
 
-	///Generates a "Contribution Scores" table for a given LIMIT and date range
+	/// Generates a "Contribution Scores" table for a given LIMIT and date range
 	/**
 	 * Function generates Contribution Scores tables in HTML format (not wikiText)
 	 *
@@ -33,17 +33,17 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$userTable = $dbr->tableName('user');
-		$userGroupTable = $dbr->tableName('user_groups');
-		$revTable = $dbr->tableName('revision');
-		$ipBlocksTable = $dbr->tableName('ipblocks');
+		$userTable = $dbr->tableName( 'user' );
+		$userGroupTable = $dbr->tableName( 'user_groups' );
+		$revTable = $dbr->tableName( 'revision' );
+		$ipBlocksTable = $dbr->tableName( 'ipblocks' );
 
 		$sqlWhere = "";
 		$nextPrefix = "WHERE";
 
 		if ( $days > 0 ) {
-			$date = time() - (60*60*24*$days);
-			$dateString = $dbr->timestamp($date);
+			$date = time() - ( 60 * 60 * 24 * $days );
+			$dateString = $dbr->timestamp( $date );
 			$sqlWhere .= " {$nextPrefix} rev_timestamp > '$dateString'";
 			$nextPrefix = "AND";
 		}
@@ -90,8 +90,8 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$sortable = in_array( 'nosort', $opts ) ? '' : ' sortable';
 
-		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n".
-			"<tr class='header'>\n".
+		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n" .
+			"<tr class='header'>\n" .
 			Html::element( 'th', array(), wfMsg( 'contributionscores-score' ) ) .
 			Html::element( 'th', array(), wfMsg( 'contributionscores-pages' ) ) .
 			Html::element( 'th', array(), wfMsg( 'contributionscores-changes' ) ) .
@@ -101,7 +101,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		foreach ( $res as $row ) {
 			// Use real name if option used and real name present.
-			if( $wgContribScoresUseRealName && $row->user_real_name !== '' ) {
+			if ( $wgContribScoresUseRealName && $row->user_real_name !== '' ) {
 				$userLink = Linker::userLink(
 					$row->user_id,
 					$row->user_name,
@@ -142,12 +142,12 @@ class ContributionScores extends IncludableSpecialPage {
 		if ( !empty( $title ) )
 			$output = Html::rawElement( 'table', array( 'cellspacing' => 0, 'cellpadding' => 0,
 				'class' => 'contributionscores-wrapper', 'lang' => $wgLang->getCode(), 'dir' => $wgLang->getDir() ),
-			"\n".
-			"<tr>\n".
-			"<td style='padding: 0px;'>{$title}</td>\n".
-			"</tr>\n".
-			"<tr>\n".
-			"<td style='padding: 0px;'>{$output}</td>\n".
+			"\n" .
+			"<tr>\n" .
+			"<td style='padding: 0px;'>{$title}</td>\n" .
+			"</tr>\n" .
+			"<tr>\n" .
+			"<td style='padding: 0px;'>{$output}</td>\n" .
 			"</tr>\n" );
 
 		return $output;
@@ -156,7 +156,7 @@ class ContributionScores extends IncludableSpecialPage {
 	function execute( $par ) {
 		$this->setHeaders();
 
-		if( $this->including() ) {
+		if ( $this->including() ) {
 			$this->showInclude( $par );
 		} else {
 			$this->showPage();
@@ -178,7 +178,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$options = 'none';
 
 		if ( !empty( $par ) ) {
-			$params = explode('/', $par );
+			$params = explode( '/', $par );
 
 			$limit = intval( $params[0] );
 
@@ -231,7 +231,7 @@ class ContributionScores extends IncludableSpecialPage {
 			} else {
 				$reportTitle = wfMsg( 'contributionscores-allrevisions' );
 			}
-			$reportTitle .= " " . wfMsgExt('contributionscores-top', 'parsemag', $wgLang->formatNum( $revs ) );
+			$reportTitle .= " " . wfMsgExt( 'contributionscores-top', 'parsemag', $wgLang->formatNum( $revs ) );
 			$title = Xml::element( 'h2', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
 			$wgOut->addHTML( $title );
 			$wgOut->addHTML( $this->genContributionScoreTable( $days, $revs ) );
