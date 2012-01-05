@@ -15,23 +15,23 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author' => 'Tim Laqua',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version' => '1.12'
+	'version' => '1.13'
 );
 
-define( 'CONTRIBUTIONSCORES_PATH', dirname( __FILE__ ) );
-define( 'CONTRIBUTIONSCORES_EXTPATH', str_replace( $_SERVER['DOCUMENT_ROOT'], '/', CONTRIBUTIONSCORES_PATH ) );
+$dir = dirname( __FILE__ ) . '/';
+
 define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
 $wgContribScoreReports = null;
 $wgContribScoreIgnoreBlockedUsers = false;
 $wgContribScoreIgnoreBots = false;
 $wgContribScoreDisableCache = false;
 
-$wgAutoloadClasses['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores_body.php';
+$wgAutoloadClasses['ContributionScores'] = $dir . 'ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 $wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
-$wgExtensionMessagesFiles['ContributionScores'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.i18n.php';
-$wgExtensionMessagesFiles['ContributionScoresAlias'] = CONTRIBUTIONSCORES_PATH . '/ContributionScores.alias.php';
+$wgExtensionMessagesFiles['ContributionScores'] = $dir . 'ContributionScores.i18n.php';
+$wgExtensionMessagesFiles['ContributionScoresAlias'] = $dir . 'ContributionScores.alias.php';
 
 $wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
 

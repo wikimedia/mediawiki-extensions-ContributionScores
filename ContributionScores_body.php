@@ -17,10 +17,6 @@ class ContributionScores extends IncludableSpecialPage {
 		parent::__construct( 'ContributionScores' );
 	}
 
-	function getDescription() {
-		return wfMsg( 'contributionscores' );
-	}
-
 	///Generates a "Contribution Scores" table for a given LIMIT and date range
 	/**
 	 * Function generates Contribution Scores tables in HTML format (not wikiText)
@@ -31,7 +27,7 @@ class ContributionScores extends IncludableSpecialPage {
 	 * @return HTML Table representing the requested Contribution Scores.
 	 */
 	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
-		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgUser, $wgLang;
+		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgLang;
 
 		$opts = explode( ',', strtolower( $options ) );
 		
@@ -95,32 +91,36 @@ class ContributionScores extends IncludableSpecialPage {
 		
 		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n".
 			"<tr class='header'>\n".
-			"<th>" . wfMsgHtml( 'contributionscores-score' ) . "</th>\n" .
-			"<th>" . wfMsgHtml( 'contributionscores-pages' ) . "</th>\n" .
-			"<th>" . wfMsgHtml( 'contributionscores-changes' ) . "</th>\n" .
-			"<th>" . wfMsgHtml( 'contributionscores-username' ) . "</th>\n";
+			Html::element( 'th', array(), wfMsg( 'contributionscores-score' ) ) .
+			Html::element( 'th', array(), wfMsg( 'contributionscores-pages' ) ) .
+			Html::element( 'th', array(), wfMsg( 'contributionscores-changes' ) ) .
+			Html::element( 'th', array(), wfMsg( 'contributionscores-username' ) );
 
-		$skin = $wgUser->getSkin();
 		$altrow = '';
 		foreach ( $res as $row ) {
-			$output .= "</tr><tr class='{$altrow}'>\n<td class='content'>" .
+			$output .= Html::closeElement( 'tr' );
+			$output .= "<tr class='{$altrow}'>\n<td class='content'>" .
 				$wgLang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content'>" .
 				$wgLang->formatNum( $row->page_count ) . "\n</td><td class='content'>" .
 				$wgLang->formatNum( $row->rev_count ) . "\n</td><td class='content'>" .
-				$skin->userLink( $row->user_id, $row->user_name );
+				Linker::userLink( $row->user_id, $row->user_name );
 			
 			# Option to not display user tools
-			if ( !in_array( 'notools', $opts ) )
-				$output .= $skin->userToolLinks( $row->user_id, $row->user_name );
+			if ( !in_array( 'notools', $opts ) ) {
+				$output .= Linker::userToolLinks( $row->user_id, $row->user_name );
+			}
 			
-			$output .= "</td>\n";
+			$output .= Html::closeElement( 'td' ) . "\n";
 			
-			if ( $altrow == '' && empty( $sortable ) )
+			if ( $altrow == '' && empty( $sortable ) ) {
 				$altrow = 'odd ';
-			else
+			} else {
 				$altrow = '';
+			}
 		}
-		$output .= "</tr></table>";
+		$output .= Html::closeElement( 'tr' );
+		$output .= Html::closeElement( 'table' );
+
 		$dbr->freeResult( $res );
 		
 		if ( !empty( $title ) )
@@ -145,6 +145,7 @@ class ContributionScores extends IncludableSpecialPage {
 		} else {
 			$this->showPage();
 		}
+
 		return true;
 	}
 
