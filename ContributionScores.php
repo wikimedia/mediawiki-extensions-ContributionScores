@@ -22,10 +22,12 @@ $dir = dirname( __FILE__ ) . '/';
 
 define( 'CONTRIBUTIONSCORES_MAXINCLUDELIMIT', 50 );
 $wgContribScoreReports = null;
-$wgContribScoreIgnoreBlockedUsers = false;
-$wgContribScoreIgnoreBots = false;
-$wgContribScoresUseRealName = false;
-$wgContribScoreDisableCache = false;
+
+// These settings can be overridden in LocalSettings.php.
+$wgContribScoreIgnoreBlockedUsers = false; // Set to true to exclude bots from the reporting.
+$wgContribScoreIgnoreBots = false; // Set to true to exclude blocked users from the reporting.
+$wgContribScoresUseRealName = false; // Set to true to use real user names when available. Only for MediaWiki 1.19 and later.
+$wgContribScoreDisableCache = false; // Set to true to disable cache for parser function and inclusion of table.
 
 $wgAutoloadClasses['ContributionScores'] = $dir . 'ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
