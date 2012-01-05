@@ -78,7 +78,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$sql = "SELECT user_id, " .
 			"user_name, " .
-			"user_real_name" .
+			"user_real_name, " .
 			"page_count, " .
 			"rev_count, " .
 			"page_count+SQRT(rev_count-page_count)*2 AS wiki_rank " .
