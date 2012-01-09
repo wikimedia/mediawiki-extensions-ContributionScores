@@ -824,6 +824,7 @@ Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon kons
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
