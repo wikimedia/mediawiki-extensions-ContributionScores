@@ -15,7 +15,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author' => 'Tim Laqua',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version' => '1.14'
+	'version' => '1.15'
 );
 
 $dir = dirname( __FILE__ ) . '/';
@@ -35,18 +35,12 @@ $wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
 $wgExtensionMessagesFiles['ContributionScores'] = $dir . 'ContributionScores.i18n.php';
 $wgExtensionMessagesFiles['ContributionScoresAlias'] = $dir . 'ContributionScores.alias.php';
-
-$wgHooks['LanguageGetMagic'][] = 'efContributionScores_LanguageGetMagic';
+$wgExtensionMessagesFiles['ContributionScoresMagic'] = $dir . 'ContributionScores.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'efContributionScores_Setup';
 
 function efContributionScores_Setup( &$parser ) {
 	$parser->setFunctionHook( 'cscore', 'efContributionScores_Render' );
-	return true;
-}
-
-function efContributionScores_LanguageGetMagic( &$magicWords, $langCode ) {
-	$magicWords['cscore'] = array( 0, 'cscore' );
 	return true;
 }
 
