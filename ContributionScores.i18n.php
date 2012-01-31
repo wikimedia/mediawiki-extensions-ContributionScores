@@ -1332,6 +1332,13 @@ $messages['nds'] = array(
 	'contributionscores-username' => 'Brukernaam',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'contributionscores-username' => 'प्रयोगकर्ता नाम',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
