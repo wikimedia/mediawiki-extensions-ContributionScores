@@ -1129,7 +1129,7 @@ $messages['lb'] = array(
 * 1 Punkt fir all geännert Säit;
 * D'Quadratwuerzel vun (allen Ännerungen) - (Zuel vun de geännerte Säiten) * 2.
 
-Op déi Manéier gëtt der Zuel vun de geännerte Säiten méi eng Grouss Bedeitung zougedeelt, wéi der Zuel vun den Ännerungen.",
+Op déi Manéier gëtt der Zuel vun de geännerte Säite méi eng Grouss Bedeitung zougedeelt, wéi der Zuel vun den Ännerungen.",
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
 	'contributionscores-allrevisions' => 'Vun Ufank un',
