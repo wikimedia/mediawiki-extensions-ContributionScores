@@ -141,6 +141,28 @@ $messages['arz'] = array(
 	'contributionscores-invalidmetric' => 'المترى غير صحيح',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'contributionscores' => 'Puntos de collaboraciones',
+	'contributionscores-desc' => 'Peñera la base de datos de la wiki pa ver los mayores [[Special:ContributionScores|volumes de collaboración de los usuarios]]',
+	'contributionscores-info' => "Les puntuaciones calculense del mou siguiente:
+*Un (1) puntu por cada páxina única editada
+*La raíz cuadrada del (total d'ediciones feches) - (total de páxines úniques) * 2
+Les puntuaciones calculaes d'esti mou favorecen la diversidá d'ediciones más que'l volume.
+Básicamente, esta puntuación mide primero les páxines úniques editaes, teniendo en cuenta'l volume altu d'ediciones (asumiendo que va ser una páxina de más calidá).",
+	'contributionscores-top' => '(Los $1 mayores)',
+	'contributionscores-days' => '{{PLURAL:$1|Últimu día|Los últimos $1 díes}}',
+	'contributionscores-allrevisions' => 'De tolos tiempos',
+	'contributionscores-score' => 'Puntuación',
+	'contributionscores-pages' => 'Páxines',
+	'contributionscores-changes' => 'Cambios',
+	'contributionscores-username' => "Nome d'usuariu",
+	'contributionscores-invalidusername' => "Nome d'usuariu inválidu",
+	'contributionscores-invalidmetric' => 'Métrica inválida',
+);
+
 /** Kotava (Kotava)
  * @author Sab
  */
