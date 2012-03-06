@@ -549,6 +549,7 @@ $messages['ext'] = array(
  * @author Huji
  * @author Mjbmr
  * @author Tofighi
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'contributionscores' => 'امتیاز مشارکت',
@@ -561,7 +562,7 @@ $messages['fa'] = array(
 براین اساس، این امتیاز میزان صفحه‌ها ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.',
 	'contributionscores-top' => '($1 برتر)',
 	'contributionscores-days' => 'آخرین {{PLURAL:$1|روز|$1 روز}}',
-	'contributionscores-allrevisions' => 'همه نسخه‌ها',
+	'contributionscores-allrevisions' => 'تمام وقت',
 	'contributionscores-score' => 'امتیاز',
 	'contributionscores-pages' => 'صفحه‌ها',
 	'contributionscores-changes' => 'تغییرات',
