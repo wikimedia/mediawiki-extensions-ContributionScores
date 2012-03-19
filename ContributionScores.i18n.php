@@ -1683,6 +1683,7 @@ $messages['si'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Teslaton
  */
 $messages['sk'] = array(
 	'contributionscores' => 'Skóre príspevkov',
@@ -1693,7 +1694,7 @@ $messages['sk'] = array(
 Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.',
 	'contributionscores-top' => '(Najlepších $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Posledný $1 deň|Posledné $1 dni|Posledných $1 dní}}',
-	'contributionscores-allrevisions' => 'Všetky revízie',
+	'contributionscores-allrevisions' => 'Celá história',
 	'contributionscores-score' => 'Skóre',
 	'contributionscores-pages' => 'Stránky',
 	'contributionscores-changes' => 'Zmeny',
