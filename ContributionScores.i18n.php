@@ -1136,9 +1136,10 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 
 /** Cornish (Kernowek)
  * @author Kw-Moon
+ * @author Nrowe
  */
 $messages['kw'] = array(
-	'contributionscores-username' => 'Hanow-usyer',
+	'contributionscores-username' => 'Hanow usyer',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
