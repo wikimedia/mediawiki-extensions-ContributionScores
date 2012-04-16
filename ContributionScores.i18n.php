@@ -367,7 +367,7 @@ V podstatě toto skóre měří hlavně počet upravovaných jedinečných strá
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'contributionscores-pages' => 'страни́цѧ',
+	'contributionscores-pages' => 'страницѧ',
 	'contributionscores-username' => 'по́льꙃєватєлꙗ и́мѧ',
 );
 
