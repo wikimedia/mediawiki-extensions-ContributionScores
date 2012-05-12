@@ -632,7 +632,7 @@ $messages['frp'] = array(
 	'contributionscores-pages' => 'Pâges',
 	'contributionscores-changes' => 'Changements',
 	'contributionscores-username' => 'Nom d’usanciér',
-	'contributionscores-invalidusername' => 'Nom d’utilisator envalido',
+	'contributionscores-invalidusername' => 'Nom d’usanciér envalido',
 	'contributionscores-invalidmetric' => 'Mètrica fôssa',
 );
 
@@ -1388,6 +1388,7 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
  * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'contributionscores' => 'Bidragspoeng',
@@ -1439,10 +1440,11 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
 	'contributionscores-pages' => 'ପୃଷ୍ଠା',
-	'contributionscores-username' => 'ବ୍ୟବାହରକାରୀଙ୍କର ନାଆଁ',
+	'contributionscores-username' => 'ବ୍ୟବହାରକାରୀଙ୍କ ନାମ',
 );
 
 /** Ossetic (Ирон)
@@ -1862,7 +1864,7 @@ $messages['tg-cyrl'] = array(
 	'contributionscores-username' => 'Номи корбарӣ',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1975,7 +1977,7 @@ $messages['ug-arab'] = array(
 	'contributionscores-username' => 'ئىشلەتكۇچى ئىسمى',
 );
 
-/** Uyghur (Latin script) (Uyghurche‎)
+/** Uyghur (Latin script) (Uyghurche)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
@@ -2028,7 +2030,7 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 	'contributionscores-invalidmetric' => 'Metrica mia valida',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
