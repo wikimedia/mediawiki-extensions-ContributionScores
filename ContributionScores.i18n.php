@@ -417,6 +417,13 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
 	'contributionscores-invalidmetric' => 'Ungültige Metrik',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'contributionscores' => 'Skore iştıraxkara',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
