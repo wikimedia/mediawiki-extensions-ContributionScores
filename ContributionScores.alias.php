@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمه' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'ContributionScores' => array( 'Skor_sumbangan' ),
+);
+
 /** Breton (Brezhoneg) */
 $specialPageAliases['br'] = array(
 	'ContributionScores' => array( 'Skor_Degasadennoù' ),
