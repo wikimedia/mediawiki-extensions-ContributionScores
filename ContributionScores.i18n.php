@@ -422,6 +422,11 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
  */
 $messages['diq'] = array(
 	'contributionscores' => 'Skore iştıraxkara',
+	'contributionscores-info' => "Skora hesab kerdış:
+*Vurnayışo ke biyo herg pela sera (1) puan
+*(Vurnayışa pêron sera) - (Babeta pelan pêro) * karyena 2 'ınê karerêçi
+Skorê ke ewna benê hesab, amariya vurnayışan u aredê babetiya vurnayışan heta  graney deyêna ser.
+Esasin de na skor, ferzi misal çend vurnayış pela sero esto se a pela hend qeliteyına u ey heta sencêna.",
 );
 
 /** Lower Sorbian (Dolnoserbski)
