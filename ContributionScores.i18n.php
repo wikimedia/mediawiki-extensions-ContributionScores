@@ -427,6 +427,7 @@ $messages['diq'] = array(
 *(Vurnayışa pêron sera) - (Babeta pelan pêro) * karyena 2 'ınê karerêçi
 Skorê ke ewna benê hesab, amariya vurnayışan u aredê babetiya vurnayışan heta  graney deyêna ser.
 Esasin de na skor, ferzi misal çend vurnayış pela sero esto se a pela hend qeliteyına u ey heta sencêna.",
+	'contributionscores-top' => '(Tewr Gırde $1)',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -1146,6 +1147,14 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-username' => 'Metmaacher Name',
 	'contributionscores-invalidusername' => 'Verkeehte Metmaacher-Name',
 	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
+);
+
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'contributionscores-pages' => 'Rûpel',
+	'contributionscores-username' => 'Navê bikarhêner',
 );
 
 /** Cornish (Kernowek)
@@ -2098,6 +2107,29 @@ $messages['vo'] = array(
 	'contributionscores-pages' => 'Pads',
 	'contributionscores-changes' => 'Votükams',
 	'contributionscores-username' => 'Gebananem',
+);
+
+/** Walloon (walon)
+ * @author Srtxg
+ */
+$messages['wa'] = array(
+	'contributionscores' => 'Ponts des contribouwaedjes',
+	'contributionscores-desc' => "Riwaite li båze di dnêyes po les [[Special:ContributionScores|uzeus avou l' meyeu livea d' contribouwaedje]]",
+	'contributionscores-info' => "Les ponts sont carculés come shût:
+* On (1) pont po tchaeke pådje unike k' on candjmint î a stî fwait
+* Li cwårêye raecene di (nombe di candjmints) - (nombe totå di pådjes unikes) * 2
+
+Di cisse manire on dene pus di pontiaedje al varyisté des contribouwaedjes k' a leu cwantité.
+Po l' dire pus simplumint, ci pontiaedje ci mezeure copurade li nombe di pådejs diferinnes di candjeyes, et poy seulmint li cwantité di candjmints diferins.",
+	'contributionscores-top' => '(les $1 meyeus)',
+	'contributionscores-days' => '{{PLURAL:$1|Sol dierin djoû|So les $1 dierins djoûs}}',
+	'contributionscores-allrevisions' => 'Dispoy todi',
+	'contributionscores-score' => 'Ponts',
+	'contributionscores-pages' => 'Pådjes',
+	'contributionscores-changes' => 'Candjmints',
+	'contributionscores-username' => "No d' uzeu:",
+	'contributionscores-invalidusername' => "No d' uzeu nén valide",
+	'contributionscores-invalidmetric' => 'Metrike nén valide',
 );
 
 /** Yiddish (ייִדיש)
