@@ -28,12 +28,12 @@ $specialPageAliases['bjn'] = array(
 	'ContributionScores' => array( 'Skor_sumbangan' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'ContributionScores' => array( 'Skor_Degasadennoù' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'ContributionScores' => array( 'DoprinosiBodovi' ),
 );
@@ -43,12 +43,17 @@ $specialPageAliases['de'] = array(
 	'ContributionScores' => array( 'Beitragspunkte' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'ContributionScores' => array( 'Skorêİştiraxan' ),
+);
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
 	'ContributionScores' => array( 'Kontribuatingoj' ),
 );
 
-/** Estonian (Eesti) */
+/** Estonian (eesti) */
 $specialPageAliases['et'] = array(
 	'ContributionScores' => array( 'Kaastööpunktid' ),
 );
@@ -58,7 +63,7 @@ $specialPageAliases['fa'] = array(
 	'ContributionScores' => array( 'امتیازهای_مشارکت' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'ContributionScores' => array( 'Muokkauspisteet' ),
 );
@@ -78,12 +83,12 @@ $specialPageAliases['ht'] = array(
 	'ContributionScores' => array( 'PwentajKontribisyon' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'ContributionScores' => array( 'Szerkesztési_pontok' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'ContributionScores' => array( 'Scores_de_contributiones' ),
 );
@@ -103,6 +108,11 @@ $specialPageAliases['km'] = array(
 	'ContributionScores' => array( 'ពិន្ទុអ្នករួមចំណែក' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'ContributionScores' => array( '기여점수' ),
+);
+
 /** Colognian (Ripoarisch) */
 $specialPageAliases['ksh'] = array(
 	'ContributionScores' => array( 'MetmaacherZahle' ),
@@ -118,7 +128,7 @@ $specialPageAliases['lb'] = array(
 	'ContributionScores' => array( 'Score_vun_de_Kontributiounen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ContributionScores' => array( 'БодувањеНаПридонесите' ),
 );
@@ -133,7 +143,7 @@ $specialPageAliases['mr'] = array(
 	'ContributionScores' => array( 'योगदानप्राविण्य' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'ContributionScores' => array( 'Bidragspoeng' ),
 );
@@ -148,9 +158,14 @@ $specialPageAliases['nl'] = array(
 	'ContributionScores' => array( 'Gebruikersscores', 'Bijdragenscores' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'ContributionScores' => array( 'Punkty_za_edycje' ),
+);
+
+/** Russian (русский) */
+$specialPageAliases['ru'] = array(
+	'ContributionScores' => array( 'Очки_вклада' ),
 );
 
 /** Sanskrit (संस्कृतम्) */
@@ -158,12 +173,12 @@ $specialPageAliases['sa'] = array(
 	'ContributionScores' => array( 'योगदानप्राप्ताङ्क' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'ContributionScores' => array( 'SkórePríspevkov' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'ContributionScores' => array( 'Bidragspoäng' ),
 );
@@ -183,12 +198,12 @@ $specialPageAliases['tr'] = array(
 	'ContributionScores' => array( 'KatkıSkorları', 'KatkıPuanları' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'ContributionScores' => array( '贡献得分' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'ContributionScores' => array( '貢獻得分' ),
 );
