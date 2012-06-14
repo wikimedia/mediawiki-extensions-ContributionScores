@@ -141,7 +141,7 @@ $messages['arz'] = array(
 	'contributionscores-invalidmetric' => 'المترى غير صحيح',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -177,7 +177,7 @@ $messages['avk'] = array(
 	'contributionscores-username' => 'Favesikyolt',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -229,7 +229,7 @@ $messages['be-tarask'] = array(
 	'contributionscores-invalidmetric' => 'Няслушная мэтрыка',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -260,7 +260,7 @@ $messages['bn'] = array(
 	'contributionscores-invalidusername' => 'অগ্রহণযোগ্য ব্যবহারকারী নাম',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -284,7 +284,7 @@ E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur s
 	'contributionscores-invalidmetric' => 'Muzul direizh',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -306,7 +306,7 @@ U osnovi, ovaj rezultat mjeri naročito broj uređivanja pojedinačnih stranica,
 	'contributionscores-invalidmetric' => 'Nevaljana mjera',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Jordi Roqué
  * @author SMP
  * @author Solde
@@ -339,7 +339,7 @@ $messages['ce'] = array(
 	'contributionscores-username' => 'Декъашхон цlе',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Li-sung
  * @author Matěj Grabovský
  * @author Mormegil
@@ -371,7 +371,7 @@ $messages['cu'] = array(
 	'contributionscores-username' => 'по́льꙃєватєлꙗ и́мѧ',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  * @author Peter Alberti
  */
@@ -496,7 +496,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 	'contributionscores-invalidmetric' => 'Nevalida parametro',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Imre
  * @author Sanbec
@@ -519,7 +519,7 @@ Las puntuaciones son calculadas de esta manera considerando la diversidad sobre 
 	'contributionscores-invalidmetric' => 'Medida inválida',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -541,7 +541,7 @@ Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võt
 	'contributionscores-invalidusername' => 'Vigane kasutajanimi',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -551,7 +551,7 @@ $messages['eu'] = array(
 	'contributionscores-username' => 'Erabiltzaile izena',
 );
 
-/** Extremaduran (Estremeñu)
+/** Extremaduran (estremeñu)
  * @author Better
  */
 $messages['ext'] = array(
@@ -584,7 +584,7 @@ $messages['fa'] = array(
 	'contributionscores-invalidmetric' => 'متریک نامعتبر',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  * @author Str4nd
@@ -606,7 +606,7 @@ Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytänn
 	'contributionscores-invalidusername' => 'Virheellinen käyttäjätunnus',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author Peter17
@@ -633,7 +633,7 @@ De cette façon, les pointages ainsi calculés privilégient la diversité par r
 	'contributionscores-invalidmetric' => 'Métrique incorrecte',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -790,7 +790,7 @@ $messages['hil'] = array(
 	'contributionscores-username' => 'Ngalan sang Manog-gamit',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  * @author SpeedyGonsales
@@ -858,7 +858,7 @@ Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon kons
 	'contributionscores-invalidmetric' => 'Metrik envalid',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  * @author Glanthor Reviol
@@ -883,7 +883,7 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-invalidmetric' => 'Érvénytelen mértékrendszer',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -957,7 +957,7 @@ $messages['ilo'] = array(
 	'contributionscores' => 'Dagiti Bilang ti Naaramidan',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
@@ -977,7 +977,7 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
 	'contributionscores-username' => 'Notandanafn',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author BrokenArrow
  * @author Darth Kule
  * @author Gianfranco
@@ -1157,7 +1157,7 @@ $messages['ku-latn'] = array(
 	'contributionscores-username' => 'Navê bikarhêner',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kw-Moon
  * @author Nrowe
  */
@@ -1211,7 +1211,7 @@ I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag z
 	'contributionscores-invalidmetric' => 'Ogeljige einheid',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Hugo.arg
  */
 $messages['lt'] = array(
@@ -1222,7 +1222,7 @@ $messages['lt'] = array(
 	'contributionscores-username' => 'Naudotojo vardas',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -1236,7 +1236,7 @@ $messages['mhr'] = array(
 	'contributionscores-username' => 'Пайдаланышын лӱмжӧ',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1273,7 +1273,7 @@ $messages['ml'] = array(
 	'contributionscores-invalidusername' => 'അസാധുവായ ഉപയോക്തൃനാമം',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1407,7 +1407,7 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 	'contributionscores-invalidmetric' => 'Ongeldige eenheid',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
@@ -1440,7 +1440,7 @@ $messages['nso'] = array(
 	'contributionscores-username' => 'Leina la mošomši',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1504,7 +1504,7 @@ $messages['pdt'] = array(
 	'contributionscores-username' => 'Bruckernome',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Equadus
  * @author McMonster
@@ -1562,7 +1562,7 @@ $messages['ps'] = array(
 	'contributionscores-username' => 'کارن-نوم',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -1585,7 +1585,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Brunoy Anastasiya Seryozhenko
  * @author Crazymadlover
  * @author Eduardo.mps
@@ -1609,7 +1609,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author AlexZaim
  * @author Firilacroco
  * @author KlaudiuMihaila
@@ -1635,7 +1635,7 @@ Practic, acest scor măsoară în primul rând paginile unic modificate, cu cons
 	'contributionscores-invalidmetric' => 'Metrică incorectă',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1657,7 +1657,7 @@ De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a
 	'contributionscores-invalidmetric' => 'Metriche invalide',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ahonc
  * @author Kalan
  * @author Александр Сигачёв
@@ -1690,7 +1690,7 @@ $messages['rue'] = array(
 	'contributionscores-username' => 'Мено хоснователя',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -1707,7 +1707,7 @@ $messages['si'] = array(
 	'contributionscores-changes' => 'වෙනස් කිරීම්',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -1729,7 +1729,7 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
 	'contributionscores-invalidmetric' => 'Neplatná metrika',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1751,7 +1751,7 @@ V bistvu ta rezultat meri predvsem urejene edinstvene strani ob upoštevanju vel
 	'contributionscores-invalidmetric' => 'Neveljavna metrika',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1765,7 +1765,7 @@ $messages['sr-ec'] = array(
 	'contributionscores-username' => 'Корисничко име',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1817,7 +1817,7 @@ Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah
 	'contributionscores-invalidmetric' => 'matrik teu cocog',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
@@ -1867,7 +1867,7 @@ $messages['te'] = array(
 	'contributionscores-invalidusername' => 'తప్పుడు వాడుకరిపేరు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1875,7 +1875,7 @@ $messages['tet'] = array(
 	'contributionscores-username' => "Naran uza-na'in",
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1887,7 +1887,7 @@ $messages['tg-cyrl'] = array(
 	'contributionscores-username' => 'Номи корбарӣ',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1972,7 +1972,7 @@ Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir say
 	'contributionscores-invalidmetric' => 'Geçersiz metrik',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -2007,7 +2007,7 @@ $messages['ug-latn'] = array(
 	'contributionscores-username' => 'Ishletkuchi ismi',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
  * @author Prima klasy4na
@@ -2031,7 +2031,7 @@ $messages['uk'] = array(
 	'contributionscores-invalidmetric' => 'Неправильна метрика',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -2163,7 +2163,7 @@ $messages['yue'] = array(
 	'contributionscores-invalidmetric' => '無效嘅公制',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author PhiLiP
  * @author Shinjiman
@@ -2186,7 +2186,7 @@ $messages['zh-hans'] = array(
 	'contributionscores-invalidmetric' => '无效的公制',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author PhiLiP
  * @author Shinjiman
