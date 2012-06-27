@@ -1126,6 +1126,28 @@ $messages['kn'] = array(
 	'contributionscores-pages' => 'ಪುಟಗಳು',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'contributionscores' => '기여 점수',
+	'contributionscores-desc' => '최고 [[Special:ContributionScores|사용자 기여 값]]에 대한 위키 데이터베이스 투표',
+	'contributionscores-info' => '점수는 다음과 같이 계산됩니다:
+*각각의 고유 문서를 편집했을 때 일(1)점
+*(총 편집 사항) - (총 고유 문서) * 2의 제곱근
+점수는 이러한 편집량 이상의 다양한 편집의 가중치로 계산됩니다.
+기본적으로 이 점수가 높은 편집량에 대해 고려하여 주로 높은 품질의 문서로 간주하는 고유 문서의 편집을 측정합니다.',
+	'contributionscores-top' => '(상위 $1)',
+	'contributionscores-days' => '최근 $1일',
+	'contributionscores-allrevisions' => '모든 시간',
+	'contributionscores-score' => '점수',
+	'contributionscores-pages' => '문서',
+	'contributionscores-changes' => '바뀜',
+	'contributionscores-username' => '사용자 이름',
+	'contributionscores-invalidusername' => '잘못된 사용자 이름',
+	'contributionscores-invalidmetric' => '잘못된 통계',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -1963,7 +1985,7 @@ Bu şekilde hesaplanan skorlar, değişiklik sayısı ile değişiklik çeşitli
 Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir sayfa olduğu varsayımıyla değişiklik yapılan farklı sayfa sayısını ölçmektedir.',
 	'contributionscores-top' => '(En yüksek $1)',
 	'contributionscores-days' => 'Son $1 {{PLURAL:$1|gün|gün}}',
-	'contributionscores-allrevisions' => 'Tüm revizyonlar',
+	'contributionscores-allrevisions' => 'Tüm zamanlar',
 	'contributionscores-score' => 'Puan',
 	'contributionscores-pages' => 'Sayfalar',
 	'contributionscores-changes' => 'Değişiklikler',
