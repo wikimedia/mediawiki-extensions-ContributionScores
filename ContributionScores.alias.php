@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمه' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'ContributionScores' => array( 'বৰঙনিৰ_মূল্যায়ন' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'ContributionScores' => array( 'Skor_sumbangan' ),
@@ -68,7 +73,7 @@ $specialPageAliases['fi'] = array(
 	'ContributionScores' => array( 'Muokkauspisteet' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'ContributionScores' => array( 'Puntuación_das_contribucións' ),
 );
