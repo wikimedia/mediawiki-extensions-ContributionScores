@@ -206,7 +206,7 @@ $messages['ba'] = array(
 	'contributionscores-invalidmetric' => 'Метрика дөрөҫ түгел',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -363,7 +363,7 @@ V podstatě toto skóre měří hlavně počet upravovaných jedinečných strá
 	'contributionscores-invalidmetric' => 'Neplatná metrika',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -430,7 +430,7 @@ Esasin de na skor, ferzi misal çend vurnayış pela sero esto se a pela hend qe
 	'contributionscores-top' => '(Tewr Gırde $1)',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -656,7 +656,7 @@ $messages['fy'] = array(
 	'contributionscores-username' => 'Meidoggernamme',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -814,7 +814,7 @@ Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih
 	'contributionscores-invalidmetric' => 'Nevaljana metrika',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1702,7 +1702,7 @@ $messages['ru'] = array(
 	'contributionscores-invalidmetric' => 'Ошибочная метрика',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
