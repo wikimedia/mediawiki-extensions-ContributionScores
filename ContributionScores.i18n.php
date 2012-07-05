@@ -1959,7 +1959,7 @@ Tinutuos ang mga puntos sa ganitong paraan: timbang ng pagkakaiba-iba ng pagbaba
 Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mga pahina, na may pagsasaalang-alang sa mataas na dami ng pagbago - na ipinapalagay bilang isang pahinang may mataas na uri.',
 	'contributionscores-top' => '(Pinakatampok na $1)',
 	'contributionscores-days' => 'Huling {{Plural: $1|araw|$1 mga araw}}',
-	'contributionscores-allrevisions' => 'Lahat ng mga pagbabago',
+	'contributionscores-allrevisions' => 'Lahat ng panahon',
 	'contributionscores-score' => 'Puntos',
 	'contributionscores-pages' => 'Mga pahina',
 	'contributionscores-changes' => 'Mga pagbabago',
