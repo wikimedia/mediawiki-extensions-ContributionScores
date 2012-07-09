@@ -195,7 +195,7 @@ $specialPageAliases['th'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'ContributionScores' => array( 'Mga puntos ng ambag' ),
+	'ContributionScores' => array( 'Mga_puntos_ng_ambag' ),
 );
 
 /** Turkish (Türkçe) */
