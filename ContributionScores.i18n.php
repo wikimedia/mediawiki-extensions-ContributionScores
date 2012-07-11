@@ -185,7 +185,7 @@ $messages['az'] = array(
 	'contributionscores-username' => 'İstifadəçi adı',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -330,7 +330,7 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 	'contributionscores-invalidmetric' => 'Mètrica invàlida',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1069,7 +1069,7 @@ $messages['kk-arab'] = array(
 	'contributionscores-username' => 'قاتىسۋشى اتى',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'contributionscores' => 'Үлес беру есептері',
 	'contributionscores-info' => 'Есептер келесі дей саналады:
@@ -1085,7 +1085,7 @@ $messages['kk-cyrl'] = array(
 	'contributionscores-username' => 'Қатысушы аты',
 );
 
-/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'contributionscores' => 'Üles berw esepteri',
 	'contributionscores-info' => 'Esepter kelesi deý sanaladı:
@@ -1251,7 +1251,7 @@ $messages['ltg'] = array(
 	'contributionscores-pages' => 'Puslopys',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -1350,7 +1350,7 @@ $messages['mt'] = array(
 	'contributionscores-invalidmetric' => 'Metrika invalida',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1368,8 +1368,7 @@ $messages['nah'] = array(
 	'contributionscores-username' => 'Tlatequitiltilīltōcāitl',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2075,7 +2074,7 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 	'contributionscores-invalidmetric' => 'Metrica mia valida',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
