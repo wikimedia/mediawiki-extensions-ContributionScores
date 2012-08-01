@@ -421,7 +421,7 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
-	'contributionscores' => 'Skore iştıraxkara',
+	'contributionscores' => 'Skorê iştıraq karan',
 	'contributionscores-info' => "Skora hesab kerdış:
 *Vurnayışo ke biyo herg pela sera (1) puan
 *(Vurnayışa pêron sera) - (Babeta pelan pêro) * karyena 2 'ınê karerêçi
