@@ -1423,7 +1423,7 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 	'contributionscores-score' => 'Punten',
 	'contributionscores-pages' => "Pagina's",
 	'contributionscores-changes' => 'Bewerkingen',
-	'contributionscores-username' => 'Gebruiker',
+	'contributionscores-username' => 'Gebruikersnaam',
 	'contributionscores-invalidusername' => 'Ongeldige gebruikersnaam',
 	'contributionscores-invalidmetric' => 'Ongeldige eenheid',
 );
