@@ -1051,6 +1051,20 @@ Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo m�
 	'contributionscores-invalidmetric' => 'Metrik ora sah',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'contributionscores-top' => '(საუკეთესო $1)',
+	'contributionscores-days' => 'ბოლო {{PLURAL:$1|დღე|$1 დღე}}',
+	'contributionscores-allrevisions' => 'ყველა დროის',
+	'contributionscores-score' => 'შეფასება',
+	'contributionscores-pages' => 'გვერდები',
+	'contributionscores-changes' => 'ცვლილებები',
+	'contributionscores-username' => 'მომხმარებლის სახელი',
+	'contributionscores-invalidusername' => 'არასწორი მომხმარებლის სახელი',
+);
+
 /** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬)
  * @author Robby
  */
@@ -1720,12 +1734,14 @@ $messages['scn'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'contributionscores-score' => 'ලකුණු',
 	'contributionscores-pages' => 'පිටු',
 	'contributionscores-changes' => 'වෙනස් කිරීම්',
+	'contributionscores-username' => 'පරිශීලක නාමය',
 );
 
 /** Slovak (slovenčina)
