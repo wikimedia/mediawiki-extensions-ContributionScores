@@ -1353,6 +1353,7 @@ $messages['ms'] = array(
  */
 $messages['mt'] = array(
 	'contributionscores' => 'Punteġġi tal-kontribuzzjonijiet',
+	'contributionscores-desc' => "Tanalizza d-databażi tal-wiki għall-ogħla [[Special:ContributionScores|volum ta' kontributi tal-utenti]]",
 	'contributionscores-top' => '(L-Aqwa $1)',
 	'contributionscores-days' => 'L-aħħar {{PLURAL:$1|ġurnata|$1 ġranet}}',
 	'contributionscores-allrevisions' => "Ta' kull żmien",
