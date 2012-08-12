@@ -1739,10 +1739,13 @@ $messages['scn'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'contributionscores-top' => '(ඉහළම $1)',
+	'contributionscores-allrevisions' => 'හැම වෙලාවෙම',
 	'contributionscores-score' => 'ලකුණු',
 	'contributionscores-pages' => 'පිටු',
 	'contributionscores-changes' => 'වෙනස් කිරීම්',
 	'contributionscores-username' => 'පරිශීලක නාමය',
+	'contributionscores-invalidusername' => 'වලංගු නොවන පරිශීලක නාමය',
 );
 
 /** Slovak (slovenčina)
@@ -1880,6 +1883,7 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author TRYPPN
  * @author Trengarasu
  * @author Ulmo
@@ -1889,6 +1893,7 @@ $messages['ta'] = array(
 	'contributionscores-pages' => 'பக்கங்கள்',
 	'contributionscores-changes' => 'மாற்றங்கள்',
 	'contributionscores-username' => 'பயனர் பெயர்',
+	'contributionscores-invalidusername' => 'செல்லாத பயனர்பெயர்',
 );
 
 /** Telugu (తెలుగు)
