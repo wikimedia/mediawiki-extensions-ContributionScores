@@ -187,6 +187,7 @@ $messages['az'] = array(
 
 /** Bashkir (башҡортса)
  * @author Assele
+ * @author Haqmar
  */
 $messages['ba'] = array(
 	'contributionscores' => 'Индергән өлөштәрҙе баһалау',
@@ -197,7 +198,7 @@ $messages['ba'] = array(
 Баһаны иҫәпләгән ваҡытта, шулай итеп, дөйөм үҙгәртеүҙәр һанына ҡарағында үҙгәртеүҙәрҙең төрлөлөгө ҙурыраҡ йоғонто яһай.',
 	'contributionscores-top' => '(Тәүге $1)',
 	'contributionscores-days' => 'Һуңғы {{PLURAL:$1|көн|$1 көн}}',
-	'contributionscores-allrevisions' => 'Бөтә үҙгәртеүҙәр',
+	'contributionscores-allrevisions' => 'Бөтәһе',
 	'contributionscores-score' => 'Баһа',
 	'contributionscores-pages' => 'Биттәр',
 	'contributionscores-changes' => 'Үҙгәртеүҙәр',
@@ -1887,9 +1888,14 @@ När poängen beräknas på detta sätt, så väger bidrag spridda över många 
  * @author TRYPPN
  * @author Trengarasu
  * @author Ulmo
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'contributionscores' => 'பங்களிப்புப் புள்ளிகள்',
+	'contributionscores-top' => '(முதல் $1)',
+	'contributionscores-days' => 'கடைசி {{PLURAL:$1|நாள்|$1 நாட்கள்}}',
 	'contributionscores-allrevisions' => 'எல்லா திருத்தங்களும்',
+	'contributionscores-score' => 'புள்ளி',
 	'contributionscores-pages' => 'பக்கங்கள்',
 	'contributionscores-changes' => 'மாற்றங்கள்',
 	'contributionscores-username' => 'பயனர் பெயர்',
