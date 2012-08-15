@@ -657,6 +657,14 @@ $messages['fy'] = array(
 	'contributionscores-username' => 'Meidoggernamme',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'contributionscores-pages' => 'Leathanaigh',
+	'contributionscores-username' => 'Ainm úsáideora',
+);
+
 /** Galician (galego)
  * @author Alma
  * @author Toliño
