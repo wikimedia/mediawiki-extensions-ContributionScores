@@ -23,11 +23,12 @@ class ContributionScores extends IncludableSpecialPage {
 	 *
 	 * @param $days int Days in the past to run report for
 	 * @param $limit int Maximum number of users to return (default 50)
-	 *
-	 * @return HTML Table representing the requested Contribution Scores.
+	 * @param $title Title (default null)
+	 * @param $options array of options (default none; nosort/notools)
+	 * @return Html Table representing the requested Contribution Scores.
 	 */
 	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
-		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName, $wgLang;
+		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName;
 
 		$opts = explode( ',', strtolower( $options ) );
 
@@ -55,7 +56,6 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( $wgContribScoreIgnoreBots ) {
 			$sqlWhere .= " {$nextPrefix} rev_user NOT IN (SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot')";
-			$nextPrefix = "AND";
 		}
 
 		$sqlMostPages = "SELECT rev_user,
@@ -92,10 +92,10 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n" .
 			"<tr class='header'>\n" .
-			Html::element( 'th', array(), wfMsg( 'contributionscores-score' ) ) .
-			Html::element( 'th', array(), wfMsg( 'contributionscores-pages' ) ) .
-			Html::element( 'th', array(), wfMsg( 'contributionscores-changes' ) ) .
-			Html::element( 'th', array(), wfMsg( 'contributionscores-username' ) );
+			Html::element( 'th', array(), $this->msg( 'contributionscores-score' )->text() ) .
+			Html::element( 'th', array(), $this->msg( 'contributionscores-pages' )->text() ) .
+			Html::element( 'th', array(), $this->msg( 'contributionscores-changes' )->text() ) .
+			Html::element( 'th', array(), $this->msg( 'contributionscores-username' )->text() );
 
 		$altrow = '';
 
@@ -114,11 +114,12 @@ class ContributionScores extends IncludableSpecialPage {
 				);
 			}
 
+			$lang = $this->getLanguage();
 			$output .= Html::closeElement( 'tr' );
 			$output .= "<tr class='{$altrow}'>\n<td class='content'>" .
-				$wgLang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content'>" .
-				$wgLang->formatNum( $row->page_count ) . "\n</td><td class='content'>" .
-				$wgLang->formatNum( $row->rev_count ) . "\n</td><td class='content'>" .
+				$lang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content'>" .
+				$lang->formatNum( $row->page_count ) . "\n</td><td class='content'>" .
+				$lang->formatNum( $row->rev_count ) . "\n</td><td class='content'>" .
 				$userLink;
 
 			# Option to not display user tools
@@ -141,7 +142,8 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( !empty( $title ) )
 			$output = Html::rawElement( 'table', array( 'cellspacing' => 0, 'cellpadding' => 0,
-				'class' => 'contributionscores-wrapper', 'lang' => $wgLang->getCode(), 'dir' => $wgLang->getDir() ),
+				'class' => 'contributionscores-wrapper', 'lang' => $lang->getCode(),
+				'dir' => $lang->getDir() ),
 			"\n" .
 			"<tr>\n" .
 			"<td style='padding: 0px;'>{$title}</td>\n" .
@@ -171,8 +173,6 @@ class ContributionScores extends IncludableSpecialPage {
 	 * @param $par
 	 */
 	function showInclude( $par ) {
-		global $wgOut, $wgLang;
-
 		$days = null;
 		$limit = null;
 		$options = 'none';
@@ -199,20 +199,20 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 
 		if ( $days > 0 ) {
-			$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $wgLang->formatNum( $days ) );
+			$reportTitle = $this->msg( 'contributionscores-days' )->numParams( $days )->text();
 		} else {
-			$reportTitle = wfMsg( 'contributionscores-allrevisions' );
+			$reportTitle = $this->msg( 'contributionscores-allrevisions' )->text();
 		}
-		$reportTitle .= " " . wfMsgExt( 'contributionscores-top', 'parsemag', $wgLang->formatNum( $limit ) );
+		$reportTitle .= " " . $this->msg( 'contributionscores-top' )->numParams( $limit )->text();
 		$title = Xml::element( 'h4', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
-		$wgOut->addHTML( $this->genContributionScoreTable( $days, $limit, $title, $options ) );
+		$this->getOutput()->addHTML( $this->genContributionScoreTable( $days, $limit, $title, $options ) );
 	}
 
 	/**
 	 * Show the special page
 	 */
 	function showPage() {
-		global $wgOut, $wgLang, $wgContribScoreReports;
+		global $wgContribScoreReports;
 
 		if ( !is_array( $wgContribScoreReports ) ) {
 			$wgContribScoreReports = array(
@@ -222,19 +222,20 @@ class ContributionScores extends IncludableSpecialPage {
 			);
 		}
 
-		$wgOut->addWikiMsg( 'contributionscores-info' );
+		$out = $this->getOutput();
+		$out->addWikiMsg( 'contributionscores-info' );
 
 		foreach ( $wgContribScoreReports as $scoreReport ) {
 			list( $days, $revs ) = $scoreReport;
 			if ( $days > 0 ) {
-				$reportTitle = wfMsgExt( 'contributionscores-days', 'parsemag', $wgLang->formatNum( $days ) );
+				$reportTitle = $this->msg( 'contributionscores-days' )->numParams( $days )->text();
 			} else {
-				$reportTitle = wfMsg( 'contributionscores-allrevisions' );
+				$reportTitle = $this->msg( 'contributionscores-allrevisions' )->text();
 			}
-			$reportTitle .= " " . wfMsgExt( 'contributionscores-top', 'parsemag', $wgLang->formatNum( $revs ) );
+			$reportTitle .= " " . $this->msg( 'contributionscores-top' )->numParams( $revs )->text();
 			$title = Xml::element( 'h2', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
-			$wgOut->addHTML( $title );
-			$wgOut->addHTML( $this->genContributionScoreTable( $days, $revs ) );
+			$out->addHTML( $title );
+			$out->addHTML( $this->genContributionScoreTable( $days, $revs ) );
 		}
 	}
 }

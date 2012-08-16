@@ -15,7 +15,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author' => 'Tim Laqua',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version' => '1.15'
+	'version' => '1.16'
 );
 
 $dir = dirname( __FILE__ ) . '/';
@@ -77,10 +77,10 @@ function efContributionScores_Render( &$parser, $usertext, $metric = 'score' ) {
 			$row = $dbr->fetchObject( $res );
 			$output = $wgLang->formatNum( $row->page_count );
 		} else {
-			$output = wfMsg( 'contributionscores-invalidmetric' );
+			$output = wfMessage( 'contributionscores-invalidmetric' )->text();
 		}
 	} else {
-		$output = wfMsg( 'contributionscores-invalidusername' );
+		$output = wfMessage( 'contributionscores-invalidusername' )->text();
 	}
 
 	return $parser->insertStripItem( $output, $parser->mStripState );
