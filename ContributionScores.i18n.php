@@ -1363,6 +1363,10 @@ $messages['ms'] = array(
 $messages['mt'] = array(
 	'contributionscores' => 'Punteġġi tal-kontribuzzjonijiet',
 	'contributionscores-desc' => "Tanalizza d-databażi tal-wiki għall-ogħla [[Special:ContributionScores|volum ta' kontributi tal-utenti]]",
+	'contributionscores-info' => "Il-punteġġi huma kkalkulati b'dan il-mod:
+*Punt (1) għal kull paġna distinta modifikata
+*Radiċi kwadrata ta' (modifiki kollha li saru) - (total ta' paġni distinti) * 2
+Dan il-metodu ta' kalkolu tal-punteġġi jagħti iktar importanza għad-diversità fil-modifiki milli għan-numru ta' kontribuzzjonijiet. Bażikament, dan il-punteġġ l-ewwel jikkalkola n-numru ta' paġni distinti modifikati, fejn in konsiderazzjoni għall-volum għoli ta' kontribuzzjonijiet - din tassumi li hija paġna ta' kwalità ogħla.",
 	'contributionscores-top' => '(L-Aqwa $1)',
 	'contributionscores-days' => 'L-aħħar {{PLURAL:$1|ġurnata|$1 ġranet}}',
 	'contributionscores-allrevisions' => "Ta' kull żmien",
@@ -2086,6 +2090,18 @@ $messages['uk'] = array(
 	'contributionscores-username' => "Ім'я користувача",
 	'contributionscores-invalidusername' => "Неправильне ім'я користувача",
 	'contributionscores-invalidmetric' => 'Неправильна метрика',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'contributionscores-allrevisions' => 'تمام وقت',
+	'contributionscores-score' => 'سکور',
+	'contributionscores-pages' => 'صفحات',
+	'contributionscores-changes' => 'تبدیلیاں',
+	'contributionscores-username' => 'صارف کا نام',
+	'contributionscores-invalidusername' => 'باطل کے صارف کا نام',
 );
 
 /** vèneto (vèneto)
