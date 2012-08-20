@@ -2160,7 +2160,7 @@ $messages['vi'] = array(
 Điểm số được tính theo cách này sẽ nhé nhấn mạnh vào sự đa dạng khi sửa đổi hơn là mức độ sửa đổi.
 Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.',
 	'contributionscores-top' => '(Tốp $1)',
-	'contributionscores-days' => '{{PLURAL:$1|Một|$1}} ngày qua',
+	'contributionscores-days' => '{{PLURAL:$1|Ngày|$1 ngày}} qua',
 	'contributionscores-allrevisions' => 'Từ trước đến nay',
 	'contributionscores-score' => 'Điểm số',
 	'contributionscores-pages' => 'Trang',
