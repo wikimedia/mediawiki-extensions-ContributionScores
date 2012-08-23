@@ -887,7 +887,7 @@ Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerke
 	'contributionscores-score' => 'Pontszám',
 	'contributionscores-pages' => 'Oldalak',
 	'contributionscores-changes' => 'Változtatások',
-	'contributionscores-username' => 'Felhasználó',
+	'contributionscores-username' => 'Felhasználónév',
 	'contributionscores-invalidusername' => 'Érvénytelen szerkesztői név',
 	'contributionscores-invalidmetric' => 'Érvénytelen mértékrendszer',
 );
