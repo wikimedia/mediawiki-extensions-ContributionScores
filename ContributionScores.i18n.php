@@ -1021,14 +1021,14 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 $messages['ja'] = array(
 	'contributionscores' => '貢献得点',
 	'contributionscores-desc' => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
-	'contributionscores-info' => '得点は以下のように計算されます：
-*編集したページ毎に1点
-*「(合計編集回数)－(合計ページ数)」の平方根×2
-この計算式では、編集量よりも編集の多様性を重視します。
-得点は、編集したページ数を基礎に、編集量の多さにも配慮しています。これはページの品質を高めるためです。',
+	'contributionscores-info' => '得点は以下のように算出されます:
+*編集したページ数×1
+*(「編集回数」 - 「編集したページ数」) の平方根×2
+この計算式では、編集回数よりも編集の多様性を重視します。
+得点では、編集したページ数を基礎に、編集回数の多さにも配慮しています。これはページの品質を高めるためです。',
 	'contributionscores-top' => '(上位$1名)',
 	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
-	'contributionscores-allrevisions' => '全時間',
+	'contributionscores-allrevisions' => 'すべての期間',
 	'contributionscores-score' => '得点',
 	'contributionscores-pages' => 'ページ数',
 	'contributionscores-changes' => '編集回数',
