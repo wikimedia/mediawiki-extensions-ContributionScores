@@ -871,6 +871,7 @@ Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon kons
  * @author Dani
  * @author Dj
  * @author Glanthor Reviol
+ * @author Shirayuki
  */
 $messages['hu'] = array(
 	'contributionscores' => 'Szerkesztési pontszám',
@@ -878,7 +879,7 @@ $messages['hu'] = array(
 	'contributionscores-info' => 'A pontszámok az alábbi módon vannak kiszámolva:
 
 * 1 pont minden egyedi lap szerkesztése után
-* (az összes szerkesztés) – (az összes egyedi lap) × 2 négyzetgyöke
+* (az összes szerkesztés) – (az összes egyedi lap) négyzetgyöke × 2
 
 Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.',
 	'contributionscores-top' => '(legjobb $1)',
@@ -1022,7 +1023,7 @@ $messages['ja'] = array(
 	'contributionscores' => '貢献得点',
 	'contributionscores-desc' => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
 	'contributionscores-info' => '得点は以下のように算出されます:
-*編集したページ数×1
+*「編集したページ数」×1
 *(「編集回数」 - 「編集したページ数」) の平方根×2
 この計算式では、編集回数よりも編集の多様性を重視します。
 得点では、編集したページ数を基礎に、編集回数の多さにも配慮しています。これはページの品質を高めるためです。',
@@ -1150,6 +1151,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Shirayuki
  * @author 아라
  */
 $messages['ko'] = array(
@@ -1157,7 +1159,7 @@ $messages['ko'] = array(
 	'contributionscores-desc' => '최고 [[Special:ContributionScores|사용자 기여 값]]에 대한 위키 데이터베이스 투표',
 	'contributionscores-info' => '점수는 다음과 같이 계산됩니다:
 *각각의 고유 문서를 편집했을 때 일(1)점
-*(총 편집 사항) - (총 고유 문서) * 2의 제곱근
+*(총 편집 사항)-(총 고유 문서)의 제곱근 * 2
 점수는 이러한 편집량 이상의 다양한 편집의 가중치로 계산됩니다.
 기본적으로 이 점수가 높은 편집량에 대해 고려하여 주로 높은 품질의 문서로 간주하는 고유 문서의 편집을 측정합니다.',
 	'contributionscores-top' => '(상위 $1)',
@@ -2217,13 +2219,14 @@ $messages['yi'] = array(
 /** Cantonese (粵語)
  * @author PhiLiP
  * @author Shinjiman
+ * @author Shirayuki
  */
 $messages['yue'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-desc' => '根據響wiki數據庫畀出最高嘅[[Special:ContributionScores|用戶貢獻容量]]',
 	'contributionscores-info' => '分數會用下面嘅計法去計:
 *每一個唯一一版編輯過嘅有1分
-*(總編輯數)嘅平方根 - (總唯一頁數) * 2
+*(總編輯數)-(總唯一頁數)嘅平方根 * 2
 響呢方面計嘅分數會睇編輯多樣性同編輯量相比。 基本噉講，呢個分數係會依主要嘅唯一編輯過嘅頁，同埋考慮高編輯量 - 假設係一篇高質量嘅文章。',
 	'contributionscores-top' => '(最高$1名)',
 	'contributionscores-days' => '最近$1日',
@@ -2240,13 +2243,14 @@ $messages['yue'] = array(
  * @author Hydra
  * @author PhiLiP
  * @author Shinjiman
+ * @author Shirayuki
  */
 $messages['zh-hans'] = array(
 	'contributionscores' => '贡献分数',
 	'contributionscores-desc' => '根据在wiki数据库中给出最高的[[Special:ContributionScores|用户贡献容量]]',
 	'contributionscores-info' => '分数会用以下的的计分法去计算:
 *每一个唯一页面编辑过的有1分
-*（总编辑数）的平方根 - （总唯一页面数） * 2
+*(总编辑数)-(总唯一页面数)的平方根 * 2
 在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。',
 	'contributionscores-top' => '（最高$1名）',
 	'contributionscores-days' => '最近$1天',
@@ -2263,13 +2267,14 @@ $messages['zh-hans'] = array(
  * @author Mark85296341
  * @author PhiLiP
  * @author Shinjiman
+ * @author Shirayuki
  */
 $messages['zh-hant'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-desc' => '根據在wiki資料庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]',
 	'contributionscores-info' => '分數會用以下的的計分法去計算：
 *每一個唯一頁面編輯過的有 1 分
-*（總編輯數）的平方根 - （總唯一頁面數） * 2
+*(總編輯數)-(總唯一頁面數)的平方根 * 2
 在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。',
 	'contributionscores-top' => '（最多 $1 位）',
 	'contributionscores-days' => '最近 {{PLURAL:$1|天|$1 天}}',
