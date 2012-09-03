@@ -1027,8 +1027,8 @@ $messages['ja'] = array(
 *(「編集回数」 - 「編集したページ数」) の平方根×2
 この計算式では、編集回数よりも編集の多様性を重視します。
 得点では、編集したページ数を基礎に、編集回数の多さにも配慮しています。これはページの品質を高めるためです。',
-	'contributionscores-top' => '(上位 $1 名)',
-	'contributionscores-days' => '最近 {{PLURAL:$1|1 日|$1 日間}}',
+	'contributionscores-top' => '(上位$1名)',
+	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
 	'contributionscores-allrevisions' => 'すべての期間',
 	'contributionscores-score' => '得点',
 	'contributionscores-pages' => 'ページ数',
