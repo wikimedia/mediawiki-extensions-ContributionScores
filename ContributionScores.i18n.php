@@ -429,6 +429,7 @@ $messages['diq'] = array(
 Skorê ke ewna benê hesab, amariya vurnayışan u aredê babetiya vurnayışan heta  graney deyêna ser.
 Esasin de na skor, ferzi misal çend vurnayış pela sero esto se a pela hend qeliteyına u ey heta sencêna.",
 	'contributionscores-top' => '(Tewr Gırde $1)',
+	'contributionscores-pages' => 'Peri',
 );
 
 /** Lower Sorbian (dolnoserbski)
