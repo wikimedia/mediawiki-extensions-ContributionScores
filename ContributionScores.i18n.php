@@ -1673,9 +1673,9 @@ $messages['ro'] = array(
 	'contributionscores-desc' => 'Interoghează baza de date a wikiului pentru a găsi cel mai mare [[Special:ContributionScores|volum de contribuții ale unui utilizator]]',
 	'contributionscores-info' => 'Punctajul este calculat în felul următor:
 *Un (1) punct pentru fiecare pagină unic modificată
-*Rădăcină pătrată din (totalul modificărilor efectuate) - (totalul paginilor unice) * 2
-Punctajul astfel calculate oferă diversitate volumului de modificări.
-Practic, acest scor măsoară în primul rând paginile unic modificate, cu considerație pentru volumul ridicat de modificări - presupunând că pagina este de o calitate superioară.',
+*Rădăcină pătrată din (totalul modificărilor efectuate) − (totalul paginilor unice) * 2
+Punctajul astfel calculat oferă diversitate volumului de modificări.
+Practic, acest scor măsoară în primul rând paginile unic modificate, cu considerație pentru volumul ridicat de modificări — presupunând că pagina este de o calitate superioară.',
 	'contributionscores-top' => '(primii $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultima zi|Ultimele $1 zile}}',
 	'contributionscores-allrevisions' => 'Clasamentul tuturor timpurilor',
