@@ -1612,6 +1612,7 @@ $messages['ps'] = array(
 	'contributionscores-pages' => 'مخونه',
 	'contributionscores-changes' => 'بدلونونه',
 	'contributionscores-username' => 'کارن-نوم',
+	'contributionscores-invalidusername' => 'ناسم کارن-نوم',
 );
 
 /** Portuguese (português)
