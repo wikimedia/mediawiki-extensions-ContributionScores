@@ -1165,7 +1165,7 @@ $messages['ko'] = array(
 기본적으로 이 점수가 높은 편집량에 대해 고려하여 주로 높은 품질의 문서로 간주하는 고유 문서의 편집을 측정합니다.',
 	'contributionscores-top' => '(상위 $1)',
 	'contributionscores-days' => '최근 $1일',
-	'contributionscores-allrevisions' => '모든 시간',
+	'contributionscores-allrevisions' => '모든 기간',
 	'contributionscores-score' => '점수',
 	'contributionscores-pages' => '문서',
 	'contributionscores-changes' => '바뀜',
