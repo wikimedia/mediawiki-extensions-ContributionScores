@@ -422,14 +422,22 @@ Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als d
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
-	'contributionscores' => 'Skorê iştıraq karan',
+	'contributionscores' => 'Skorê iştıraqan',
+	'contributionscores-desc' => 'Qandê tewr berz malumat de wiki de  [[Special:ContributionScores|dekerdenanê karberan]] persêno',
 	'contributionscores-info' => "Skora hesab kerdış:
 *Vurnayışo ke biyo herg pela sera (1) puan
 *(Vurnayışa pêron sera) - (Babeta pelan pêro) * karyena 2 'ınê karerêçi
 Skorê ke ewna benê hesab, amariya vurnayışan u aredê babetiya vurnayışan heta  graney deyêna ser.
 Esasin de na skor, ferzi misal çend vurnayış pela sero esto se a pela hend qeliteyına u ey heta sencêna.",
 	'contributionscores-top' => '(Tewr Gırde $1)',
+	'contributionscores-days' => 'Peyni {{PLURAL:$1|roce|$1 rocan}}',
+	'contributionscores-allrevisions' => 'Çaxan de hemi',
+	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Peri',
+	'contributionscores-changes' => 'Vurnayışi',
+	'contributionscores-username' => 'Namey karberi',
+	'contributionscores-invalidusername' => 'Şahtiyaye namey karberi',
+	'contributionscores-invalidmetric' => 'Şahtiyaye metrik',
 );
 
 /** Lower Sorbian (dolnoserbski)
