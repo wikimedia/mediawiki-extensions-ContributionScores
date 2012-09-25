@@ -148,7 +148,7 @@ $specialPageAliases['mr'] = array(
 	'ContributionScores' => array( 'योगदानप्राविण्य' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'ContributionScores' => array( 'Bidragspoeng' ),
 );
@@ -203,12 +203,12 @@ $specialPageAliases['tr'] = array(
 	'ContributionScores' => array( 'KatkıSkorları', 'KatkıPuanları' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'ContributionScores' => array( '贡献得分' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'ContributionScores' => array( '貢獻得分' ),
 );
