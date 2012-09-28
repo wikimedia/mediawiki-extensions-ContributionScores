@@ -28,6 +28,11 @@ $specialPageAliases['as'] = array(
 	'ContributionScores' => array( 'বৰঙনিৰ_মূল্যায়ন' ),
 );
 
+/** Bashkir (башҡортса) */
+$specialPageAliases['ba'] = array(
+	'ContributionScores' => array( 'Өлөш_мәрәйҙәре' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'ContributionScores' => array( 'Skor_sumbangan' ),
