@@ -207,7 +207,7 @@ $messages['ba'] = array(
 	'contributionscores-invalidmetric' => 'Метрика дөрөҫ түгел',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1084,7 +1084,7 @@ $messages['ka'] = array(
 	'contributionscores-invalidusername' => 'არასწორი მომხმარებლის სახელი',
 );
 
-/** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬)
+/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏)
  * @author Robby
  */
 $messages['kk-arab'] = array(
@@ -1102,7 +1102,7 @@ $messages['kk-arab'] = array(
 	'contributionscores-username' => 'قاتىسۋشى اتى',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
 $messages['kk-cyrl'] = array(
 	'contributionscores' => 'Үлес беру есептері',
 	'contributionscores-info' => 'Есептер келесі дей саналады:
@@ -1118,7 +1118,7 @@ $messages['kk-cyrl'] = array(
 	'contributionscores-username' => 'Қатысушы аты',
 );
 
-/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎) */
 $messages['kk-latn'] = array(
 	'contributionscores' => 'Üles berw esepteri',
 	'contributionscores-info' => 'Esepter kelesi deý sanaladı:
@@ -1205,7 +1205,7 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
 	'contributionscores-invalidmetric' => 'Onjöltesch Mohß',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1407,7 +1407,7 @@ $messages['nah'] = array(
 	'contributionscores-username' => 'Tlatequitiltilīltōcāitl',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1467,7 +1467,7 @@ In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaard
 	'contributionscores-invalidmetric' => 'Ongeldige eenheid',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
@@ -1817,7 +1817,7 @@ V bistvu ta rezultat meri predvsem urejene edinstvene strani ob upoštevanju vel
 	'contributionscores-invalidmetric' => 'Neveljavna metrika',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1831,7 +1831,7 @@ $messages['sr-ec'] = array(
 	'contributionscores-username' => 'Корисничко име',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -2249,7 +2249,7 @@ $messages['yue'] = array(
 	'contributionscores-invalidmetric' => '無效嘅公制',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author PhiLiP
  * @author Shinjiman
@@ -2273,7 +2273,7 @@ $messages['zh-hans'] = array(
 	'contributionscores-invalidmetric' => '无效的公制',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author PhiLiP
  * @author Shinjiman
