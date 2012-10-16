@@ -394,15 +394,13 @@ Basalt set måler pointene først og fremmest hvor mange forskellige sider der e
 /** German (Deutsch)
  * @author Kghbln
  * @author Merlissimo
+ * @author Metalhead64
  * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'contributionscores' => 'Statistik zu Benutzern',
 	'contributionscores-desc' => 'Ergänzt eine [[Special:ContributionScores|Spezialseite]] zum Abfragen der Datenbank des Wikis bezüglich der Benutzer mit den meisten Beiträgen',
-	'contributionscores-info' => 'Bewertungsschema:
-*1 Punkt für jede bearbeitete Seite
-*Quadratwurzel aller (Bearbeitungen) - (Summe der bearbeiteten Seiten) * 2
-Bewertungen auf dieser Grundlage wichten die Vielfalt der Beiträge höher als das Beitragsvolumen.',
+	'contributionscores-info' => 'In die Bewertung fließen hauptsächlich einmalig bearbeitete Seiten unter Berücksichtigung einer hohen Bearbeitungszahl ein.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Letzter Tag|Letzte $1 Tage}}',
 	'contributionscores-allrevisions' => 'Gesamter Zeitraum',
@@ -503,6 +501,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 );
 
 /** Spanish (español)
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
  * @author Sanbec
@@ -510,10 +509,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 $messages['es'] = array(
 	'contributionscores' => 'Puntuaciones de contribuciones',
 	'contributionscores-desc' => 'Encuesta la base de datos del wiki para el mas alto [[Special:ContributionScores|volumen de contribuciones del usuario]]',
-	'contributionscores-info' => 'Las puntuaciones son calculadas siguiendo:
-*1 punto por cada página única editada
-*Raíz cuadrada de (Ediciones totales efectuadas) - (Páginas totales únicas) x 2
-Las puntuaciones son calculadas de esta manera considerando la diversidad sobre el volumen de edición. Básicamente, esta puntuación mide fundamentalmente las páginas únicas editadas, considerando que un alto volumen de edición supone que es un artículo de mayor calidad.',
+	'contributionscores-info' => 'Básicamente, la puntuación mide las páginas únicas editadas, teniendo en cuenta el alto volumen de ediciones.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
 	'contributionscores-allrevisions' => 'Todo el tiempo',
@@ -678,11 +674,7 @@ $messages['ga'] = array(
 $messages['gl'] = array(
 	'contributionscores' => 'Puntuación das contribucións',
 	'contributionscores-desc' => 'Escruta a base de datos do wiki para ver os maiores [[Special:ContributionScores|volumes de contribucións dos usuarios]]',
-	'contributionscores-info' => 'As puntuacións calcúlanse do seguinte xeito:
-*Un (1) punto por cada páxina única editada
-*Raíz cadrada de (Total de edicións feitas) - (Total de páxinas únicas) * 2
-As puntuacións calculadas deste xeito favorecen a diversidade de edicións sobre o volume.
-Basicamente, esta puntuación mide, en principio, as páxinas únicas editadas, tendo en conta un volume alto de edicións (co que se asume que é unha páxina de calidade superior).',
+	'contributionscores-info' => 'Basicamente, a puntuación mide as páxinas únicas editadas, tendo en conta o alto volume de edicións.',
 	'contributionscores-top' => '(os $1 que máis)',
 	'contributionscores-days' => '{{PLURAL:$1|O último día|Os últimos $1 días}}',
 	'contributionscores-allrevisions' => 'Desde sempre',
@@ -993,6 +985,7 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
  * @author Gianfranco
@@ -1002,10 +995,7 @@ Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn 
 $messages['it'] = array(
 	'contributionscores' => 'Punteggi contributi',
 	'contributionscores-desc' => 'Interroga il database wiki per il più alto [[Special:ContributionScores|volume di contributi utente]]',
-	'contributionscores-info' => 'I punteggi vengono calcolati in questo modo:
-*1 punto per ciascuna pagina distinta modificata
-*Radice quadrata di (Tutte le modifiche effettuate) - (Totale pagine distinte) * 2
-Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle modifiche rispetto al numero dei contributi. Di fondo, questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un eventuale alto volume di contributi - ciò fa presumere una più elevata qualità della pagina modificata.',
+	'contributionscores-info' => 'Questo punteggio misura in primo luogo il numero di pagine distinte modificate, valutando anche un alto volume di contributi.',
 	'contributionscores-top' => '(Migliori $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultimo giorno|Ultimi $1 giorni}}',
 	'contributionscores-allrevisions' => 'Tutte le revisioni',
@@ -1027,11 +1017,7 @@ Questo metodo di calcolo dei punteggi tiene in maggior conto la diversità delle
 $messages['ja'] = array(
 	'contributionscores' => '貢献得点',
 	'contributionscores-desc' => 'ウィキデータベースへの[[Special:ContributionScores|貢献度が高い利用者]]の統計',
-	'contributionscores-info' => '得点は以下のように算出されます:
-*「編集したページ数」×1
-*(「編集回数」 - 「編集したページ数」) の平方根×2
-この計算式では、編集回数よりも編集の多様性を重視します。
-得点では、編集したページ数を基礎に、編集回数の多さにも配慮しています。これはページの品質を高めるためです。',
+	'contributionscores-info' => '得点では、編集したページ数を主に評価し、さらに編集回数の多さにも配慮します。',
 	'contributionscores-top' => '(上位$1名)',
 	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
 	'contributionscores-allrevisions' => 'すべての期間',
@@ -1294,11 +1280,7 @@ $messages['mhr'] = array(
 $messages['mk'] = array(
 	'contributionscores' => 'Оцени за придонеси',
 	'contributionscores-desc' => 'Презема информации од вики-базата на податоци за најголем [[Special:ContributionScores|број на кориснички придонеси]]',
-	'contributionscores-info' => 'Оцените се пресметуваат на следниов начин:
-*Еден (1) бод за секоја засебна уредена страница
-*Квадратен корен од (вкупно направени уредувања) - (вкупно засебни страници) * 2
-Вака пресметаните оцени ѝ придават повеќе тежина на разнообразноста на уредувањата, отколку на бројот на уредувања.
-Начелно, ова оценување главно ги мери засебните уредени страници, земајќи го в превид и големиот број на уредувања - претпоставувајќи дека е страница со повисок квалитет.',
+	'contributionscores-info' => 'Салдото е мерка што изразува уредувања на засебни страници, со оглед на големиот број на уредувања.',
 	'contributionscores-top' => '(Најдобри $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последниот ден|Последните $1 дена}}',
 	'contributionscores-allrevisions' => 'На сите времиња',
