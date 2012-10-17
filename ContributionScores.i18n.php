@@ -211,10 +211,7 @@ $messages['ba'] = array(
 $messages['be-tarask'] = array(
 	'contributionscores' => 'Адзнака ўнёску',
 	'contributionscores-desc' => 'Вызначае з базы зьвестак [[Special:ContributionScores|удзельнікаў з найбольшай колькасьцю рэдагаваньняў]]',
-	'contributionscores-info' => 'Адзнака вылічаецца наступным чынам:
-* 1 пункт за рэдагаваньне кожнай унікальнай старонкі;
-* квадратны корань з (агульнай колькасьці рэдагаваньняў) - (агульная колькасьць ўнікальных старонак) * 2
-Такі спосаб падліку дазваляе высьветліць разнароднасьць рэдагаваньняў адносна колькасьці рэдагаваньняў. Канчатковы вынік залежыць ад колькасьці рэдагаваньняў унікальных старонак з улікам колькасьці рэдагаваньняў улічваючы якасьць ствараемых старонак.',
+	'contributionscores-info' => 'Адзнака галоўным чынам вымярае ўнікальныя рэдагаваньні старонак з улікам памеру ўнёску.',
 	'contributionscores-top' => '($1 {{PLURAL:$1|найлепшы|найлепшых|найлепшых}})',
 	'contributionscores-days' => '{{PLURAL:$1|Апошні $1 дзень|Апошнія $1 дні|Апошнія $1 дзён}}',
 	'contributionscores-allrevisions' => 'За ўвесь час',
@@ -1148,11 +1145,7 @@ $messages['kn'] = array(
 $messages['ko'] = array(
 	'contributionscores' => '기여 점수',
 	'contributionscores-desc' => '최고 [[Special:ContributionScores|사용자 기여 값]]에 대한 위키 데이터베이스 투표',
-	'contributionscores-info' => '점수는 다음과 같이 계산됩니다:
-*각각의 고유 문서를 편집했을 때 일(1)점
-*(총 편집 사항)-(총 고유 문서)의 제곱근 * 2
-점수는 이러한 편집량 이상의 다양한 편집의 가중치로 계산됩니다.
-기본적으로 이 점수가 높은 편집량에 대해 고려하여 주로 높은 품질의 문서로 간주하는 고유 문서의 편집을 측정합니다.',
+	'contributionscores-info' => '점수는 주로 높은 편집 품질을 고려하여 편집한 고유 문서 수를 측정합니다.',
 	'contributionscores-top' => '(상위 $1)',
 	'contributionscores-days' => '최근 $1일',
 	'contributionscores-allrevisions' => '모든 기간',
@@ -1658,11 +1651,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 $messages['ro'] = array(
 	'contributionscores' => 'Punctaje contribuții',
 	'contributionscores-desc' => 'Interoghează baza de date a wikiului pentru a găsi cel mai mare [[Special:ContributionScores|volum de contribuții ale unui utilizator]]',
-	'contributionscores-info' => 'Punctajul este calculat în felul următor:
-*Un (1) punct pentru fiecare pagină unic modificată
-*Rădăcină pătrată din (totalul modificărilor efectuate) − (totalul paginilor unice) * 2
-Punctajul astfel calculat oferă diversitate volumului de modificări.
-Practic, acest scor măsoară în primul rând paginile unic modificate, cu considerație pentru volumul ridicat de modificări — presupunând că pagina este de o calitate superioară.',
+	'contributionscores-info' => 'Scorul măsoară în primul rând paginile unic modificate, cu considerație pentru volumul ridicat de modificări.',
 	'contributionscores-top' => '(primii $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultima zi|Ultimele $1 zile}}',
 	'contributionscores-allrevisions' => 'Clasamentul tuturor timpurilor',
