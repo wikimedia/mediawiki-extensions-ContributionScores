@@ -367,16 +367,13 @@ $messages['cu'] = array(
 
 /** Danish (dansk)
  * @author Byrial
+ * @author Kaare
  * @author Peter Alberti
  */
 $messages['da'] = array(
 	'contributionscores' => 'Bidragspoint',
 	'contributionscores-desc' => 'Henter information fra databasen om de brugere som har [[Special:ContributionScores|flest bidrag]]',
-	'contributionscores-info' => 'Bidragspoint beregnes på følgende måde:
-* 1 point for hver unik side som er redigeret
-* Dertil lægges 2 gange kvadratroden af (totalt antal redigeringer) - (unike sider redigeret)
-Point beregnet på denne måde vægter redigeringsmangfoldighed højere end redigeringsvolume.
-Basalt set måler pointene først og fremmest hvor mange forskellige sider der er redigeret, med et hensyn til højt redigeringsvolume - som antages at føre til højere sidekvalitet.',
+	'contributionscores-info' => 'Pointene måler primært unikke sideredigeringer, med hensyn til stort redigeringsomfang.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Sidste {{PLURAL:$1|dag|$1 dage}}',
 	'contributionscores-allrevisions' => 'Gennem tiden',
