@@ -1200,11 +1200,7 @@ $messages['kw'] = array(
 $messages['lb'] = array(
 	'contributionscores' => 'Bewäertung vun den Ännerungen',
 	'contributionscores-desc' => "Ufro un d'Wiki-Datebank no den héichste [[Special:ContributionScores|Benotzerscoren]]",
-	'contributionscores-info' => "D'Bewäertunge ginn esou gerechent:
-* 1 Punkt fir all geännert Säit;
-* D'Quadratwuerzel vun (allen Ännerungen) - (Zuel vun de geännerte Säiten) * 2.
-
-Op déi Manéier gëtt der Zuel vun de geännerte Säite méi eng Grouss Bedeitung zougedeelt, wéi der Zuel vun den Ännerungen.",
+	'contributionscores-info' => "D'Bewäertung moosst Zuel vu geännerte Säite a consideréiert d'Zuel vun den Ännerungen.",
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
 	'contributionscores-allrevisions' => 'Vun Ufank un',
@@ -1420,10 +1416,7 @@ $messages['ne'] = array(
 $messages['nl'] = array(
 	'contributionscores' => 'Gebruikersstatistieken',
 	'contributionscores-desc' => 'Geeft een overzicht van [[Special:ContributionScores|gebruikers met de meeste bijdragen]] in de wiki',
-	'contributionscores-info' => "Scores worden als volgt berekend:
-*1 punt voor iedere bewerkte pagina
-*wortel van (totaal aantal gemaakte bewerkingen) - (totaal aantal unieke pagina's) * 2
-In scores die op deze wijze berekend worden weegt divers bewerkingsgedrag zwaarder dan bewerkingsvolume. In feite meet deze score voornamelijk het aantal unieke pagina's dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen, met de aanname dat het een pagina van een hogere kwaliteit is.",
+	'contributionscores-info' => "Deze score meet voornamelijk het aantal unieke pagina's dat is bewerkt, terwijl een groot aantal bewerkingen wel in acht wordt genomen.",
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Laatste {{PLURAL:$1|dag|$1 dagen}}',
 	'contributionscores-allrevisions' => 'Alle versies',
