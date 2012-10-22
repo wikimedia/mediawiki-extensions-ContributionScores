@@ -44,20 +44,6 @@ $messages['qqq'] = array(
 	'contributionscores-username' => '{{Identical|Username}}',
 );
 
-/** Faeag Rotuma (Faeag Rotuma)
- * @author Jose77
- */
-$messages['rtm'] = array(
-	'contributionscores-username' => 'Asa',
-);
-
-/** Niuean (ko e vagahau Niuē)
- * @author Jose77
- */
-$messages['niu'] = array(
-	'contributionscores-username' => 'Matahigoa he tagata',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -68,10 +54,10 @@ $messages['af'] = array(
 	'contributionscores-info' => 'Punte word as volg bereken:
 *Een (1) punt vir elke bladsy gewysig
 *Wortel van (totale aantal wysigings) - (totale aantal unieke bladsye) * 2
-Punte wat op die manier bereken word weeg die verskeidenheid van bladsye gewysig oor die aantal wysigings. Die punte meet hoofsaaklik unieke bladsye gewysig, met inagneming van hoë volume wysigings - wat veronderstel word om van hoër kwaliteit te wees.',
+Punte wat op die manier bereken word weeg die verskeidenheid van bladsye gewysig oor die aantal wysigings. Die punte meet hoofsaaklik unieke bladsye gewysig, met inagneming van hoë volume wysigings - wat veronderstel word om van hoër kwaliteit te wees.', # Fuzzy
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Laaste {{PLURAL:$1|dag|$1 dae}}',
-	'contributionscores-allrevisions' => 'Alle weergawes',
+	'contributionscores-allrevisions' => 'Alle weergawes', # Fuzzy
 	'contributionscores-score' => 'Punte',
 	'contributionscores-pages' => 'Bladsye',
 	'contributionscores-changes' => 'Wysigings',
@@ -92,7 +78,7 @@ $messages['ar'] = array(
 *نقطة واحدة لكل صفحة فريدة تحرر
 *الجذر التربيعي ل(مجموع عدد التعديلات) - (مجموع عدد الصفحات الفريدة) × 2
 النتائج المحسوبة بهذه الطريقة تحسب عدد التعديلات أكثر من حجمها.
-تقيس هذه النتيجة أساسًا الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديلات الكبيرة - لأن الصفحة تكون عادة ذات جودة أعلى.',
+تقيس هذه النتيجة أساسًا الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديلات الكبيرة - لأن الصفحة تكون عادة ذات جودة أعلى.', # Fuzzy
 	'contributionscores-top' => '(أعلى $1)',
 	'contributionscores-days' => '{{PLURAL:$1||اليوم الماضي|اليومان الماضيان|ال$1 أيام الماضية|ال$1 يومًا الماضية|ال$1 يوم الماضية}}',
 	'contributionscores-allrevisions' => 'كل الوقت',
@@ -125,10 +111,10 @@ $messages['arz'] = array(
 	'contributionscores-info' => 'النتائج تحسب كالتالي:
 *1 نقطة لكل صفحة فريدة تحرر
 *الجذر التربيعى ل(عدد التعديلات الكلية) - (عدد الصفحات الفريدة الكلية) * 2
-النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسى الصفحات الفريدة المحررة، مع الأخذ فى الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.',
+النتائج المحسوبة بهذه الطريقة توزن انتثار التعديلات على حجم التعديلات.  أساسا، هذه النتيجة تقيس بشكل أساسى الصفحات الفريدة المحررة، مع الأخذ فى الاعتبار أحجام التعديل الكبيرة - تفترض أنها تكون صفحة بجودة أعلى.', # Fuzzy
 	'contributionscores-top' => '(أعلى $1)',
 	'contributionscores-days' => '{{PLURAL:$1||اليوم الماضي|اليومان الماضيان|ال$1 أيام الماضية|ال$1 يومًا الماضية|ال$1 يوم الماضية}}',
-	'contributionscores-allrevisions' => 'كل المراجعات',
+	'contributionscores-allrevisions' => 'كل المراجعات', # Fuzzy
 	'contributionscores-score' => 'النتيجة',
 	'contributionscores-pages' => 'الصفحات',
 	'contributionscores-changes' => 'التغييرات',
@@ -143,11 +129,7 @@ $messages['arz'] = array(
 $messages['ast'] = array(
 	'contributionscores' => 'Puntos de collaboraciones',
 	'contributionscores-desc' => 'Peñera la base de datos de la wiki pa ver los mayores [[Special:ContributionScores|volumes de collaboración de los usuarios]]',
-	'contributionscores-info' => "Les puntuaciones calculense del mou siguiente:
-*Un (1) puntu por cada páxina única editada
-*La raíz cuadrada del (total d'ediciones feches) - (total de páxines úniques) * 2
-Les puntuaciones calculaes d'esti mou favorecen la diversidá d'ediciones más que'l volume.
-Básicamente, esta puntuación mide primero les páxines úniques editaes, teniendo en cuenta'l volume altu d'ediciones (asumiendo que va ser una páxina de más calidá).",
+	'contributionscores-info' => "Les puntuaciones miden principalmente les ediciones de páxines úniques, teniendo en cuenta un volume d'edición altu.",
 	'contributionscores-top' => '(Los $1 mayores)',
 	'contributionscores-days' => '{{PLURAL:$1|Últimu día|Los últimos $1 díes}}',
 	'contributionscores-allrevisions' => 'De tolos tiempos',
@@ -165,8 +147,8 @@ Básicamente, esta puntuación mide primero les páxines úniques editaes, tenie
 $messages['avk'] = array(
 	'contributionscores' => 'Weberajorist',
 	'contributionscores-top' => '(Taneaf $1)',
-	'contributionscores-days' => 'Ironokaf $1 viel',
-	'contributionscores-allrevisions' => 'Betakseem',
+	'contributionscores-days' => 'Ironokaf $1 viel', # Fuzzy
+	'contributionscores-allrevisions' => 'Betakseem', # Fuzzy
 	'contributionscores-score' => 'Jorist',
 	'contributionscores-pages' => 'Bu',
 	'contributionscores-changes' => 'Betaks',
@@ -191,7 +173,7 @@ $messages['ba'] = array(
 	'contributionscores-info' => 'Баһа түбәндәге өлөштәрҙе ҡушыу аша иҫәпләнә:
 * 1 мәрәй — һәр айырым битте мөхәррирләү өсөн;
 * 2 * ( (дөйөм үҙгәртеүҙәр һаны) - (барыһы төрлө биттәр) ) айырмаһының тамыры.
-Баһаны иҫәпләгән ваҡытта, шулай итеп, дөйөм үҙгәртеүҙәр һанына ҡарағында үҙгәртеүҙәрҙең төрлөлөгө ҙурыраҡ йоғонто яһай.',
+Баһаны иҫәпләгән ваҡытта, шулай итеп, дөйөм үҙгәртеүҙәр һанына ҡарағында үҙгәртеүҙәрҙең төрлөлөгө ҙурыраҡ йоғонто яһай.', # Fuzzy
 	'contributionscores-top' => '(Тәүге $1)',
 	'contributionscores-days' => 'Һуңғы {{PLURAL:$1|көн|$1 көн}}',
 	'contributionscores-allrevisions' => 'Бөтәһе',
@@ -230,7 +212,7 @@ $messages['bg'] = array(
 	'contributionscores' => 'Потребителска класация',
 	'contributionscores-top' => '(Най-добрите $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последния ден|Последните $1 дни}}',
-	'contributionscores-allrevisions' => 'Всички редакции',
+	'contributionscores-allrevisions' => 'Всички редакции', # Fuzzy
 	'contributionscores-score' => 'Точки',
 	'contributionscores-pages' => 'Страници',
 	'contributionscores-changes' => 'Редакции',
@@ -246,7 +228,7 @@ $messages['bn'] = array(
 	'contributionscores' => 'অনুদানের স্কোর',
 	'contributionscores-top' => '(সর্বোচ্চ $1)',
 	'contributionscores-days' => 'গত {{PLURAL:$1|দিন|$1 দিন}}',
-	'contributionscores-allrevisions' => 'সকল সংস্করণ',
+	'contributionscores-allrevisions' => 'সকল সংস্করণ', # Fuzzy
 	'contributionscores-score' => 'স্কোর',
 	'contributionscores-pages' => 'পাতা',
 	'contributionscores-changes' => 'পরিবর্তন',
@@ -266,7 +248,7 @@ $messages['br'] = array(
 *Ur (1) poent evit pep pajenn kemmet
 *Gwrizienn garrez (an niver hollek a gemmoù graet) - (niver a bajennoù disheñvel) * 2
 Lakaat a ra ar formulenn-se al liesseurted war wel kentoc'h eget ar c'hementad.
-E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur sellet a-dostoc'h ouzh ar c'hementadoù bras a gemmoù a seller outo evel pajennoù zo gwelloc'h an danvez anezho.",
+E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur sellet a-dostoc'h ouzh ar c'hementadoù bras a gemmoù a seller outo evel pajennoù zo gwelloc'h an danvez anezho.", # Fuzzy
 	'contributionscores-top' => '(An $1 uhelañ)',
 	'contributionscores-days' => 'E-kerzh an {{PLURAL:$1|devezh|$1 devezh}} diwezhañ',
 	'contributionscores-allrevisions' => "Dalc'hmat",
@@ -288,7 +270,7 @@ $messages['bs'] = array(
 *Jedan (1) bod za svaku pojedinu stranicu koja se uredi
 *Drugi korijen od (ukupno načinjenih promjena) - (ukupno pojedinih stranica) * 2
 Rezultati koji se dobiju na ovaj način naglašavaju raznolikost uređivanja više od količine uređivanja.
-U osnovi, ovaj rezultat mjeri naročito broj uređivanja pojedinačnih stranica, sa utjecajem velike količine uređivanja - smatra se da utječe na bolji kvalitet stranice.',
+U osnovi, ovaj rezultat mjeri naročito broj uređivanja pojedinačnih stranica, sa utjecajem velike količine uređivanja - smatra se da utječe na bolji kvalitet stranice.', # Fuzzy
 	'contributionscores-top' => '(Najboljih $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dana|Zadnjih $1 dana}}',
 	'contributionscores-allrevisions' => 'Svo vrijeme',
@@ -312,7 +294,7 @@ $messages['ca'] = array(
 * Un punt per cada pàgina diferent editada, més
 *El doble de l'arrel quadrada de: el total d'edicions fetes menys el total de pàgines diferents editades.
 Aquesta fórmula premia la diversitat d'edicions més que no el seu volum.
-Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració per els alts volums d'edició considerats de pàgines de més qualitat.",
+Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració per els alts volums d'edició considerats de pàgines de més qualitat.", # Fuzzy
 	'contributionscores-top' => '($1 millors)',
 	'contributionscores-days' => '{{PLURAL:$1|Últim dia|Últims $1 dies}}',
 	'contributionscores-allrevisions' => 'Des de sempre',
@@ -329,7 +311,7 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
  */
 $messages['ce'] = array(
 	'contributionscores-top' => '(диканаш $1)',
-	'contributionscores-allrevisions' => 'Массо нисдарш',
+	'contributionscores-allrevisions' => 'Массо нисдарш', # Fuzzy
 	'contributionscores-username' => 'Декъашхон цlе',
 );
 
@@ -345,7 +327,7 @@ $messages['cs'] = array(
 * 1 bod za každou jedinečnou stránku, kterou uživatel upravoval
 * Odmocnina z (celkem úprav) - (celkem jedinečných stránek) * 2
 Skóre vypočítané tímto způsobem upřednostňuje rozmanitost úprav více než počet úprav.
-V podstatě toto skóre měří hlavně počet upravovaných jedinečných stránek s přihlédnutím na velký počet úprav, což se pokládá za stránku vyšší kvality.',
+V podstatě toto skóre měří hlavně počet upravovaných jedinečných stránek s přihlédnutím na velký počet úprav, což se pokládá za stránku vyšší kvality.', # Fuzzy
 	'contributionscores-top' => '($1 nejvyšších)',
 	'contributionscores-days' => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
 	'contributionscores-allrevisions' => 'Celá historie',
@@ -367,13 +349,14 @@ $messages['cu'] = array(
 
 /** Danish (dansk)
  * @author Byrial
+ * @author Christian List
  * @author Kaare
  * @author Peter Alberti
  */
 $messages['da'] = array(
 	'contributionscores' => 'Bidragspoint',
 	'contributionscores-desc' => 'Henter information fra databasen om de brugere som har [[Special:ContributionScores|flest bidrag]]',
-	'contributionscores-info' => 'Pointene måler primært unikke sideredigeringer, med hensyn til stort redigeringsomfang.',
+	'contributionscores-info' => 'Pointene måler primært unikke sideredigeringer, med hensyntagen til højt antal redigeringer.',
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => 'Sidste {{PLURAL:$1|dag|$1 dage}}',
 	'contributionscores-allrevisions' => 'Gennem tiden',
@@ -408,15 +391,12 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'contributionscores' => 'Skorê iştıraqan',
 	'contributionscores-desc' => 'Qandê tewr berz malumat de wiki de  [[Special:ContributionScores|dekerdenanê karberan]] persêno',
-	'contributionscores-info' => "Skora hesab kerdış:
-*Vurnayışo ke biyo herg pela sera (1) puan
-*(Vurnayışa pêron sera) - (Babeta pelan pêro) * karyena 2 'ınê karerêçi
-Skorê ke ewna benê hesab, amariya vurnayışan u aredê babetiya vurnayışan heta  graney deyêna ser.
-Esasin de na skor, ferzi misal çend vurnayış pela sero esto se a pela hend qeliteyına u ey heta sencêna.",
+	'contributionscores-info' => 'Ebe pawıtışê hecmê tedqiqê berzi ra, puwan raveri pelanê bêemsalanê vurniyayeyan senceno.',
 	'contributionscores-top' => '(Tewr Gırde $1)',
 	'contributionscores-days' => 'Peyni {{PLURAL:$1|roce|$1 rocan}}',
 	'contributionscores-allrevisions' => 'Çaxan de hemi',
@@ -439,7 +419,7 @@ $messages['dsb'] = array(
 *Kwadratny kórjeń (wšych cynjonych změnow) - (cełkowna licba bokow) * 2
 Licba dypkow, kótaraž wulicyjo se za tym nałogom, gódnośi wšakosć změnow wušej ako licbu změnow.
 Zasadnje toś ta licba dypkow měri pśedewšym wobźěłane změny pód źiwanim na wusoku licbu změnow -
-pód wuměnjenim až to by było bok z wušeju kwalitu.',
+pód wuměnjenim až to by było bok z wušeju kwalitu.', # Fuzzy
 	'contributionscores-top' => '({{PLURAL:$1|Nejlěpšy $1|Nejlěpšej $1|Nejlěpše $1|Nejlěpšych $1}})',
 	'contributionscores-days' => '{{PLURAL:$1|Slědny $1 źeń|Slědnej $1 dnja|Slědne $1 dny|Slědnych $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Ceły cas',
@@ -482,10 +462,10 @@ $messages['eo'] = array(
 *Unu (1) poento por ĉiu unika paĝo redaktata
 *Kvadrata Radiko de (Tutaj Faritaj Redaktoj) - (Tutaj Unikaj Paĝoj) * 2
 Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.
-Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.',
+Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.', # Fuzzy
 	'contributionscores-top' => '(Plej alta $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Lasta tago|Lastaj $1 tagoj}}',
-	'contributionscores-allrevisions' => 'Ĉiuj Revizioj',
+	'contributionscores-allrevisions' => 'Ĉiuj Revizioj', # Fuzzy
 	'contributionscores-score' => 'Poentaro',
 	'contributionscores-pages' => 'Paĝoj',
 	'contributionscores-changes' => 'Ŝanĝoj',
@@ -526,7 +506,7 @@ $messages['et'] = array(
 * Muudetud lehekülgede koguarv
 * Kahekordne ruutjuur muudatuste koguarvu ja muudetud lehekülgede koguarvu vahest
 Nii arvutatud punktid väärtustavad enam muudatuste omapära kui nende hulka.
-Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võtavad arvesse ka suure muudatuste hulga – nii püütakse hinnata lehekülgede kvaliteeti.',
+Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võtavad arvesse ka suure muudatuste hulga – nii püütakse hinnata lehekülgede kvaliteeti.', # Fuzzy
 	'contributionscores-top' => '($1 paremat)',
 	'contributionscores-days' => '{{PLURAL:$1|Viimane päev|Viimased $1 päeva}}',
 	'contributionscores-allrevisions' => 'Kõik aeg',
@@ -551,7 +531,7 @@ $messages['eu'] = array(
  * @author Better
  */
 $messages['ext'] = array(
-	'contributionscores-days' => 'Úrtimus $1 dias',
+	'contributionscores-days' => 'Úrtimus $1 dias', # Fuzzy
 );
 
 /** Persian (فارسی)
@@ -568,7 +548,7 @@ $messages['fa'] = array(
 جذر همه ویرایش‌ها (همه ویرایش‌های انجام‌شده) - (همه صفحه‌ها یکتا) * 2
 
 محاسبه امتیازات در این حالت وزن گوناگونی ویرایشها بر حجم ویرایشها را می سنجد.
-براین اساس، این امتیاز میزان صفحه‌ها ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.',
+براین اساس، این امتیاز میزان صفحه‌ها ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.', # Fuzzy
 	'contributionscores-top' => '($1 برتر)',
 	'contributionscores-days' => 'آخرین {{PLURAL:$1|روز|$1 روز}}',
 	'contributionscores-allrevisions' => 'تمام وقت',
@@ -591,10 +571,10 @@ $messages['fi'] = array(
 * Yksi piste jokaisesta muokatusta sivusta
 * Neliöjuuri (muokkausten määrä) - (muokatut sivut) * 2
 
-Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytännössä pisteet mittaavat muokattujen sivujen määrää, ottaen huomioon muutosten suuren määrän.',
+Näin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytännössä pisteet mittaavat muokattujen sivujen määrää, ottaen huomioon muutosten suuren määrän.', # Fuzzy
 	'contributionscores-top' => '(top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Viime päivä|Viimeiset $1 päivää}}',
-	'contributionscores-allrevisions' => 'Kaikki muutokset',
+	'contributionscores-allrevisions' => 'Kaikki muutokset', # Fuzzy
 	'contributionscores-score' => 'Pisteet',
 	'contributionscores-pages' => 'Sivuja',
 	'contributionscores-changes' => 'Muutoksia',
@@ -617,7 +597,7 @@ $messages['fr'] = array(
 * 1 point pour chaque page modifiée ;
 * racine carrée de (nombre de modifications) - (nombre de pages différentes) * 2.
 
-De cette façon, les pointages ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d’une autre façon, ils s’intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.',
+De cette façon, les pointages ainsi calculés privilégient la diversité par rapport à la quantité. Écrits d’une autre façon, ils s’intéressent principalement à indiquer le nombre de modifications des pages différentes, puis leur nombre total.', # Fuzzy
 	'contributionscores-top' => '(Les $1 plus élevés)',
 	'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Tout le temps',
@@ -688,7 +668,7 @@ $messages['grc'] = array(
 	'contributionscores' => 'Βαθμολογία ἐράνων',
 	'contributionscores-top' => '(Κορυφαῖοι $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ὑστάτη ἡμέρα|Ὕσταται $1 ἡμέραι}}',
-	'contributionscores-allrevisions' => 'Ἅπασαι αἱ ἀναθεωρήσεις',
+	'contributionscores-allrevisions' => 'Ἅπασαι αἱ ἀναθεωρήσεις', # Fuzzy
 	'contributionscores-score' => 'Βαθμοί',
 	'contributionscores-pages' => 'Δέλτοι',
 	'contributionscores-changes' => 'Μεταβολαί',
@@ -707,7 +687,7 @@ $messages['gsw'] = array(
 	'contributionscores-info' => 'Bewärtigsschema:
 *1 Punkt fir jedi bearbeiteti Syte
 *Quadratwurzle vu allene (Bearbeitige) - (Summe vu dr bearbeitete Syte) * 2
-Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie dr Aazahl vu dr Änderige.',
+Bewärtigen uf däre Grundlag gän dr Viifalt vu dr Byyträg e hecher Gwicht wie dr Aazahl vu dr Änderige.', # Fuzzy
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Letschte Tag|Letschti $1 Täg}}',
 	'contributionscores-allrevisions' => 'Ganzer Zitruum',
@@ -756,7 +736,7 @@ $messages['he'] = array(
 *נקודה אחת (1) עבור כל דף ייחודי שנערך
 *שורש של (מספר העריכות הכללי) - (מספר הדפים הייחודיים) * 2
 הנקודות המחושבות באופן זה מעניקות חשיבות גבוהה יותר לדפים הייחודיים שנערכים על פני כמות העריכות.
-ברמת העיקרון, ניקוד זה מודד בעיקר את מספר הדפים הייחודיים שנערכו, עם התחשבות בכמות עריכות גדולה - מה שנחשב לדף יותר איכותי.',
+ברמת העיקרון, ניקוד זה מודד בעיקר את מספר הדפים הייחודיים שנערכו, עם התחשבות בכמות עריכות גדולה - מה שנחשב לדף יותר איכותי.', # Fuzzy
 	'contributionscores-top' => '($1 הגבוהים ביותר)',
 	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|יומיים האחרונים|־$1 הימים האחרונים}}',
 	'contributionscores-allrevisions' => 'מאז ומתמיד',
@@ -775,8 +755,8 @@ $messages['hi'] = array(
 	'contributionscores' => 'योगदान संख्या',
 	'contributionscores-desc' => '[[Special:ContributionScores|सदस्य योगदान संख्या]]के अनुसार विकि डाटाबेस दर्शाता हैं',
 	'contributionscores-top' => '(पहले $1)',
-	'contributionscores-days' => 'आखिरी $1 दिन',
-	'contributionscores-allrevisions' => 'सभी अवतरण',
+	'contributionscores-days' => 'आखिरी $1 दिन', # Fuzzy
+	'contributionscores-allrevisions' => 'सभी अवतरण', # Fuzzy
 	'contributionscores-score' => 'गुण',
 	'contributionscores-pages' => 'पन्ने',
 	'contributionscores-changes' => 'बदलाव',
@@ -802,10 +782,10 @@ $messages['hr'] = array(
 *1 bod za svaku stranicu koju ste uređivali
 * (kvadratni) korijen iz (broja ukupnih uređivanja) - (broja stranica koje ste uređivali) * 2
 
-Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih stranica nego ukupnom broju uređivanja. U osnovi, ovakav rezultat mjeri prvenstveno broj različitih stranica koje ste uređivali, uzimajući u obzir broj uređivanja, jer veći broj uređivanja na nekom članku daje kvalitetniji članak.',
+Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih stranica nego ukupnom broju uređivanja. U osnovi, ovakav rezultat mjeri prvenstveno broj različitih stranica koje ste uređivali, uzimajući u obzir broj uređivanja, jer veći broj uređivanja na nekom članku daje kvalitetniji članak.', # Fuzzy
 	'contributionscores-top' => '(Najboljih $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Zadnji dan|Zadnjih $1 dana}}',
-	'contributionscores-allrevisions' => 'Sva uređivanja',
+	'contributionscores-allrevisions' => 'Sva uređivanja', # Fuzzy
 	'contributionscores-score' => 'Rezultat',
 	'contributionscores-pages' => 'Stranica',
 	'contributionscores-changes' => 'Uređivanja',
@@ -823,7 +803,7 @@ $messages['hsb'] = array(
 	'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
 *1 dypk za kóždy wobdźěłanu jednotliwu stronu
 *Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
-Ličba dypkow wuličena na tute wašnje pohódnoća wšelakorosć změnow wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.',
+Ličba dypkow wuličena na tute wašnje pohódnoća wšelakorosć změnow wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.', # Fuzzy
 	'contributionscores-top' => '(Najlěpšich $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Posledni dźeń|Poslednjej $1 dnjej|Poslednje $1 dny|Poslednich $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Cyły čas',
@@ -846,10 +826,10 @@ $messages['ht'] = array(
 *Yon (1) pwen pou chak paj inik ki te modifye
 *Rasin Kare de (kantite modifikasyon total ki te fè) - (Total Paj Inik) * 2
 Se konsa, nòt la bay plis pwa pou divèsite modifikasyon pase kantite modifikasyon yo.
-Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon konsiderasyon pou gwo volim modifikasyon – ki konsidere kòm ap bay yon paj ki gen pi bon kalite.',
+Sa vle di nòt sa la pou mezire paj inik ki te modifye an premye, avèk yon konsiderasyon pou gwo volim modifikasyon – ki konsidere kòm ap bay yon paj ki gen pi bon kalite.', # Fuzzy
 	'contributionscores-top' => '(Meyè $1 yo)',
 	'contributionscores-days' => 'Denyè {{PLURAL:$1|jou|$1 jou yo}}',
-	'contributionscores-allrevisions' => 'Tout revizion yo',
+	'contributionscores-allrevisions' => 'Tout revizion yo', # Fuzzy
 	'contributionscores-score' => 'Nòt',
 	'contributionscores-pages' => 'Paj',
 	'contributionscores-changes' => 'Chanjman',
@@ -872,7 +852,7 @@ $messages['hu'] = array(
 * 1 pont minden egyedi lap szerkesztése után
 * (az összes szerkesztés) – (az összes egyedi lap) négyzetgyöke × 2
 
-Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.',
+Az így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.', # Fuzzy
 	'contributionscores-top' => '(legjobb $1)',
 	'contributionscores-days' => 'Utolsó {{PLURAL:$1|nap|$1 nap}}',
 	'contributionscores-allrevisions' => 'Összes szerkesztés',
@@ -894,7 +874,7 @@ $messages['ia'] = array(
 *Un (1) puncto pro cata pagina unic modificate
 *Radice quadrate de (total del modificationes facite) - (total del paginas unic) * 2
 Le punctages calculate de iste modo privilegia le diversitate super le volumine de modificationes.
-Dicite de altere modo, iste punctage mesura primarimente le paginas unic modificate, con consideration pro un alte volumine de modificationes – le qual es presumite a indicar un pagina de alte qualitate.',
+Dicite de altere modo, iste punctage mesura primarimente le paginas unic modificate, con consideration pro un alte volumine de modificationes – le qual es presumite a indicar un pagina de alte qualitate.', # Fuzzy
 	'contributionscores-top' => '(Le prime $1)',
 	'contributionscores-days' => 'Ultime $1 {{PLURAL:$1|die|dies}}',
 	'contributionscores-allrevisions' => 'Omne tempore',
@@ -917,7 +897,7 @@ $messages['id'] = array(
 * Satu (1) poin untuk setiap halaman tunggal yang disunting
 * Akar kuadrat dari (total suntingan) - (total halaman tunggal) * 2
 Skor dihitung dengan cara ini untuk menghasilkan jumlah tertimbang penyuntingan berbanding volume suntingan.
-Pada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.',
+Pada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.', # Fuzzy
 	'contributionscores-top' => '($1 tertinggi)',
 	'contributionscores-days' => '{{PLURAL:$1|Hari|$1 hari}} terakhir',
 	'contributionscores-allrevisions' => 'Sepanjang masa',
@@ -939,7 +919,7 @@ $messages['ie'] = array(
 *Un (1) punctu por chascun págine unic redactet
 *Fonte de quadrat de (total de redactiones fat) - (total unique pages) * 2
 Contes calculat in ti diversitá de redaction in pesa maniere súper de volúmine de redaction.
-Basicmen, ti conte mesura primarimen págines unic redactet, che consideration por alt volúmine de redaction - suposit esser un págine de alt qualitá.',
+Basicmen, ti conte mesura primarimen págines unic redactet, che consideration por alt volúmine de redaction - suposit esser un págine de alt qualitá.', # Fuzzy
 	'contributionscores-top' => '(Prim $1)',
 	'contributionscores-days' => 'Ultim {{PLURAL:$1|die|$1 dies}}',
 	'contributionscores-allrevisions' => 'Omni témpor',
@@ -968,10 +948,10 @@ $messages['is'] = array(
 * Eitt (1) stig fyrir hverja einkvæma síðu sem breytt er
 * Ferningsrót (allra breytinga gerðra) - (allra breytinga gerðra á einkvæmum síðum) * 2
 Stig reiknuð á þennan hátt íþyngja fjölbreyttni breytinga fremur en magn breytinga.
-Í grundvallaratriðum mæla stigin aðallega út breytingar á einkvæmum síðum, með tilliti til hás magns breytinga - sem eru líklegri til að vera vandaðri síður.',
+Í grundvallaratriðum mæla stigin aðallega út breytingar á einkvæmum síðum, með tilliti til hás magns breytinga - sem eru líklegri til að vera vandaðri síður.', # Fuzzy
 	'contributionscores-top' => '(Efstu $1)',
-	'contributionscores-days' => 'Síðustu $1 dagana',
-	'contributionscores-allrevisions' => 'Allar breytingar',
+	'contributionscores-days' => 'Síðustu $1 dagana', # Fuzzy
+	'contributionscores-allrevisions' => 'Allar breytingar', # Fuzzy
 	'contributionscores-score' => 'Stigafjöldi',
 	'contributionscores-pages' => 'Síður',
 	'contributionscores-changes' => 'Breytingar',
@@ -1034,10 +1014,10 @@ $messages['jv'] = array(
 * Biji siji (1) per kaca unik sing disunting
 * Oyot (bs. Indonesia ''akar'') saka (Gunggungé Suntingan) - (Gunggungé Kaca-KAca Unik) * 2
 Skor sing diétung miturut cara iki bisa nyerminaké divèrsitas suntingan sadhuwuring volume suntingan.
-Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo mélu nimbangaké volume suntingan dhuwur - diasumsèkaké kwalitas kacané luwih dhuwur.",
+Sacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo mélu nimbangaké volume suntingan dhuwur - diasumsèkaké kwalitas kacané luwih dhuwur.", # Fuzzy
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|dina|$1 dina}} pungkasan',
-	'contributionscores-allrevisions' => 'Kabèh Révisi',
+	'contributionscores-allrevisions' => 'Kabèh Révisi', # Fuzzy
 	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Kaca-kaca',
 	'contributionscores-changes' => 'Owah-owahan',
@@ -1068,42 +1048,44 @@ $messages['kk-arab'] = array(
 	'contributionscores-info' => 'ەسەپتەر كەلەسٸ دەي سانالادى:
 *1 ۇپاي ٵربٸر تٷزەتٸلگەن بٸرەگەي بەت ٷشٸن
 *مىنانىڭ شارشى تٷبٸرٸ (بارلىق ٸستەلٸنگەن تٷزەتۋلەر) ‒ (بارلىق بٸرەگەي بەتتەر) * 2
-وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.',
+وسى تٵسٸلمەن سانالعان ەسەپتەر تٷزەتۋ اۋقىمىنداعى ٶڭدەۋ ٵركەلكٸلٸگٸنٸڭ سالماعىن ٶلشەيدٸ. نەگٸزٸندە, بۇل ەسەپ الدىمەن تٷزەتٸلگەن بٸركەلكٸ بەتتەردٸ ٶلشەيدٸ, جوعارعى ٶڭدەۋ اۋقىمىمەن بٸرگە — جوعارى ساپالى بەت جاعدايىمەن ەسەپتەپ.', # Fuzzy
 	'contributionscores-top' => '(جوعارعى $1)',
-	'contributionscores-days' => 'سوڭعى $1 كٷندە',
-	'contributionscores-allrevisions' => 'بارلىق نۇسقالار',
+	'contributionscores-days' => 'سوڭعى $1 كٷندە', # Fuzzy
+	'contributionscores-allrevisions' => 'بارلىق نۇسقالار', # Fuzzy
 	'contributionscores-score' => 'ەسەپ',
 	'contributionscores-pages' => 'بەتتەر',
 	'contributionscores-changes' => 'ٶزگەرٸستەر',
 	'contributionscores-username' => 'قاتىسۋشى اتى',
 );
 
-/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ */
 $messages['kk-cyrl'] = array(
 	'contributionscores' => 'Үлес беру есептері',
 	'contributionscores-info' => 'Есептер келесі дей саналады:
 *1 ұпай әрбір түзетілген бірегей бет үшін
 *Мынаның шаршы түбірі (Барлық Істелінген Түзетулер) ‒ (Барлық Бірегей Беттер) * 2
-Осы тәсілмен саналған есептер түзету ауқымындағы өңдеу әркелкілігінің салмағын өлшейді. Негізінде, бұл есеп алдымен түзетілген біркелкі беттерді өлшейді, жоғарғы өңдеу ауқымымен бірге — жоғары сапалы бет жағдайымен есептеп.',
+Осы тәсілмен саналған есептер түзету ауқымындағы өңдеу әркелкілігінің салмағын өлшейді. Негізінде, бұл есеп алдымен түзетілген біркелкі беттерді өлшейді, жоғарғы өңдеу ауқымымен бірге — жоғары сапалы бет жағдайымен есептеп.', # Fuzzy
 	'contributionscores-top' => '(Жоғарғы $1)',
-	'contributionscores-days' => 'Соңғы $1 күнде',
-	'contributionscores-allrevisions' => 'Барлық нұсқалар',
+	'contributionscores-days' => 'Соңғы $1 күнде', # Fuzzy
+	'contributionscores-allrevisions' => 'Барлық нұсқалар', # Fuzzy
 	'contributionscores-score' => 'Есеп',
 	'contributionscores-pages' => 'Беттер',
 	'contributionscores-changes' => 'Өзгерістер',
 	'contributionscores-username' => 'Қатысушы аты',
 );
 
-/** Kazakh (Latin script) (qazaqşa (latın)‎) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎)
+ */
 $messages['kk-latn'] = array(
 	'contributionscores' => 'Üles berw esepteri',
 	'contributionscores-info' => 'Esepter kelesi deý sanaladı:
 *1 upaý ärbir tüzetilgen biregeý bet üşin
 *Mınanıñ şarşı tübiri (Barlıq İstelingen Tüzetwler) ‒ (Barlıq Biregeý Better) * 2
-Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiliginiñ salmağın ölşeýdi. Negizinde, bul esep aldımen tüzetilgen birkelki betterdi ölşeýdi, joğarğı öñdew awqımımen birge — joğarı sapalı bet jağdaýımen eseptep.',
+Osı täsilmen sanalğan esepter tüzetw awqımındağı öñdew ärkelkiliginiñ salmağın ölşeýdi. Negizinde, bul esep aldımen tüzetilgen birkelki betterdi ölşeýdi, joğarğı öñdew awqımımen birge — joğarı sapalı bet jağdaýımen eseptep.', # Fuzzy
 	'contributionscores-top' => '(Joğarğı $1)',
-	'contributionscores-days' => 'Soñğı $1 künde',
-	'contributionscores-allrevisions' => 'Barlıq nusqalar',
+	'contributionscores-days' => 'Soñğı $1 künde', # Fuzzy
+	'contributionscores-allrevisions' => 'Barlıq nusqalar', # Fuzzy
 	'contributionscores-score' => 'Esep',
 	'contributionscores-pages' => 'Better',
 	'contributionscores-changes' => 'Özgerister',
@@ -1120,7 +1102,7 @@ $messages['km'] = array(
 	'contributionscores' => 'តារាងពិន្ទុ​នៃការរួមចំណែក',
 	'contributionscores-top' => '(លើគេទាំង $1 នាក់)',
 	'contributionscores-days' => '{{PLURAL:$1|ថ្ងៃ|$1 ថ្ងៃ}}​ចុងក្រោយ',
-	'contributionscores-allrevisions' => 'គ្រប់កំណែ',
+	'contributionscores-allrevisions' => 'គ្រប់កំណែ', # Fuzzy
 	'contributionscores-score' => 'ពិន្ទុ',
 	'contributionscores-pages' => 'ទំព័រ​នានា',
 	'contributionscores-changes' => 'បំលាស់ប្តូរ​នានា',
@@ -1165,7 +1147,7 @@ $messages['ksh'] = array(
 * plus et Dubbelte fun de Quadrat-Woozel us däm Ongscheed fun de Jesampzahl aan Änderunge fun däm Metmaacher, un dä Aanzahl Sigge, wo sei udder hä draan jeschrevve hät.
 De Punkte zälle esu de Fillfälteschkeit mieh wie der Ömfang vun dä Beidrääsch.
 Dat es en de Houpsaach de övverhoup aanjepackte Zahl Sigge, ävver dobei och noch,
-dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.',
+dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.', # Fuzzy
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Der lezte Daach|De lezte $1 Daare|Keine lezte Daach}}',
 	'contributionscores-allrevisions' => 'De janze Zigg',
@@ -1223,7 +1205,7 @@ $messages['li'] = array(
 	'contributionscores-info' => "Huuegdjes waere es vólg beraekendj:
 * Ein (1) pöntj veur edere apaart bewèrkdje pazjena
 * Wórtel van (totaal aantal gemaakdje bewèrkinger) - (totaal aantal apaarte pazjena's) × 2
-I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag zwaorder es bewèrkingsvolume. In feite mèt dees huuegdje veurnamelik 't aantal apaarte pazjena's die zeen bewèrk, wiele 'n grót aantal bewèrkinger waal in ach wuuertj genaome, mit de aannaam det 't 'ne pazjena van 'n huuegere kwaliteit is.",
+I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag zwaorder es bewèrkingsvolume. In feite mèt dees huuegdje veurnamelik 't aantal apaarte pazjena's die zeen bewèrk, wiele 'n grót aantal bewèrkinger waal in ach wuuertj genaome, mit de aannaam det 't 'ne pazjena van 'n huuegere kwaliteit is.", # Fuzzy
 	'contributionscores-top' => '(Top $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Lesten daag|Leste $1 daag}}',
 	'contributionscores-allrevisions' => 'Alle verzies',
@@ -1239,7 +1221,7 @@ I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag z
  * @author Hugo.arg
  */
 $messages['lt'] = array(
-	'contributionscores-allrevisions' => 'Visos revizijos',
+	'contributionscores-allrevisions' => 'Visos revizijos', # Fuzzy
 	'contributionscores-score' => 'Rezultatas',
 	'contributionscores-pages' => 'Puslapiai',
 	'contributionscores-changes' => 'Pakeitimai',
@@ -1285,7 +1267,7 @@ $messages['mk'] = array(
 $messages['ml'] = array(
 	'contributionscores-top' => '(ആദ്യത്തെ $1)',
 	'contributionscores-days' => 'അവസാന {{PLURAL:$1|ദിവസം|$1 ദിവസങ്ങൾ}}',
-	'contributionscores-allrevisions' => 'എല്ലാ പതിപ്പുകളും',
+	'contributionscores-allrevisions' => 'എല്ലാ പതിപ്പുകളും', # Fuzzy
 	'contributionscores-score' => 'സ്കോർ',
 	'contributionscores-pages' => 'താളുകൾ',
 	'contributionscores-changes' => 'മാറ്റങ്ങൾ',
@@ -1311,10 +1293,10 @@ $messages['mr'] = array(
 	'contributionscores-info' => 'गुण खालीलप्रमाणे मोजले जातील:
 *प्रत्येक स्वतंत्र पानासाठी १ गुण
 *(एकूण संपादने) - (एकूण स्वतंत्र पाने) * 2 चे वर्गमूळ
-अशा प्रकारे मोजलेले गुण हे संपादन विविधतेला संपादन संख्येपेक्षा जास्त महत्व देतात. मुख्यत्वे, हे गुण जास्त संपादन संख्या मोजून स्वतंत्र पानांची संपादने काढतात.',
+अशा प्रकारे मोजलेले गुण हे संपादन विविधतेला संपादन संख्येपेक्षा जास्त महत्व देतात. मुख्यत्वे, हे गुण जास्त संपादन संख्या मोजून स्वतंत्र पानांची संपादने काढतात.', # Fuzzy
 	'contributionscores-top' => '(पहिले $1)',
 	'contributionscores-days' => '{{PLURAL:$1|शेवटचा दिवस|शेवटचे $1 दिवस}}',
-	'contributionscores-allrevisions' => 'सर्व आवर्तने',
+	'contributionscores-allrevisions' => 'सर्व आवर्तने', # Fuzzy
 	'contributionscores-score' => 'गुण',
 	'contributionscores-pages' => 'पाने',
 	'contributionscores-changes' => 'बदल',
@@ -1341,7 +1323,7 @@ $messages['mt'] = array(
 	'contributionscores-info' => "Il-punteġġi huma kkalkulati b'dan il-mod:
 *Punt (1) għal kull paġna distinta modifikata
 *Radiċi kwadrata ta' (modifiki kollha li saru) - (total ta' paġni distinti) * 2
-Dan il-metodu ta' kalkolu tal-punteġġi jagħti iktar importanza għad-diversità fil-modifiki milli għan-numru ta' kontribuzzjonijiet. Bażikament, dan il-punteġġ l-ewwel jikkalkola n-numru ta' paġni distinti modifikati, fejn in konsiderazzjoni għall-volum għoli ta' kontribuzzjonijiet - din tassumi li hija paġna ta' kwalità ogħla.",
+Dan il-metodu ta' kalkolu tal-punteġġi jagħti iktar importanza għad-diversità fil-modifiki milli għan-numru ta' kontribuzzjonijiet. Bażikament, dan il-punteġġ l-ewwel jikkalkola n-numru ta' paġni distinti modifikati, fejn in konsiderazzjoni għall-volum għoli ta' kontribuzzjonijiet - din tassumi li hija paġna ta' kwalità ogħla.", # Fuzzy
 	'contributionscores-top' => '(L-Aqwa $1)',
 	'contributionscores-days' => 'L-aħħar {{PLURAL:$1|ġurnata|$1 ġranet}}',
 	'contributionscores-allrevisions' => "Ta' kull żmien",
@@ -1381,7 +1363,7 @@ $messages['nb'] = array(
 * 1 poeng for hver unike side som er redigert
 * Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2
 Poeng som regnes ut på denne måte vekter redigeringsmangfold høyere enn redigeringsvolum.
-Dette betyr i bunn og grunn at dette primært måler hvor mange unike sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.',
+Dette betyr i bunn og grunn at dette primært måler hvor mange unike sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.', # Fuzzy
 	'contributionscores-top' => '(Topp $1)',
 	'contributionscores-days' => 'Siste {{PLURAL:$1|dagen|$1 dager}}',
 	'contributionscores-allrevisions' => 'Gjennom tidene',
@@ -1397,7 +1379,7 @@ Dette betyr i bunn og grunn at dette primært måler hvor mange unike sider som 
  * @author Slomox
  */
 $messages['nds'] = array(
-	'contributionscores-days' => 'Letzte $1 Daag',
+	'contributionscores-days' => 'Letzte $1 Daag', # Fuzzy
 	'contributionscores-pages' => 'Sieden',
 	'contributionscores-changes' => 'Ännern',
 	'contributionscores-username' => 'Brukernaam',
@@ -1408,6 +1390,13 @@ $messages['nds'] = array(
  */
 $messages['ne'] = array(
 	'contributionscores-username' => 'प्रयोगकर्ता नाम',
+);
+
+/** Niuean (ko e vagahau Niuē)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'contributionscores-username' => 'Matahigoa he tagata',
 );
 
 /** Dutch (Nederlands)
@@ -1440,10 +1429,10 @@ $messages['nn'] = array(
 	'contributionscores-info' => 'Bidragspoeng blir rekna ut på følgjande måte:
 * eitt poeng for kvar unik sida som har blitt endra
 * Kvadratrota av (totalt tal på endringar) &minus; (unike sider endra) × 2
-Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endringsvolum. Dette tyder til sist at dette primært måler kor mange forskjellige sider som har blitt endra, med omsyn til høgt endringsvolum &ndash; anteke å føra til sider av høgare kvalitet.',
+Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endringsvolum. Dette tyder til sist at dette primært måler kor mange forskjellige sider som har blitt endra, med omsyn til høgt endringsvolum &ndash; anteke å føra til sider av høgare kvalitet.', # Fuzzy
 	'contributionscores-top' => '(topp $1)',
 	'contributionscores-days' => 'Siste {{PLURAL:$1|dag|$1 dagar}}',
-	'contributionscores-allrevisions' => 'Alle versjonar',
+	'contributionscores-allrevisions' => 'Alle versjonar', # Fuzzy
 	'contributionscores-score' => 'Poeng',
 	'contributionscores-pages' => 'Sider',
 	'contributionscores-changes' => 'Endringar',
@@ -1470,10 +1459,10 @@ $messages['oc'] = array(
 	'contributionscores-info' => "Lo puntatge se calcula coma seguís :
 * 1 punt per cada pagina modificada
 * raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas)
-* 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a far veire lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.",
+* 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a far veire lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.", # Fuzzy
 	'contributionscores-top' => '(Melhor $1)',
 	'contributionscores-days' => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
-	'contributionscores-allrevisions' => 'Totas las revisions',
+	'contributionscores-allrevisions' => 'Totas las revisions', # Fuzzy
 	'contributionscores-score' => 'Puntatge',
 	'contributionscores-pages' => 'Paginas',
 	'contributionscores-changes' => 'Modificacions',
@@ -1503,8 +1492,8 @@ $messages['os'] = array(
  */
 $messages['pam'] = array(
 	'contributionscores-top' => '(Pekamatas a $1)',
-	'contributionscores-days' => 'Tauling $1 Aldo',
-	'contributionscores-allrevisions' => 'Eganaganang mibayu',
+	'contributionscores-days' => 'Tauling $1 Aldo', # Fuzzy
+	'contributionscores-allrevisions' => 'Eganaganang mibayu', # Fuzzy
 	'contributionscores-pages' => 'Bulung',
 	'contributionscores-changes' => 'Miyalilan',
 	'contributionscores-username' => 'Lagyungtalagamit (Username)',
@@ -1538,7 +1527,7 @@ $messages['pl'] = array(
 	'contributionscores-info' => 'Punkty za edycje naliczane są następującą metodą:
 *1 punkt za każdą edytowaną unikalną stronę
 *pierwiastek kwadratowy z (ogólna liczba edycji) - (wszystkich unikalnych stron) * 2
-Taki sposób naliczania pozwala wyważyć różnorodność edycji względem liczby edycji. Zasadniczo wynik uzależniony jest od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.',
+Taki sposób naliczania pozwala wyważyć różnorodność edycji względem liczby edycji. Zasadniczo wynik uzależniony jest od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.', # Fuzzy
 	'contributionscores-top' => '($1 najlepszych)',
 	'contributionscores-days' => '{{PLURAL:$1|Ostatni 1 dzień|Ostatnie $1 dni|Ostatnich $1 dni}}',
 	'contributionscores-allrevisions' => 'Cała aktywność',
@@ -1561,7 +1550,7 @@ $messages['pms'] = array(
 *1 pont për minca pàgina modificà
 *Rèis quadra ëd (Total dle Modìfiche Fàite) - (Total dle Pàgine Ùniche) moltiplicà për 2
 Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme.
-Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ën vorend a-j da n'euj ëd rësgoard a cole ch'a l'han n'àot volum ëd modìfica - ch'as pensa ch'a peula esse na marca ëd qualità dl'artìcol.",
+Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ën vorend a-j da n'euj ëd rësgoard a cole ch'a l'han n'àot volum ëd modìfica - ch'as pensa ch'a peula esse na marca ëd qualità dl'artìcol.", # Fuzzy
 	'contributionscores-top' => '(Ij $1 mej)',
 	'contributionscores-days' => 'Ùltim Last {{PLURAL:$1|di|$1 di}}',
 	'contributionscores-allrevisions' => 'Tute le vire',
@@ -1595,7 +1584,7 @@ $messages['pt'] = array(
 	'contributionscores-info' => 'As pontuações são calculadas da seguinte forma:
 *1 ponto por cada página única editada
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
-Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração por alto volume de edições - assumindo serem páginas de qualidade mais alta.',
+Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração por alto volume de edições - assumindo serem páginas de qualidade mais alta.', # Fuzzy
 	'contributionscores-top' => '(Primeiros $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Último dia|Últimos $1 dias}}',
 	'contributionscores-allrevisions' => 'Desde sempre',
@@ -1619,7 +1608,7 @@ $messages['pt-br'] = array(
 	'contributionscores-info' => 'As pontuações são calculadas da seguinte forma:
 *1 ponto por cada página única editada
 *Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2
-Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração pelo alto volume de edições - assumindo serem páginas de qualidade mais alta.',
+Pontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração pelo alto volume de edições - assumindo serem páginas de qualidade mais alta.', # Fuzzy
 	'contributionscores-top' => '(Iniciais $1)',
 	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
 	'contributionscores-allrevisions' => 'Desde sempre',
@@ -1663,7 +1652,7 @@ $messages['roa-tara'] = array(
 *'Nu (1) punde pe ogne pàgena uniche cangete
 *'A radice quadrete de (totele de le cangiaminde fatte) - (totele de le pàggene uniche) * 2
 Le pundegge calculete jndr'à stu mode tènene 'nu pese de cangiaminde diverse sus a 'u volume de le cangiaminde.
-De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a conziderazzione pe le volume de cangiaminde ierte - se penze ca le pàggene tènene 'na qualitate cchiù ierte.",
+De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a conziderazzione pe le volume de cangiaminde ierte - se penze ca le pàggene tènene 'na qualitate cchiù ierte.", # Fuzzy
 	'contributionscores-top' => '(Le Prime $1)',
 	'contributionscores-days' => 'Urteme {{PLURAL:$1|sciurne|$1 sciurne}}',
 	'contributionscores-allrevisions' => "Tutte 'u tiembe",
@@ -1673,6 +1662,13 @@ De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a
 	'contributionscores-username' => "Nome de l'utende",
 	'contributionscores-invalidusername' => "Nome de l'utende invalide",
 	'contributionscores-invalidmetric' => 'Metriche invalide',
+);
+
+/** Faeag Rotuma (Faeag Rotuma)
+ * @author Jose77
+ */
+$messages['rtm'] = array(
+	'contributionscores-username' => 'Asa',
 );
 
 /** Russian (русский)
@@ -1686,7 +1682,7 @@ $messages['ru'] = array(
 	'contributionscores-info' => 'Оценка рассчитывается сложением следующих слагаемых:
 * 1 очко за редактирование каждой уникальной страницы;
 * 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
-При подсчёте оценки таким образом разнообразию правок придаётся больший вес, чем общему количеству правок.',
+При подсчёте оценки таким образом разнообразию правок придаётся больший вес, чем общему количеству правок.', # Fuzzy
 	'contributionscores-top' => '(лучшие $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дня|Последние $1 дней}}',
 	'contributionscores-allrevisions' => 'За всё время',
@@ -1740,7 +1736,7 @@ $messages['sk'] = array(
 	'contributionscores-info' => 'Skóre sa počíta nasledovne:
 *1 bod za každú jedinečnú stránku, ktorú používateľ upravoval
 *Odmocnina z (celkom úprav) - (celkom jedinečných stránok) * 2
-Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.',
+Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.', # Fuzzy
 	'contributionscores-top' => '(Najlepších $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Posledný $1 deň|Posledné $1 dni|Posledných $1 dní}}',
 	'contributionscores-allrevisions' => 'Celá história',
@@ -1762,7 +1758,7 @@ $messages['sl'] = array(
 *Ena točka za vsako urejeno edinstveno stran
 *Kvadratni koren (skupno število urejanj) - (število edinstvenih strani) * 2
 Rezultati, izračunani na tak način, dajo težo raznolikosti urejanj pred količino urejanj.
-V bistvu ta rezultat meri predvsem urejene edinstvene strani ob upoštevanju velike količine urejanj – z domnevo, da gre za kakovostnejše strani.',
+V bistvu ta rezultat meri predvsem urejene edinstvene strani ob upoštevanju velike količine urejanj – z domnevo, da gre za kakovostnejše strani.', # Fuzzy
 	'contributionscores-top' => '({{PLURAL:$1|Najvišji|Najvišja|Najvišji|Najvišjih}} $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dneva|Zadnji $1 dnevi|Zadnjih $1 dni}}',
 	'contributionscores-allrevisions' => 'Vseh časov',
@@ -1808,10 +1804,10 @@ $messages['stq'] = array(
 	'contributionscores-info' => 'Ouskätsskema:
 *1 Punkt foar älke beoarbaidede Siede
 *Quadroatwuttel fon aal do (Beoarbaidengen) - (Summe fon do beoarbaidede Sieden) * 2
-Ouskätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen. Disse Ouschätsenge mät do apaate Sieden, man lukt uk wäls ganse Oarbaid in Reekenge.',
+Ouskätsengen ap disse Gruundloage weege ju Fuulfoold fon do Biedraage swarrer as dät Biedraachsvolumen. Disse Ouschätsenge mät do apaate Sieden, man lukt uk wäls ganse Oarbaid in Reekenge.', # Fuzzy
 	'contributionscores-top' => '(Buppeste $1)',
-	'contributionscores-days' => 'Lääste $1 Deege',
-	'contributionscores-allrevisions' => 'Aal Versione',
+	'contributionscores-days' => 'Lääste $1 Deege', # Fuzzy
+	'contributionscores-allrevisions' => 'Aal Versione', # Fuzzy
 	'contributionscores-score' => 'Skätsenge',
 	'contributionscores-pages' => 'Sieden',
 	'contributionscores-changes' => 'Annerengen',
@@ -1828,10 +1824,10 @@ $messages['su'] = array(
 	'contributionscores-info' => 'Peunteun diitung dumasar
 *1 peunteun pikeun unggal éditan dina kaca nu unik
 *Akar Kuadrat tina (Jumlah Éditan) - (Jumlah Kaca Unik) * 2
-Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah éditan. Ieu peunteun téh utamana ngukur éditan dina kaca nu unik, kalawan dirojong ku jumlah éditan anu loba - kalawan anggapan kacana jadi leuwih alus.',
+Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah éditan. Ieu peunteun téh utamana ngukur éditan dina kaca nu unik, kalawan dirojong ku jumlah éditan anu loba - kalawan anggapan kacana jadi leuwih alus.', # Fuzzy
 	'contributionscores-top' => '(Punclut $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Poé|$1 Poé}} Panungtung',
-	'contributionscores-allrevisions' => 'Sadaya Révisi',
+	'contributionscores-allrevisions' => 'Sadaya Révisi', # Fuzzy
 	'contributionscores-score' => 'Peunteun',
 	'contributionscores-pages' => 'Kaca',
 	'contributionscores-changes' => 'Parobahan',
@@ -1852,7 +1848,7 @@ $messages['sv'] = array(
 	'contributionscores-info' => 'Poängen beräknas på följande vis:
 * 1 poäng för varje unik sida som redigerats
 * kvadratroten av (antal gjorda redigeringar) - (antal unika sidor) * 2
-När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.',
+När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.', # Fuzzy
 	'contributionscores-top' => '(Topp $1)',
 	'contributionscores-days' => 'Senaste {{PLURAL:$1|dagen|$1 dagarna}}',
 	'contributionscores-allrevisions' => 'Hela tiden',
@@ -1875,7 +1871,7 @@ $messages['ta'] = array(
 	'contributionscores' => 'பங்களிப்புப் புள்ளிகள்',
 	'contributionscores-top' => '(முதல் $1)',
 	'contributionscores-days' => 'கடைசி {{PLURAL:$1|நாள்|$1 நாட்கள்}}',
-	'contributionscores-allrevisions' => 'எல்லா திருத்தங்களும்',
+	'contributionscores-allrevisions' => 'எல்லா திருத்தங்களும்', # Fuzzy
 	'contributionscores-score' => 'புள்ளி',
 	'contributionscores-pages' => 'பக்கங்கள்',
 	'contributionscores-changes' => 'மாற்றங்கள்',
@@ -1909,8 +1905,8 @@ $messages['tet'] = array(
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'contributionscores-days' => 'Охирин $1 Рӯз',
-	'contributionscores-allrevisions' => 'Ҳамаи Нусхаҳо',
+	'contributionscores-days' => 'Охирин $1 Рӯз', # Fuzzy
+	'contributionscores-allrevisions' => 'Ҳамаи Нусхаҳо', # Fuzzy
 	'contributionscores-score' => 'Имтиёз',
 	'contributionscores-pages' => 'Саҳифаҳо',
 	'contributionscores-changes' => 'Тағйирот',
@@ -1921,7 +1917,7 @@ $messages['tg-cyrl'] = array(
  * @author Liangent
  */
 $messages['tg-latn'] = array(
-	'contributionscores-allrevisions' => 'Hamai Nusxaho',
+	'contributionscores-allrevisions' => 'Hamai Nusxaho', # Fuzzy
 	'contributionscores-score' => 'Imtijoz',
 	'contributionscores-pages' => 'Sahifaho',
 	'contributionscores-changes' => 'Taƣjirot',
@@ -1938,7 +1934,7 @@ $messages['th'] = array(
 * หนึ่ง (1) คะแนนต่อจำนวนหน้าที่เข้าร่วมแก้ไข (ชื่อของหน้าไม่ซ้ำกัน)
 * รากที่สองของจำนวนการแก้ไขทั้งหมด - จำนวนหน้าทั้งหมดที่ร่วมแก้ไข * 2
 คะแนนจะถูกคิดโดยให้น้ำหนักของการแก้ไขที่หลากหลายมากกว่าจำนวนการแก้ไข
-โดยทั่วไป คะแนนนี้ชี้วัดถึงจำนวนหน้าต่างๆ ที่เข้าร่วมแก้ไข โดยคำนึงถึงจำนวนการแก้ไขทั้งหมดด้วย จึงคาดการณ์ได้ว่าจะทำให้มีหน้าที่มีคุณภาพสูงขึ้น',
+โดยทั่วไป คะแนนนี้ชี้วัดถึงจำนวนหน้าต่างๆ ที่เข้าร่วมแก้ไข โดยคำนึงถึงจำนวนการแก้ไขทั้งหมดด้วย จึงคาดการณ์ได้ว่าจะทำให้มีหน้าที่มีคุณภาพสูงขึ้น', # Fuzzy
 	'contributionscores-days' => '$1 {{PLURAL:$1|วัน|วัน}} ที่แล้ว',
 	'contributionscores-score' => 'คะแนน',
 	'contributionscores-pages' => 'จำนวนหน้า',
@@ -1964,7 +1960,7 @@ $messages['tl'] = array(
 *Isang (1) puntos para sa bawat bukod-tanging pahinang binago
 *Pariugat ng (kabuoang bilang ng mga pagbabagong ginawa) - (kabuoang bilang ng bukod-tanging mga pahina) * 2
 Tinutuos ang mga puntos sa ganitong paraan: timbang ng pagkakaiba-iba ng pagbabago sa ibabaw ng dami ng pagbabago.
-Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mga pahina, na may pagsasaalang-alang sa mataas na dami ng pagbago - na ipinapalagay bilang isang pahinang may mataas na uri.',
+Sa kapayakan, pangunahing sinusukat ng puntos na ito ang binagong natatanging mga pahina, na may pagsasaalang-alang sa mataas na dami ng pagbago - na ipinapalagay bilang isang pahinang may mataas na uri.', # Fuzzy
 	'contributionscores-top' => '(Pinakatampok na $1)',
 	'contributionscores-days' => 'Huling {{Plural: $1|araw|$1 mga araw}}',
 	'contributionscores-allrevisions' => 'Lahat ng panahon',
@@ -1990,7 +1986,7 @@ $messages['tr'] = array(
 *Değişiklik yapılan her farklı sayfa için bir (1) puan
 *(Yapılan toplam değişiklik) - (toplam farklı sayfa) * 2 işleminin karekökü
 Bu şekilde hesaplanan skorlar, değişiklik sayısı ile değişiklik çeşitliliği arasında ağırlık kurmaktadır.
-Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir sayfa olduğu varsayımıyla değişiklik yapılan farklı sayfa sayısını ölçmektedir.',
+Temel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir sayfa olduğu varsayımıyla değişiklik yapılan farklı sayfa sayısını ölçmektedir.', # Fuzzy
 	'contributionscores-top' => '(En yüksek $1)',
 	'contributionscores-days' => 'Son $1 {{PLURAL:$1|gün|gün}}',
 	'contributionscores-allrevisions' => 'Tüm zamanlar',
@@ -2011,10 +2007,10 @@ $messages['tt-cyrl'] = array(
 	'contributionscores-info' => 'Билгеләр кую астагы критерийларга туры килү нәтиҗәсендә билгеләнә:
 * 1 Һәрбер аерым бер тәрҗемә өчен билге
 * 2 Гомуми тәрҗемәләр һәм һәрбер аерым бит аермасының тамыр асты
-Шуның нәтиҗәсендә сезнең тәрҗемәләрегезгә тагын да зуррак билге куела.',
+Шуның нәтиҗәсендә сезнең тәрҗемәләрегезгә тагын да зуррак билге куела.', # Fuzzy
 	'contributionscores-top' => '(Иң әйбәт $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Соңгы $1 көн өчен}}',
-	'contributionscores-allrevisions' => 'Барлык үзгәртүләр',
+	'contributionscores-allrevisions' => 'Барлык үзгәртүләр', # Fuzzy
 	'contributionscores-score' => 'Билге',
 	'contributionscores-pages' => 'Битләр саны',
 	'contributionscores-changes' => 'Үзгәртүләр',
@@ -2049,7 +2045,7 @@ $messages['uk'] = array(
 	'contributionscores-info' => 'Оцінка обчислюється додаванням наступних величин:
 * 1 очко за редагування кожної унікальної сторінки;
 * 2 * квадратний корінь з різниці: (загальна кількість редагувань) − (усього унікальних сторінок).
-При підрахунку оцінки таким чином розмаїттю редагувань надається більша вага, ніж загальній кількості редагувань.',
+При підрахунку оцінки таким чином розмаїттю редагувань надається більша вага, ніж загальній кількості редагувань.', # Fuzzy
 	'contributionscores-top' => '({{PLURAL:$1|найкращий|найкращих}})',
 	'contributionscores-days' => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
 	'contributionscores-allrevisions' => 'Весь час',
@@ -2083,10 +2079,10 @@ $messages['vec'] = array(
 *Un (1) punto par ogni diversa pagina modificà
 *Raìsa quadrata de (Tute le modifiche fate) - (Total de le pagine modificà) * 2
 Fasendo i conti in sta maniera pesa piassè la diversità de le modifiche rispeto al nùmaro dei contributi.
-In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà, tegnendo in considerazion anca un alto volume de modifiche - che fa pensar a na pi alta qualità de la pagina modificà.',
+In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà, tegnendo in considerazion anca un alto volume de modifiche - che fa pensar a na pi alta qualità de la pagina modificà.', # Fuzzy
 	'contributionscores-top' => '(Ultimi $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ultimo zòrno|Ultimi $1 zòrni}}',
-	'contributionscores-allrevisions' => 'Tute le revision',
+	'contributionscores-allrevisions' => 'Tute le revision', # Fuzzy
 	'contributionscores-score' => 'Puntegio',
 	'contributionscores-pages' => 'Pagine',
 	'contributionscores-changes' => 'Canbiamenti',
@@ -2104,7 +2100,7 @@ $messages['vep'] = array(
 	'contributionscores-info' => "Arvsanad lugedas nenid luguid ližaten:
 *Üks' (1) punkt kaikuččen unikaližen lehtpolen redaktiruindas
 *Nellikjur' (Redaktiruindoiden ühthine lugu) - (Unikaližiden lehtpoliden ühthine lugu) * 2
-Muga lugeden anttas enamba vedadust redakcijoiden erazvuičendale, mi niiden ühthižele lugule.",
+Muga lugeden anttas enamba vedadust redakcijoiden erazvuičendale, mi niiden ühthižele lugule.", # Fuzzy
 	'contributionscores-top' => '($1 parembad)',
 	'contributionscores-days' => "{{PLURAL:$1|jäl'gmäine päiv|$1 jäl'gmäšt päiväd}}",
 	'contributionscores-allrevisions' => 'Kaikes aigas',
@@ -2127,7 +2123,7 @@ $messages['vi'] = array(
 *Một (1) điểm cho mỗi sửa đổi tại từng trang riêng lẻ
 *Căn bậc hai của (Tổng số sửa đổi) - (Tổng số trang riêng lẻ) * 2
 Điểm số được tính theo cách này sẽ nhé nhấn mạnh vào sự đa dạng khi sửa đổi hơn là mức độ sửa đổi.
-Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.',
+Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.', # Fuzzy
 	'contributionscores-top' => '(Tốp $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ngày|$1 ngày}} qua',
 	'contributionscores-allrevisions' => 'Từ trước đến nay',
@@ -2145,7 +2141,7 @@ Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa 
  */
 $messages['vo'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Del|Dels}} lätik $1',
-	'contributionscores-allrevisions' => 'Revids valik',
+	'contributionscores-allrevisions' => 'Revids valik', # Fuzzy
 	'contributionscores-pages' => 'Pads',
 	'contributionscores-changes' => 'Votükams',
 	'contributionscores-username' => 'Gebananem',
@@ -2162,7 +2158,7 @@ $messages['wa'] = array(
 * Li cwårêye raecene di (nombe di candjmints) - (nombe totå di pådjes unikes) * 2
 
 Di cisse manire on dene pus di pontiaedje al varyisté des contribouwaedjes k' a leu cwantité.
-Po l' dire pus simplumint, ci pontiaedje ci mezeure copurade li nombe di pådejs diferinnes di candjeyes, et poy seulmint li cwantité di candjmints diferins.",
+Po l' dire pus simplumint, ci pontiaedje ci mezeure copurade li nombe di pådejs diferinnes di candjeyes, et poy seulmint li cwantité di candjmints diferins.", # Fuzzy
 	'contributionscores-top' => '(les $1 meyeus)',
 	'contributionscores-days' => '{{PLURAL:$1|Sol dierin djoû|So les $1 dierins djoûs}}',
 	'contributionscores-allrevisions' => 'Dispoy todi',
@@ -2194,10 +2190,10 @@ $messages['yue'] = array(
 	'contributionscores-info' => '分數會用下面嘅計法去計:
 *每一個唯一一版編輯過嘅有1分
 *(總編輯數)-(總唯一頁數)嘅平方根 * 2
-響呢方面計嘅分數會睇編輯多樣性同編輯量相比。 基本噉講，呢個分數係會依主要嘅唯一編輯過嘅頁，同埋考慮高編輯量 - 假設係一篇高質量嘅文章。',
+響呢方面計嘅分數會睇編輯多樣性同編輯量相比。 基本噉講，呢個分數係會依主要嘅唯一編輯過嘅頁，同埋考慮高編輯量 - 假設係一篇高質量嘅文章。', # Fuzzy
 	'contributionscores-top' => '(最高$1名)',
 	'contributionscores-days' => '最近$1日',
-	'contributionscores-allrevisions' => '全部修訂',
+	'contributionscores-allrevisions' => '全部修訂', # Fuzzy
 	'contributionscores-score' => '分數',
 	'contributionscores-pages' => '版',
 	'contributionscores-changes' => '更改',
@@ -2218,7 +2214,7 @@ $messages['zh-hans'] = array(
 	'contributionscores-info' => '分数会用以下的的计分法去计算:
 *每一个唯一页面编辑过的有1分
 *(总编辑数)-(总唯一页面数)的平方根 * 2
-在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。',
+在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。', # Fuzzy
 	'contributionscores-top' => '（最高$1名）',
 	'contributionscores-days' => '最近$1天',
 	'contributionscores-allrevisions' => '所有的时间',
@@ -2242,7 +2238,7 @@ $messages['zh-hant'] = array(
 	'contributionscores-info' => '分數會用以下的的計分法去計算：
 *每一個唯一頁面編輯過的有 1 分
 *(總編輯數)-(總唯一頁面數)的平方根 * 2
-在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。',
+在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。', # Fuzzy
 	'contributionscores-top' => '（最多 $1 位）',
 	'contributionscores-days' => '最近 {{PLURAL:$1|天|$1 天}}',
 	'contributionscores-allrevisions' => '所有的時間',
@@ -2253,4 +2249,3 @@ $messages['zh-hant'] = array(
 	'contributionscores-invalidusername' => '無效的使用者名稱',
 	'contributionscores-invalidmetric' => '無效的公制',
 );
-
