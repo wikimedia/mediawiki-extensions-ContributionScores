@@ -99,6 +99,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$altrow = '';
 
+		$lang = $this->getLanguage();
 		foreach ( $res as $row ) {
 			// Use real name if option used and real name present.
 			if ( $wgContribScoresUseRealName && $row->user_real_name !== '' ) {
@@ -114,7 +115,6 @@ class ContributionScores extends IncludableSpecialPage {
 				);
 			}
 
-			$lang = $this->getLanguage();
 			$output .= Html::closeElement( 'tr' );
 			$output .= "<tr class='{$altrow}'>\n<td class='content'>" .
 				$lang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content'>" .
@@ -141,16 +141,21 @@ class ContributionScores extends IncludableSpecialPage {
 		$dbr->freeResult( $res );
 
 		if ( !empty( $title ) )
-			$output = Html::rawElement( 'table', array( 'cellspacing' => 0, 'cellpadding' => 0,
-				'class' => 'contributionscores-wrapper', 'lang' => $lang->getCode(),
-				'dir' => $lang->getDir() ),
-			"\n" .
-			"<tr>\n" .
-			"<td style='padding: 0px;'>{$title}</td>\n" .
-			"</tr>\n" .
-			"<tr>\n" .
-			"<td style='padding: 0px;'>{$output}</td>\n" .
-			"</tr>\n" );
+			$output = Html::rawElement( 'table',
+				array(
+					'style' => 'border-spacing: 0; padding: 0',
+					'class' => 'contributionscores-wrapper',
+					'lang' => htmlspecialchars( $lang->getCode()),
+					'dir' => $lang->getDir()
+				),
+				"\n" .
+					"<tr>\n" .
+					"<td style='padding: 0px;'>{$title}</td>\n" .
+					"</tr>\n" .
+					"<tr>\n" .
+					"<td style='padding: 0px;'>{$output}</td>\n" .
+					"</tr>\n"
+			);
 
 		return $output;
 	}
