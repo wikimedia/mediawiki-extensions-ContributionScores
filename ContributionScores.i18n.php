@@ -800,10 +800,7 @@ Rezultat dobiven na ovaj način daje veću težinu broju uređivanja različitih
 $messages['hsb'] = array(
 	'contributionscores' => 'Wuhódnoćenje přinoškow',
 	'contributionscores-desc' => 'Wuslědźi najwyši [[Special:ContributionScores|wobjim wužiwarskich přinoškow]] w datowej bance wikiprojekta',
-	'contributionscores-info' => 'Ličba dypkow so takle wobličuje:
-*1 dypk za kóždy wobdźěłanu jednotliwu stronu
-*Kwadratny korjeń (wšěch sčinjenych změnow) - (cyłkowna ličba jednotliwych stronow) * 2
-Ličba dypkow wuličena na tute wašnje pohódnoća wšelakorosć změnow wysě hač mnóstwo změnow. Zasadnje tute pohódnoćenje měri w prěnim rjedźe jednotliwe wobdźěłane strony dźiwajo na wysoke mnóstwo změnow - předpokładujo, zo to by nastawk z wyšej kwalitu było.', # Fuzzy
+	'contributionscores-info' => 'Ličba dypkow měri w prěnim rjedźe jónkróć wobdźěłane strony na zakładźe wysokeje ličby změnow.',
 	'contributionscores-top' => '(Najlěpšich $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Posledni dźeń|Poslednjej $1 dnjej|Poslednje $1 dny|Poslednich $1 dnjow}}',
 	'contributionscores-allrevisions' => 'Cyły čas',
@@ -1648,11 +1645,7 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'contributionscores' => 'Pundegge de le condrebbute',
 	'contributionscores-desc' => "Le sondagge d'u database de Uicchi pe le cchiù ierte [[Special:ContributionScores|volume de condrebbuzione de l'utende]]",
-	'contributionscores-info' => "Le pundegge sonde calculete accussì:
-*'Nu (1) punde pe ogne pàgena uniche cangete
-*'A radice quadrete de (totele de le cangiaminde fatte) - (totele de le pàggene uniche) * 2
-Le pundegge calculete jndr'à stu mode tènene 'nu pese de cangiaminde diverse sus a 'u volume de le cangiaminde.
-De base, stu pundegge mesure apprime de tutte, le pàggene uniche cangete, cu 'a conziderazzione pe le volume de cangiaminde ierte - se penze ca le pàggene tènene 'na qualitate cchiù ierte.", # Fuzzy
+	'contributionscores-info' => "De base, stu pundegge mesure apprime de tutte, le pàggene uneche cangiate, cu 'a conziderazzione pe le volume de cangiaminde ierte.",
 	'contributionscores-top' => '(Le Prime $1)',
 	'contributionscores-days' => 'Urteme {{PLURAL:$1|sciurne|$1 sciurne}}',
 	'contributionscores-allrevisions' => "Tutte 'u tiembe",
