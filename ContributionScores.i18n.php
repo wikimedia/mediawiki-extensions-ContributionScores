@@ -1747,11 +1747,7 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
 $messages['sl'] = array(
 	'contributionscores' => 'Rezultati prispevkov',
 	'contributionscores-desc' => 'V zbirki podatkov wiki poišče največjo [[Special:ContributionScores|količino prispevkov uporabnikov]]',
-	'contributionscores-info' => 'Rezultati se izračunajo na naslednji način:
-*Ena točka za vsako urejeno edinstveno stran
-*Kvadratni koren (skupno število urejanj) - (število edinstvenih strani) * 2
-Rezultati, izračunani na tak način, dajo težo raznolikosti urejanj pred količino urejanj.
-V bistvu ta rezultat meri predvsem urejene edinstvene strani ob upoštevanju velike količine urejanj – z domnevo, da gre za kakovostnejše strani.', # Fuzzy
+	'contributionscores-info' => 'Rezultat prvotno meri urejanja različnih strani, z upoštevanjem velike količine urejanj.',
 	'contributionscores-top' => '({{PLURAL:$1|Najvišji|Najvišja|Najvišji|Najvišjih}} $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dneva|Zadnji $1 dnevi|Zadnjih $1 dni}}',
 	'contributionscores-allrevisions' => 'Vseh časov',
