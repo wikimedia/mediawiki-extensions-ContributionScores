@@ -2105,11 +2105,7 @@ Muga lugeden anttas enamba vedadust redakcijoiden erazvuičendale, mi niiden üh
 $messages['vi'] = array(
 	'contributionscores' => 'Điểm số đóng góp',
 	'contributionscores-desc' => 'Truy xuất cơ sở dữ liệu wiki để xem [[Special:ContributionScores|mức đóng góp]] cao nhất của thành viên',
-	'contributionscores-info' => 'Điểm số được tính như sau:
-*Một (1) điểm cho mỗi sửa đổi tại từng trang riêng lẻ
-*Căn bậc hai của (Tổng số sửa đổi) - (Tổng số trang riêng lẻ) * 2
-Điểm số được tính theo cách này sẽ nhé nhấn mạnh vào sự đa dạng khi sửa đổi hơn là mức độ sửa đổi.
-Cơ bản, điểm số này đo lường số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao - với giả thiết sẽ làm cho trang có chất lượng hơn.', # Fuzzy
+	'contributionscores-info' => 'Điểm số này chủ yếu đo số trang riêng lẻ được sửa đổi, có xét thêm mức độ sửa đổi cao.',
 	'contributionscores-top' => '(Tốp $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Ngày|$1 ngày}} qua',
 	'contributionscores-allrevisions' => 'Từ trước đến nay',
