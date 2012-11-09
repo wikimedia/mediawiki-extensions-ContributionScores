@@ -208,6 +208,11 @@ $specialPageAliases['tr'] = array(
 	'ContributionScores' => array( 'KatkıSkorları', 'KatkıPuanları' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'ContributionScores' => array( 'Очки_внеску' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'ContributionScores' => array( '贡献得分' ),
