@@ -108,6 +108,11 @@ $specialPageAliases['id'] = array(
 	'ContributionScores' => array( 'Skor_kontribusi', 'SkorKontribusi' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'ContributionScores' => array( 'PunteggiContribuzione' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'ContributionScores' => array( '貢献スコア', '貢献得点' ),
