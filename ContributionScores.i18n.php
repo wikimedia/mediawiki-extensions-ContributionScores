@@ -1416,7 +1416,7 @@ $messages['nn'] = array(
 * Kvadratrota av (totalt tal på endringar) &minus; (unike sider endra) × 2
 Poeng som blir rekna ut på denne måten set endringsmangfald høgare enn endringsvolum. Dette tyder til sist at dette primært måler kor mange forskjellige sider som har blitt endra, med omsyn til høgt endringsvolum &ndash; anteke å føra til sider av høgare kvalitet.', # Fuzzy
 	'contributionscores-top' => '(topp $1)',
-	'contributionscores-days' => 'Siste {{PLURAL:$1|dag|$1 dagar}}',
+	'contributionscores-days' => 'Siste {{PLURAL:$1|dagen|$1 dagane}}',
 	'contributionscores-allrevisions' => 'Alle versjonar', # Fuzzy
 	'contributionscores-score' => 'Poeng',
 	'contributionscores-pages' => 'Sider',
