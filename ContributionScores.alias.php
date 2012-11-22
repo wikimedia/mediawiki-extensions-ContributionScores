@@ -188,6 +188,11 @@ $specialPageAliases['sa'] = array(
 	'ContributionScores' => array( 'योगदानप्राप्ताङ्क' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'ContributionScores' => array( 'PunteggiContribuzione' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'ContributionScores' => array( 'SkórePríspevkov' ),
