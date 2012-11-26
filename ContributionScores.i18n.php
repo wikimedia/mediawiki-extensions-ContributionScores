@@ -1525,17 +1525,14 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem licz
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Bèrto 'd Sèra
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'contributionscores' => 'Classìfica dla contribussion',
 	'contributionscores-desc' => 'Antéroga ël database wiki an sël pì àut [[Special:ContributionScores|volum dij contribù utent]]',
-	'contributionscores-info' => "La classìfica as càlcola parej:
-*1 pont për minca pàgina modificà
-*Rèis quadra ëd (Total dle Modìfiche Fàite) - (Total dle Pàgine Ùniche) moltiplicà për 2
-Le classìfiche donca as peulo ten-se ën pèisand an manera diferenta ël nùmer dle modìfiche anvers al volum dle modìfiche mideme.
-Sta classìfica a l'amzura dzortut le pàgine ùniche ch'a ven-o modificà, e ën vorend a-j da n'euj ëd rësgoard a cole ch'a l'han n'àot volum ëd modìfica - ch'as pensa ch'a peula esse na marca ëd qualità dl'artìcol.", # Fuzzy
+	'contributionscores-info' => 'Ël pontegi a mzura primariament le pàgine ùniche modificà, pijand an cont ij gròss volum ëd modìfiche.',
 	'contributionscores-top' => '(Ij $1 mej)',
 	'contributionscores-days' => 'Ùltim Last {{PLURAL:$1|di|$1 di}}',
 	'contributionscores-allrevisions' => 'Tute le vire',
