@@ -163,7 +163,7 @@ $specialPageAliases['nb'] = array(
 	'ContributionScores' => array( 'Bidragspoeng' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'ContributionScores' => array( 'Biedragentelling' ),
 );
