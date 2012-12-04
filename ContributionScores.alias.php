@@ -55,7 +55,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'ContributionScores' => array( 'Skorêİştiraxan' ),
+	'ContributionScores' => array( 'Sqorêİştiraqan' ),
 );
 
 /** Esperanto (Esperanto) */
