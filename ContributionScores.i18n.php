@@ -1819,10 +1819,7 @@ Peunteun nu diitung dumasar aturan di luhur ngukur karagaman éditan tina jumlah
 $messages['sv'] = array(
 	'contributionscores' => 'Bidragspoäng',
 	'contributionscores-desc' => 'Hämtar information från databasen om de användare som gjort [[Special:ContributionScores|flest bidrag]]',
-	'contributionscores-info' => 'Poängen beräknas på följande vis:
-* 1 poäng för varje unik sida som redigerats
-* kvadratroten av (antal gjorda redigeringar) - (antal unika sidor) * 2
-När poängen beräknas på detta sätt, så väger bidrag spridda över många olika sidor tyngre än många redigeringar på färre sidor. Det betyder att poängen huvudsakligen mäter hur många unika sidor som har redigerats, med hänsyn tagen till det totala antalet redigeringar som gjorts – eftersom många redigeringar antas ge sidor av högre kvalitet.', # Fuzzy
+	'contributionscores-info' => 'Poängen beräknar främst redigerade unika sidor, med hänsyn till höga redigeringsvolymer.',
 	'contributionscores-top' => '(Topp $1)',
 	'contributionscores-days' => 'Senaste {{PLURAL:$1|dagen|$1 dagarna}}',
 	'contributionscores-allrevisions' => 'Hela tiden',
