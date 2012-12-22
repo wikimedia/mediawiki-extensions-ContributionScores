@@ -95,6 +95,7 @@ $messages['ar'] = array(
  * @author Basharh
  */
 $messages['arc'] = array(
+	'contributionscores' => 'ܦܠܛ̈ܐ ܕܫܘܬܦܘܝܬ̈ܐ',
 	'contributionscores-days' => '{{PLURAL:$1|ܝܘܡܐ ܐܚܪܝܐ|$1 ܝܘܡܬ̈ܐ ܐܚܪ̈ܝܐ}}',
 	'contributionscores-allrevisions' => 'ܟܠ ܙܒܢ̈ܐ',
 	'contributionscores-pages' => 'ܦܐܬܬ̈ܐ',
@@ -497,11 +498,7 @@ $messages['es'] = array(
 $messages['et'] = array(
 	'contributionscores' => 'Kaastööpunktid',
 	'contributionscores-desc' => 'Teeb viki andmekogust järelepärimise [[Special:ContributionScores|kasutajate kaastööde hulga]] kohta.',
-	'contributionscores-info' => 'Punktide arvutamiseks liidetakse:
-* Muudetud lehekülgede koguarv
-* Kahekordne ruutjuur muudatuste koguarvu ja muudetud lehekülgede koguarvu vahest
-Nii arvutatud punktid väärtustavad enam muudatuste omapära kui nende hulka.
-Teisisõnu, need punktid lähtuvad eeskätt muudetud lehekülgede arvust ja võtavad arvesse ka suure muudatuste hulga – nii püütakse hinnata lehekülgede kvaliteeti.', # Fuzzy
+	'contributionscores-info' => 'Need punktid lähtuvad eeskätt erinevate redigeeritud lehekülgede arvust ja võtavad arvesse ka redigeerimiste koguarvu.',
 	'contributionscores-top' => '($1 paremat)',
 	'contributionscores-days' => '{{PLURAL:$1|Viimane päev|Viimased $1 päeva}}',
 	'contributionscores-allrevisions' => 'Kõik aeg',

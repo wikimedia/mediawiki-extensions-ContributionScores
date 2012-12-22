@@ -18,6 +18,11 @@ $specialPageAliases['ar'] = array(
 	'ContributionScores' => array( 'نتائج_المساهمة' ),
 );
 
+/** Aramaic (ܐܪܡܝܐ) */
+$specialPageAliases['arc'] = array(
+	'ContributionScores' => array( 'ܦܠܛ̈ܐ_ܕܫܘܬܦܘܝܬ̈ܐ' ),
+);
+
 /** Egyptian Spoken Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمه' ),
