@@ -461,7 +461,7 @@ Poentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redakt
 Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.', # Fuzzy
 	'contributionscores-top' => '(Plej alta $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Lasta tago|Lastaj $1 tagoj}}',
-	'contributionscores-allrevisions' => 'Ĉiuj Revizioj', # Fuzzy
+	'contributionscores-allrevisions' => 'Ĉiame',
 	'contributionscores-score' => 'Poentaro',
 	'contributionscores-pages' => 'Paĝoj',
 	'contributionscores-changes' => 'Ŝanĝoj',
