@@ -1692,6 +1692,7 @@ $messages['scn'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'contributionscores' => 'දායකත්ව ලකුණු',
 	'contributionscores-top' => '(ඉහළම $1)',
 	'contributionscores-allrevisions' => 'හැම වෙලාවෙම',
 	'contributionscores-score' => 'ලකුණු',
@@ -2005,15 +2006,13 @@ $messages['ug-latn'] = array(
  * @author AS
  * @author Ahonc
  * @author Prima klasy4na
+ * @author Ата
  * @author Тест
  */
 $messages['uk'] = array(
 	'contributionscores' => 'Оцінка внеску',
 	'contributionscores-desc' => 'Визначає з бази даних [[Special:ContributionScores|користувачів з найбільшою кількістю редагувань]]',
-	'contributionscores-info' => 'Оцінка обчислюється додаванням наступних величин:
-* 1 очко за редагування кожної унікальної сторінки;
-* 2 * квадратний корінь з різниці: (загальна кількість редагувань) − (усього унікальних сторінок).
-При підрахунку оцінки таким чином розмаїттю редагувань надається більша вага, ніж загальній кількості редагувань.', # Fuzzy
+	'contributionscores-info' => 'При підрахунку оцінки велика вага надається розмаїттю редагувань, враховується і загальна кількість.',
 	'contributionscores-top' => '({{PLURAL:$1|найкращий|найкращих}})',
 	'contributionscores-days' => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
 	'contributionscores-allrevisions' => 'Весь час',
