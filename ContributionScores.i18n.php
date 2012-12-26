@@ -1649,15 +1649,13 @@ $messages['rtm'] = array(
 /** Russian (русский)
  * @author Ahonc
  * @author Kalan
+ * @author Ole Yves
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'contributionscores' => 'Оценка вклада',
 	'contributionscores-desc' => 'Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]',
-	'contributionscores-info' => 'Оценка рассчитывается сложением следующих слагаемых:
-* 1 очко за редактирование каждой уникальной страницы;
-* 2 * квадратный корень из разности: (общее количество правок) - (всего уникальных страниц).
-При подсчёте оценки таким образом разнообразию правок придаётся больший вес, чем общему количеству правок.', # Fuzzy
+	'contributionscores-info' => 'Оценка рассчитывается в первую очередь по количеству отредактированных уникальных страниц, с учётом большего объёма редактирования.',
 	'contributionscores-top' => '(лучшие $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дня|Последние $1 дней}}',
 	'contributionscores-allrevisions' => 'За всё время',
@@ -1693,13 +1691,16 @@ $messages['scn'] = array(
  */
 $messages['si'] = array(
 	'contributionscores' => 'දායකත්ව ලකුණු',
+	'contributionscores-info' => 'මෙම ලකුණ ප්‍රධාන වශයෙන් ඉහළ සංස්කරණ ධාරිතාවක් සඳහා සංස්කරණය කරනු ලැබූ අසමසම පිටු සමග සලකා බැලීමෙන් මනිනු ලැබේ.',
 	'contributionscores-top' => '(ඉහළම $1)',
+	'contributionscores-days' => 'අවසන් {{PLURAL:$1|දිනයේ|දින $1}}',
 	'contributionscores-allrevisions' => 'හැම වෙලාවෙම',
 	'contributionscores-score' => 'ලකුණු',
 	'contributionscores-pages' => 'පිටු',
 	'contributionscores-changes' => 'වෙනස් කිරීම්',
 	'contributionscores-username' => 'පරිශීලක නාමය',
 	'contributionscores-invalidusername' => 'වලංගු නොවන පරිශීලක නාමය',
+	'contributionscores-invalidmetric' => 'වලංගු නොවන මාත්‍රිකය',
 );
 
 /** Slovak (slovenčina)
