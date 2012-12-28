@@ -1564,6 +1564,7 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'contributionscores-days' => 'وروستۍ {{PLURAL:$1|ورځ|$1 ورځې}}',
+	'contributionscores-allrevisions' => 'هر وخت',
 	'contributionscores-pages' => 'مخونه',
 	'contributionscores-changes' => 'بدلونونه',
 	'contributionscores-username' => 'کارن-نوم',
