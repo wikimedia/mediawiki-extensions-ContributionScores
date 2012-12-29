@@ -1306,10 +1306,16 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Emrrans
  */
 $messages['ms'] = array(
 	'contributionscores' => 'Skor sumbangan',
+	'contributionscores-allrevisions' => 'Sepanjang masa',
+	'contributionscores-score' => 'Markah',
+	'contributionscores-pages' => 'Halaman',
+	'contributionscores-changes' => 'Perubahan',
+	'contributionscores-username' => 'Nama pengguna',
 );
 
 /** Maltese (Malti)
