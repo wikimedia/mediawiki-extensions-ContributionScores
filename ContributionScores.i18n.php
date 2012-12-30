@@ -1311,11 +1311,17 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'contributionscores' => 'Skor sumbangan',
+	'contributionscores-desc' => 'Mengira [[Special:ContributionScores|jumlah sumbangan pengguna]] yang tertinggi dalam pangkalan data wiki',
+	'contributionscores-info' => 'Markah ini terutama sekali mengira halaman-halaman unik yang disunting dengan pertimbangan untuk jumlah suntingan yang tinggi.',
+	'contributionscores-top' => '($1 teratas)',
+	'contributionscores-days' => '{{PLURAL:$1|hari|$1 hari}} terkini',
 	'contributionscores-allrevisions' => 'Sepanjang masa',
 	'contributionscores-score' => 'Markah',
 	'contributionscores-pages' => 'Halaman',
 	'contributionscores-changes' => 'Perubahan',
 	'contributionscores-username' => 'Nama pengguna',
+	'contributionscores-invalidusername' => 'Nama pengguna tidak sah',
+	'contributionscores-invalidmetric' => 'Metrik tidak sah',
 );
 
 /** Maltese (Malti)
