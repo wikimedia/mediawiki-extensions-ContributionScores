@@ -627,7 +627,7 @@ $messages['frp'] = array(
 	'contributionscores-score' => 'Mârca',
 	'contributionscores-pages' => 'Pâges',
 	'contributionscores-changes' => 'Changements',
-	'contributionscores-username' => 'Nom d’usanciér',
+	'contributionscores-username' => 'Nom d’utilisator',
 	'contributionscores-invalidusername' => 'Nom d’usanciér envalido',
 	'contributionscores-invalidmetric' => 'Mètrica fôssa',
 );
@@ -752,6 +752,7 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Kaustubh
  */
 $messages['hi'] = array(
@@ -764,6 +765,7 @@ $messages['hi'] = array(
 	'contributionscores-pages' => 'पन्ने',
 	'contributionscores-changes' => 'बदलाव',
 	'contributionscores-username' => 'सदस्यनाम',
+	'contributionscores-invalidusername' => 'अमान्य सदस्यनाम',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -1484,11 +1486,15 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
  */
 $messages['or'] = array(
+	'contributionscores-allrevisions' => 'ସବୁ ବେଳେ',
+	'contributionscores-score' => 'ସ୍କୋର',
 	'contributionscores-pages' => 'ପୃଷ୍ଠା',
+	'contributionscores-changes' => 'ବଦଳସବୁ',
 	'contributionscores-username' => 'ବ୍ୟବହାରକାରୀଙ୍କ ନାମ',
 );
 
@@ -1783,9 +1789,12 @@ $messages['sr-ec'] = array(
 	'contributionscores-top' => '(првих $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последњег дана|Последњих $1 дана}}',
 	'contributionscores-allrevisions' => 'Свих времена',
+	'contributionscores-score' => 'Оцена',
 	'contributionscores-pages' => 'Странице',
 	'contributionscores-changes' => 'Измене',
 	'contributionscores-username' => 'Корисничко име',
+	'contributionscores-invalidusername' => 'Неисправно корисничко име',
+	'contributionscores-invalidmetric' => 'Неисправна метрика',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
