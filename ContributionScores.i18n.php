@@ -754,6 +754,7 @@ $messages['he'] = array(
 /** Hindi (हिन्दी)
  * @author Ansumang
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'contributionscores' => 'योगदान संख्या',
@@ -762,7 +763,7 @@ $messages['hi'] = array(
 	'contributionscores-days' => 'आखिरी $1 दिन', # Fuzzy
 	'contributionscores-allrevisions' => 'सभी अवतरण', # Fuzzy
 	'contributionscores-score' => 'गुण',
-	'contributionscores-pages' => 'पन्ने',
+	'contributionscores-pages' => 'पृष्ठ',
 	'contributionscores-changes' => 'बदलाव',
 	'contributionscores-username' => 'सदस्यनाम',
 	'contributionscores-invalidusername' => 'अमान्य सदस्यनाम',
