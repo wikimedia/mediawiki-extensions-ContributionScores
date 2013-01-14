@@ -68,17 +68,14 @@ Punte wat op die manier bereken word weeg die verskeidenheid van bladsye gewysig
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author Mido
  * @author OsamaK
  * @author ترجمان05
  */
 $messages['ar'] = array(
 	'contributionscores' => 'نتائج المساهمات',
 	'contributionscores-desc' => 'يسحب قاعدة بيانات الويكي لأعلى [[Special:ContributionScores|حجم لمساهمات المستخدم]]',
-	'contributionscores-info' => 'النتائج تحسب كالتالي:
-*نقطة واحدة لكل صفحة فريدة تحرر
-*الجذر التربيعي ل(مجموع عدد التعديلات) - (مجموع عدد الصفحات الفريدة) × 2
-النتائج المحسوبة بهذه الطريقة تحسب عدد التعديلات أكثر من حجمها.
-تقيس هذه النتيجة أساسًا الصفحات الفريدة المحررة، مع الأخذ في الاعتبار أحجام التعديلات الكبيرة - لأن الصفحة تكون عادة ذات جودة أعلى.', # Fuzzy
+	'contributionscores-info' => 'تحسب النتيجة بشكل أساسي عن طريق حساب عدد الصفحات التي تم تعديلها، مع الأخذ في الاعتبار كمية التعديلات الكبيرة.',
 	'contributionscores-top' => '(أعلى $1)',
 	'contributionscores-days' => '{{PLURAL:$1||اليوم الماضي|اليومان الماضيان|ال$1 أيام الماضية|ال$1 يومًا الماضية|ال$1 يوم الماضية}}',
 	'contributionscores-allrevisions' => 'كل الوقت',
