@@ -20,7 +20,7 @@ $specialPageAliases['ar'] = array(
 
 /** Aramaic (ܐܪܡܝܐ) */
 $specialPageAliases['arc'] = array(
-	'ContributionScores' => array( 'ܦܠܛ̈ܐ_ܕܫܘܬܦܘܝܬ̈ܐ' ),
+	'ContributionScores' => array( 'ܦܠܛ̈ܐ_ܕܫܘܬܦܘ̈ܬܐ' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى) */
