@@ -2205,6 +2205,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Dimension
  * @author Hydra
  * @author PhiLiP
  * @author Shinjiman
@@ -2213,10 +2214,7 @@ $messages['yue'] = array(
 $messages['zh-hans'] = array(
 	'contributionscores' => '贡献分数',
 	'contributionscores-desc' => '根据在wiki数据库中给出最高的[[Special:ContributionScores|用户贡献容量]]',
-	'contributionscores-info' => '分数会用以下的的计分法去计算:
-*每一个唯一页面编辑过的有1分
-*(总编辑数)-(总唯一页面数)的平方根 * 2
-在这方面计算的分数会参看编辑多的样性跟编辑量相比。 基本说，这个分数是会依主要的唯一编辑过?页面，以及考虑高编辑量 - 假设是一篇高质量的文章。', # Fuzzy
+	'contributionscores-info' => '得分主要考量具有独特性的编辑，同时考虑编辑量。',
 	'contributionscores-top' => '（最高$1名）',
 	'contributionscores-days' => '最近$1天',
 	'contributionscores-allrevisions' => '所有的时间',
