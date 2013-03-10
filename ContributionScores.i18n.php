@@ -331,6 +331,13 @@ $messages['ce'] = array(
 	'contributionscores-username' => 'Декъашхон цlе',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'contributionscores-pages' => 'پەڕەکان',
+);
+
 /** Czech (česky)
  * @author Li-sung
  * @author Matěj Grabovský
