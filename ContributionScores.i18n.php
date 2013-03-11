@@ -1170,6 +1170,7 @@ dat öff jet Schrieve am Eng besser Sigge jitt, als wie sellde jet Schrieve.', #
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'contributionscores-allrevisions' => 'Hemû dem',
 	'contributionscores-pages' => 'Rûpel',
 	'contributionscores-username' => 'Navê bikarhêner',
 );
