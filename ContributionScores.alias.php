@@ -65,7 +65,7 @@ $specialPageAliases['diq'] = array(
 
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
-	'ContributionScores' => array( 'Kontribuatingoj' ),
+	'ContributionScores' => array( 'Poentaro_de_kontribuoj', 'Kontribuatingoj' ),
 );
 
 /** Estonian (eesti) */
