@@ -29,8 +29,10 @@ $messages['en'] = array(
  * @author Kalan
  * @author Purodha
  * @author Raymond
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
+	'contributionscores' => '{{doc-special|ContributionScores}}',
 	'contributionscores-desc' => 'Extension description displayed on [[Special:Version]].',
 	'contributionscores-info' => 'see http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/ContributionScores/ContributionScores_body.php?view=markup
 
@@ -40,8 +42,27 @@ $messages['qqq'] = array(
 	'contributionscores-top' => 'Second part of the headings of [[Special:ContributionScores]]. PLURAL is supported, but not used by the English original message.',
 	'contributionscores-days' => 'Heading of [[Special:ContributionScores]].',
 	'contributionscores-allrevisions' => 'Used as a header of [[Special:ContributionScores]]',
-	'contributionscores-pages' => '{{Identical|Pages}}',
-	'contributionscores-username' => '{{Identical|Username}}',
+	'contributionscores-score' => 'Used as column header of the table.
+{{Related|Contributionscores-score}}',
+	'contributionscores-pages' => '{{Related|Contributionscores-score}}
+{{Identical|Pages}}',
+	'contributionscores-changes' => '{{Related|Contributionscores-score}}
+{{Identical|Change}}',
+	'contributionscores-username' => '{{Related|Contributionscores-score}}
+{{Identical|Username}}',
+	'contributionscores-invalidusername' => 'Used as error message if the specified username is invalid.
+
+See example: [[Template:User Score]].
+This template contains <code><nowiki>{{#cscore:{{PAGENAME}}|score}}</nowiki></code> and its page name is invalid as username.
+
+See also:
+* {{msg-mw|Contributionscores-invalidmetric}}',
+	'contributionscores-invalidmetric' => 'Used as error message if the specified metric is invalid.
+
+Valid metrics are: score, changes and pages
+
+See also:
+* {{msg-mw|Contributionscores-invalidusername}}',
 );
 
 /** Afrikaans (Afrikaans)
