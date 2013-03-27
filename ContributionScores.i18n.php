@@ -447,7 +447,7 @@ $messages['diq'] = array(
 	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Peli',
 	'contributionscores-changes' => 'Vurnayışi',
-	'contributionscores-username' => 'Namey karberi',
+	'contributionscores-username' => 'Nameyê karberi',
 	'contributionscores-invalidusername' => 'Şahtiyaye namey karberi',
 	'contributionscores-invalidmetric' => 'Şahtiyaye metrik',
 );
