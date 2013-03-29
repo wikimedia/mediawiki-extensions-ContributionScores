@@ -1264,6 +1264,19 @@ $messages['ltg'] = array(
 	'contributionscores-pages' => 'Puslopys',
 );
 
+/** Mizo (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'contributionscores-allrevisions' => 'A vaiin',
+	'contributionscores-score' => 'Dawn',
+	'contributionscores-pages' => 'Phekte',
+	'contributionscores-changes' => 'Tihdanglamte',
+	'contributionscores-username' => 'Hmangtuhming',
+	'contributionscores-invalidusername' => 'Hmangtuhming dik lo',
+	'contributionscores-invalidmetric' => 'Tehphung dik lo',
+);
+
 /** Eastern Mari (олык марий)
  * @author Сай
  */
