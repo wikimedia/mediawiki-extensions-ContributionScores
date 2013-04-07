@@ -2268,14 +2268,12 @@ $messages['zh-hans'] = array(
  * @author PhiLiP
  * @author Shinjiman
  * @author Shirayuki
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'contributionscores' => '貢獻分數',
 	'contributionscores-desc' => '根據在wiki資料庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]',
-	'contributionscores-info' => '分數會用以下的的計分法去計算：
-*每一個唯一頁面編輯過的有 1 分
-*(總編輯數)-(總唯一頁面數)的平方根 * 2
-在這方面計算的分數會參看編輯多的樣性跟編輯量相比。 基本說，這個分數是會依主要的唯一編輯過嘅頁面，以及考慮高編輯量 - 假設是一篇高質量的文章。', # Fuzzy
+	'contributionscores-info' => '分數會依主要的唯一編輯過的頁面，以及考慮高編輯量。',
 	'contributionscores-top' => '（最多 $1 位）',
 	'contributionscores-days' => '最近 {{PLURAL:$1|天|$1 天}}',
 	'contributionscores-allrevisions' => '所有的時間',
