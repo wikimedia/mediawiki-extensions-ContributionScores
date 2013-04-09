@@ -28,7 +28,7 @@ $specialPageAliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمه' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'ContributionScores' => array( 'বৰঙনিৰ_মূল্যায়ন' ),
 );
