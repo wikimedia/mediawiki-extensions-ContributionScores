@@ -288,7 +288,7 @@ Lakaat a ra ar formulenn-se al liesseurted war wel kentoc'h eget ar c'hementad.
 E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur sellet a-dostoc'h ouzh ar c'hementadoù bras a gemmoù a seller outo evel pajennoù zo gwelloc'h an danvez anezho.", # Fuzzy
 	'contributionscores-top' => '(An $1 uhelañ)',
 	'contributionscores-days' => 'E-kerzh an {{PLURAL:$1|devezh|$1 devezh}} diwezhañ',
-	'contributionscores-allrevisions' => "Dalc'hmat",
+	'contributionscores-allrevisions' => 'A-viskoazh',
 	'contributionscores-score' => 'Skor',
 	'contributionscores-pages' => 'Pajennoù',
 	'contributionscores-changes' => 'Kemmoù',
