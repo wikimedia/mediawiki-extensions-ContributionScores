@@ -46,7 +46,7 @@ $messages['qqq'] = array(
 	'contributionscores-score' => 'Used as column header of the table.
 {{Related|Contributionscores-score}}',
 	'contributionscores-pages' => '{{Related|Contributionscores-score}}
-{{Identical|Pages}}',
+{{Identical|Page}}',
 	'contributionscores-changes' => '{{Related|Contributionscores-score}}
 {{Identical|Change}}',
 	'contributionscores-username' => '{{Related|Contributionscores-score}}
