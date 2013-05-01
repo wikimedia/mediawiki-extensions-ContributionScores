@@ -1653,6 +1653,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  * @author Crazymadlover
  * @author Eduardo.mps
  * @author Giro720
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'contributionscores' => 'Pontuações de Contribuições',
@@ -1668,7 +1669,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Mudanças',
 	'contributionscores-username' => 'Nome de usuário',
-	'contributionscores-invalidusername' => 'Nome de utilizador inválido',
+	'contributionscores-invalidusername' => 'Nome de usuário inválido',
 	'contributionscores-invalidmetric' => 'Métrica inválida',
 );
 
