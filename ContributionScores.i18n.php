@@ -1656,7 +1656,7 @@ Pontuações calculadas desta forma pesam a diversidade de edições relativamen
  * @author Luckas
  */
 $messages['pt-br'] = array(
-	'contributionscores' => 'Pontuações de Contribuições',
+	'contributionscores' => 'Pontuação de contribuições',
 	'contributionscores-desc' => 'Inquire a base de dados wiki sobre os mais altos [[Special:ContributionScores|volumes de contribuição dos utilizadores]]',
 	'contributionscores-info' => 'As pontuações são calculadas da seguinte forma:
 *1 ponto por cada página única editada
