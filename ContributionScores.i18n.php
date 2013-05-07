@@ -27,6 +27,7 @@ $messages['en'] = array(
  * @author Jon Harald Søby
  * @author JtFuruhata
  * @author Kalan
+ * @author Mormegil
  * @author Purodha
  * @author Raymond
  * @author Shirayuki
@@ -34,7 +35,7 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'contributionscores' => '{{doc-special|ContributionScores}}',
 	'contributionscores-desc' => 'Extension description displayed on [[Special:Version]].',
-	'contributionscores-info' => 'see http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/ContributionScores/ContributionScores_body.php?view=markup
+	'contributionscores-info' => 'see https://github.com/wikimedia/mediawiki-extensions-ContributionScores/blob/master/ContributionScores_body.php
 
 :COUNT(DISTINCT rev_page) AS page_count
 :COUNT(rev_id) AS rev_count
@@ -368,11 +369,7 @@ $messages['ckb'] = array(
 $messages['cs'] = array(
 	'contributionscores' => 'Skóre příspěvků',
 	'contributionscores-desc' => 'Zjišťuje největší [[Special:ContributionScores|objem uživatelských příspěvků]] z databáze wiki',
-	'contributionscores-info' => 'Skóre se počítá následovně:
-* 1 bod za každou jedinečnou stránku, kterou uživatel upravoval
-* Odmocnina z (celkem úprav) - (celkem jedinečných stránek) * 2
-Skóre vypočítané tímto způsobem upřednostňuje rozmanitost úprav více než počet úprav.
-V podstatě toto skóre měří hlavně počet upravovaných jedinečných stránek s přihlédnutím na velký počet úprav, což se pokládá za stránku vyšší kvality.', # Fuzzy
+	'contributionscores-info' => 'Skóre hodnotí zejména editaci různých stránek s přihlédnutím k velkému množství editací.',
 	'contributionscores-top' => '($1 nejvyšších)',
 	'contributionscores-days' => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
 	'contributionscores-allrevisions' => 'Celá historie',
