@@ -1400,7 +1400,7 @@ $messages['nah'] = array(
 	'contributionscores-username' => 'Tlatequitiltilīltōcāitl',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1464,7 +1464,7 @@ $messages['nl'] = array(
 	'contributionscores-invalidmetric' => 'Ongeldige eenheid',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
@@ -1518,7 +1518,7 @@ $messages['oc'] = array(
 	'contributionscores-invalidmetric' => 'Metria incorrècta',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
