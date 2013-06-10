@@ -1194,7 +1194,7 @@ $messages['ku-latn'] = array(
  * @author Nrowe
  */
 $messages['kw'] = array(
-	'contributionscores-username' => 'Hanow usyer',
+	'contributionscores-username' => 'Hanow devnydhyer',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
