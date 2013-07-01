@@ -60,7 +60,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'ContributionScores' => array( 'Sqorêİştiraqan' ),
+	'ContributionScores' => array( 'SqoréDekerdışan' ),
 );
 
 /** Esperanto (Esperanto) */
