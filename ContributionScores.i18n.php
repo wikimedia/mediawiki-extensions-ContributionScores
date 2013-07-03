@@ -1509,7 +1509,7 @@ $messages['oc'] = array(
 * 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a far veire lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.", # Fuzzy
 	'contributionscores-top' => '(Melhor $1)',
 	'contributionscores-days' => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
-	'contributionscores-allrevisions' => 'Totas las revisions', # Fuzzy
+	'contributionscores-allrevisions' => 'Tot lo temps',
 	'contributionscores-score' => 'Puntatge',
 	'contributionscores-pages' => 'Paginas',
 	'contributionscores-changes' => 'Modificacions',
