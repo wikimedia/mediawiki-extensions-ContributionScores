@@ -386,7 +386,7 @@ $messages['cs'] = array(
  */
 $messages['cu'] = array(
 	'contributionscores-pages' => 'страницѧ',
-	'contributionscores-username' => 'по́льꙃєватєлꙗ и́мѧ',
+	'contributionscores-username' => 'польꙃєватєлꙗ имѧ',
 );
 
 /** Danish (dansk)
