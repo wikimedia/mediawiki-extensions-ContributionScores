@@ -1240,14 +1240,17 @@ I huuegdjes die op dees wies beraekendj waere wäög divers bewèrkingsgedraag z
 );
 
 /** Lithuanian (lietuvių)
+ * @author Eitvys200
  * @author Hugo.arg
  */
 $messages['lt'] = array(
-	'contributionscores-allrevisions' => 'Visos revizijos', # Fuzzy
+	'contributionscores-allrevisions' => 'Viso laiko',
 	'contributionscores-score' => 'Rezultatas',
 	'contributionscores-pages' => 'Puslapiai',
 	'contributionscores-changes' => 'Pakeitimai',
 	'contributionscores-username' => 'Naudotojo vardas',
+	'contributionscores-invalidusername' => 'Negalimas naudotojo vardas',
+	'contributionscores-invalidmetric' => 'Neleistina metrika',
 );
 
 /** Latgalian (latgaļu)
