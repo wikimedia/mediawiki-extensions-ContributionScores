@@ -347,11 +347,12 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'contributionscores-top' => '(диканаш $1)',
 	'contributionscores-allrevisions' => 'Массо нисдарш', # Fuzzy
-	'contributionscores-username' => 'Декъашхон цlе',
+	'contributionscores-username' => 'Декъашхочун цӀе',
 );
 
 /** Sorani Kurdish (کوردی)
