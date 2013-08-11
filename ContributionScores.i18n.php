@@ -353,6 +353,7 @@ $messages['ce'] = array(
 	'contributionscores-top' => '(диканаш $1)',
 	'contributionscores-allrevisions' => 'Массо нисдарш', # Fuzzy
 	'contributionscores-username' => 'Декъашхочун цӀе',
+	'contributionscores-invalidusername' => 'Нийса йоцу декъашхочун цӀе',
 );
 
 /** Sorani Kurdish (کوردی)

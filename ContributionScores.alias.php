@@ -53,6 +53,11 @@ $specialPageAliases['bs'] = array(
 	'ContributionScores' => array( 'DoprinosiBodovi' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'ContributionScores' => array( '貢獻分數' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ContributionScores' => array( 'Beitragspunkte' ),
