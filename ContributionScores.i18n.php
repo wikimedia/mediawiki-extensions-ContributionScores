@@ -40,10 +40,23 @@ $messages['qqq'] = array(
 :COUNT(DISTINCT rev_page) AS page_count
 :COUNT(rev_id) AS rev_count
 :page_count+SQRT(rev_count-page_count)*2 AS wiki_rank',
-	'contributionscores-top' => 'Second part of the headings of [[Special:ContributionScores]]. PLURAL is supported, but not used by the English original message.
+	'contributionscores-top' => 'Second part of the headings of [[Special:ContributionScores]].
+
+PLURAL is supported, but not used by the English original message.
+
+Parameters:
+* $1 - limit value. Default value: 50 or 10
 {{Identical|Top}}',
-	'contributionscores-days' => 'Heading of [[Special:ContributionScores]].',
-	'contributionscores-allrevisions' => 'Used as a header of [[Special:ContributionScores]]',
+	'contributionscores-days' => 'Heading of [[Special:ContributionScores]].
+
+If the number of days is not defined, {{msg-mw|Contributionscores-allrevisions}} is used.
+
+Parameters:
+* $1 - number of days',
+	'contributionscores-allrevisions' => 'Used as a header of [[Special:ContributionScores]].
+
+See also:
+* {{msg-mw|Contributionscores-days}}',
 	'contributionscores-score' => 'Used as column header of the table.
 {{Related|Contributionscores-score}}',
 	'contributionscores-pages' => '{{Related|Contributionscores-score}}
