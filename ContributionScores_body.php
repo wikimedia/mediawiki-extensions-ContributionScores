@@ -92,12 +92,14 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n" .
 			"<tr class='header'>\n" .
+			Html::element( 'th', array(), $this->msg( 'contributionscores-rank' )->text() ) .
 			Html::element( 'th', array(), $this->msg( 'contributionscores-score' )->text() ) .
 			Html::element( 'th', array(), $this->msg( 'contributionscores-pages' )->text() ) .
 			Html::element( 'th', array(), $this->msg( 'contributionscores-changes' )->text() ) .
 			Html::element( 'th', array(), $this->msg( 'contributionscores-username' )->text() );
 
 		$altrow = '';
+		$user_rank = 1;
 
 		$lang = $this->getLanguage();
 		foreach ( $res as $row ) {
@@ -116,9 +118,10 @@ class ContributionScores extends IncludableSpecialPage {
 			}
 
 			$output .= Html::closeElement( 'tr' );
-			$output .= "<tr class='{$altrow}'>\n<td class='content'>" .
-				$lang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content'>" .
-				$lang->formatNum( $row->page_count ) . "\n</td><td class='content'>" .
+			$output .= "<tr class='{$altrow}'>\n<td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( round( $user_rank, 0 ) ) . "\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( $row->page_count ) . "\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
 				$lang->formatNum( $row->rev_count ) . "\n</td><td class='content'>" .
 				$userLink;
 
@@ -134,6 +137,8 @@ class ContributionScores extends IncludableSpecialPage {
 			} else {
 				$altrow = '';
 			}
+
+			$user_rank++;
 		}
 		$output .= Html::closeElement( 'tr' );
 		$output .= Html::closeElement( 'table' );

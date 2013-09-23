@@ -16,6 +16,7 @@ $messages['en'] = array(
 	'contributionscores-days'            => 'Last {{PLURAL:$1|day|$1 days}}',
 	'contributionscores-allrevisions'    => 'All time',
 	'contributionscores-score'           => 'Score',
+	'contributionscores-rank'            => 'Rank',
 	'contributionscores-pages'           => 'Pages',
 	'contributionscores-changes'         => 'Changes',
 	'contributionscores-username'        => 'Username',
@@ -59,6 +60,8 @@ See also:
 * {{msg-mw|Contributionscores-days}}',
 	'contributionscores-score' => 'Used as column header of the table.
 {{Related|Contributionscores-score}}',
+	'contributionscores-rank' => '{{Related|Contributionscores-score}}
+{{Identical|Rank}}',
 	'contributionscores-pages' => '{{Related|Contributionscores-score}}
 {{Identical|Page}}',
 	'contributionscores-changes' => '{{Related|Contributionscores-score}}
@@ -782,6 +785,7 @@ $messages['he'] = array(
 	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|יומיים האחרונים|־$1 הימים האחרונים}}',
 	'contributionscores-allrevisions' => 'מאז ומתמיד',
 	'contributionscores-score' => 'ניקוד',
+	'contributionscores-rank' => 'דירוג',
 	'contributionscores-pages' => 'דפים',
 	'contributionscores-changes' => 'שינויים',
 	'contributionscores-username' => 'שם משתמש',
