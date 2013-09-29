@@ -442,6 +442,7 @@ $messages['de'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Letzter Tag|Letzte $1 Tage}}',
 	'contributionscores-allrevisions' => 'Gesamter Zeitraum',
 	'contributionscores-score' => 'Bewertung',
+	'contributionscores-rank' => 'Rang',
 	'contributionscores-pages' => 'Seiten',
 	'contributionscores-changes' => 'Änderungen',
 	'contributionscores-username' => 'Benutzername',
@@ -650,6 +651,7 @@ $messages['fr'] = array(
 	'contributionscores-days' => 'Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}',
 	'contributionscores-allrevisions' => 'Tout le temps',
 	'contributionscores-score' => 'Pointage',
+	'contributionscores-rank' => 'Rang',
 	'contributionscores-pages' => 'Pages',
 	'contributionscores-changes' => 'Changements',
 	'contributionscores-username' => 'Nom d’utilisateur',
@@ -701,6 +703,7 @@ $messages['gl'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|O último día|Os últimos $1 días}}',
 	'contributionscores-allrevisions' => 'Desde sempre',
 	'contributionscores-score' => 'Puntuación',
+	'contributionscores-rank' => 'Clasificación',
 	'contributionscores-pages' => 'Páxinas',
 	'contributionscores-changes' => 'Cambios',
 	'contributionscores-username' => 'Nome de usuario',
@@ -778,19 +781,19 @@ $messages['hak'] = array(
  * @author YaronSh
  */
 $messages['he'] = array(
-	'contributionscores' => 'ניקוד תורמים',
-	'contributionscores-desc' => 'בדיקת בסיס הנתונים של הוויקי למציאת [[Special:ContributionScores|נפח תרומת המשתמשים]] הגבוה ביותר',
+	'contributionscores' => 'דירוג תורמים',
+	'contributionscores-desc' => 'בדיקת מסד הנתונים של הוויקי למציאת משתמשים עם [[Special:ContributionScores|נפח התרומה]] הגבוה ביותר',
 	'contributionscores-info' => 'החישוב מתבסס בעיקר על מספר הדפים הייחודיים שנערכו ועל קצב העריכות.',
 	'contributionscores-top' => '($1 הגבוהים ביותר)',
-	'contributionscores-days' => 'ב{{PLURAL:$1|יום האחרון|יומיים האחרונים|־$1 הימים האחרונים}}',
+	'contributionscores-days' => '{{PLURAL:$1|ביום האחרון|ביומיים האחרונים|ב־$1 הימים האחרונים}}',
 	'contributionscores-allrevisions' => 'מאז ומתמיד',
 	'contributionscores-score' => 'ניקוד',
 	'contributionscores-rank' => 'דירוג',
 	'contributionscores-pages' => 'דפים',
 	'contributionscores-changes' => 'שינויים',
 	'contributionscores-username' => 'שם משתמש',
-	'contributionscores-invalidusername' => 'שם משתמש בלתי תקין',
-	'contributionscores-invalidmetric' => 'מדידה בלתי תקינה',
+	'contributionscores-invalidusername' => 'שם משתמש בלתי‏־תקין',
+	'contributionscores-invalidmetric' => 'מדידה בלתי־תקינה',
 );
 
 /** Hindi (हिन्दी)
@@ -1037,6 +1040,7 @@ $messages['ja'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|最近1日|最近$1日間}}',
 	'contributionscores-allrevisions' => 'すべての期間',
 	'contributionscores-score' => '得点',
+	'contributionscores-rank' => '順位',
 	'contributionscores-pages' => 'ページ数',
 	'contributionscores-changes' => '編集回数',
 	'contributionscores-username' => '利用者名',
@@ -1224,6 +1228,7 @@ $messages['lb'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}',
 	'contributionscores-allrevisions' => 'Vun Ufank un',
 	'contributionscores-score' => 'Bewäertung',
+	'contributionscores-rank' => 'Klassement',
 	'contributionscores-pages' => 'Säiten',
 	'contributionscores-changes' => 'Ännerungen',
 	'contributionscores-username' => 'Benotzernumm',
@@ -1306,6 +1311,7 @@ $messages['mk'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Последниот ден|Последните $1 дена}}',
 	'contributionscores-allrevisions' => 'На сите времиња',
 	'contributionscores-score' => 'Оценка',
+	'contributionscores-rank' => 'Ранг',
 	'contributionscores-pages' => 'Страници',
 	'contributionscores-changes' => 'Измени',
 	'contributionscores-username' => 'Корисничко име',
@@ -1370,6 +1376,7 @@ $messages['ms'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|hari|$1 hari}} terkini',
 	'contributionscores-allrevisions' => 'Sepanjang masa',
 	'contributionscores-score' => 'Markah',
+	'contributionscores-rank' => 'Pangkat',
 	'contributionscores-pages' => 'Halaman',
 	'contributionscores-changes' => 'Perubahan',
 	'contributionscores-username' => 'Nama pengguna',
@@ -1721,6 +1728,7 @@ $messages['roa-tara'] = array(
 	'contributionscores-days' => 'Urteme {{PLURAL:$1|sciurne|$1 sciurne}}',
 	'contributionscores-allrevisions' => "Tutte 'u tiembe",
 	'contributionscores-score' => 'Pundegge',
+	'contributionscores-rank' => 'Posizione',
 	'contributionscores-pages' => 'Pàggene',
 	'contributionscores-changes' => 'Cangiaminde',
 	'contributionscores-username' => "Nome de l'utende",
@@ -1738,6 +1746,7 @@ $messages['rtm'] = array(
 /** Russian (русский)
  * @author Ahonc
  * @author Kalan
+ * @author Okras
  * @author Ole Yves
  * @author Александр Сигачёв
  */
@@ -1749,6 +1758,7 @@ $messages['ru'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дня|Последние $1 дней}}',
 	'contributionscores-allrevisions' => 'За всё время',
 	'contributionscores-score' => 'Оценка',
+	'contributionscores-rank' => 'Ранг',
 	'contributionscores-pages' => 'Страниц',
 	'contributionscores-changes' => 'Правок',
 	'contributionscores-username' => 'Имя участника',
@@ -2098,6 +2108,7 @@ $messages['ug-latn'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Andriykopanytsia
  * @author Prima klasy4na
  * @author Ата
  * @author Тест
@@ -2110,6 +2121,7 @@ $messages['uk'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
 	'contributionscores-allrevisions' => 'Весь час',
 	'contributionscores-score' => 'Оцінка',
+	'contributionscores-rank' => 'Ранг',
 	'contributionscores-pages' => 'Сторінок',
 	'contributionscores-changes' => 'Редагувань',
 	'contributionscores-username' => "Ім'я користувача",
@@ -2261,6 +2273,7 @@ $messages['yue'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Dimension
  * @author Hydra
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Shinjiman
  * @author Shirayuki
@@ -2273,6 +2286,7 @@ $messages['zh-hans'] = array(
 	'contributionscores-days' => '最近$1天',
 	'contributionscores-allrevisions' => '所有的时间',
 	'contributionscores-score' => '分数',
+	'contributionscores-rank' => '排名',
 	'contributionscores-pages' => '页面',
 	'contributionscores-changes' => '更改',
 	'contributionscores-username' => '用户名',
