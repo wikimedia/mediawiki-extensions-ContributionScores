@@ -1829,6 +1829,7 @@ Skóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem ú
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'contributionscores' => 'Rezultati prispevkov',
@@ -1838,6 +1839,7 @@ $messages['sl'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Zadnji $1 dan|Zadnja $1 dneva|Zadnji $1 dnevi|Zadnjih $1 dni}}',
 	'contributionscores-allrevisions' => 'Vseh časov',
 	'contributionscores-score' => 'Rezultat',
+	'contributionscores-rank' => 'Uvrstitev',
 	'contributionscores-pages' => 'Strani',
 	'contributionscores-changes' => 'Spremembe',
 	'contributionscores-username' => 'Uporabniško ime',
