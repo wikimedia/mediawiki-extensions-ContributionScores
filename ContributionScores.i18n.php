@@ -393,6 +393,7 @@ $messages['cs'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Poslední den|Poslední $1 dny|Posledních $1 dnů}}',
 	'contributionscores-allrevisions' => 'Celá historie',
 	'contributionscores-score' => 'Skóre',
+	'contributionscores-rank' => 'Pořadí',
 	'contributionscores-pages' => 'Stránky',
 	'contributionscores-changes' => 'Změny',
 	'contributionscores-username' => 'Uživatelské jméno',
@@ -1942,6 +1943,7 @@ $messages['sv'] = array(
  * @author TRYPPN
  * @author Trengarasu
  * @author Ulmo
+ * @author கௌசிக் பிரபு
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
@@ -1950,6 +1952,7 @@ $messages['ta'] = array(
 	'contributionscores-days' => 'கடைசி {{PLURAL:$1|நாள்|$1 நாட்கள்}}',
 	'contributionscores-allrevisions' => 'எல்லா திருத்தங்களும்', # Fuzzy
 	'contributionscores-score' => 'புள்ளி',
+	'contributionscores-rank' => 'தர வரிசை',
 	'contributionscores-pages' => 'பக்கங்கள்',
 	'contributionscores-changes' => 'மாற்றங்கள்',
 	'contributionscores-username' => 'பயனர் பெயர்',
