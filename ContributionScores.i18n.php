@@ -1167,6 +1167,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Hym411
  * @author Shirayuki
  * @author 아라
  */
@@ -1178,6 +1179,7 @@ $messages['ko'] = array(
 	'contributionscores-days' => '최근 $1일',
 	'contributionscores-allrevisions' => '모든 기간',
 	'contributionscores-score' => '점수',
+	'contributionscores-rank' => '순위',
 	'contributionscores-pages' => '문서',
 	'contributionscores-changes' => '바뀜',
 	'contributionscores-username' => '사용자 이름',
