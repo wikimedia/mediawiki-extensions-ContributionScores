@@ -309,6 +309,7 @@ E berr gomzoù e talvez da jediñ an niver a bajennoù disheñvel kemmet en ur s
 	'contributionscores-days' => 'E-kerzh an {{PLURAL:$1|devezh|$1 devezh}} diwezhañ',
 	'contributionscores-allrevisions' => 'A-viskoazh',
 	'contributionscores-score' => 'Skor',
+	'contributionscores-rank' => 'Renk',
 	'contributionscores-pages' => 'Pajennoù',
 	'contributionscores-changes' => 'Kemmoù',
 	'contributionscores-username' => 'Anv implijer',
@@ -769,7 +770,7 @@ $messages['gv'] = array(
 	'contributionscores-username' => 'Ennym yn ymmydeyr',
 );
 
-/** Hakka (Hak-kâ-fa)
+/** Hakka (客家語/Hak-kâ-ngî)
  * @author Hakka
  */
 $messages['hak'] = array(
