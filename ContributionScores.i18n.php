@@ -1934,6 +1934,7 @@ $messages['sv'] = array(
 	'contributionscores-days' => 'Senaste {{PLURAL:$1|dagen|$1 dagarna}}',
 	'contributionscores-allrevisions' => 'Hela tiden',
 	'contributionscores-score' => 'Poäng',
+	'contributionscores-rank' => 'Rankning',
 	'contributionscores-pages' => 'Sidor',
 	'contributionscores-changes' => 'Ändringar',
 	'contributionscores-username' => 'Användarnamn',
