@@ -1352,6 +1352,7 @@ $messages['mn'] = array(
  * @author Htt
  * @author Kaustubh
  * @author Mahitgar
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'contributionscores' => 'योगदान संख्या',
@@ -1366,7 +1367,7 @@ $messages['mr'] = array(
 	'contributionscores-score' => 'गुण',
 	'contributionscores-pages' => 'पाने',
 	'contributionscores-changes' => 'बदल',
-	'contributionscores-username' => 'उपयोगकर्तानाव',
+	'contributionscores-username' => 'सदस्यनाव',
 	'contributionscores-invalidusername' => 'चुकीचे सदस्यनाव',
 	'contributionscores-invalidmetric' => 'चुकीचे मेट्रिक',
 );
