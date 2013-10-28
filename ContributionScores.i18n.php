@@ -1544,6 +1544,7 @@ $messages['oc'] = array(
 	'contributionscores-days' => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
 	'contributionscores-allrevisions' => 'Tot lo temps',
 	'contributionscores-score' => 'Puntatge',
+	'contributionscores-rank' => 'Reng',
 	'contributionscores-pages' => 'Paginas',
 	'contributionscores-changes' => 'Modificacions',
 	'contributionscores-username' => "Nom d'utilizaire",
