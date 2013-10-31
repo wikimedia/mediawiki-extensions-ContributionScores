@@ -1480,6 +1480,7 @@ $messages['niu'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Flightmare
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -1490,6 +1491,7 @@ $messages['nl'] = array(
 	'contributionscores-days' => 'Laatste {{PLURAL:$1|dag|$1 dagen}}',
 	'contributionscores-allrevisions' => 'Alle versies',
 	'contributionscores-score' => 'Punten',
+	'contributionscores-rank' => 'Rang',
 	'contributionscores-pages' => "Pagina's",
 	'contributionscores-changes' => 'Wijzigingen',
 	'contributionscores-username' => 'Gebruikersnaam',
