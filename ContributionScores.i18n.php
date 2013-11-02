@@ -590,6 +590,7 @@ $messages['ext'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  * @author Mjbmr
  * @author Tofighi
@@ -598,12 +599,7 @@ $messages['ext'] = array(
 $messages['fa'] = array(
 	'contributionscores' => 'امتیاز مشارکت',
 	'contributionscores-desc' => 'سرشماری پایگاه داده ویکی برای بالاترین [[Special:ContributionScores|حجم مشارکت کاربر]]',
-	'contributionscores-info' => 'امتیازات به شیوه زیر محاسبه می‌شود:
-*یک (1) امتیاز برای هر صفحه یکتای ویرایش شده
-جذر همه ویرایش‌ها (همه ویرایش‌های انجام‌شده) - (همه صفحه‌ها یکتا) * 2
-
-محاسبه امتیازات در این حالت وزن گوناگونی ویرایشها بر حجم ویرایشها را می سنجد.
-براین اساس، این امتیاز میزان صفحه‌ها ویرایش شده را با توجه به حجم ویرایش با فرض صفحه با کیفیت تر می سنجد.', # Fuzzy
+	'contributionscores-info' => 'امتباز ابتدا ویرایش‌های یکتا را با در نظر گرفتن ویرایش ججم بالا اندازه می‌گیرد.',
 	'contributionscores-top' => '($1 برتر)',
 	'contributionscores-days' => 'آخرین {{PLURAL:$1|روز|$1 روز}}',
 	'contributionscores-allrevisions' => 'تمام وقت',
