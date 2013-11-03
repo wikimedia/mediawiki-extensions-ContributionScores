@@ -1534,10 +1534,7 @@ $messages['nso'] = array(
 $messages['oc'] = array(
 	'contributionscores' => 'Puntatge de las contribucions',
 	'contributionscores-desc' => 'Espia la banca de donadas wiki pels [[Special:ContributionScores|utilizaires contribuissent mai]]',
-	'contributionscores-info' => "Lo puntatge se calcula coma seguís :
-* 1 punt per cada pagina modificada
-* raiç quadrada de (nombre de modificacions) - (nombre de paginas diferentas)
-* 2. D'aqueste biais, lo puntatge calculat preferís la diversitat a la quantitat. Escrich d'un autre biais, aqueste puntatge s'interèssa principalament a far veire lo nombre de modificacions de paginas diferentas, puèi la quantitat totala de modificacions.", # Fuzzy
+	'contributionscores-info' => 'La marca mesura en prioritat las paginas unicas modificadas, en prenent en compte los gròsses volums de modificacion.',
 	'contributionscores-top' => '(Melhor $1)',
 	'contributionscores-days' => 'Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}',
 	'contributionscores-allrevisions' => 'Tot lo temps',
