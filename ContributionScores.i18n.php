@@ -536,6 +536,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 /** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Ihojose
  * @author Imre
  * @author Sanbec
  */
@@ -547,6 +548,7 @@ $messages['es'] = array(
 	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
 	'contributionscores-allrevisions' => 'Todo el tiempo',
 	'contributionscores-score' => 'Valoración',
+	'contributionscores-rank' => 'Posición',
 	'contributionscores-pages' => 'Páginas',
 	'contributionscores-changes' => 'Cambios',
 	'contributionscores-username' => 'Nombre de usuario',
