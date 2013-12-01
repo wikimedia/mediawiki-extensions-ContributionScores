@@ -537,6 +537,7 @@ Baze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero 
 /** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Ihojose
  * @author Imre
  * @author Sanbec
@@ -545,7 +546,7 @@ $messages['es'] = array(
 	'contributionscores' => 'Puntuaciones de contribuciones',
 	'contributionscores-desc' => 'Encuesta la base de datos del wiki para el mas alto [[Special:ContributionScores|volumen de contribuciones del usuario]]',
 	'contributionscores-info' => 'Básicamente, la puntuación mide las páginas únicas editadas, teniendo en cuenta el alto volumen de ediciones.',
-	'contributionscores-top' => '(Top $1)',
+	'contributionscores-top' => '($1 más activos)',
 	'contributionscores-days' => 'Últimos {{PLURAL:$1|día|$1 días}}',
 	'contributionscores-allrevisions' => 'Todo el tiempo',
 	'contributionscores-score' => 'Valoración',
