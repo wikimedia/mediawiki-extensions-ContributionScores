@@ -381,7 +381,7 @@ $messages['ckb'] = array(
 	'contributionscores-pages' => 'پەڕەکان',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Li-sung
  * @author Matěj Grabovský
  * @author Mormegil
@@ -402,7 +402,7 @@ $messages['cs'] = array(
 	'contributionscores-invalidmetric' => 'Neplatná metrika',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
