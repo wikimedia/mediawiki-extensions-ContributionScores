@@ -597,6 +597,7 @@ $messages['ext'] = array(
  * @author Ebraminio
  * @author Huji
  * @author Mjbmr
+ * @author Reza1615
  * @author Tofighi
  * @author ZxxZxxZ
  */
@@ -608,6 +609,7 @@ $messages['fa'] = array(
 	'contributionscores-days' => 'آخرین {{PLURAL:$1|روز|$1 روز}}',
 	'contributionscores-allrevisions' => 'تمام وقت',
 	'contributionscores-score' => 'امتیاز',
+	'contributionscores-rank' => 'رتبه',
 	'contributionscores-pages' => 'صفحه‌ها',
 	'contributionscores-changes' => 'تغییرات',
 	'contributionscores-username' => 'نام کاربری',
@@ -1313,7 +1315,7 @@ $messages['mhr'] = array(
  */
 $messages['mk'] = array(
 	'contributionscores' => 'Оцени за придонеси',
-	'contributionscores-desc' => 'Презема информации од вики-базата на податоци за најголем [[Special:ContributionScores|број на кориснички придонеси]]',
+	'contributionscores-desc' => 'Презема податоци од викибазата за [[Special:ContributionScores|корисници со највеќе придонеси]]',
 	'contributionscores-info' => 'Салдото е мерка што изразува уредувања на засебни страници, со оглед на големиот број на уредувања.',
 	'contributionscores-top' => '(Најдобри $1)',
 	'contributionscores-days' => '{{PLURAL:$1|Последниот ден|Последните $1 дена}}',
