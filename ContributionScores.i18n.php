@@ -1602,6 +1602,7 @@ $messages['pdt'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Derbeth
  * @author Equadus
  * @author McMonster
@@ -1619,6 +1620,7 @@ Taki sposób naliczania pozwala wyważyć różnorodność edycji względem licz
 	'contributionscores-days' => '{{PLURAL:$1|Ostatni 1 dzień|Ostatnie $1 dni|Ostatnich $1 dni}}',
 	'contributionscores-allrevisions' => 'Cała aktywność',
 	'contributionscores-score' => 'Punktów',
+	'contributionscores-rank' => 'Ranga',
 	'contributionscores-pages' => 'Stron',
 	'contributionscores-changes' => 'Zmian',
 	'contributionscores-username' => 'Nazwa użytkownika',
