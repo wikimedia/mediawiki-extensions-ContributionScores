@@ -1177,7 +1177,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'contributionscores' => '기여 점수',
-	'contributionscores-desc' => '최고 [[Special:ContributionScores|사용자 기여 값]]에 대한 위키 데이터베이스 투표',
+	'contributionscores-desc' => '최고 [[Special:ContributionScores|사용자 기여 값]]에 대해 위키 데이터베이스를 통계합니다',
 	'contributionscores-info' => '점수는 주로 높은 편집 품질을 고려하여 편집한 고유 문서 수를 측정합니다.',
 	'contributionscores-top' => '(상위 $1)',
 	'contributionscores-days' => '최근 $1일',
