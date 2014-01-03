@@ -231,7 +231,7 @@ $messages['ba'] = array(
 * 2 * ( (дөйөм үҙгәртеүҙәр һаны) - (барыһы төрлө биттәр) ) айырмаһының тамыры.
 Баһаны иҫәпләгән ваҡытта, шулай итеп, дөйөм үҙгәртеүҙәр һанына ҡарағында үҙгәртеүҙәрҙең төрлөлөгө ҙурыраҡ йоғонто яһай.', # Fuzzy
 	'contributionscores-top' => '(Тәүге $1)',
-	'contributionscores-days' => 'Һуңғы {{PLURAL:$1|көн|$1 көн}}',
+	'contributionscores-days' => 'Һуңғы {{PLURAL:$1|1=көн|$1 көн}}', # Fuzzy
 	'contributionscores-allrevisions' => 'Бөтәһе',
 	'contributionscores-score' => 'Баһа',
 	'contributionscores-pages' => 'Биттәр',
@@ -1422,7 +1422,7 @@ Dan il-metodu ta' kalkolu tal-punteġġi jagħti iktar importanza għad-diversit
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
-	'contributionscores-days' => 'Меельсе {{PLURAL:$1|чи|$1 чить}}',
+	'contributionscores-days' => 'Меельсе {{PLURAL:$1|1=чи|$1 чить}}', # Fuzzy
 	'contributionscores-pages' => 'Лопат',
 	'contributionscores-changes' => 'Полавтнемат',
 	'contributionscores-username' => 'Теицянь лем',
@@ -1768,7 +1768,7 @@ $messages['ru'] = array(
 	'contributionscores-desc' => 'Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]',
 	'contributionscores-info' => 'Оценка рассчитывается в первую очередь по количеству отредактированных уникальных страниц, с учётом большего объёма редактирования.',
 	'contributionscores-top' => '(лучшие $1)',
-	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дня|Последние $1 дней}}',
+	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дней|Последние $1 дня}}', # Fuzzy
 	'contributionscores-allrevisions' => 'За всё время',
 	'contributionscores-score' => 'Оценка',
 	'contributionscores-rank' => 'Ранг',
@@ -1864,7 +1864,7 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'contributionscores-top' => '(првих $1)',
-	'contributionscores-days' => '{{PLURAL:$1|Последњег дана|Последњих $1 дана}}',
+	'contributionscores-days' => '{{PLURAL:$1|1=Последњег дана|Последњих $1 дана}}', # Fuzzy
 	'contributionscores-allrevisions' => 'Свих времена',
 	'contributionscores-score' => 'Оцена',
 	'contributionscores-pages' => 'Странице',
@@ -1879,7 +1879,7 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'contributionscores-top' => '(prvih $1)',
-	'contributionscores-days' => '{{PLURAL:$1|Poslednjeg dana|Poslednjih $1 dana}}',
+	'contributionscores-days' => '{{PLURAL:$1|1=Poslednjeg dana|Poslednjih $1 dana}}', # Fuzzy
 	'contributionscores-allrevisions' => 'Svih vremena',
 	'contributionscores-pages' => 'Stranice',
 	'contributionscores-changes' => 'Izmene',
@@ -2099,7 +2099,7 @@ $messages['tt-cyrl'] = array(
 * 2 Гомуми тәрҗемәләр һәм һәрбер аерым бит аермасының тамыр асты
 Шуның нәтиҗәсендә сезнең тәрҗемәләрегезгә тагын да зуррак билге куела.', # Fuzzy
 	'contributionscores-top' => '(Иң әйбәт $1)',
-	'contributionscores-days' => '{{PLURAL:$1|Соңгы $1 көн өчен}}',
+	'contributionscores-days' => '{{PLURAL:$1|Соңгы $1 көн өчен}}', # Fuzzy
 	'contributionscores-allrevisions' => 'Барлык үзгәртүләр', # Fuzzy
 	'contributionscores-score' => 'Билге',
 	'contributionscores-pages' => 'Битләр саны',
@@ -2135,7 +2135,7 @@ $messages['uk'] = array(
 	'contributionscores' => 'Оцінка внеску',
 	'contributionscores-desc' => 'Визначає з бази даних [[Special:ContributionScores|користувачів з найбільшою кількістю редагувань]]',
 	'contributionscores-info' => 'При підрахунку оцінки велика вага надається розмаїттю редагувань, враховується і загальна кількість.',
-	'contributionscores-top' => '({{PLURAL:$1|найкращий|найкращих}})',
+	'contributionscores-top' => '($1 {{PLURAL:$1|1=найкращий|найкращих}})',
 	'contributionscores-days' => '{{PLURAL:$1|Останній день|Останні $1 дні|Останні $1 днів}}',
 	'contributionscores-allrevisions' => 'Весь час',
 	'contributionscores-score' => 'Оцінка',
