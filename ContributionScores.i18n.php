@@ -1759,6 +1759,7 @@ $messages['rtm'] = array(
 /** Russian (русский)
  * @author Ahonc
  * @author Kalan
+ * @author Lockal
  * @author Okras
  * @author Ole Yves
  * @author Александр Сигачёв
@@ -1768,7 +1769,7 @@ $messages['ru'] = array(
 	'contributionscores-desc' => 'Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]',
 	'contributionscores-info' => 'Оценка рассчитывается в первую очередь по количеству отредактированных уникальных страниц, с учётом большего объёма редактирования.',
 	'contributionscores-top' => '(лучшие $1)',
-	'contributionscores-days' => '{{PLURAL:$1|Последний $1 день|Последние $1 дней|Последние $1 дня}}', # Fuzzy
+	'contributionscores-days' => '{{PLURAL:$1|1=Последний день|Последний $1 день|Последние $1 дней|Последние $1 дня}}',
 	'contributionscores-allrevisions' => 'За всё время',
 	'contributionscores-score' => 'Оценка',
 	'contributionscores-rank' => 'Ранг',
