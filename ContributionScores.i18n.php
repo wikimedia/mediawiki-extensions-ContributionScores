@@ -368,8 +368,13 @@ Bàsicament, mesura el nombre de pàgines diferents editades, amb consideració 
  * @author Умар
  */
 $messages['ce'] = array(
+	'contributionscores' => 'Къинхьегаман мах хадор',
 	'contributionscores-top' => '(диканаш $1)',
+	'contributionscores-days' => 'ТӀаьхьарлерачу {{PLURAL:$1|дийнахь|$1 деношкахь}}',
 	'contributionscores-allrevisions' => 'Массо нисдарш', # Fuzzy
+	'contributionscores-score' => 'Мах хадор',
+	'contributionscores-pages' => 'АгӀонаш',
+	'contributionscores-changes' => 'Нисдарш',
 	'contributionscores-username' => 'Декъашхочун цӀе',
 	'contributionscores-invalidusername' => 'Нийса йоцу декъашхочун цӀе',
 );
@@ -2188,14 +2193,12 @@ In sostansa, sto puntegio el tien conto sopratuto de le diverse pagine modificà
 $messages['vep'] = array(
 	'contributionscores' => 'Tondan arvoind',
 	'contributionscores-desc' => 'Märičeb [[Special:ContributionScores|kävutajid, kel om enamba redaktiruindad,]] andmuzbazan turbiš',
-	'contributionscores-info' => "Arvsanad lugedas nenid luguid ližaten:
-*Üks' (1) punkt kaikuččen unikaližen lehtpolen redaktiruindas
-*Nellikjur' (Redaktiruindoiden ühthine lugu) - (Unikaližiden lehtpoliden ühthine lugu) * 2
-Muga lugeden anttas enamba vedadust redakcijoiden erazvuičendale, mi niiden ühthižele lugule.", # Fuzzy
+	'contributionscores-info' => "Arvsana lugedas ezmäks unikaližiden redaktiruidud lehtpoliden lugun mödhe; sidaig ottas sil'mnägubale redaktiruindan surembad mülüd.",
 	'contributionscores-top' => '($1 parembad)',
 	'contributionscores-days' => "{{PLURAL:$1|jäl'gmäine päiv|$1 jäl'gmäšt päiväd}}",
 	'contributionscores-allrevisions' => 'Kaikes aigas',
 	'contributionscores-score' => 'Punktad',
+	'contributionscores-rank' => 'Rang',
 	'contributionscores-pages' => "Lehtpol't",
 	'contributionscores-changes' => 'Toižetusid',
 	'contributionscores-username' => 'Kävutajannimi',
