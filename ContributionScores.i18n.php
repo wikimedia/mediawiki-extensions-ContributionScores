@@ -1177,6 +1177,7 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author Priviet
  * @author Shirayuki
  * @author 아라
  */
