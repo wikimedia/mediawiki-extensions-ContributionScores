@@ -1865,13 +1865,14 @@ $messages['sl'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'contributionscores-top' => '(првих $1)',
-	'contributionscores-days' => '{{PLURAL:$1|1=Последњег дана|Последњих $1 дана}}', # Fuzzy
+	'contributionscores-days' => '{{PLURAL:$1|Последњег дана|Последњих $1 дана}}',
 	'contributionscores-allrevisions' => 'Свих времена',
 	'contributionscores-score' => 'Оцена',
 	'contributionscores-pages' => 'Странице',
@@ -1883,10 +1884,11 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
+ * @author Milicevic01
  */
 $messages['sr-el'] = array(
 	'contributionscores-top' => '(prvih $1)',
-	'contributionscores-days' => '{{PLURAL:$1|1=Poslednjeg dana|Poslednjih $1 dana}}', # Fuzzy
+	'contributionscores-days' => '{{PLURAL:$1|Poslednjeg dana|Poslednjih $1 dana}}',
 	'contributionscores-allrevisions' => 'Svih vremena',
 	'contributionscores-pages' => 'Stranice',
 	'contributionscores-changes' => 'Izmene',
