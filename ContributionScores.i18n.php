@@ -244,6 +244,7 @@ $messages['ba'] = array(
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Red Winged Duck
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -254,6 +255,7 @@ $messages['be-tarask'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Апошні $1 дзень|Апошнія $1 дні|Апошнія $1 дзён}}',
 	'contributionscores-allrevisions' => 'За ўвесь час',
 	'contributionscores-score' => 'Адзнака',
+	'contributionscores-rank' => 'Ранг',
 	'contributionscores-pages' => 'Старонак',
 	'contributionscores-changes' => 'Зьменаў',
 	'contributionscores-username' => 'Імя ўдзельніка',
