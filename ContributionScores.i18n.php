@@ -1210,6 +1210,7 @@ $messages['ksh'] = array(
 	'contributionscores-days' => '{{PLURAL:$1|Der lezte Daach|De lezte $1 Daare|Keine lezte Daach}}',
 	'contributionscores-allrevisions' => 'De janze Zigg',
 	'contributionscores-score' => 'Punkte',
+	'contributionscores-rank' => 'Rang',
 	'contributionscores-pages' => 'Sigge',
 	'contributionscores-changes' => 'Änderonge',
 	'contributionscores-username' => 'Metmaacher Name',
