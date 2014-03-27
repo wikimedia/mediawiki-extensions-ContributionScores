@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ahonc",
+            "Kalan",
+            "Lockal",
+            "Okras",
+            "Ole Yves",
+            "Александр Сигачёв"
+        ]
+    },
+    "contributionscores": "Оценка вклада",
+    "contributionscores-desc": "Определяет из базы данных [[Special:ContributionScores|участников с наибольшим числом правок]]",
+    "contributionscores-info": "Оценка рассчитывается в первую очередь по количеству отредактированных уникальных страниц, с учётом большего объёма редактирования.",
+    "contributionscores-top": "(лучшие $1)",
+    "contributionscores-days": "{{PLURAL:$1|1=Последний день|Последний $1 день|Последние $1 дней|Последние $1 дня}}",
+    "contributionscores-allrevisions": "За всё время",
+    "contributionscores-score": "Оценка",
+    "contributionscores-rank": "Ранг",
+    "contributionscores-pages": "Страниц",
+    "contributionscores-changes": "Правок",
+    "contributionscores-username": "Имя участника",
+    "contributionscores-invalidusername": "Неправильное имя участника",
+    "contributionscores-invalidmetric": "Ошибочная метрика"
+}

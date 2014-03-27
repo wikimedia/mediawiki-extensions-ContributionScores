@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Helix84",
+            "Teslaton"
+        ]
+    },
+    "contributionscores": "Skóre príspevkov",
+    "contributionscores-desc": "Zisťuje naväčší [[Special:ContributionScores|objem používateľských príspevkov]] z databázy wiki",
+    "contributionscores-info": "Skóre sa počíta nasledovne:\n*1 bod za každú jedinečnú stránku, ktorú používateľ upravoval\n*Odmocnina z (celkom úprav) - (celkom jedinečných stránok) * 2\nSkóre vypočítané týmto spôsobom vážia diverzitu úprav viac ako objem úprav. V podstate toto skóre meria najmä počet upravovaných jedinečných stránok s prihliadnutím na vysoký objem úprav; čo sa pokladá za stránku vyššej kvality.",
+    "contributionscores-top": "(Najlepších $1)",
+    "contributionscores-days": "{{PLURAL:$1|Posledný $1 deň|Posledné $1 dni|Posledných $1 dní}}",
+    "contributionscores-allrevisions": "Celá história",
+    "contributionscores-score": "Skóre",
+    "contributionscores-pages": "Stránky",
+    "contributionscores-changes": "Zmeny",
+    "contributionscores-username": "Používateľské meno",
+    "contributionscores-invalidusername": "Neplatné používateľské meno",
+    "contributionscores-invalidmetric": "Neplatná metrika"
+}

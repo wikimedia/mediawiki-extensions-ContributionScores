@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Milicevic01",
+            "Rancher",
+            "Sasa Stefanovic",
+            "Михајло Анђелковић"
+        ]
+    },
+    "contributionscores-top": "(првих $1)",
+    "contributionscores-days": "{{PLURAL:$1|Последњег дана|Последњих $1 дана}}",
+    "contributionscores-allrevisions": "Свих времена",
+    "contributionscores-score": "Оцена",
+    "contributionscores-pages": "Странице",
+    "contributionscores-changes": "Измене",
+    "contributionscores-username": "Корисничко име",
+    "contributionscores-invalidusername": "Неисправно корисничко име",
+    "contributionscores-invalidmetric": "Неисправна метрика"
+}

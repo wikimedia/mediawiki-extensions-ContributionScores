@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armando-Martin",
+            "Crazymadlover",
+            "Fitoschido",
+            "Ihojose",
+            "Imre",
+            "Sanbec"
+        ]
+    },
+    "contributionscores": "Puntuaciones de contribuciones",
+    "contributionscores-desc": "Encuesta la base de datos del wiki para el mas alto [[Special:ContributionScores|volumen de contribuciones del usuario]]",
+    "contributionscores-info": "Básicamente, la puntuación mide las páginas únicas editadas, teniendo en cuenta el alto volumen de ediciones.",
+    "contributionscores-top": "($1 más activos)",
+    "contributionscores-days": "Últimos {{PLURAL:$1|día|$1 días}}",
+    "contributionscores-allrevisions": "Todo el tiempo",
+    "contributionscores-score": "Valoración",
+    "contributionscores-rank": "Posición",
+    "contributionscores-pages": "Páginas",
+    "contributionscores-changes": "Cambios",
+    "contributionscores-username": "Nombre de usuario",
+    "contributionscores-invalidusername": "Nombre de usuario no válido",
+    "contributionscores-invalidmetric": "Medida inválida"
+}

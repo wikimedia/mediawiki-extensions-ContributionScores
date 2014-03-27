@@ -15,7 +15,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contribution_Scores',
 	'author' => 'Tim Laqua',
 	'descriptionmsg' => 'contributionscores-desc',
-	'version' => '1.16'
+	'version' => '1.17.0'
 );
 
 $dir = dirname( __FILE__ ) . '/';
@@ -33,6 +33,7 @@ $wgAutoloadClasses['ContributionScores'] = $dir . 'ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
 $wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
+$wgMessagesDirs['ContributionScores'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ContributionScores'] = $dir . 'ContributionScores.i18n.php';
 $wgExtensionMessagesFiles['ContributionScoresAlias'] = $dir . 'ContributionScores.alias.php';
 $wgExtensionMessagesFiles['ContributionScoresMagic'] = $dir . 'ContributionScores.i18n.magic.php';
