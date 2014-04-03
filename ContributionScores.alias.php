@@ -121,7 +121,7 @@ $specialPageAliases['id'] = array(
 
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
-	'ContributionScores' => array( 'PunteggiContribuzione' ),
+	'ContributionScores' => array( 'PunteggiContributi' ),
 );
 
 /** Japanese (日本語) */
