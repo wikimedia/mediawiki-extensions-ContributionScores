@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mark85296341",
-            "PhiLiP",
-            "Shinjiman",
-            "Shirayuki",
-            "Simon Shek"
-        ]
-    },
-    "contributionscores": "貢獻分數",
-    "contributionscores-desc": "根據在wiki資料庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]",
-    "contributionscores-info": "分數會依主要的唯一編輯過的頁面，以及考慮高編輯量。",
-    "contributionscores-top": "（最多 $1 位）",
-    "contributionscores-days": "最近 {{PLURAL:$1|天|$1 天}}",
-    "contributionscores-allrevisions": "所有的時間",
-    "contributionscores-score": "分數",
-    "contributionscores-pages": "頁面數量",
-    "contributionscores-changes": "更改次數",
-    "contributionscores-username": "使用者名稱",
-    "contributionscores-invalidusername": "無效的使用者名稱",
-    "contributionscores-invalidmetric": "無效的公制"
+	"@metadata": {
+		"authors": [
+			"Mark85296341",
+			"PhiLiP",
+			"Shinjiman",
+			"Shirayuki",
+			"Simon Shek"
+		]
+	},
+	"contributionscores": "貢獻分數",
+	"contributionscores-desc": "根據在wiki資料庫中給出最高的[[Special:ContributionScores|用戶貢獻容量]]",
+	"contributionscores-info": "分數會依主要的唯一編輯過的頁面，以及考慮高編輯量。",
+	"contributionscores-top": "（最多 $1 位）",
+	"contributionscores-days": "最近 {{PLURAL:$1|天|$1 天}}",
+	"contributionscores-allrevisions": "所有的時間",
+	"contributionscores-score": "分數",
+	"contributionscores-pages": "頁面數量",
+	"contributionscores-changes": "更改次數",
+	"contributionscores-username": "使用者名稱",
+	"contributionscores-invalidusername": "無效的使用者名稱",
+	"contributionscores-invalidmetric": "無效的公制"
 }

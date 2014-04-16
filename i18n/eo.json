@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki",
-            "Yekrats"
-        ]
-    },
-    "contributionscores": "Poentaro de Kontribuoj",
-    "contributionscores-desc": "Informmendas la vikian datumbazon por la plej [[Special:ContributionScores|oftaj kontribuantoj]]",
-    "contributionscores-info": "Poentaroj estas donataj jene:\n*Unu (1) poento por ĉiu unika paĝo redaktata\n*Kvadrata Radiko de (Tutaj Faritaj Redaktoj) - (Tutaj Unikaj Paĝoj) * 2\nPoentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.\nBaze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.",
-    "contributionscores-top": "(Plej alta $1)",
-    "contributionscores-days": "{{PLURAL:$1|Lasta tago|Lastaj $1 tagoj}}",
-    "contributionscores-allrevisions": "Ĉiame",
-    "contributionscores-score": "Poentaro",
-    "contributionscores-pages": "Paĝoj",
-    "contributionscores-changes": "Ŝanĝoj",
-    "contributionscores-username": "Salutnomo",
-    "contributionscores-invalidusername": "Nevalida salutnomo",
-    "contributionscores-invalidmetric": "Nevalida parametro"
+	"@metadata": {
+		"authors": [
+			"Michawiki",
+			"Yekrats"
+		]
+	},
+	"contributionscores": "Poentaro de Kontribuoj",
+	"contributionscores-desc": "Informmendas la vikian datumbazon por la plej [[Special:ContributionScores|oftaj kontribuantoj]]",
+	"contributionscores-info": "Poentaroj estas donataj jene:\n*Unu (1) poento por ĉiu unika paĝo redaktata\n*Kvadrata Radiko de (Tutaj Faritaj Redaktoj) - (Tutaj Unikaj Paĝoj) * 2\nPoentaroj kalkulitaj laŭ ĉi tiu maniero pezos redaktan diversecon super redaktan volumon.\nBaze, ĉi tiu poentaro mezuras ĉefe unikajn paĝojn redaktitajn, kun konsidero por altaj redakto-volumon - supozita esti pli altkvalita paĝo.",
+	"contributionscores-top": "(Plej alta $1)",
+	"contributionscores-days": "{{PLURAL:$1|Lasta tago|Lastaj $1 tagoj}}",
+	"contributionscores-allrevisions": "Ĉiame",
+	"contributionscores-score": "Poentaro",
+	"contributionscores-pages": "Paĝoj",
+	"contributionscores-changes": "Ŝanĝoj",
+	"contributionscores-username": "Salutnomo",
+	"contributionscores-invalidusername": "Nevalida salutnomo",
+	"contributionscores-invalidmetric": "Nevalida parametro"
 }

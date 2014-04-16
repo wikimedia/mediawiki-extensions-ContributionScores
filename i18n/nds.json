@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Slomox"
-        ]
-    },
-    "contributionscores-days": "Letzte $1 Daag",
-    "contributionscores-pages": "Sieden",
-    "contributionscores-changes": "Ännern",
-    "contributionscores-username": "Brukernaam"
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"contributionscores-days": "Letzte $1 Daag",
+	"contributionscores-pages": "Sieden",
+	"contributionscores-changes": "Ännern",
+	"contributionscores-username": "Brukernaam"
 }

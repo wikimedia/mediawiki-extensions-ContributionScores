@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dani",
-            "Dj",
-            "Glanthor Reviol",
-            "Shirayuki"
-        ]
-    },
-    "contributionscores": "Szerkesztési pontszám",
-    "contributionscores-desc": "Megjeleníti a [[Special:ContributionScores|szerkesztő közreműködéseinek súlyát]] a wiki adatbázisa alapján",
-    "contributionscores-info": "A pontszámok az alábbi módon vannak kiszámolva:\n\n* 1 pont minden egyedi lap szerkesztése után\n* (az összes szerkesztés) – (az összes egyedi lap) négyzetgyöke × 2\n\nAz így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.",
-    "contributionscores-top": "(legjobb $1)",
-    "contributionscores-days": "Utolsó {{PLURAL:$1|nap|$1 nap}}",
-    "contributionscores-allrevisions": "Összes szerkesztés",
-    "contributionscores-score": "Pontszám",
-    "contributionscores-pages": "Oldalak",
-    "contributionscores-changes": "Változtatások",
-    "contributionscores-username": "Felhasználónév",
-    "contributionscores-invalidusername": "Érvénytelen szerkesztői név",
-    "contributionscores-invalidmetric": "Érvénytelen mértékrendszer"
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Glanthor Reviol",
+			"Shirayuki"
+		]
+	},
+	"contributionscores": "Szerkesztési pontszám",
+	"contributionscores-desc": "Megjeleníti a [[Special:ContributionScores|szerkesztő közreműködéseinek súlyát]] a wiki adatbázisa alapján",
+	"contributionscores-info": "A pontszámok az alábbi módon vannak kiszámolva:\n\n* 1 pont minden egyedi lap szerkesztése után\n* (az összes szerkesztés) – (az összes egyedi lap) négyzetgyöke × 2\n\nAz így számolt pontszámok a szerkesztés sokszínűségét mutatják a szerkesztés mennyisége helyett. Alapjában véve a pontszám az egyedi szerkesztett lapok számát mutatja, figyelembe véve a nagy szerkesztési számokat – feltételezve a jobb minőségű lapokat.",
+	"contributionscores-top": "(legjobb $1)",
+	"contributionscores-days": "Utolsó {{PLURAL:$1|nap|$1 nap}}",
+	"contributionscores-allrevisions": "Összes szerkesztés",
+	"contributionscores-score": "Pontszám",
+	"contributionscores-pages": "Oldalak",
+	"contributionscores-changes": "Változtatások",
+	"contributionscores-username": "Felhasználónév",
+	"contributionscores-invalidusername": "Érvénytelen szerkesztői név",
+	"contributionscores-invalidmetric": "Érvénytelen mértékrendszer"
 }

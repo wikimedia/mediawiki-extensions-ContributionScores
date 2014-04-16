@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "IvanLanin",
-            "Rex"
-        ]
-    },
-    "contributionscores": "Skor kontribusi",
-    "contributionscores-desc": "Menghitung [[Special:ContributionScores|jumlah kontribusi pengguna]] terbanyak di basis data wiki",
-    "contributionscores-info": "Skor dihitung dengan cara berikut:\n* Satu (1) poin untuk setiap halaman tunggal yang disunting\n* Akar kuadrat dari (total suntingan) - (total halaman tunggal) * 2\nSkor dihitung dengan cara ini untuk menghasilkan jumlah tertimbang penyuntingan berbanding volume suntingan.\nPada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.",
-    "contributionscores-top": "($1 tertinggi)",
-    "contributionscores-days": "{{PLURAL:$1|Hari|$1 hari}} terakhir",
-    "contributionscores-allrevisions": "Sepanjang masa",
-    "contributionscores-score": "Skor",
-    "contributionscores-pages": "Halaman",
-    "contributionscores-changes": "Perubahan",
-    "contributionscores-username": "Nama pengguna",
-    "contributionscores-invalidusername": "Nama pengguna tidak sah",
-    "contributionscores-invalidmetric": "Metrik tidak sah"
+	"@metadata": {
+		"authors": [
+			"IvanLanin",
+			"Rex"
+		]
+	},
+	"contributionscores": "Skor kontribusi",
+	"contributionscores-desc": "Menghitung [[Special:ContributionScores|jumlah kontribusi pengguna]] terbanyak di basis data wiki",
+	"contributionscores-info": "Skor dihitung dengan cara berikut:\n* Satu (1) poin untuk setiap halaman tunggal yang disunting\n* Akar kuadrat dari (total suntingan) - (total halaman tunggal) * 2\nSkor dihitung dengan cara ini untuk menghasilkan jumlah tertimbang penyuntingan berbanding volume suntingan.\nPada dasarnya, skor ini menghitung jumlah halaman tunggal yang disunting, dengan pertimbangan di mana volume suntingan yang tinggi - diasumsikan sebagai halaman dengan kualitas lebih tinggi.",
+	"contributionscores-top": "($1 tertinggi)",
+	"contributionscores-days": "{{PLURAL:$1|Hari|$1 hari}} terakhir",
+	"contributionscores-allrevisions": "Sepanjang masa",
+	"contributionscores-score": "Skor",
+	"contributionscores-pages": "Halaman",
+	"contributionscores-changes": "Perubahan",
+	"contributionscores-username": "Nama pengguna",
+	"contributionscores-invalidusername": "Nama pengguna tidak sah",
+	"contributionscores-invalidmetric": "Metrik tidak sah"
 }

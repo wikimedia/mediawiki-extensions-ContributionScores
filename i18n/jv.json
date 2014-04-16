@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meursault2004",
-            "Pras"
-        ]
-    },
-    "contributionscores": "Skor Kontribusi",
-    "contributionscores-desc": "Nglakokaké polling (angkèt) ing basis data kanggo [[Special:ContributionScores|volume kontribusi panganggo]]",
-    "contributionscores-info": "Skoré diétung kaya mangkéné:\n* Biji siji (1) per kaca unik sing disunting\n* Oyot (bs. Indonesia ''akar'') saka (Gunggungé Suntingan) - (Gunggungé Kaca-KAca Unik) * 2\nSkor sing diétung miturut cara iki bisa nyerminaké divèrsitas suntingan sadhuwuring volume suntingan.\nSacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo mélu nimbangaké volume suntingan dhuwur - diasumsèkaké kwalitas kacané luwih dhuwur.",
-    "contributionscores-top": "(Top $1)",
-    "contributionscores-days": "{{PLURAL:$1|dina|$1 dina}} pungkasan",
-    "contributionscores-allrevisions": "Kabèh Révisi",
-    "contributionscores-score": "Skor",
-    "contributionscores-pages": "Kaca-kaca",
-    "contributionscores-changes": "Owah-owahan",
-    "contributionscores-username": "Jeneng panganggo",
-    "contributionscores-invalidusername": "Jeneng panganggo ora sah",
-    "contributionscores-invalidmetric": "Metrik ora sah"
+	"@metadata": {
+		"authors": [
+			"Meursault2004",
+			"Pras"
+		]
+	},
+	"contributionscores": "Skor Kontribusi",
+	"contributionscores-desc": "Nglakokaké polling (angkèt) ing basis data kanggo [[Special:ContributionScores|volume kontribusi panganggo]]",
+	"contributionscores-info": "Skoré diétung kaya mangkéné:\n* Biji siji (1) per kaca unik sing disunting\n* Oyot (bs. Indonesia ''akar'') saka (Gunggungé Suntingan) - (Gunggungé Kaca-KAca Unik) * 2\nSkor sing diétung miturut cara iki bisa nyerminaké divèrsitas suntingan sadhuwuring volume suntingan.\nSacara dhasar, skor iki utamané ngétung kaca-kaca unik sing disunting, karo mélu nimbangaké volume suntingan dhuwur - diasumsèkaké kwalitas kacané luwih dhuwur.",
+	"contributionscores-top": "(Top $1)",
+	"contributionscores-days": "{{PLURAL:$1|dina|$1 dina}} pungkasan",
+	"contributionscores-allrevisions": "Kabèh Révisi",
+	"contributionscores-score": "Skor",
+	"contributionscores-pages": "Kaca-kaca",
+	"contributionscores-changes": "Owah-owahan",
+	"contributionscores-username": "Jeneng panganggo",
+	"contributionscores-invalidusername": "Jeneng panganggo ora sah",
+	"contributionscores-invalidmetric": "Metrik ora sah"
 }

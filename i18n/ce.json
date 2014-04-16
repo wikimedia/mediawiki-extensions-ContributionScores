@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sasan700",
-            "Умар"
-        ]
-    },
-    "contributionscores": "Къинхьегаман мах хадор",
-    "contributionscores-top": "(диканаш $1)",
-    "contributionscores-days": "ТӀаьхьарлерачу {{PLURAL:$1|дийнахь|$1 деношкахь}}",
-    "contributionscores-allrevisions": "Массо нисдарш",
-    "contributionscores-score": "Мах хадор",
-    "contributionscores-pages": "АгӀонаш",
-    "contributionscores-changes": "Нисдарш",
-    "contributionscores-username": "Декъашхочун цӀе",
-    "contributionscores-invalidusername": "Нийса йоцу декъашхочун цӀе"
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Умар"
+		]
+	},
+	"contributionscores": "Къинхьегаман мах хадор",
+	"contributionscores-top": "(диканаш $1)",
+	"contributionscores-days": "ТӀаьхьарлерачу {{PLURAL:$1|дийнахь|$1 деношкахь}}",
+	"contributionscores-allrevisions": "Массо нисдарш",
+	"contributionscores-score": "Мах хадор",
+	"contributionscores-pages": "АгӀонаш",
+	"contributionscores-changes": "Нисдарш",
+	"contributionscores-username": "Декъашхочун цӀе",
+	"contributionscores-invalidusername": "Нийса йоцу декъашхочун цӀе"
 }
