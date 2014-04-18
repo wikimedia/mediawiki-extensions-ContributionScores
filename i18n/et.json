@@ -12,6 +12,7 @@
 	"contributionscores-days": "{{PLURAL:$1|Viimane päev|Viimased $1 päeva}}",
 	"contributionscores-allrevisions": "Kõik aeg",
 	"contributionscores-score": "Punkte",
+	"contributionscores-rank": "Koht",
 	"contributionscores-pages": "Lehekülgi",
 	"contributionscores-changes": "Muudatusi",
 	"contributionscores-username": "Kasutajanimi",
