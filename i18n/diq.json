@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Marmase"
 		]
 	},
 	"contributionscores": "Skorê iştıraqan",
@@ -12,6 +13,7 @@
 	"contributionscores-days": "Peyni {{PLURAL:$1|roce|$1 rocan}}",
 	"contributionscores-allrevisions": "Çaxan de hemi",
 	"contributionscores-score": "Skor",
+	"contributionscores-rank": "Rate",
 	"contributionscores-pages": "Peli",
 	"contributionscores-changes": "Vurnayışi",
 	"contributionscores-username": "Nameyê karberi",
