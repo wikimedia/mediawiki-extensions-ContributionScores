@@ -21,6 +21,6 @@
 	"contributionscores-pages": "{{Related|Contributionscores-score}}\n{{Identical|Page}}",
 	"contributionscores-changes": "{{Related|Contributionscores-score}}\n{{Identical|Change}}",
 	"contributionscores-username": "{{Related|Contributionscores-score}}\n{{Identical|Username}}",
-	"contributionscores-invalidusername": "Used as error message if the specified username is invalid.\n\nSee example: [[Template:User Score]].\nThis template contains <code><nowiki>{{#cscore:{{PAGENAME}}|score}}</nowiki></code> and its page name is invalid as username.\n\nSee also:\n* {{msg-mw|Contributionscores-invalidmetric}}",
+	"contributionscores-invalidusername": "Used as error message if the specified username is invalid.\n\nSee example: [[Template:User Score]].\nThis template contains <code><nowiki>{{#cscore:{{PAGENAME}}|score}}</nowiki></code> and its page name is invalid as username.\n\nSee also:\n* {{msg-mw|Contributionscores-invalidmetric}}\n{{Identical|Invalid username}}",
 	"contributionscores-invalidmetric": "Used as error message if the specified metric is invalid.\n\nValid metrics are: score, changes and pages\n\nSee also:\n* {{msg-mw|Contributionscores-invalidusername}}"
 }
