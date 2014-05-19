@@ -4,16 +4,18 @@
 			"Hamilton Abreu",
 			"Malafaya",
 			"Waldir",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Fúlvio"
 		]
 	},
 	"contributionscores": "Pontuação de contribuições",
 	"contributionscores-desc": "Inquire a base de dados wiki sobre os mais elevados [[Special:ContributionScores|volumes de contribuição dos utilizadores]]",
-	"contributionscores-info": "As pontuações são calculadas da seguinte forma:\n*1 ponto por cada página única editada\n*Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2\nPontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração por alto volume de edições - assumindo serem páginas de qualidade mais alta.",
+	"contributionscores-info": "A pontuação mede, principalmente, as páginas únicas editadas, tendo em consideração o alto volume de edições.",
 	"contributionscores-top": "(Primeiros $1)",
 	"contributionscores-days": "{{PLURAL:$1|Último dia|Últimos $1 dias}}",
 	"contributionscores-allrevisions": "Desde sempre",
 	"contributionscores-score": "Pontuação",
+	"contributionscores-rank": "Posição",
 	"contributionscores-pages": "Páginas",
 	"contributionscores-changes": "Alterações",
 	"contributionscores-username": "Nome de utilizador",
