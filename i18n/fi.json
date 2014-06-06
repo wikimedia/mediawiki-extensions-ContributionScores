@@ -3,14 +3,15 @@
 		"authors": [
 			"Crt",
 			"Nike",
-			"Str4nd"
+			"Str4nd",
+			"Stryn"
 		]
 	},
 	"contributionscores": "Muokkauspisteet",
 	"contributionscores-info": "Pisteet lasketaan seuraavalla kaavalla:\n* Yksi piste jokaisesta muokatusta sivusta\n* Neliöjuuri (muokkausten määrä) - (muokatut sivut) * 2\n\nNäin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytännössä pisteet mittaavat muokattujen sivujen määrää, ottaen huomioon muutosten suuren määrän.",
 	"contributionscores-top": "(top $1)",
 	"contributionscores-days": "{{PLURAL:$1|Viime päivä|Viimeiset $1 päivää}}",
-	"contributionscores-allrevisions": "Kaikki muutokset",
+	"contributionscores-allrevisions": "Koko ajalta",
 	"contributionscores-score": "Pisteet",
 	"contributionscores-pages": "Sivuja",
 	"contributionscores-changes": "Muutoksia",
