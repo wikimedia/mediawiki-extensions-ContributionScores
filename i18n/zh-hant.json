@@ -6,7 +6,8 @@
 			"Shinjiman",
 			"Shirayuki",
 			"Simon Shek",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Liuxinyu970226"
 		]
 	},
 	"contributionscores": "貢獻分數",
@@ -16,6 +17,7 @@
 	"contributionscores-days": "最近 {{PLURAL:$1|天|$1 天}}",
 	"contributionscores-allrevisions": "所有時間",
 	"contributionscores-score": "分數",
+	"contributionscores-rank": "等級",
 	"contributionscores-pages": "頁面數量",
 	"contributionscores-changes": "修改次數",
 	"contributionscores-username": "使用者名稱",
