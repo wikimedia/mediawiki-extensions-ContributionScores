@@ -7,7 +7,8 @@
 			"Mormegil",
 			"Purodha",
 			"Raymond",
-			"Shirayuki"
+			"Shirayuki",
+			"Liuxinyu970226"
 		]
 	},
 	"contributionscores": "{{doc-special|ContributionScores}}",
@@ -16,7 +17,7 @@
 	"contributionscores-top": "Second part of the headings of [[Special:ContributionScores]].\n\nPLURAL is supported, but not used by the English original message.\n\nParameters:\n* $1 - limit value. Default value: 50 or 10\n{{Identical|Top}}",
 	"contributionscores-days": "Heading of [[Special:ContributionScores]].\n\nIf the number of days is not defined, {{msg-mw|Contributionscores-allrevisions}} is used.\n\nParameters:\n* $1 - number of days",
 	"contributionscores-allrevisions": "Used as a header of [[Special:ContributionScores]].\n\nSee also:\n* {{msg-mw|Contributionscores-days}}\n{{Identical|All time}}",
-	"contributionscores-score": "Used as column header of the table.\n{{Related|Contributionscores-score}}",
+	"contributionscores-score": "Used as column header of the table.\n{{Related|Contributionscores-score}}\n{{Identical|Score}}",
 	"contributionscores-rank": "{{Related|Contributionscores-score}}\n{{Identical|Rank}}",
 	"contributionscores-pages": "{{Related|Contributionscores-score}}\n{{Identical|Page}}",
 	"contributionscores-changes": "{{Related|Contributionscores-score}}\n{{Identical|Change}}",
