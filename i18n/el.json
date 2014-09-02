@@ -4,15 +4,18 @@
 			"Consta",
 			"Crazymadlover",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Protnet"
 		]
 	},
 	"contributionscores": "Αποτελέσματα Συνεισφοράς",
 	"contributionscores-desc": "Εξετάζει την βάση δεδομένων βίκι για τον σημαντικότερο [[Special:ContributionScores|όγκο συνεισφορών χρήστη]]",
+	"contributionscores-info": "Το σκορ μετρά κυρίως επεξεργασίες μοναδικών σελίδων, λαμβάνοντας υπ' όψιν και τον υψηλό όγκο επεξεργασίας.",
 	"contributionscores-top": "(Πρώτοι $1)",
 	"contributionscores-days": "Τελευταίες {{PLURAL:$1|ημέρα|$1 ημέρες}}",
 	"contributionscores-allrevisions": "Όλων των εποχών",
 	"contributionscores-score": "Βαθμολογία",
+	"contributionscores-rank": "Κατάταξη",
 	"contributionscores-pages": "Σελίδες",
 	"contributionscores-changes": "Αλλαγές",
 	"contributionscores-username": "Όνομα χρήστη",
