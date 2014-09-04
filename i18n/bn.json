@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftab1995"
 		]
 	},
 	"contributionscores": "অনুদানের স্কোর",
 	"contributionscores-top": "(সর্বোচ্চ $1)",
 	"contributionscores-days": "গত {{PLURAL:$1|দিন|$1 দিন}}",
-	"contributionscores-allrevisions": "সকল সংস্করণ",
+	"contributionscores-allrevisions": "সব সময়",
 	"contributionscores-score": "স্কোর",
 	"contributionscores-pages": "পাতা",
 	"contributionscores-changes": "পরিবর্তন",
