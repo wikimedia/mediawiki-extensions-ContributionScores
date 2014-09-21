@@ -8,7 +8,7 @@
 		]
 	},
 	"contributionscores-top": "(првих $1)",
-	"contributionscores-days": "{{PLURAL:$1|Последњег дана|Последњих $1 дана}}",
+	"contributionscores-days": "{{PLURAL:$1|1=Последњег дана|Последњих $1 дана}}",
 	"contributionscores-allrevisions": "Свих времена",
 	"contributionscores-score": "Оцена",
 	"contributionscores-pages": "Странице",
