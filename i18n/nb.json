@@ -1,16 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Helland"
 		]
 	},
 	"contributionscores": "Bidragspoeng",
 	"contributionscores-desc": "Spør wikidatabasen etter det høyeste [[Special:ContributionScores|bidragsvolumet]]",
-	"contributionscores-info": "Bidragspoeng regnes ut på følgende måte:\n* 1 poeng for hver unike side som er redigert\n* Kvadratrota av (totalt antall redigeringer) &minus; (unike sider redigert) × 2\nPoeng som regnes ut på denne måte vekter redigeringsmangfold høyere enn redigeringsvolum.\nDette betyr i bunn og grunn at dette primært måler hvor mange unike sider som er redigert, med hensyn til høyt redigeringsvolum &ndash; antatt å føre til sider av høyere kvalitet.",
+	"contributionscores-info": "Bidragspoeng primært måler hvor mange unike sider som er redigert, med hensyn til høyt redigeringsvolum.",
 	"contributionscores-top": "(Topp $1)",
 	"contributionscores-days": "Siste {{PLURAL:$1|dagen|$1 dager}}",
 	"contributionscores-allrevisions": "Gjennom tidene",
 	"contributionscores-score": "Poeng",
+	"contributionscores-rank": "Rangering",
 	"contributionscores-pages": "Sider",
 	"contributionscores-changes": "Endringer",
 	"contributionscores-username": "Brukernavn",
