@@ -34,6 +34,11 @@ $specialPageAliases['as'] = array(
 	'ContributionScores' => array( 'বৰঙনিৰ_মূল্যায়ন' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'ContributionScores' => array( 'Очки_вклада' ),
+);
+
 /** Bashkir (башҡортса) */
 $specialPageAliases['ba'] = array(
 	'ContributionScores' => array( 'Өлөш_мәрәйҙәре' ),
