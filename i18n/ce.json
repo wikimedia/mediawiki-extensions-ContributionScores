@@ -7,7 +7,7 @@
 	},
 	"contributionscores": "Къинхьегаман мах хадор",
 	"contributionscores-top": "(диканаш $1)",
-	"contributionscores-days": "ТӀаьхьарлерачу {{PLURAL:$1|дийнахь|$1 деношкахь}}",
+	"contributionscores-days": "ТӀаьххьарлерачу {{PLURAL:$1|дийнахь}}",
 	"contributionscores-allrevisions": "Массо нисдарш",
 	"contributionscores-score": "Мах хадор",
 	"contributionscores-pages": "АгӀонаш",
