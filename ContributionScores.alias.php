@@ -44,6 +44,11 @@ $specialPageAliases['ba'] = array(
 	'ContributionScores' => array( 'Өлөш_мәрәйҙәре' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'ContributionScores' => array( 'شراکتانی_امتیاز_ئان' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'ContributionScores' => array( 'Skor_sumbangan' ),
