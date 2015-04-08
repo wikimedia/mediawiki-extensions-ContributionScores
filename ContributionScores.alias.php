@@ -164,6 +164,11 @@ $specialPageAliases['lb'] = array(
 	'ContributionScores' => array( 'Score_vun_de_Kontributiounen' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'ContributionScores' => array( 'نرخ_هومیاری' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'ContributionScores' => array( 'SkorJariah' ),
