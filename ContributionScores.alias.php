@@ -24,7 +24,7 @@ $specialPageAliases['arc'] = array(
 	'ContributionScores' => array( 'ܦܠܛ̈ܐ_ܕܫܘܬܦܘ̈ܬܐ' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'ContributionScores' => array( 'نتايج_المساهمه' ),
 );
@@ -164,7 +164,7 @@ $specialPageAliases['lb'] = array(
 	'ContributionScores' => array( 'Score_vun_de_Kontributiounen' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'ContributionScores' => array( 'نرخ_هومیاری' ),
 );
