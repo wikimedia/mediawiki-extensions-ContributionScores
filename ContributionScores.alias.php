@@ -166,7 +166,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'ContributionScores' => array( 'نرخ_هومیاری' ),
+	'ContributionScores' => array( 'نئرخ_ھومیاری' ),
 );
 
 /** Minangkabau (Baso Minangkabau) */
