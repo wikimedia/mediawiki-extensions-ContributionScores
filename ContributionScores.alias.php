@@ -164,7 +164,7 @@ $specialPageAliases['lb'] = array(
 	'ContributionScores' => array( 'Score_vun_de_Kontributiounen' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'ContributionScores' => array( 'نئرخ_ھومیاری' ),
 );
