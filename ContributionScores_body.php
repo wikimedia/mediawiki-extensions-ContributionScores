@@ -248,4 +248,8 @@ class ContributionScores extends IncludableSpecialPage {
 			$out->addHTML( $this->genContributionScoreTable( $days, $revs ) );
 		}
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

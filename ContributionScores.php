@@ -31,7 +31,6 @@ $wgContribScoreDisableCache = false; // Set to true to disable cache for parser 
 
 $wgAutoloadClasses['ContributionScores'] = $dir . 'ContributionScores_body.php';
 $wgSpecialPages['ContributionScores'] = 'ContributionScores';
-$wgSpecialPageGroups['ContributionScores'] = 'wiki';
 
 $wgMessagesDirs['ContributionScores'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ContributionScores'] = $dir . 'ContributionScores.i18n.php';
