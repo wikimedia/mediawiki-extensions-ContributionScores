@@ -11,7 +11,7 @@
 		]
 	},
 	"contributionscores": "Puntuaciones de contribuciones",
-	"contributionscores-desc": "Encuesta la base de datos del wiki para el mas alto [[Special:ContributionScores|volumen de contribuciones del usuario]]",
+	"contributionscores-desc": "Sondea la base de datos del wiki para el más alto [[Special:ContributionScores|volumen de contribuciones del usuario]]",
 	"contributionscores-info": "Básicamente, la puntuación mide las páginas únicas editadas, teniendo en cuenta el alto volumen de ediciones.",
 	"contributionscores-top": "($1 más activos)",
 	"contributionscores-days": "{{PLURAL:$1|Último día|Últimos $1 días}}",
