@@ -1,7 +1,7 @@
 <?php
 /** \file
-* \brief Contains code for the ContributionScores Class (extends SpecialPage).
-*/
+ * \brief Contains code for the ContributionScores Class (extends SpecialPage).
+ */
 
 /// Special page class for the Contribution Scores extension
 /**
@@ -50,12 +50,14 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 
 		if ( $wgContribScoreIgnoreBlockedUsers ) {
-			$sqlWhere .= " {$nextPrefix} rev_user NOT IN (SELECT ipb_user FROM {$ipBlocksTable} WHERE ipb_user <> 0)";
+			$sqlWhere .= " {$nextPrefix} rev_user NOT IN " .
+				"(SELECT ipb_user FROM {$ipBlocksTable} WHERE ipb_user <> 0)";
 			$nextPrefix = "AND";
 		}
 
 		if ( $wgContribScoreIgnoreBots ) {
-			$sqlWhere .= " {$nextPrefix} rev_user NOT IN (SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot')";
+			$sqlWhere .= " {$nextPrefix} rev_user NOT IN " .
+				"(SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot')";
 		}
 
 		$sqlMostPages = "SELECT rev_user,
@@ -67,7 +69,7 @@ class ContributionScores extends IncludableSpecialPage {
 						 ORDER BY page_count DESC
 						 LIMIT {$limit}";
 
-		$sqlMostRevs  = "SELECT rev_user,
+		$sqlMostRevs = "SELECT rev_user,
 						 COUNT(DISTINCT rev_page) AS page_count,
 						 COUNT(rev_id) AS rev_count
 						 FROM {$revTable}
@@ -118,11 +120,16 @@ class ContributionScores extends IncludableSpecialPage {
 			}
 
 			$output .= Html::closeElement( 'tr' );
-			$output .= "<tr class='{$altrow}'>\n<td class='content' style='padding-right:10px;text-align:right;'>" .
-				$lang->formatNum( round( $user_rank, 0 ) ) . "\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
-				$lang->formatNum( round( $row->wiki_rank, 0 ) ) . "\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
-				$lang->formatNum( $row->page_count ) . "\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
-				$lang->formatNum( $row->rev_count ) . "\n</td><td class='content'>" .
+			$output .= "<tr class='{$altrow}'>\n" .
+				"<td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( round( $user_rank, 0 ) ) .
+				"\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( round( $row->wiki_rank, 0 ) ) .
+				"\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( $row->page_count ) .
+				"\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
+				$lang->formatNum( $row->rev_count ) .
+				"\n</td><td class='content'>" .
 				$userLink;
 
 			# Option to not display user tools
@@ -150,16 +157,16 @@ class ContributionScores extends IncludableSpecialPage {
 				array(
 					'style' => 'border-spacing: 0; padding: 0',
 					'class' => 'contributionscores-wrapper',
-					'lang' => htmlspecialchars( $lang->getCode()),
+					'lang' => htmlspecialchars( $lang->getCode() ),
 					'dir' => $lang->getDir()
 				),
 				"\n" .
-					"<tr>\n" .
-					"<td style='padding: 0px;'>{$title}</td>\n" .
-					"</tr>\n" .
-					"<tr>\n" .
-					"<td style='padding: 0px;'>{$output}</td>\n" .
-					"</tr>\n"
+				"<tr>\n" .
+				"<td style='padding: 0px;'>{$title}</td>\n" .
+				"</tr>\n" .
+				"<tr>\n" .
+				"<td style='padding: 0px;'>{$output}</td>\n" .
+				"</tr>\n"
 			);
 
 		return $output;
@@ -213,9 +220,17 @@ class ContributionScores extends IncludableSpecialPage {
 		} else {
 			$reportTitle = $this->msg( 'contributionscores-allrevisions' )->text();
 		}
-		$reportTitle .= " " . $this->msg( 'contributionscores-top' )->numParams( $limit )->text();
-		$title = Xml::element( 'h4', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
-		$this->getOutput()->addHTML( $this->genContributionScoreTable( $days, $limit, $title, $options ) );
+		$reportTitle .= ' ' . $this->msg( 'contributionscores-top' )->numParams( $limit )->text();
+		$title = Xml::element( 'h4',
+				array( 'class' => 'contributionscores-title' ),
+				$reportTitle
+			) . "\n";
+		$this->getOutput()->addHTML( $this->genContributionScoreTable(
+			$days,
+			$limit,
+			$title,
+			$options
+		) );
 	}
 
 	/**
@@ -242,8 +257,11 @@ class ContributionScores extends IncludableSpecialPage {
 			} else {
 				$reportTitle = $this->msg( 'contributionscores-allrevisions' )->text();
 			}
-			$reportTitle .= " " . $this->msg( 'contributionscores-top' )->numParams( $revs )->text();
-			$title = Xml::element( 'h2', array( 'class' => 'contributionscores-title' ), $reportTitle ) . "\n";
+			$reportTitle .= ' ' . $this->msg( 'contributionscores-top' )->numParams( $revs )->text();
+			$title = Xml::element( 'h2',
+					array( 'class' => 'contributionscores-title' ),
+					$reportTitle
+				) . "\n";
 			$out->addHTML( $title );
 			$out->addHTML( $this->genContributionScoreTable( $days, $revs ) );
 		}
