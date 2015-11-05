@@ -152,7 +152,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$dbr->freeResult( $res );
 
-		if ( !empty( $title ) )
+		if ( !empty( $title ) ) {
 			$output = Html::rawElement( 'table',
 				array(
 					'style' => 'border-spacing: 0; padding: 0',
@@ -168,6 +168,7 @@ class ContributionScores extends IncludableSpecialPage {
 				"<td style='padding: 0px;'>{$output}</td>\n" .
 				"</tr>\n"
 			);
+		}
 
 		return $output;
 	}
