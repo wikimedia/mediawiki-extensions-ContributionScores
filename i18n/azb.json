@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mousa"
+			"Mousa",
+			"Alp Er Tunqa"
 		]
 	},
 	"contributionscores": "چالیشماق امتیازلاری",
@@ -11,7 +12,7 @@
 	"contributionscores-days": "سون {{PLURAL:$1|گون|$1 گون}}",
 	"contributionscores-allrevisions": "بوتون زامانلار",
 	"contributionscores-score": "امتیاز",
-	"contributionscores-pages": "صحیفه‌لر",
+	"contributionscores-pages": "صفحه‌لر",
 	"contributionscores-changes": "دَییشمه‌لر",
 	"contributionscores-username": "آد",
 	"contributionscores-invalidusername": "گئچرسیز ایستیفاده‌چی آدی",
