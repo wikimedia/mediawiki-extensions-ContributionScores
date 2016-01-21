@@ -5,13 +5,14 @@
 			"Crazymadlover",
 			"Eduardo.mps",
 			"Giro720",
-			"Luckas"
+			"Luckas",
+			"HenriqueCrang"
 		]
 	},
 	"contributionscores": "Pontuação de contribuições",
 	"contributionscores-desc": "Inquire a base de dados wiki sobre os mais altos [[Special:ContributionScores|volumes de contribuição dos utilizadores]]",
 	"contributionscores-info": "As pontuações são calculadas da seguinte forma:\n*1 ponto por cada página única editada\n*Raiz quadrada de (Total de Edições Feitas) - (Total de Páginas Únicas) * 2\nPontuações calculadas desta forma pesam a diversidade de edições relativamente ao volume de edições. Basicamente, esta pontuação mede primariamente páginas únicas editadas, com consideração pelo alto volume de edições - assumindo serem páginas de qualidade mais alta.",
-	"contributionscores-top": "(Iniciais $1)",
+	"contributionscores-top": "(Top $1)",
 	"contributionscores-days": "Últimos {{PLURAL:$1|día|$1 días}}",
 	"contributionscores-allrevisions": "Desde sempre",
 	"contributionscores-score": "Pontuação",
