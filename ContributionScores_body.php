@@ -94,11 +94,11 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$output = "<table class=\"wikitable contributionscores plainlinks{$sortable}\" >\n" .
 			"<tr class='header'>\n" .
-			Html::element( 'th', array(), $this->msg( 'contributionscores-rank' )->text() ) .
-			Html::element( 'th', array(), $this->msg( 'contributionscores-score' )->text() ) .
-			Html::element( 'th', array(), $this->msg( 'contributionscores-pages' )->text() ) .
-			Html::element( 'th', array(), $this->msg( 'contributionscores-changes' )->text() ) .
-			Html::element( 'th', array(), $this->msg( 'contributionscores-username' )->text() );
+			Html::element( 'th', [], $this->msg( 'contributionscores-rank' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'contributionscores-score' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'contributionscores-pages' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'contributionscores-changes' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'contributionscores-username' )->text() );
 
 		$altrow = '';
 		$user_rank = 1;
@@ -154,12 +154,12 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( !empty( $title ) ) {
 			$output = Html::rawElement( 'table',
-				array(
+				[
 					'style' => 'border-spacing: 0; padding: 0',
 					'class' => 'contributionscores-wrapper',
 					'lang' => htmlspecialchars( $lang->getCode() ),
 					'dir' => $lang->getDir()
-				),
+				],
 				"\n" .
 				"<tr>\n" .
 				"<td style='padding: 0px;'>{$title}</td>\n" .
@@ -223,7 +223,7 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 		$reportTitle .= ' ' . $this->msg( 'contributionscores-top' )->numParams( $limit )->text();
 		$title = Xml::element( 'h4',
-				array( 'class' => 'contributionscores-title' ),
+				[ 'class' => 'contributionscores-title' ],
 				$reportTitle
 			) . "\n";
 		$this->getOutput()->addHTML( $this->genContributionScoreTable(
@@ -241,11 +241,11 @@ class ContributionScores extends IncludableSpecialPage {
 		global $wgContribScoreReports;
 
 		if ( !is_array( $wgContribScoreReports ) ) {
-			$wgContribScoreReports = array(
-				array( 7, 50 ),
-				array( 30, 50 ),
-				array( 0, 50 )
-			);
+			$wgContribScoreReports = [
+				[ 7, 50 ],
+				[ 30, 50 ],
+				[ 0, 50 ]
+			];
 		}
 
 		$out = $this->getOutput();
@@ -260,7 +260,7 @@ class ContributionScores extends IncludableSpecialPage {
 			}
 			$reportTitle .= ' ' . $this->msg( 'contributionscores-top' )->numParams( $revs )->text();
 			$title = Xml::element( 'h2',
-					array( 'class' => 'contributionscores-title' ),
+					[ 'class' => 'contributionscores-title' ],
 					$reportTitle
 				) . "\n";
 			$out->addHTML( $title );

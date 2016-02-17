@@ -1,5 +1,7 @@
 /*jshint node:true */
 module.exports = function ( grunt ) {
+	'use strict';
+
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 	grunt.loadNpmTasks( 'grunt-jsonlint' );
@@ -11,7 +13,7 @@ module.exports = function ( grunt ) {
 			]
 		},
 		banana: {
-			all: 'i18n/'
+			all: 'i18n'
 		},
 		jsonlint: {
 			all: [
