@@ -5,7 +5,7 @@
 		]
 	},
 	"contributionscores": "Puntatge de las contribucions",
-	"contributionscores-desc": "Espia la banca de donadas wiki pels [[Special:ContributionScores|utilizaires contribuissent mai]]",
+	"contributionscores-desc": "Espia la basa de donadas wiki pels [[Special:ContributionScores|utilizaires que contribuisson mai]]",
 	"contributionscores-info": "La marca mesura en prioritat las paginas unicas modificadas, en prenent en compte los gròsses volums de modificacion.",
 	"contributionscores-top": "(Melhor $1)",
 	"contributionscores-days": "Dins {{PLURAL:$1|lo darrièr jorn|los darrièrs $1 jorns}}",
