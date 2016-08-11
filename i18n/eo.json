@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Yekrats"
+			"Yekrats",
+			"Robin van der Vliet"
 		]
 	},
 	"contributionscores": "Poentaro de Kontribuoj",
@@ -14,7 +15,7 @@
 	"contributionscores-score": "Poentaro",
 	"contributionscores-pages": "Paĝoj",
 	"contributionscores-changes": "Ŝanĝoj",
-	"contributionscores-username": "Salutnomo",
+	"contributionscores-username": "Uzantnomo",
 	"contributionscores-invalidusername": "Nevalida salutnomo",
 	"contributionscores-invalidmetric": "Nevalida parametro"
 }
