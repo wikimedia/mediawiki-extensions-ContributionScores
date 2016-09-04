@@ -12,7 +12,7 @@
 	},
 	"contributionscores": "Pointage des contributions",
 	"contributionscores-desc": "Scrute la base de données wiki pour les plus importants [[Special:ContributionScores|volumes de contribution des utilisateurs]]",
-	"contributionscores-info": "Le score mesure en priorité les pages uniques modifiées, en prenant en compte les gros volumes de modification.",
+	"contributionscores-info": "Le pointage mesure en priorité les pages uniques modifiées, en prenant en compte les gros volumes de modification.",
 	"contributionscores-top": "(Les $1 plus élevés)",
 	"contributionscores-days": "Dans {{PLURAL:$1|le dernier jour|les derniers $1 jours}}",
 	"contributionscores-allrevisions": "Tout le temps",
