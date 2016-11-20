@@ -5,8 +5,11 @@
 			"Hugo.arg"
 		]
 	},
+	"contributionscores-top": "(Top $1)",
+	"contributionscores-days": "{{PLURAL:$1|Paskutinė diena|Paskutinės $1 dienos}}",
 	"contributionscores-allrevisions": "Viso laiko",
 	"contributionscores-score": "Rezultatas",
+	"contributionscores-rank": "Rangas",
 	"contributionscores-pages": "Puslapiai",
 	"contributionscores-changes": "Pakeitimai",
 	"contributionscores-username": "Naudotojo vardas",
