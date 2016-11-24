@@ -251,7 +251,7 @@ $specialPageAliases['tr'] = array(
 
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
-	'ContributionScores' => array( 'Очки_внеску' ),
+	'ContributionScores' => array( 'Очки_внеску', 'Очки_вклада' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */
