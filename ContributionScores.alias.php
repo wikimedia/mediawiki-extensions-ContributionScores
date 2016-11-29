@@ -54,6 +54,11 @@ $specialPageAliases['bjn'] = array(
 	'ContributionScores' => array( 'Skor_sumbangan' ),
 );
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = array(
+	'ContributionScores' => array( 'অবদানের_স্কোর' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'ContributionScores' => array( 'Skor_Degasadennoù' ),
