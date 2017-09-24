@@ -59,7 +59,7 @@ function efContributionScores_Render( &$parser, $usertext, $metric = 'score' ) {
 	}
 
 	$user = User::newFromName( $usertext );
-	$dbr = wfGetDB( DB_SLAVE );
+	$dbr = wfGetDB( DB_REPLICA );
 
 	if ( $user instanceof User && $user->isLoggedIn() ) {
 		global $wgLang;

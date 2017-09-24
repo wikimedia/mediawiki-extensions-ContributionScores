@@ -32,7 +32,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$opts = explode( ',', strtolower( $options ) );
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$userTable = $dbr->tableName( 'user' );
 		$userGroupTable = $dbr->tableName( 'user_groups' );
