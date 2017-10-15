@@ -7,14 +7,15 @@
 			"Giro720",
 			"Luckas",
 			"HenriqueCrang",
-			"!Silent"
+			"!Silent",
+			"Opraco"
 		]
 	},
 	"contributionscores": "Pontuação de contribuições",
 	"contributionscores-desc": "Inquire a base de dados wiki sobre os mais altos [[Special:ContributionScores|volumes de contribuição dos utilizadores]]",
 	"contributionscores-info": "A pontuação mede, principalmente, as páginas únicas editadas, tendo em consideração o alto volume de edições.",
-	"contributionscores-top": "(Top $1)",
-	"contributionscores-days": "Últimos {{PLURAL:$1|día|$1 días}}",
+	"contributionscores-top": "(top $1)",
+	"contributionscores-days": "{{PLURAL:$1|Último dia|Últimos $1 dias}}",
 	"contributionscores-allrevisions": "Desde sempre",
 	"contributionscores-score": "Pontuação",
 	"contributionscores-rank": "Classificação",
