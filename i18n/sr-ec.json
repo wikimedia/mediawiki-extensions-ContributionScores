@@ -4,13 +4,15 @@
 			"Milicevic01",
 			"Rancher",
 			"Sasa Stefanovic",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Zoranzoki21"
 		]
 	},
 	"contributionscores-top": "(првих $1)",
 	"contributionscores-days": "{{PLURAL:$1|1=Последњег дана|Последњих $1 дана}}",
 	"contributionscores-allrevisions": "Свих времена",
 	"contributionscores-score": "Оцена",
+	"contributionscores-rank": "Ранг",
 	"contributionscores-pages": "Странице",
 	"contributionscores-changes": "Измене",
 	"contributionscores-username": "Корисничко име",
