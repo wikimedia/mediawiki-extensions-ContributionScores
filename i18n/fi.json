@@ -4,11 +4,12 @@
 			"Crt",
 			"Nike",
 			"Str4nd",
-			"Stryn"
+			"Stryn",
+			"Pxos"
 		]
 	},
 	"contributionscores": "Muokkauspisteet",
-	"contributionscores-info": "Pisteet lasketaan seuraavalla kaavalla:\n* Yksi piste jokaisesta muokatusta sivusta\n* Neliöjuuri (muokkausten määrä) - (muokatut sivut) * 2\n\nNäin laskettuna pisteet painottavat monipuolisuutta määrän sijaan. Käytännössä pisteet mittaavat muokattujen sivujen määrää, ottaen huomioon muutosten suuren määrän.",
+	"contributionscores-info": "Pistemäärä kuvaa ensisijaisesti muokattujen sivujen lukumäärää, mutta ottaa huomioon myös suuren muokkausmäärän yleisesti.",
 	"contributionscores-top": "(top $1)",
 	"contributionscores-days": "{{PLURAL:$1|Viime päivä|Viimeiset $1 päivää}}",
 	"contributionscores-allrevisions": "Koko ajalta",
