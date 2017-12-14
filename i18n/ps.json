@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
 	"contributionscores-days": "وروستۍ {{PLURAL:$1|ورځ|$1 ورځې}}",
 	"contributionscores-allrevisions": "هر وخت",
+	"contributionscores-score": "سکور (ګولونه)",
+	"contributionscores-rank": "رتبه",
 	"contributionscores-pages": "مخونه",
 	"contributionscores-changes": "بدلونونه",
 	"contributionscores-username": "کارن-نوم",
