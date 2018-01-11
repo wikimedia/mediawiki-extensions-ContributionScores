@@ -21,11 +21,11 @@ class ContributionScores extends IncludableSpecialPage {
 	/**
 	 * Function generates Contribution Scores tables in HTML format (not wikiText)
 	 *
-	 * @param $days int Days in the past to run report for
-	 * @param $limit int Maximum number of users to return (default 50)
-	 * @param $title Title (default null)
-	 * @param $options array of options (default none; nosort/notools)
-	 * @return Html Table representing the requested Contribution Scores.
+	 * @param int $days Days in the past to run report for
+	 * @param int $limit Maximum number of users to return (default 50)
+	 * @param string|null $title The title of the table
+	 * @param array $options array of options (default none; nosort/notools)
+	 * @return string Html Table representing the requested Contribution Scores.
 	 */
 	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
 		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName;
@@ -188,7 +188,7 @@ class ContributionScores extends IncludableSpecialPage {
 	/**
 	 * Called when being included on a normal wiki page.
 	 * Cache is disabled so it can depend on the user language.
-	 * @param $par
+	 * @param string|null $par A subpage give to the special page
 	 */
 	function showInclude( $par ) {
 		$days = null;
