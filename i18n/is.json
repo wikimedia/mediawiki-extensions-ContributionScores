@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"S.Örvarr.S",
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
 	"contributionscores": "Framleggjandastig",
@@ -12,6 +13,7 @@
 	"contributionscores-days": "{{PLURAL:$1|Síðasta $1 daginn|Síðustu $1 dagana}}",
 	"contributionscores-allrevisions": "Allan tímann",
 	"contributionscores-score": "Stigafjöldi",
+	"contributionscores-rank": "Sæti",
 	"contributionscores-pages": "Síður",
 	"contributionscores-changes": "Breytingar",
 	"contributionscores-username": "Notandanafn"
