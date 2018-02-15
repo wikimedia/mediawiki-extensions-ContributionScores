@@ -5,13 +5,14 @@
 			"Rancher",
 			"Sasa Stefanovic",
 			"Михајло Анђелковић",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Acamicamacaraca"
 		]
 	},
 	"contributionscores-top": "(првих $1)",
 	"contributionscores-days": "{{PLURAL:$1|1=Последњег дана|Последњих $1 дана}}",
 	"contributionscores-allrevisions": "Свих времена",
-	"contributionscores-score": "Оцена",
+	"contributionscores-score": "Резултат",
 	"contributionscores-rank": "Ранг",
 	"contributionscores-pages": "Странице",
 	"contributionscores-changes": "Измене",
