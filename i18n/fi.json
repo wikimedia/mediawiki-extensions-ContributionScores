@@ -5,7 +5,8 @@
 			"Nike",
 			"Str4nd",
 			"Stryn",
-			"Pxos"
+			"Pxos",
+			"Pyscowicz"
 		]
 	},
 	"contributionscores": "Muokkauspisteet",
@@ -14,8 +15,10 @@
 	"contributionscores-days": "{{PLURAL:$1|Viime päivä|Viimeiset $1 päivää}}",
 	"contributionscores-allrevisions": "Koko ajalta",
 	"contributionscores-score": "Pisteet",
+	"contributionscores-rank": "Sija",
 	"contributionscores-pages": "Sivuja",
 	"contributionscores-changes": "Muutoksia",
 	"contributionscores-username": "Käyttäjätunnus",
-	"contributionscores-invalidusername": "Virheellinen käyttäjätunnus"
+	"contributionscores-invalidusername": "Virheellinen käyttäjätunnus",
+	"contributionscores-invalidmetric": "Virheellinen muuttuja"
 }
