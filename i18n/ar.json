@@ -4,7 +4,8 @@
 			"Meno25",
 			"Mido",
 			"OsamaK",
-			"ترجمان05"
+			"ترجمان05",
+			"ديفيد"
 		]
 	},
 	"contributionscores": "نتائج المساهمات",
@@ -14,6 +15,7 @@
 	"contributionscores-days": "{{PLURAL:$1||اليوم الماضي|اليومان الماضيان|ال$1 أيام الماضية|ال$1 يومًا الماضية|ال$1 يوم الماضية}}",
 	"contributionscores-allrevisions": "كل الوقت",
 	"contributionscores-score": "النتيجة",
+	"contributionscores-rank": "الرتبة",
 	"contributionscores-pages": "الصفحات",
 	"contributionscores-changes": "تغييرات",
 	"contributionscores-username": "اسم المستخدم",
