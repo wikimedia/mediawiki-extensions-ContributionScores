@@ -16,5 +16,7 @@
 	"contributionscores-rank": "Sæti",
 	"contributionscores-pages": "Síður",
 	"contributionscores-changes": "Breytingar",
-	"contributionscores-username": "Notandanafn"
+	"contributionscores-username": "Notandanafn",
+	"contributionscores-invalidusername": "Ógilt notandanafn",
+	"contributionscores-invalidmetric": "Ógild mæling"
 }
