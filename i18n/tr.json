@@ -5,16 +5,18 @@
 			"Karduelis",
 			"Mach",
 			"Suelnur",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Hedda"
 		]
 	},
-	"contributionscores": "Katkı skorları",
+	"contributionscores": "Katkı puanları",
 	"contributionscores-desc": "En yüksek [[Special:ContributionScores|kullanıcı katkı hacmi]] için viki veritabanını sorgular",
-	"contributionscores-info": "Skorlar aşağıdaki şekilde hesaplanmaktadır:\n*Değişiklik yapılan her farklı sayfa için bir (1) puan\n*(Yapılan toplam değişiklik) - (toplam farklı sayfa) * 2 işleminin karekökü\nBu şekilde hesaplanan skorlar, değişiklik sayısı ile değişiklik çeşitliliği arasında ağırlık kurmaktadır.\nTemel olarak bu skor, yüksek değişiklik sayısının yüksek kaliteli bir sayfa olduğu varsayımıyla değişiklik yapılan farklı sayfa sayısını ölçmektedir.",
-	"contributionscores-top": "(En yüksek $1)",
+	"contributionscores-info": "Puanlama, öncelikle yüksek düzenleme hacmi dikkate alınarak düzenlenmiş benzersiz sayfaları ölçer.",
+	"contributionscores-top": "(Zirvedeki $1 kişi)",
 	"contributionscores-days": "Son $1 {{PLURAL:$1|gün|gün}}",
 	"contributionscores-allrevisions": "Tüm zamanlar",
 	"contributionscores-score": "Puan",
+	"contributionscores-rank": "Sıralama",
 	"contributionscores-pages": "Sayfalar",
 	"contributionscores-changes": "Değişiklikler",
 	"contributionscores-username": "Kullanıcı adı",
