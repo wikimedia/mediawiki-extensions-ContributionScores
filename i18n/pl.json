@@ -6,12 +6,13 @@
 			"Equadus",
 			"McMonster",
 			"Sp5uhe",
-			"Wpedzich"
+			"Wpedzich",
+			"Railfail536"
 		]
 	},
 	"contributionscores": "Punkty za edycje",
 	"contributionscores-desc": "Wylicza [[Special:ContributionScores|punkty za edycje]] dla użytkowników",
-	"contributionscores-info": "Punkty za edycje naliczane są następującą metodą:\n*1 punkt za każdą edytowaną unikalną stronę\n*pierwiastek kwadratowy z (ogólna liczba edycji) - (wszystkich unikalnych stron) * 2\nTaki sposób naliczania pozwala wyważyć różnorodność edycji względem liczby edycji. Zasadniczo wynik uzależniony jest od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.",
+	"contributionscores-info": "Wynik jest uzależniony przede wszystkim od liczby edytowanych unikalnych stron z uwzględnieniem dużej liczby edycji – zakładając wyższą wartość tworzenia nowych artykułów.",
 	"contributionscores-top": "($1 najlepszych)",
 	"contributionscores-days": "{{PLURAL:$1|Ostatni 1 dzień|Ostatnie $1 dni|Ostatnich $1 dni}}",
 	"contributionscores-allrevisions": "Cała aktywność",
