@@ -4,5 +4,6 @@
 			"Joao Xavier"
 		]
 	},
-	"contributionscores-days": "Lasta {{PLURAL:$1|dio|$1 dii}}"
+	"contributionscores-days": "Lasta {{PLURAL:$1|dio|$1 dii}}",
+	"contributionscores-pages": "Pagini"
 }
