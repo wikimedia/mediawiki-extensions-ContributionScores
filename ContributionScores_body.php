@@ -18,6 +18,7 @@ class ContributionScores extends IncludableSpecialPage {
 	}
 
 	/// Generates a "Contribution Scores" table for a given LIMIT and date range
+
 	/**
 	 * Function generates Contribution Scores tables in HTML format (not wikiText)
 	 *
