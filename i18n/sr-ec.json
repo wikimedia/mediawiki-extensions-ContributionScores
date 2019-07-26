@@ -9,6 +9,9 @@
 			"Acamicamacaraca"
 		]
 	},
+	"contributionscores": "Оцене доприноса",
+	"contributionscores-desc": "Анкетира вики базу података за највиши [[Special:ContributionScores|волумен доприноса корисника]]",
+	"contributionscores-info": "Резултат првенствено мери јединствене измењене странице, узимајући у обзир велику количину уређивања.",
 	"contributionscores-top": "(првих $1)",
 	"contributionscores-days": "{{PLURAL:$1|1=Последњег дана|Последњих $1 дана}}",
 	"contributionscores-allrevisions": "Свих времена",
