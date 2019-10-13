@@ -35,9 +35,9 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$dbr = wfGetDB( DB_REPLICA );
 
-		$userTable = $dbr->tableName( 'user' );
+		$userTable = $dbr->tableName( 'actor' );
 		$userGroupTable = $dbr->tableName( 'user_groups' );
-		$revTable = $dbr->tableName( 'revision' );
+		$revTable = $dbr->tableName( 'revision_actor_temp' );
 		$ipBlocksTable = $dbr->tableName( 'ipblocks' );
 
 		$sqlWhere = "";
@@ -46,46 +46,45 @@ class ContributionScores extends IncludableSpecialPage {
 		if ( $days > 0 ) {
 			$date = time() - ( 60 * 60 * 24 * $days );
 			$dateString = $dbr->timestamp( $date );
-			$sqlWhere .= " {$nextPrefix} rev_timestamp > '$dateString'";
+			$sqlWhere .= " {$nextPrefix} revactor_timestamp > '$dateString'";
 			$nextPrefix = "AND";
 		}
 
 		if ( $wgContribScoreIgnoreBlockedUsers ) {
-			$sqlWhere .= " {$nextPrefix} rev_user NOT IN " .
+			$sqlWhere .= " {$nextPrefix} revactor_actor NOT IN " .
 				"(SELECT ipb_user FROM {$ipBlocksTable} WHERE ipb_user <> 0)";
 			$nextPrefix = "AND";
 		}
 
 		if ( $wgContribScoreIgnoreBots ) {
-			$sqlWhere .= " {$nextPrefix} rev_user NOT IN " .
+			$sqlWhere .= " {$nextPrefix} revactor_actor NOT IN " .
 				"(SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot')";
 		}
 
-		$sqlMostPages = "SELECT rev_user,
-						 COUNT(DISTINCT rev_page) AS page_count,
-						 COUNT(rev_id) AS rev_count
+		$sqlMostPages = "SELECT revactor_actor,
+						 COUNT(DISTINCT revactor_page) AS page_count,
+						 COUNT(revactor_rev) AS rev_count
 						 FROM {$revTable}
 						 {$sqlWhere}
-						 GROUP BY rev_user
+						 GROUP BY revactor_actor
 						 ORDER BY page_count DESC
 						 LIMIT {$limit}";
 
-		$sqlMostRevs = "SELECT rev_user,
-						 COUNT(DISTINCT rev_page) AS page_count,
-						 COUNT(rev_id) AS rev_count
+		$sqlMostRevs = "SELECT revactor_actor,
+						 COUNT(DISTINCT revactor_page) AS page_count,
+						 COUNT(revactor_rev) AS rev_count
 						 FROM {$revTable}
 						 {$sqlWhere}
-						 GROUP BY rev_user
+						 GROUP BY revactor_actor
 						 ORDER BY rev_count DESC
 						 LIMIT {$limit}";
 
-		$sql = "SELECT user_id, " .
-			"user_name, " .
-			"user_real_name, " .
+		$sql = "SELECT actor_id, " .
+			"actor_name, " .
 			"page_count, " .
 			"rev_count, " .
 			"page_count+SQRT(rev_count-page_count)*2 AS wiki_rank " .
-			"FROM $userTable u JOIN (($sqlMostPages) UNION ($sqlMostRevs)) s ON (user_id=rev_user) " .
+			"FROM $userTable u JOIN (($sqlMostPages) UNION ($sqlMostRevs)) s ON (actor_id=revactor_actor) WHERE actor_user is not NULL " .
 			"ORDER BY wiki_rank DESC " .
 			"LIMIT $limit";
 
@@ -109,14 +108,14 @@ class ContributionScores extends IncludableSpecialPage {
 			// Use real name if option used and real name present.
 			if ( $wgContribScoresUseRealName && $row->user_real_name !== '' ) {
 				$userLink = Linker::userLink(
-					$row->user_id,
-					$row->user_name,
+					$row->actor_id,
+					$row->actor_name,
 					$row->user_real_name
 				);
 			} else {
 				$userLink = Linker::userLink(
-					$row->user_id,
-					$row->user_name
+					$row->actor_id,
+					$row->actor_name
 				);
 			}
 
@@ -135,7 +134,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 			# Option to not display user tools
 			if ( !in_array( 'notools', $opts ) ) {
-				$output .= Linker::userToolLinks( $row->user_id, $row->user_name );
+				$output .= Linker::userToolLinks( $row->actor_id, $row->actor_name );
 			}
 
 			$output .= Html::closeElement( 'td' ) . "\n";
