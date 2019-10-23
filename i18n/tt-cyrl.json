@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
 	"contributionscores": "Кертем билгеләү",
@@ -13,7 +14,7 @@
 	"contributionscores-score": "Билге",
 	"contributionscores-rank": "Ранг",
 	"contributionscores-pages": "Битләр саны",
-	"contributionscores-changes": "Үзгәртүләр",
+	"contributionscores-changes": "Төзәтмәләр",
 	"contributionscores-username": "Кулланучы исеме",
 	"contributionscores-invalidusername": "Кулланучының исеме дөрес түгел",
 	"contributionscores-invalidmetric": "Ялгыш билгеләү"
