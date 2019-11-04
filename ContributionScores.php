@@ -55,7 +55,7 @@ function efContributionScores_Render( &$parser, $usertext, $metric = 'score' ) {
 	global $wgContribScoreDisableCache;
 
 	if ( $wgContribScoreDisableCache ) {
-		$parser->disableCache();
+		$parser->getOutput()->updateCacheExpiry( 0 );
 	}
 
 	$user = User::newFromName( $usertext );
