@@ -6,7 +6,7 @@
 		]
 	},
 	"contributionscores": "Bewäertung vun den Ännerungen",
-	"contributionscores-desc": "Ufro un d'Wiki-Datebank no den héichste [[Special:ContributionScores|Benotzerscoren]]",
+	"contributionscores-desc": "Ufro un d'Wiki-Datebank no den héchste [[Special:ContributionScores|Benotzerscoren]]",
 	"contributionscores-info": "D'Bewäertung moosst Zuel vu geännerte Säite a consideréiert d'Zuel vun den Ännerungen.",
 	"contributionscores-top": "(Top $1)",
 	"contributionscores-days": "{{PLURAL:$1|Leschten Dag|Lescht $1 Deeg}}",
