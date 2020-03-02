@@ -2,17 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Woraponboonkerd",
-			"Ans"
+			"Ans",
+			"Aefgh39622"
 		]
 	},
 	"contributionscores": "คะแนนการแก้ไข",
 	"contributionscores-desc": "จัดอันดับฐานข้อมูลของวิกิสำหรับ[[Special:ContributionScores|ผู้ใ้ช้ที่มีจำนวนการแก้ไขสูงสุด]]",
-	"contributionscores-info": "วิธีการคิดคะแนนเป็นดังต่อไปนี้:\n* หนึ่ง (1) คะแนนต่อจำนวนหน้าที่เข้าร่วมแก้ไข (ชื่อของหน้าไม่ซ้ำกัน)\n* รากที่สองของจำนวนการแก้ไขทั้งหมด - จำนวนหน้าทั้งหมดที่ร่วมแก้ไข * 2\nคะแนนจะถูกคิดโดยให้น้ำหนักของการแก้ไขที่หลากหลายมากกว่าจำนวนการแก้ไข\nโดยทั่วไป คะแนนนี้ชี้วัดถึงจำนวนหน้าต่างๆ ที่เข้าร่วมแก้ไข โดยคำนึงถึงจำนวนการแก้ไขทั้งหมดด้วย จึงคาดการณ์ได้ว่าจะทำให้มีหน้าที่มีคุณภาพสูงขึ้น",
+	"contributionscores-info": "คะแนนคิดจากจำนวนหน้าที่เข้าร่วมแก้ไข พร้อมพิจารณาปริมาณการแก้ไขเป็นหลัก",
+	"contributionscores-top": "($1 อันดับแรก)",
 	"contributionscores-days": "$1 {{PLURAL:$1|วัน|วัน}} ที่แล้ว",
+	"contributionscores-allrevisions": "ตลอดเวลา",
 	"contributionscores-score": "คะแนน",
 	"contributionscores-rank": "การจัดอันดับ",
 	"contributionscores-pages": "จำนวนหน้า",
 	"contributionscores-changes": "การเปลี่ยนแปลง",
 	"contributionscores-username": "ชื่อผู้ใช้",
-	"contributionscores-invalidusername": "ชื่อผู้ใช้ไม่ถูกต้อง"
+	"contributionscores-invalidusername": "ชื่อผู้ใช้ไม่ถูกต้อง",
+	"contributionscores-invalidmetric": "เกณฑ์ชี้วัดไม่ถูกต้อง"
 }
