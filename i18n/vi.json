@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
+			"Phjtieudoc",
 			"Vinhtantran"
 		]
 	},
@@ -13,7 +14,7 @@
 	"contributionscores-allrevisions": "Từ trước đến nay",
 	"contributionscores-score": "Điểm số",
 	"contributionscores-pages": "Trang",
-	"contributionscores-changes": "Các thay đổi",
+	"contributionscores-changes": "Thay đổi",
 	"contributionscores-username": "Tên người dùng",
 	"contributionscores-invalidusername": "Tên người dùng không hợp lệ",
 	"contributionscores-invalidmetric": "Chuẩn đo không hợp lệ"
