@@ -3,6 +3,8 @@
  * \brief Contains code for the ContributionScores Class (extends SpecialPage).
  */
 
+use MediaWiki\MediaWikiServices;
+
 /// Special page class for the Contribution Scores extension
 /**
  * Special page that generates a list of wiki contributors based
@@ -35,61 +37,105 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$dbr = wfGetDB( DB_REPLICA );
 
-		$userTable = $dbr->tableName( 'user' );
-		$userGroupTable = $dbr->tableName( 'user_groups' );
-		$revTable = $dbr->tableName( 'revision' );
-		$ipBlocksTable = $dbr->tableName( 'ipblocks' );
+		$store = MediaWikiServices::getInstance()
+			->getRevisionStoreFactory()
+			->getRevisionStore();
+		$revQuery = $store->getQueryInfo();
 
-		$sqlWhere = "";
-		$nextPrefix = "WHERE";
+		$revUser = $revQuery['fields']['rev_user'];
+
+		$sqlWhere = [];
 
 		if ( $days > 0 ) {
 			$date = time() - ( 60 * 60 * 24 * $days );
 			$dateString = $dbr->timestamp( $date );
-			$sqlWhere .= " {$nextPrefix} rev_timestamp > '$dateString'";
-			$nextPrefix = "AND";
+			$sqlWhere[] = "rev_timestamp > '$dateString'";
 		}
 
 		if ( $wgContribScoreIgnoreBlockedUsers ) {
-			$sqlWhere .= " {$nextPrefix} rev_user NOT IN " .
-				"(SELECT ipb_user FROM {$ipBlocksTable} WHERE ipb_user <> 0)";
-			$nextPrefix = "AND";
+			$sqlWhere[] = "{$revUser} NOT IN " .
+				$dbr->buildSelectSubquery( 'ipblocks', 'ipb_user', 'ipb_user <> 0', __METHOD__ );
 		}
 
 		if ( $wgContribScoreIgnoreBots ) {
-			$sqlWhere .= " {$nextPrefix} rev_user NOT IN " .
-				"(SELECT ug_user FROM {$userGroupTable} WHERE ug_group='bot')";
+			$sqlWhere[] = "{$revUser} NOT IN " .
+				$dbr->buildSelectSubquery( 'user_groups', 'ug_user', [ 'ug_group' => 'bot' ], __METHOD__ );
+
 		}
 
-		$sqlMostPages = "SELECT rev_user,
-						 COUNT(DISTINCT rev_page) AS page_count,
-						 COUNT(rev_id) AS rev_count
-						 FROM {$revTable}
-						 {$sqlWhere}
-						 GROUP BY rev_user
-						 ORDER BY page_count DESC
-						 LIMIT {$limit}";
+		if ( $dbr->unionSupportsOrderAndLimit() ) {
+			$order = [
+				'GROUP BY' => $revUser,
+				'ORDER BY' => 'page_count DESC',
+				'LIMIT' => $limit
+			];
+		} else {
+			$order = [ 'GROUP BY' => $revUser ];
+		}
 
-		$sqlMostRevs = "SELECT rev_user,
-						 COUNT(DISTINCT rev_page) AS page_count,
-						 COUNT(rev_id) AS rev_count
-						 FROM {$revTable}
-						 {$sqlWhere}
-						 GROUP BY rev_user
-						 ORDER BY rev_count DESC
-						 LIMIT {$limit}";
+		$sqlMostPages = $dbr->selectSQLText(
+			$revQuery['tables'],
+			[
+				'rev_user'   => $revUser,
+				'page_count' => 'COUNT(DISTINCT rev_page)',
+				'rev_count'  => 'COUNT(rev_id)',
+			],
+			$sqlWhere,
+			__METHOD__,
+			$order,
+			$revQuery['joins']
+		);
 
-		$sql = "SELECT user_id, " .
-			"user_name, " .
-			"user_real_name, " .
-			"page_count, " .
-			"rev_count, " .
-			"page_count+SQRT(rev_count-page_count)*2 AS wiki_rank " .
-			"FROM $userTable u JOIN (($sqlMostPages) UNION ($sqlMostRevs)) s ON (user_id=rev_user) " .
-			"ORDER BY wiki_rank DESC " .
-			"LIMIT $limit";
+		if ( $dbr->unionSupportsOrderAndLimit() ) {
+			$order = [
+				'GROUP BY' => 'rev_user',
+				'ORDER BY' => 'rev_count DESC',
+				'LIMIT' => $limit
+			];
+		} else {
+			$order = [ 'GROUP BY' => 'rev_user' ];
+		}
 
-		$res = $dbr->query( $sql );
+		$sqlMostRevs = $dbr->selectSQLText(
+			$revQuery['tables'],
+			[
+				'rev_user' => $revUser,
+				'page_count' => 'COUNT(DISTINCT rev_page)',
+				'rev_count' => 'COUNT(rev_id)',
+			],
+			$sqlWhere,
+			__METHOD__,
+			$order,
+			$revQuery['joins']
+		);
+
+		$sqlMostPagesOrRevs = $dbr->unionQueries( [ $sqlMostPages, $sqlMostRevs ], false );
+		$res = $dbr->select(
+			[
+				'u' => 'user',
+				's' => new Wikimedia\Rdbms\Subquery( $sqlMostPagesOrRevs ),
+			],
+			[
+				'user_id',
+				'user_name',
+				'user_real_name',
+				'page_count',
+				'rev_count',
+				'wiki_rank' => 'page_count+SQRT(rev_count-page_count)*2',
+			],
+			[],
+			__METHOD__,
+			[
+				'ORDER BY' => 'wiki_rank DESC',
+				'LIMIT' => $limit,
+			],
+			[
+				's' => [
+					'JOIN',
+					'user_id=rev_user'
+				]
+			]
+		);
 
 		$sortable = in_array( 'nosort', $opts ) ? '' : ' sortable';
 

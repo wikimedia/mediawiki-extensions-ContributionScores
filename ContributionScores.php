@@ -64,22 +64,38 @@ function efContributionScores_Render( &$parser, $usertext, $metric = 'score' ) {
 	if ( $user instanceof User && $user->isLoggedIn() ) {
 		global $wgLang;
 
+		$revWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
 		if ( $metric == 'score' ) {
-			$res = $dbr->select( 'revision',
+			$res = $dbr->select(
+				[ 'revision' ] + $revWhere['tables'],
 				'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
-				[ 'rev_user' => $user->getID() ] );
+				$revWhere['conds'],
+				__METHOD__,
+				[],
+				$revWhere['joins']
+			);
 			$row = $dbr->fetchObject( $res );
 			$output = $wgLang->formatNum( round( $row->wiki_rank, 0 ) );
 		} elseif ( $metric == 'changes' ) {
-			$res = $dbr->select( 'revision',
+			$res = $dbr->select(
+				[ 'revision' ] + $revWhere['tables'],
 				'COUNT(rev_id) AS rev_count',
-				[ 'rev_user' => $user->getID() ] );
+				$revWhere['conds'],
+				__METHOD__,
+				[],
+				$revWhere['joins']
+			);
 			$row = $dbr->fetchObject( $res );
 			$output = $wgLang->formatNum( $row->rev_count );
 		} elseif ( $metric == 'pages' ) {
-			$res = $dbr->select( 'revision',
+			$res = $dbr->select(
+				[ 'revision' ] + $revWhere['tables'],
 				'COUNT(DISTINCT rev_page) AS page_count',
-				[ 'rev_user' => $user->getID() ] );
+				$revWhere['conds'],
+				__METHOD__,
+				[],
+				$revWhere['joins']
+			);
 			$row = $dbr->fetchObject( $res );
 			$output = $wgLang->formatNum( $row->page_count );
 		} else {
