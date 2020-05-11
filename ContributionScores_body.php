@@ -127,6 +127,7 @@ class ContributionScores extends IncludableSpecialPage {
 			__METHOD__,
 			[
 				'ORDER BY' => 'wiki_rank DESC',
+				'GROUP BY' => 'user_name',
 				'LIMIT' => $limit,
 			],
 			[
