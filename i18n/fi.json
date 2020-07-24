@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Crt",
 			"Nike",
 			"Pxos",
@@ -18,7 +19,7 @@
 	"contributionscores-rank": "Sija",
 	"contributionscores-pages": "Sivuja",
 	"contributionscores-changes": "Muutoksia",
-	"contributionscores-username": "Käyttäjätunnus",
-	"contributionscores-invalidusername": "Virheellinen käyttäjätunnus",
+	"contributionscores-username": "Käyttäjänimi",
+	"contributionscores-invalidusername": "Virheellinen käyttäjänimi",
 	"contributionscores-invalidmetric": "Virheellinen muuttuja"
 }
