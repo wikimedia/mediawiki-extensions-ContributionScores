@@ -15,8 +15,70 @@ use MediaWiki\MediaWikiServices;
  * @author Tim Laqua <t.laqua@gmail.com>
  */
 class ContributionScores extends IncludableSpecialPage {
+	const CONTRIBUTIONSCORES_MAXINCLUDELIMIT = 50;
+
 	public function __construct() {
 		parent::__construct( 'ContributionScores' );
+	}
+
+	public static function onParserFirstCallInit( Parser $parser ) {
+		$parser->setFunctionHook( 'cscore', [ self::class, 'efContributionScoresRender' ] );
+	}
+
+	public static function efContributionScoresRender( $parser, $usertext, $metric = 'score' ) {
+		global $wgContribScoreDisableCache;
+
+		if ( $wgContribScoreDisableCache ) {
+			$parser->getOutput()->updateCacheExpiry( 0 );
+		}
+
+		$user = User::newFromName( $usertext );
+		$dbr = wfGetDB( DB_REPLICA );
+
+		if ( $user instanceof User && $user->isLoggedIn() ) {
+			global $wgLang;
+
+			$revWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
+			if ( $metric == 'score' ) {
+				$res = $dbr->select(
+					[ 'revision' ] + $revWhere['tables'],
+					'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
+					$revWhere['conds'],
+					__METHOD__,
+					[],
+					$revWhere['joins']
+				);
+				$row = $dbr->fetchObject( $res );
+				$output = $wgLang->formatNum( round( $row->wiki_rank, 0 ) );
+			} elseif ( $metric == 'changes' ) {
+				$res = $dbr->select(
+					[ 'revision' ] + $revWhere['tables'],
+					'COUNT(rev_id) AS rev_count',
+					$revWhere['conds'],
+					__METHOD__,
+					[],
+					$revWhere['joins']
+				);
+				$row = $dbr->fetchObject( $res );
+				$output = $wgLang->formatNum( $row->rev_count );
+			} elseif ( $metric == 'pages' ) {
+				$res = $dbr->select(
+					[ 'revision' ] + $revWhere['tables'],
+					'COUNT(DISTINCT rev_page) AS page_count',
+					$revWhere['conds'],
+					__METHOD__,
+					[],
+					$revWhere['joins']
+				);
+				$row = $dbr->fetchObject( $res );
+				$output = $wgLang->formatNum( $row->page_count );
+			} else {
+				$output = wfMessage( 'contributionscores-invalidmetric' )->text();
+			}
+		} else {
+			$output = wfMessage( 'contributionscores-invalidusername' )->text();
+		}
+		return $parser->insertStripItem( $output, $parser->mStripState );
 	}
 
 	/// Generates a "Contribution Scores" table for a given LIMIT and date range
@@ -257,7 +319,7 @@ class ContributionScores extends IncludableSpecialPage {
 			}
 		}
 
-		if ( empty( $limit ) || $limit < 1 || $limit > CONTRIBUTIONSCORES_MAXINCLUDELIMIT ) {
+		if ( empty( $limit ) || $limit < 1 || $limit > self::CONTRIBUTIONSCORES_MAXINCLUDELIMIT ) {
 			$limit = 10;
 		}
 		if ( $days === null || $days < 0 ) {
