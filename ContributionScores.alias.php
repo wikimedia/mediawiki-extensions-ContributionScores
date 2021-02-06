@@ -233,6 +233,16 @@ $specialPageAliases['sk'] = [
 	'ContributionScores' => [ 'SkórePríspevkov' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'ContributionScores' => [ 'ОценеДоприноса' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'ContributionScores' => [ 'OceneDoprinosa' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'ContributionScores' => [ 'Bidragspoäng' ],
