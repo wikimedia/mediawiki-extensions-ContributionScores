@@ -378,6 +378,9 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getGroupName() {
 		return 'wiki';
 	}

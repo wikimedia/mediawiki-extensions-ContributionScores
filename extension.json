@@ -12,7 +12,7 @@
 		"ContributionScores": "ContributionScores"
 	},
 	"AutoloadClasses": {
-		"ContributionScores": "ContributionScores_body.php"
+		"ContributionScores": "src/ContributionScores.php"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "ContributionScores::onParserFirstCallInit"
