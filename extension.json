@@ -2,7 +2,7 @@
 	"name": "ContributionScores",
 	"author": "Tim Laqua",
 	"url": "https://www.mediawiki.org/wiki/Extension:Contribution_Scores",
-	"descriptionmsg": "contributionscore-desc",
+	"descriptionmsg": "contributionscores-desc",
 	"version": "1.26.0",
 	"type": "specialpage",
 	"requires": {
