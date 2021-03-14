@@ -121,8 +121,10 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( $wgContribScoreIgnoreBots ) {
 			$sqlWhere[] = "{$revUser} NOT IN " .
-				$dbr->buildSelectSubquery( 'user_groups', 'ug_user', [ 'ug_group' => 'bot' ], __METHOD__ );
-
+				$dbr->buildSelectSubquery( 'user_groups', 'ug_user', [
+					'ug_group' => 'bot',
+					'ug_expiry IS NULL OR ug_expiry >= ' . $dbr->addQuotes( $dbr->timestamp() )
+				], __METHOD__ );
 		}
 
 		if ( $dbr->unionSupportsOrderAndLimit() ) {
