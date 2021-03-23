@@ -3,8 +3,6 @@
  * \brief Contains code for the ContributionScores Class (extends SpecialPage).
  */
 
-use MediaWiki\MediaWikiServices;
-
 /// Special page class for the Contribution Scores extension
 /**
  * Special page that generates a list of wiki contributors based
@@ -99,10 +97,8 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$dbr = wfGetDB( DB_REPLICA );
 
-		$store = MediaWikiServices::getInstance()
-			->getRevisionStoreFactory()
-			->getRevisionStore();
-		$revQuery = $store->getQueryInfo();
+		$revQuery = ActorMigration::newMigration()->getJoin( 'rev_user' );
+		$revQuery['tables'] = array_merge( [ 'revision' ], $revQuery['tables'] );
 
 		$revUser = $revQuery['fields']['rev_user'];
 
