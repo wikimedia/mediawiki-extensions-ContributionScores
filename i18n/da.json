@@ -4,7 +4,8 @@
 			"Byrial",
 			"Christian List",
 			"Kaare",
-			"Peter Alberti"
+			"Peter Alberti",
+			"Saederup92"
 		]
 	},
 	"contributionscores": "Bidragspoint",
@@ -14,6 +15,7 @@
 	"contributionscores-days": "Sidste {{PLURAL:$1|dag|$1 dage}}",
 	"contributionscores-allrevisions": "Gennem tiden",
 	"contributionscores-score": "Point",
+	"contributionscores-rank": "Rang",
 	"contributionscores-pages": "Sider",
 	"contributionscores-changes": "Ændringer",
 	"contributionscores-username": "Brugernavn",
