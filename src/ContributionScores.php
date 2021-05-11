@@ -33,7 +33,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$user = User::newFromName( $usertext );
 		$dbr = wfGetDB( DB_REPLICA );
 
-		if ( $user instanceof User && $user->isLoggedIn() ) {
+		if ( $user instanceof User && $user->isRegistered() ) {
 			global $wgLang;
 
 			$revWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
