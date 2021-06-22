@@ -106,8 +106,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( $days > 0 ) {
 			$date = time() - ( 60 * 60 * 24 * $days );
-			$dateString = $dbr->timestamp( $date );
-			$sqlWhere[] = "rev_timestamp > '$dateString'";
+			$sqlWhere[] = 'rev_timestamp > ' . $dbr->addQuotes( $dbr->timestamp( $date ) );
 		}
 
 		if ( $wgContribScoreIgnoreBlockedUsers ) {
@@ -125,12 +124,12 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( $dbr->unionSupportsOrderAndLimit() ) {
 			$order = [
-				'GROUP BY' => $revUser,
+				'GROUP BY' => 'rev_user',
 				'ORDER BY' => 'page_count DESC',
 				'LIMIT' => $limit
 			];
 		} else {
-			$order = [ 'GROUP BY' => $revUser ];
+			$order = [ 'GROUP BY' => 'rev_user' ];
 		}
 
 		$sqlMostPages = $dbr->selectSQLText(
@@ -147,13 +146,7 @@ class ContributionScores extends IncludableSpecialPage {
 		);
 
 		if ( $dbr->unionSupportsOrderAndLimit() ) {
-			$order = [
-				'GROUP BY' => 'rev_user',
-				'ORDER BY' => 'rev_count DESC',
-				'LIMIT' => $limit
-			];
-		} else {
-			$order = [ 'GROUP BY' => 'rev_user' ];
+			$order['ORDER BY'] = 'rev_count DESC';
 		}
 
 		$sqlMostRevs = $dbr->selectSQLText(
@@ -230,7 +223,7 @@ class ContributionScores extends IncludableSpecialPage {
 			$output .= Html::closeElement( 'tr' );
 			$output .= "<tr class='{$altrow}'>\n" .
 				"<td class='content' style='padding-right:10px;text-align:right;'>" .
-				$lang->formatNum( round( $user_rank, 0 ) ) .
+				$lang->formatNum( $user_rank ) .
 				"\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
 				$lang->formatNum( round( $row->wiki_rank, 0 ) ) .
 				"\n</td><td class='content' style='padding-right:10px;text-align:right;'>" .
