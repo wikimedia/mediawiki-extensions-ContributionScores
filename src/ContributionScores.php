@@ -24,7 +24,7 @@ class ContributionScores extends IncludableSpecialPage {
 	}
 
 	public static function efContributionScoresRender( $parser, $usertext, $metric = 'score' ) {
-		global $wgContribScoreDisableCache;
+		global $wgContribScoreDisableCache, $wgContribScoreUseRoughEditCount;
 
 		if ( $wgContribScoreDisableCache ) {
 			$parser->getOutput()->updateCacheExpiry( 0 );
@@ -35,12 +35,13 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( $user instanceof User && $user->isRegistered() ) {
 			global $wgLang;
+			$revVar = $wgContribScoreUseRoughEditCount ? 'user_editcount' : 'COUNT(rev_id)';
 
 			$revWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
 			if ( $metric == 'score' ) {
 				$res = $dbr->select(
 					[ 'revision' ] + $revWhere['tables'],
-					'COUNT(DISTINCT rev_page)+SQRT(COUNT(rev_id)-COUNT(DISTINCT rev_page))*2 AS wiki_rank',
+					[ 'wiki_rank' => "COUNT(DISTINCT rev_page)+SQRT($revVar-COUNT(DISTINCT rev_page))*2" ],
 					$revWhere['conds'],
 					__METHOD__,
 					[],
@@ -51,7 +52,7 @@ class ContributionScores extends IncludableSpecialPage {
 			} elseif ( $metric == 'changes' ) {
 				$res = $dbr->select(
 					[ 'revision' ] + $revWhere['tables'],
-					'COUNT(rev_id) AS rev_count',
+					[ 'rev_count' => $revVar ],
 					$revWhere['conds'],
 					__METHOD__,
 					[],
@@ -62,7 +63,7 @@ class ContributionScores extends IncludableSpecialPage {
 			} elseif ( $metric == 'pages' ) {
 				$res = $dbr->select(
 					[ 'revision' ] + $revWhere['tables'],
-					'COUNT(DISTINCT rev_page) AS page_count',
+					[ 'page_count' => 'COUNT(DISTINCT rev_page)' ],
 					$revWhere['conds'],
 					__METHOD__,
 					[],
@@ -91,7 +92,8 @@ class ContributionScores extends IncludableSpecialPage {
 	 * @return string Html Table representing the requested Contribution Scores.
 	 */
 	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
-		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName;
+		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName,
+			$wgContribScoreUseRoughEditCount;
 
 		$opts = explode( ',', strtolower( $options ) );
 
@@ -107,6 +109,18 @@ class ContributionScores extends IncludableSpecialPage {
 		if ( $days > 0 ) {
 			$date = time() - ( 60 * 60 * 24 * $days );
 			$sqlWhere[] = 'rev_timestamp > ' . $dbr->addQuotes( $dbr->timestamp( $date ) );
+		}
+
+		$sqlVars = [
+			'rev_user'   => $revUser,
+			'page_count' => 'COUNT(DISTINCT rev_page)'
+		];
+		if ( $wgContribScoreUseRoughEditCount ) {
+			$revQuery['tables'][] = 'user';
+			$revQuery['joins']['user'] = [ 'LEFT JOIN', [ "$revUser != 0", "user_id = $revUser" ] ];
+			$sqlVars['rev_count'] = 'user_editcount';
+		} else {
+			$sqlVars['rev_count'] = 'COUNT(rev_id)';
 		}
 
 		if ( $wgContribScoreIgnoreBlockedUsers ) {
@@ -134,11 +148,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$sqlMostPages = $dbr->selectSQLText(
 			$revQuery['tables'],
-			[
-				'rev_user'   => $revUser,
-				'page_count' => 'COUNT(DISTINCT rev_page)',
-				'rev_count'  => 'COUNT(rev_id)',
-			],
+			$sqlVars,
 			$sqlWhere,
 			__METHOD__,
 			$order,
@@ -151,11 +161,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 		$sqlMostRevs = $dbr->selectSQLText(
 			$revQuery['tables'],
-			[
-				'rev_user' => $revUser,
-				'page_count' => 'COUNT(DISTINCT rev_page)',
-				'rev_count' => 'COUNT(rev_id)',
-			],
+			$sqlVars,
 			$sqlWhere,
 			__METHOD__,
 			$order,

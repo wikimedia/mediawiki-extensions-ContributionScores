@@ -46,6 +46,10 @@
 		"ContribScoreDisableCache": {
 			"value": false,
 			"description": "Set to true to disable cache for parser function and inclusion of table."
+		},
+		"ContribScoreUseRoughEditCount": {
+			"value": false,
+			"description": "Set to true to use the rough number of edits in user table, for performance issue."
 		}
 	},
 	"manifest_version": 2
