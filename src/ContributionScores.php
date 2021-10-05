@@ -3,6 +3,8 @@
  * \brief Contains code for the ContributionScores Class (extends SpecialPage).
  */
 
+use MediaWiki\MediaWikiServices;
+
 /// Special page class for the Contribution Scores extension
 /**
  * Special page that generates a list of wiki contributors based
@@ -80,22 +82,16 @@ class ContributionScores extends IncludableSpecialPage {
 		return $parser->insertStripItem( $output, $parser->mStripState );
 	}
 
-	/// Generates a "Contribution Scores" table for a given LIMIT and date range
-
 	/**
-	 * Function generates Contribution Scores tables in HTML format (not wikiText)
+	 * Function fetch Contribution Scores data from database
 	 *
 	 * @param int $days Days in the past to run report for
 	 * @param int $limit Maximum number of users to return (default 50)
-	 * @param string|null $title The title of the table
-	 * @param array $options array of options (default none; nosort/notools)
-	 * @return string Html Table representing the requested Contribution Scores.
+	 * @return array Data including the requested Contribution Scores.
 	 */
-	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
-		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName,
+	public static function getContributionScoreData( $days, $limit ) {
+		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoreIgnoreUsernames,
 			$wgContribScoreUseRoughEditCount;
-
-		$opts = explode( ',', strtolower( $options ) );
 
 		$dbr = wfGetDB( DB_REPLICA );
 
@@ -103,6 +99,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$revQuery['tables'] = array_merge( [ 'revision' ], $revQuery['tables'] );
 
 		$revUser = $revQuery['fields']['rev_user'];
+		$revUsername = $revQuery['fields']['rev_user_text'];
 
 		$sqlWhere = [];
 
@@ -134,6 +131,11 @@ class ContributionScores extends IncludableSpecialPage {
 					'ug_group' => 'bot',
 					'ug_expiry IS NULL OR ug_expiry >= ' . $dbr->addQuotes( $dbr->timestamp() )
 				], __METHOD__ );
+		}
+
+		if ( count( $wgContribScoreIgnoreUsernames ) ) {
+			$listIgnoredUsernames = $dbr->makeList( $wgContribScoreIgnoreUsernames );
+			$sqlWhere[] = "{$revUsername} NOT IN ($listIgnoredUsernames)";
 		}
 
 		if ( $dbr->unionSupportsOrderAndLimit() ) {
@@ -196,6 +198,25 @@ class ContributionScores extends IncludableSpecialPage {
 				]
 			]
 		);
+		$ret = iterator_to_array( $res );
+		return $ret;
+	}
+
+	/// Generates a "Contribution Scores" table for a given LIMIT and date range
+
+	/**
+	 * Function generates Contribution Scores tables in HTML format (not wikiText)
+	 *
+	 * @param int $days Days in the past to run report for
+	 * @param int $limit Maximum number of users to return (default 50)
+	 * @param string|null $title The title of the table
+	 * @param array $options array of options (default none; nosort/notools)
+	 * @return string Html Table representing the requested Contribution Scores.
+	 */
+	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
+		global $wgContribScoresUseRealName, $wgContribScoreCacheTTL;
+
+		$opts = explode( ',', strtolower( $options ) );
 
 		$sortable = in_array( 'nosort', $opts ) ? '' : ' sortable';
 
@@ -207,11 +228,26 @@ class ContributionScores extends IncludableSpecialPage {
 			Html::element( 'th', [], $this->msg( 'contributionscores-changes' )->text() ) .
 			Html::element( 'th', [], $this->msg( 'contributionscores-username' )->text() );
 
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+		$data = $cache->getWithSetCallback(
+			$cache->makeKey( 'contributionscores', 'data-' . (string)$days ),
+			$wgContribScoreCacheTTL * 60,
+			function () use ( $days ) {
+				// Use max limit, as limit doesn't matter with performance.
+				// Avoid purge multiple times since limit on transclusion can be vary.
+				return self::getContributionScoreData( $days, self::CONTRIBUTIONSCORES_MAXINCLUDELIMIT );
+			} );
+
+		$lang = $this->getLanguage();
+
 		$altrow = '';
 		$user_rank = 1;
 
-		$lang = $this->getLanguage();
-		foreach ( $res as $row ) {
+		foreach ( $data as $row ) {
+			if ( $user_rank > $limit ) {
+				break;
+			}
+
 			// Use real name if option used and real name present.
 			if ( $wgContribScoresUseRealName && $row->user_real_name !== '' ) {
 				$userLink = Linker::userLink(
@@ -257,8 +293,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$output .= Html::closeElement( 'tr' );
 		$output .= Html::closeElement( 'table' );
 
-		$dbr->freeResult( $res );
-
+		// Transcluded on a normal wiki page.
 		if ( !empty( $title ) ) {
 			$output = Html::rawElement( 'table',
 				[
