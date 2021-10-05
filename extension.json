@@ -39,6 +39,10 @@
 			"value": false,
 			"description": "Set to true to exclude bots users from the reporting."
 		},
+		"ContribScoreIgnoreUsernames": {
+			"value": [],
+			"description": "Array of usernames to exclude from the reporting."
+		},
 		"ContribScoresUseRealName": {
 			"value": false,
 			"description": "Set to true to use real user names when available."

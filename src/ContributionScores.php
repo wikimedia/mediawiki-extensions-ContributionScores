@@ -92,8 +92,8 @@ class ContributionScores extends IncludableSpecialPage {
 	 * @return string Html Table representing the requested Contribution Scores.
 	 */
 	function genContributionScoreTable( $days, $limit, $title = null, $options = 'none' ) {
-		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoresUseRealName,
-			$wgContribScoreUseRoughEditCount;
+		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoreIgnoreUsernames,
+			$wgContribScoresUseRealName, $wgContribScoreUseRoughEditCount;
 
 		$opts = explode( ',', strtolower( $options ) );
 
@@ -103,6 +103,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$revQuery['tables'] = array_merge( [ 'revision' ], $revQuery['tables'] );
 
 		$revUser = $revQuery['fields']['rev_user'];
+		$revUsername = $revQuery['fields']['rev_user_text'];
 
 		$sqlWhere = [];
 
@@ -134,6 +135,11 @@ class ContributionScores extends IncludableSpecialPage {
 					'ug_group' => 'bot',
 					'ug_expiry IS NULL OR ug_expiry >= ' . $dbr->addQuotes( $dbr->timestamp() )
 				], __METHOD__ );
+		}
+
+		if ( count( $wgContribScoreIgnoreUsernames ) ) {
+			$listIgnoredUsernames = $dbr->makeList( $wgContribScoreIgnoreUsernames );
+			$sqlWhere[] = "{$revUsername} NOT IN ($listIgnoredUsernames)";
 		}
 
 		if ( $dbr->unionSupportsOrderAndLimit() ) {
