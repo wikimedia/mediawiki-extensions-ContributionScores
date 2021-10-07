@@ -5,6 +5,8 @@
 		]
 	},
 	"contributionscores-days": "Lasta {{PLURAL:$1|dio|$1 dii}}",
+	"contributionscores-score": "Nombro di punti",
 	"contributionscores-pages": "Pagini",
+	"contributionscores-changes": "Modifikuri",
 	"contributionscores-username": "Uzeronomo"
 }
