@@ -41,7 +41,7 @@ class ContributionScores extends IncludableSpecialPage {
 
 			$revWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
 			if ( $metric == 'score' ) {
-				$res = $dbr->select(
+				$row = $dbr->selectRow(
 					[ 'revision' ] + $revWhere['tables'],
 					[ 'wiki_rank' => "COUNT(DISTINCT rev_page)+SQRT($revVar-COUNT(DISTINCT rev_page))*2" ],
 					$revWhere['conds'],
@@ -49,10 +49,9 @@ class ContributionScores extends IncludableSpecialPage {
 					[],
 					$revWhere['joins']
 				);
-				$row = $dbr->fetchObject( $res );
 				$output = $wgLang->formatNum( round( $row->wiki_rank, 0 ) );
 			} elseif ( $metric == 'changes' ) {
-				$res = $dbr->select(
+				$row = $dbr->selectRow(
 					[ 'revision' ] + $revWhere['tables'],
 					[ 'rev_count' => $revVar ],
 					$revWhere['conds'],
@@ -60,10 +59,9 @@ class ContributionScores extends IncludableSpecialPage {
 					[],
 					$revWhere['joins']
 				);
-				$row = $dbr->fetchObject( $res );
 				$output = $wgLang->formatNum( $row->rev_count );
 			} elseif ( $metric == 'pages' ) {
-				$res = $dbr->select(
+				$row = $dbr->selectRow(
 					[ 'revision' ] + $revWhere['tables'],
 					[ 'page_count' => 'COUNT(DISTINCT rev_page)' ],
 					$revWhere['conds'],
@@ -71,7 +69,6 @@ class ContributionScores extends IncludableSpecialPage {
 					[],
 					$revWhere['joins']
 				);
-				$row = $dbr->fetchObject( $res );
 				$output = $wgLang->formatNum( $row->page_count );
 			} else {
 				$output = wfMessage( 'contributionscores-invalidmetric' )->text();
