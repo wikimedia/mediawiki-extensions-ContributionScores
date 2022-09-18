@@ -407,6 +407,11 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 	}
 
+	public function maxIncludeCacheTime() {
+		global $wgContribScoreDisableCache, $wgContribScoreCacheTTL;
+		return $wgContribScoreDisableCache ? 0 : $wgContribScoreCacheTTL;
+	}
+
 	/**
 	 * @inheritDoc
 	 */
