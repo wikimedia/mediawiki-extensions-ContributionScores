@@ -76,7 +76,7 @@ class ContributionScores extends IncludableSpecialPage {
 		} else {
 			$output = wfMessage( 'contributionscores-invalidusername' )->text();
 		}
-		return $parser->insertStripItem( $output, $parser->mStripState );
+		return $parser->insertStripItem( $output, $parser->getStripState() );
 	}
 
 	/**
