@@ -391,7 +391,7 @@ class ContributionScores extends IncludableSpecialPage {
 		$out->addWikiMsg( 'contributionscores-info' );
 
 		foreach ( $wgContribScoreReports as $scoreReport ) {
-			list( $days, $revs ) = $scoreReport;
+			[ $days, $revs ] = $scoreReport;
 			if ( $days > 0 ) {
 				$reportTitle = $this->msg( 'contributionscores-days' )->numParams( $days )->text();
 			} else {
