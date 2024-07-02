@@ -33,7 +33,8 @@ class ContributionScores extends IncludableSpecialPage {
 		}
 
 		$user = User::newFromName( $usertext );
-		$dbr = wfGetDB( DB_REPLICA );
+		$loadBalancer = MediaWikiServices::getInstance()->getDBLoadBalancer();
+		$dbr = $loadBalancer->getConnection( DB_REPLICA );
 
 		if ( $user instanceof User && $user->isRegistered() ) {
 			global $wgLang;
@@ -90,7 +91,8 @@ class ContributionScores extends IncludableSpecialPage {
 		global $wgContribScoreIgnoreBots, $wgContribScoreIgnoreBlockedUsers, $wgContribScoreIgnoreUsernames,
 			$wgContribScoreUseRoughEditCount;
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$loadBalancer = MediaWikiServices::getInstance()->getDBLoadBalancer();
+		$dbr = $loadBalancer->getConnection( DB_REPLICA );
 
 		$revQuery = ActorMigration::newMigration()->getJoin( 'rev_user' );
 		$revQuery['tables'] = array_merge( [ 'revision' ], $revQuery['tables'] );
