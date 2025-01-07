@@ -124,7 +124,21 @@ class ContributionScores extends IncludableSpecialPage {
 
 		if ( $wgContribScoreIgnoreBlockedUsers ) {
 			$sqlWhere[] = "{$revUser} NOT IN " .
-				$dbr->buildSelectSubquery( 'ipblocks', 'ipb_user', 'ipb_user <> 0', __METHOD__ );
+				$dbr->buildSelectSubquery(
+					[
+						'block',
+						'block_target'
+					],
+					'bt_user',
+					'bt_user <> 0',
+					__METHOD__,
+					[],
+					[
+						'block_target' => [ 'JOIN', [
+							'bl_target=bt_id'
+						] ]
+					]
+				);
 		}
 
 		if ( $wgContribScoreIgnoreBots ) {
