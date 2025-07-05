@@ -3,7 +3,10 @@
  * \brief Contains code for the ContributionScores Class (extends SpecialPage).
  */
 
+use MediaWiki\Html\Html;
+use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\ActorMigration;
 
 /// Special page class for the Contribution Scores extension
 /**
@@ -187,7 +190,6 @@ class ContributionScores extends IncludableSpecialPage {
 			__METHOD__,
 			[
 				'ORDER BY' => 'wiki_rank DESC',
-				'GROUP BY' => 'user_name',
 				'LIMIT' => $limit,
 			],
 			[
