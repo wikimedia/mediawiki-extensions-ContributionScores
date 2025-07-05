@@ -6,7 +6,7 @@
 	"version": "1.26.1",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.34.0"
+		"MediaWiki": ">= 1.40.0"
 	},
 	"SpecialPages": {
 		"ContributionScores": "ContributionScores"
