@@ -379,7 +379,7 @@ class ContributionScores extends IncludableSpecialPage {
 			$reportTitle = $this->msg( 'contributionscores-allrevisions' )->text();
 		}
 		$reportTitle .= ' ' . $this->msg( 'contributionscores-top' )->numParams( $limit )->text();
-		$title = Xml::element( 'h4',
+		$title = Html::element( 'h4',
 				[ 'class' => 'contributionscores-title' ],
 				$reportTitle
 			) . "\n";
@@ -416,7 +416,7 @@ class ContributionScores extends IncludableSpecialPage {
 				$reportTitle = $this->msg( 'contributionscores-allrevisions' )->text();
 			}
 			$reportTitle .= ' ' . $this->msg( 'contributionscores-top' )->numParams( $revs )->text();
-			$title = Xml::element( 'h2',
+			$title = Html::element( 'h2',
 					[ 'class' => 'contributionscores-title' ],
 					$reportTitle
 				) . "\n";
